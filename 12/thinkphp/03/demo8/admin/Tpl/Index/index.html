@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<foreach name="arr" item="val">
+	{$val}<br />
+</foreach>
+<br />-------------------<br />
+<foreach name="brr" item="val1">
+	{$val1.age}<br />
+</foreach>
+<br />---------volist遍历一维----------<br />
+<volist name="arr" id="val">
+	{$val}<br />
+</volist>
+<br />---------volist遍历二维----------<br />
+<volist name="brr" id="val2">
+	{$val2.name}<br />
+</volist>
+下面是php代码的输出结果:<br />
+<php>
+    $a = 1;
+    $b = 2;
+    $c = $a + $b;
+    echo $c;
+</php>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

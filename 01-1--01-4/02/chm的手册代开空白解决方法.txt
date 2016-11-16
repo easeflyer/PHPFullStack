@@ -1,0 +1,2 @@
+.chm的手册代开空白解决方法：
+http://www.wyzc.com/forum/84965.html

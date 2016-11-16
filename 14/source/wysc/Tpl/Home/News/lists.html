@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{$catedata[catname]}-我赢商城</title>
+    <link rel="stylesheet" type="text/css" href="__SKIN__css/show.css" />
+    <link rel="stylesheet" type="text/css" href="__SKIN__css/left.css" />
+   <style>
+        .right *{
+            color: #666666;
+        }
+        .newstitle{
+            font-size: 14px;
+            text-align: left;
+            height: 2em;
+            line-height: 2em;
+            color: #666666;
+            border-bottom:1px solid #ccc;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        .newslist *{
+            font-size: 14px;
+        }
+        .newslist li{
+            height: 2em;
+            line-height: 2em;
+            padding-left: 20px;
+            padding-bottom: 6px;
+            border-bottom:1px dotted #ccc;
+            padding-top: 6px;
+        }
+        .addtime{
+            float: right;
+            margin-right: 20px;
+        }
+        
+        
+   </style>
+</head>
+
+<body>
+    <include file="Common:header" />
+    <script type="text/javascript" src="__SKIN__js/left.js"></script>
+    
+    <div class="position">
+        <h6>当前位置：</h6><a href="__APPURL__">首页</a>
+        
+            <span>&gt;</span><a href="{:U('News/lists',array('catid'=>$catedata[newscate_id]))}">{$catedata[catname]}</a>
+     
+    </div>
+    <!--当前位置结束-->
+    <!--页面主要区域开始-->
+    <div class="main">
+        <include file="Common:left" />
+        <!--右侧区域开始-->
+        <div class="right">
+            <h3 class="newstitle">{$catedata[catname]}</h3>
+            <ul class="newslist">
+                <volist name="data" id="item">
+                <li><span class="addtime">{$item[addtime]|date="Y-m-d H:i:s",###}</span><a href="{:U('News/show',array('newsid'=>$item[id]))}">{$item[title]}</a></li>
+                </volist>
+            </ul>
+            <div id="pages" style="margin-top:15px;margin-bottom:10px; margin-right:20px; text-align:right">
+                 {$pageshow}
+            </div>
+        </div>
+    </div>
+    <!--右侧区域结束-->
+    <!--页面主要区域结束-->
+    <include file="Common:footer" />
+    </div>
+</body>
+
+</html>

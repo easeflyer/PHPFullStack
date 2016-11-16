@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+    </head>
+
+    <body>
+        <!-- table align属性 影响表格在外部环境的位置 -->
+        <table border="1" align="center" width="600" height="300" cellpadding="5" cellspacing="10">
+            <!-- tr align属性影响整行内 td 的水平位置 -->
+            <tr align="left" valign="bottom">
+                <!-- td 属性只影响本单元格  左右和上下 单独调整 -->
+                <td align="right" valign="top" width="100" height="40">我在右上</td>
+                <td>我在中下</td>
+                <td>我在中下</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <!-- 占据2个td空间 -->
+                <td colspan="2">5</td>
+
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr><!--第三行 第一列 占据纵向两个单元格-->
+                <td rowspan="2">8</td>
+                <td>9</td>
+                <!-- 占据 横向 纵向 都是两个单元格位置 -->
+                <td colspan="2" rowspan="2">10</td>
+
+            </tr>
+            <tr>
+                <!-- 注意这里 只有一个单元格的位置了 -->
+                <td>11</td>
+
+
+            </tr>
+        </table>
+    </body>
+</html>

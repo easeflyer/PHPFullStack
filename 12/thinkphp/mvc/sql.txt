@@ -1,0 +1,15 @@
+CREATE TABLE `users` (
+  `uId` int(11) NOT NULL auto_increment,
+  `uName` varchar(20) NOT NULL,
+  `uPwd` varchar(20) NOT NULL,
+  `uAge` int(3) NOT NULL,
+  PRIMARY KEY  (`uId`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+
+-- 
+-- 导出表中的数据 `users`
+-- 
+
+INSERT INTO `users` VALUES (2, 'zhangsan', '11111', 18);
+INSERT INTO `users` VALUES (3, 'lisi1111', '222221111', 11);
+INSERT INTO `users` VALUES (4, 'wangwu11111', '44444', 22);

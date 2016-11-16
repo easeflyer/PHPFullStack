@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+和 thinkphp 结合只要替换相应参数  total:2000, pageSize:10 不使用 $page->show();
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+        <script type="text/javascript" src="../../locale/easyui-lang-zh_CN.js"></script>
+    </head>
+    <body>
+        <h2>demo1</h2>
+        <div id="pp" class="easyui-pagination"
+             data-options="
+             total:2000,
+             pageSize:10"
+             style="background:#efefef;border:1px solid #ccc;">
+
+        </div>
+        
+        
+        
+        <h2>demo2</h2>
+        <div id="content" class="easyui-panel" style="height:200px"  
+             data-options="href:'show_content.php?page=1'">  
+        </div>  
+        <div class="easyui-pagination" style="border:1px solid #ccc;"  
+             data-options="  
+             total: 2000,  
+             pageSize: 10,  
+             onSelectPage: function(pageNumber, pageSize){  
+             $('#content').panel('refresh', 'show_content.php?page='+pageNumber);  
+             }">  
+            <!--onSelectPage 参考手册 base/pagination
+            注意分页组件的参数值为数字，不要加引号，如果加引号，可能造成意想不到的错误。
+            比如: pageNumber:'1' 这样写就可能造成问题。
+            -->
+        </div>  
+
+    </body>
+</html>

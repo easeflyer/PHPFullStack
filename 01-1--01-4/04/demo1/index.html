@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+    </head>
+    <!-- 框架第一行占据 150 top.html 第二行占据剩余部分 * -->
+    <frameset rows="150,*,50" frameborder="1">
+        <frame src="top.html"  scrolling="no" noresize="noresize" />
+        <!-- 第一列 left.html 占据 150 ； right.html 占据剩余部分宽度 -->
+        <frameset cols="150,*" >
+            <frame src="left.html"  scrolling="no"  noresize="noresize" />
+            <frame src="right.html" name="rightFrame"  noresize="noresize" scrolling="no" />
+        </frameset>
+        <frame src="top.html"  scrolling="no" noresize="noresize" />
+    </frameset>
+</html>

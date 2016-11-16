@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<document version="2.0">
+    <doc-setting>
+        <eConLineJumpCode>7</eConLineJumpCode>
+        <eConLineJumpStyle>1</eConLineJumpStyle>
+        <eJumpDirX>1</eJumpDirX>
+        <eJumpDirY>2</eJumpDirY>
+        <fJumpSize>6</fJumpSize>
+        <uDrawFlags>1</uDrawFlags>
+        <uSnapFlags>767</uSnapFlags>
+        <bShowGrid>1</bShowGrid>
+        <bShowRuler>1</bShowRuler>
+    </doc-setting>
+    <page width="558.071" height="789.272" name="Page-1" class="10003" bk-clr="#FFFFFF" zoom="0.75" paper-index="13" orient="portrait" unit="mm" id="10000">
+        <defs id="10001">
+            <style id="10003">
+                <fill type="solid-color" color="#FFFFFF" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke type="solid-color" color="#000000" opcity="1" />
+                <stroke-width>0.75</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10159">
+                <fill type="double-color-gradient" start-color="#00FFFF" end-color="#1717FF" gradient-style="5" opcity="0.482353" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.75</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10163">
+                <fill type="double-color-gradient" start-color="#FFFF99" end-color="#00FF00" gradient-style="5" opcity="0.482353" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.75</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10167">
+                <fill type="solid-color" color="#F3F4EC" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.755633</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10175">
+                <fill type="double-color-gradient" start-color="#FFFFFF" end-color="#F4F5EE" gradient-style="3" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.755633</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10182">
+                <fill type="double-color-gradient" start-color="#66FFFF" end-color="#000080" gradient-style="5" opcity="0.482353" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.75</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10183">
+                <fill type="double-color-gradient" start-color="#00FFFF" end-color="#1717FF" gradient-style="5" opcity="0.576471" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.75</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10189">
+                <fill type="double-color-gradient" start-color="#CCFFCC" end-color="#008000" gradient-style="5" opcity="0.482353" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.75</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10196">
+                <fill type="double-color-gradient" start-color="#FFFFFF" end-color="#000080" gradient-style="5" opcity="0.576471" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.75</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="12440">
+                <fill opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="1" />
+                <stroke-width>1</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+        </defs>
+        <layer name="background" id="10006">
+            <g type="g" class="10167" gpinx="=0" gpiny="=0" lpinx="=0" lpiny="=0" width="page.width" height="page.height" angle="=0" protection="0" misc="4" flipx="false" flipy="false" id="10174">
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <shape type="rect" class="10167" gpinx="parent.width*0.125658" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.250618,parent.height*0)" height="hyp(parent.width*0,parent.height*0.998985)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10169">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0" joint-type="0" />
+                        <line-to x="width*1" y="height*0" joint-type="0" />
+                        <line-to x="width*1" y="height*1" joint-type="0" />
+                        <line-to x="width*0" y="height*1" joint-type="0" />
+                        <line-to x="width*0" y="height*0" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                </shape>
+                <shape type="rect" class="10175" gpinx="parent.width*0.874839" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.250618,parent.height*0)" height="hyp(parent.width*0,parent.height*0.998985)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10172">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0" joint-type="0" />
+                        <line-to x="width*1" y="height*0" joint-type="0" />
+                        <line-to x="width*1" y="height*1" joint-type="0" />
+                        <line-to x="width*0" y="height*1" joint-type="0" />
+                        <line-to x="width*0" y="height*0" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                </shape>
+                <shape type="rect" class="10175" gpinx="parent.width*0.375764" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.250618,parent.height*0)" height="hyp(parent.width*0,parent.height*0.998985)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10177">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0" joint-type="0" />
+                        <line-to x="width*1" y="height*0" joint-type="0" />
+                        <line-to x="width*1" y="height*1" joint-type="0" />
+                        <line-to x="width*0" y="height*1" joint-type="0" />
+                        <line-to x="width*0" y="height*0" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                </shape>
+                <shape type="rect" class="10167" gpinx="parent.width*0.62626" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.250618,parent.height*0)" height="hyp(parent.width*0,parent.height*0.998985)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10179">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0" joint-type="0" />
+                        <line-to x="width*1" y="height*0" joint-type="0" />
+                        <line-to x="width*1" y="height*1" joint-type="0" />
+                        <line-to x="width*0" y="height*1" joint-type="0" />
+                        <line-to x="width*0" y="height*0" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                </shape>
+            </g>
+        </layer>
+        <layer name="layer-1" id="10007">
+            <g type="g" class="10182" gpinx="413.203" gpiny="477" lpinx="width*0.5" lpiny="height*0.5" width="156.845" height="156.845" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10192">
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <shape type="ellipse" class="10182" gpinx="parent.width*0.49988" gpiny="parent.height*0.499904" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999995,parent.height*0)" height="hyp(parent.width*0,parent.height*0.999995)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10051">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10054">
+                        <text-style>
+                            <font-family>宋体</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>10</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+                <shape type="ellipse" class="10159" gpinx="parent.width*0.499881" gpiny="parent.height*0.499904" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.940409,parent.height*0)" height="hyp(parent.width*0,parent.height*0.940409)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10101">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2057\f0\fs24 Constructin\par&#x0D;&#x0A;Contracting\lang2052\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10105">
+                        <text-style>
+                            <font-family>Microsoft Sans Serif</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>24</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#FFFFFF</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+            </g>
+            <g type="g" class="10189" gpinx="270.657" gpiny="558.565" lpinx="width*0.5" lpiny="height*0.5" width="156.845" height="156.845" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10193">
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <shape type="ellipse" class="10189" gpinx="parent.width*0.49977" gpiny="parent.height*0.499918" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999995,parent.height*0)" height="hyp(parent.width*0,parent.height*0.999995)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10056">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10059">
+                        <text-style>
+                            <font-family>宋体</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>10</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+                <shape type="ellipse" class="10163" gpinx="parent.width*0.49977" gpiny="parent.height*0.499918" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.940218,parent.height*0)" height="hyp(parent.width*0,parent.height*0.940218)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10127">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2057\f0\fs24 Real Estate\line Securitization\lang2052\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10131">
+                        <text-style>
+                            <font-family>Microsoft Sans Serif</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>24</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#FFFFFF</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+            </g>
+            <g type="g" class="10182" gpinx="129.235" gpiny="477" lpinx="width*0.5" lpiny="height*0.5" width="156.845" height="156.845" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10194">
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <shape type="ellipse" class="10182" gpinx="parent.width*0.499809" gpiny="parent.height*0.499904" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999995,parent.height*0)" height="hyp(parent.width*0,parent.height*0.999995)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10025">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10028">
+                        <text-style>
+                            <font-family>宋体</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>10</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+                <shape type="ellipse" class="10159" gpinx="parent.width*0.499809" gpiny="parent.height*0.499904" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.940409,parent.height*0)" height="hyp(parent.width*0,parent.height*0.940409)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10117">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2057\f0\fs24 Building\par&#x0D;&#x0A;Leasing\lang2052\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10120">
+                        <text-style>
+                            <font-family>Microsoft Sans Serif</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>24</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#FFFFFF</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+            </g>
+            <shape type="ellipse" class="10196" gpinx="270.62" gpiny="397.836" lpinx="width*0.5" lpiny="height*0.5" width="232.974" height="232.974" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10031">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10034" />
+            </shape>
+            <g type="g" class="10182" gpinx="270.657" gpiny="233.859" lpinx="width*0.5" lpiny="height*0.5" width="156.845" height="156.845" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10190">
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <shape type="ellipse" class="10182" gpinx="parent.width*0.49977" gpiny="parent.height*0.499876" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999995,parent.height*0)" height="hyp(parent.width*0,parent.height*0.999995)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10081">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10085">
+                        <text-style>
+                            <font-family>宋体</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>10</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+                <shape type="ellipse" class="10159" gpinx="parent.width*0.49977" gpiny="parent.height*0.499876" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.940409,parent.height*0)" height="hyp(parent.width*0,parent.height*0.940409)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10041">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24 Property\par&#x0D;&#x0A;Management\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10044">
+                        <text-style>
+                            <font-family>Microsoft Sans Serif</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>24</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+            </g>
+            <g type="g" class="10182" gpinx="413.203" gpiny="313.595" lpinx="width*0.5" lpiny="height*0.5" width="156.845" height="156.845" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10191">
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <shape type="ellipse" class="10182" gpinx="parent.width*0.49988" gpiny="parent.height*0.49988" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999995,parent.height*0)" height="hyp(parent.width*0,parent.height*0.999995)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10046">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10049">
+                        <text-style>
+                            <font-family>宋体</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>10</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+                <shape type="ellipse" class="10159" gpinx="parent.width*0.499881" gpiny="parent.height*0.49988" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.940409,parent.height*0)" height="hyp(parent.width*0,parent.height*0.940409)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10107">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2057\f0\fs24 Commerclal\par&#x0D;&#x0A;Real Estate\par&#x0D;&#x0A;Brokerage\lang2052\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10110">
+                        <text-style>
+                            <font-family>Microsoft Sans Serif</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>24</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+            </g>
+            <g type="g" class="10182" gpinx="129.235" gpiny="313.595" lpinx="width*0.5" lpiny="height*0.5" width="156.845" height="156.845" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10195">
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <shape type="ellipse" class="10182" gpinx="parent.width*0.499809" gpiny="parent.height*0.49988" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999995,parent.height*0)" height="hyp(parent.width*0,parent.height*0.999995)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10036">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10039">
+                        <text-style>
+                            <font-family>宋体</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>10</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+                <shape type="ellipse" class="10159" gpinx="parent.width*0.499809" gpiny="parent.height*0.49988" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.940409,parent.height*0)" height="hyp(parent.width*0,parent.height*0.940409)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10112">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                        <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list>
+                        <anchor x="width*0.5" y="height*0" />
+                        <anchor x="width*0.5" y="height*1" />
+                        <anchor x="width*0" y="height*0.5" />
+                        <anchor x="width*1" y="height*0.5" />
+                        <anchor x="width*0.5" y="height*0.5" />
+                    </anchor-list>
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2057\f0\fs24 Commerclal\par&#x0D;&#x0A;Real Estate\par&#x0D;&#x0A;Leasing\lang2052\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10115">
+                        <text-style>
+                            <font-family>Microsoft Sans Serif</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>24</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#FFFFFF</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+            </g>
+            <shape type="ellipse" class="10183" gpinx="270.62" gpiny="397.836" lpinx="width*0.5" lpiny="height*0.5" width="220.572" height="220.572" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10122">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f1\fswiss\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red0\green0\blue255;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2057\b\f0\fs27 Replanning\cf2\par&#x0D;&#x0A;Replanning\b0\f1\fs32\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10125">
+                    <text-style>
+                        <font-family>Microsoft Sans Serif</font-family>
+                        <font-weight>700</font-weight>
+                        <font-height>13</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#0000FF</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+        </layer>
+    </page>
+    <preview-image>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</preview-image>
+</document>

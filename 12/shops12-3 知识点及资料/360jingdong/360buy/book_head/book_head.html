@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>京东商城 - 图书频道首页</title>
+<link rel="stylesheet" type="text/css" href="css/book.css" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var showIndex = 0; //要显示的图片的索引号
+		var demo; //定时器
+		autoScroll(); //不间断切换方法
+		function autoScroll(){
+			$("#pfocus_btn li").removeClass("current");
+			$("#pfocus_btn a").removeClass("textcolor");
+			$("#pfocus_btn li").eq(showIndex).addClass("current");
+			$("#pfocus_btn a").eq(showIndex).addClass("textcolor");
+			$("#pfocus_piclist li").eq(showIndex).fadeIn("slow");
+			$("#pfocus_piclist li").eq(showIndex-1).hide();
+			showIndex++;
+			showIndex=showIndex>=5?0:showIndex;
+			demo=setTimeout(autoScroll,2000);
+		}
+		function stopScroll(){
+			clearTimeout(demo); //清除定时器
+		}
+		//鼠标移入移出小图按钮时执行
+		$("#pfocus_btn li").hover(function(){
+			stopScroll();
+			$("#pfocus_btn li").removeClass("current");
+			$("#pfocus_btn a").removeClass("textcolor");
+			$(this).addClass("current");
+			currentId=$(this).attr("id");
+			picId = currentId.substring(currentId.length-1);
+			$("#pfocus_btn a").eq(picId).addClass("textcolor");
+			$("#pfocus_piclist li").hide();
+			$("#pfocus_piclist li").eq(picId).fadeIn("slow");
+		},function(){
+			currentId=$(this).attr("id");
+			picId = currentId.substring(currentId.length-1);
+			showIndex = picId;
+			autoScroll();
+		})
+		//鼠标移入移出大图时执行
+		$("#pfocus_piclist li").hover(function(){
+			stopScroll();
+			$("#pfocus_piclist li").hide();
+			$(this).show();
+			currentId=$(this).attr("id");
+			picId = currentId.substring(currentId.length-1);
+			$("#pfocus_btn li").eq(picId).addClass("current");
+			$("#pfocus_btn a").eq(picId).addClass("textcolor");
+			
+		},function(){
+			currentId=$(this).attr("id");
+			picId = currentId.substring(currentId.length-1);
+			showIndex = picId;
+			autoScroll();
+		})
+	})
+</script>
+</head>
+<body id="book">
+<!--快捷访问栏开始-->
+<div id="shortcut">
+	<div class="page_width">
+		<ul>
+			<li class="welcome">您好！欢迎来到京东商城！<span><a href="#">[请登录]</a>，新用户？<a href="#" class="link_reg">[免费注册]</a></span></li>
+			<li class="my_order"><a href="#">我的订单</a></li>
+			<li><a href="#">我的京东</a></li>
+			<li><a href="#" target="_blank">装机大师</a></li>
+			<li><a href="#" target="_blank">礼品卡</a></li>
+			<li><a href="#" target="_blank">企业客户</a></li>
+			<li class="sub">
+                <a href="#" target="_blank">帮助中心</a>
+            </li>
+		</ul>
+		<span class="clear"></span>
+	</div>
+</div>
+<!--头部导航开始-->
+<div id="header" class="page_width">
+	<div id="logo">
+    	<a href="#"><img src="images/logo.gif"width="251" height="46"/></a>
+    </div>
+    <div id="nav">
+    	<div id="nav_index"><a href="#">首页</a></div>
+        <div id="nav_curr"><a href="#">图书</a></div>
+        <div id="nav_ext">
+        	<ul>
+            	<li id="nav_brand" class="ext_first"><a href="#">品牌直销</a></li>
+                <li id="nav_tuan"><a href="#">团购</a></li>
+                <li id="nav_auction"><a href="#">夺宝岛</a></li>
+                <li id="nav_read"><a href="#">在线读书</a></li>
+                <li id="nav_club"><a href="#">京东社区</a></li>
+                <li id="nav_category"><a href="#">全部分类</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="book_search">
+    	<div id="allsort">
+        	<div id="more_sort">
+        		<strong>全部商品分类</strong>
+        		<div id="extra">&nbsp;</div>
+            </div>
+        </div>
+        <div id="search">
+        	<!--<div id="sub_search">-->
+            	<input type="text" id="keyword" value="男孩" onfocus="this.value=''" onblur="this.value='男孩'" />
+            <!--</div>-->
+            <input type="submit" id="btn_search" value="搜 索"/>
+        </div>
+        <div id="advance">高级搜索
+        </div>
+        <ul id="mycart">
+        	<li id="cart_info">购物车<b><font color="#066FC9">0</font></b>件</li>
+            <li><font color="#ffffff">去结算</font></li>
+        </ul>
+    </div>
+    <div id="hot_words">
+    	<div id="left_corner"></div>
+        <div id="words">
+        	小说 | 文学 | 经济 | 管理 | 励志与成功 | 生活 | 旅游 | 少儿 | 历史 | 政治军事 | 外语学习 | 科技 | 计算机与互联网 | 图书销售榜 | 特价书 | 所有图书分类
+        </div>
+        <div id="right_corner"></div>
+    </div>
+</div>
+<!--头部导航结束-->
+<div class="clear"></div>
+
+</body>
+</html>

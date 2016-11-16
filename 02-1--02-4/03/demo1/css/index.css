@@ -1,0 +1,21 @@
+/* CSS Document */
+div{
+	border:1px solid #ff0000;
+	width:100px;
+	height:100px;
+}
+#dv1{
+	float:left;
+}
+#dv2{
+	float:left;
+}
+#dv3{
+	/*float:left;*/
+	clear:both; 
+	display:block;
+}
+/* 因为上面 有 clear:both 因此下面的div 会另占一行*/
+#dv4{
+	float:left;
+}

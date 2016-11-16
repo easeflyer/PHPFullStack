@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>用户资金明细</title>
+    <include file="Common:miniheader" />
+</head>
+
+<body>
+    <div class="easyui-panel" data-options="
+    title:'用户资金明细',
+    border:false,
+    iconCls:'icon-coins'
+">
+        <table class="easyui-datagrid" data-options="
+border:false,
+fitColumns:true,
+toolbar:'#toolbar'
+
+">
+            <thead>
+                <th data-options="
+    field:'id',
+    align:'center', 
+    width:20">id</th>
+                <th data-options="
+    field:'users_id',
+    width:50, align:'left', ">用户id</th>
+    <th data-options="
+    field:'oldmoney',
+    width:70, align:'center'">原金额</th>
+                <th data-options="
+    field:'newmoney',
+    width:100, align:'center' ">修改金额</th>
+               
+                <th data-options="
+    field:'info',
+    width:300, align:'center'" >修改原因</th>
+            </thead>
+            <tbody>
+                <volist name="data" id="val">
+                    <tr>
+                        <td>{$val['id']}</td>
+                        <td>{$val['users_id']}</td>
+                        <td>{$val['oldmoney']}</td>
+                        <td>{$val['newmoney']}</td>
+                        
+                        <td>{$val['info']}</td>
+                       
+                    </tr>
+                </volist>
+            </tbody>
+        </table>
+        <div id="toolbar">
+            <a href="{:U('Users/addmoney',array('userid'=>$userid))}" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-coins'">添加明细</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+1 普通 panel
+2 载入其他页面
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Basic Panel - jQuery EasyUI Demo</title>
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    </head>
+    <body>
+        <h2>Basic Panel</h2>
+        <div class="demo-info">
+            <div class="demo-tip icon-tip"></div>
+            <div>The panel is a container for other components or elements.</div>
+        </div>
+        <div style="margin:10px 0;">
+            <a href="#" class="easyui-linkbutton" onclick="javascript:$('#p').panel('open')">Open</a>
+            <a href="#" class="easyui-linkbutton" onclick="javascript:$('#p').panel('close')">Close</a>
+            <a href="#" class="easyui-linkbutton" data-options="plain:true" onclick="javascript:loading()">load</a>
+        </div>
+        <!--
+        div 增加 class="easyui-panel" title="Basic Panel" 基本实现. 其他属性见手册
+        根据实际尺寸 显示滚动条 不需要自己设置.
+        -->
+        从标记创建panel非常简单,仅仅只需要添加"easyui-panel"样式给div标记
+
+        <div id="p" class="easyui-panel" title="My Panel"   
+             style="width:500px;height:150px;padding:10px;background:#fafafa;"  
+             data-options="iconCls:'icon-add',closable:true,  
+             collapsible:true,minimizable:true,maximizable:true">  
+            <p>panel content.</p>  
+            <p>panel content.</p>  
+        </div>
+        <script>
+            // 点击load按钮,加载另外一个页面。并执行回调函数
+            function loading() {
+                $('#p').panel({
+                    href: 'tree_lines.html',
+                    onLoad: function () {
+                        alert('载入成功');
+                    }
+                });
+            }
+            //loading();
+        </script>
+    </body>
+</html>

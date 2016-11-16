@@ -1,0 +1,202 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+}
+#nav1{
+	border:0px solid #ff0000;
+	height:35px;
+	background-image:url(../imgs/bg1.jpg);
+}
+#nav2{
+	border:0px solid #ff0000;
+	width:1150px;
+	height:35px;
+	margin:auto;
+}
+
+#navL{
+	border:0px solid #ff0000;
+	width:350px;
+	float:left;
+	height:35px;
+	line-height:35px;
+}
+#navLtxt{
+	border:0px solid #ff0000;
+	width:350px;
+	height:35px;
+	line-height:35px;
+}
+#navLimg{
+	border:0px solid #ff0000;
+	width:11px;
+	height:16px;
+	float:left;
+	margin-top:9px;
+}
+#navLtxt{
+	border:0px solid #ff0000;
+	width:250px;
+	float:left;
+	text-align:center;
+}
+#navR{
+	border:0px solid #ff0000;
+	width:500px;
+	float:right;
+	height:35px;
+	line-height:35px;
+}
+#navRtxt{
+	list-style:none;
+}
+
+.flag2{
+	width:15px;
+	float:left;
+}
+.navRt{
+	width:50px;
+	text-align:center;
+	float:left;
+}
+.navSep{
+	width:8px;
+	text-align:center;
+	float:left;
+}
+#lg{
+	border:0px solid #ff0000;
+	height:109px;
+	width:1150px;
+	margin:auto;
+}
+#lgL{
+	border:0px solid #ff0000;
+	height:109px;
+	width:347px;
+	float:left;
+}
+#lgC{
+	border:0px solid #ff0000;
+	height:109px;
+	width:500px;
+	float:left;
+}
+#lgCT{
+	border:0px solid #ff0000;
+	height:40px;
+	width:500px;
+	margin-top:30px;
+}
+#lgCB{
+	clear:both;
+	border:0px solid #ff0000;
+	height:30px;
+	width:500px;
+	line-height:30px;
+}
+#lgR{
+	border:0px solid #ff0000;
+	height:109px;
+	width:134px;
+	float:right;
+	line-height:109px;
+}
+#lgCTB{
+	border:1px solid #CCCCCC;
+	height:40px;
+	width:400px;
+	float:left;
+}
+#le{
+	height:40px;
+	width:280px;
+	float:left;
+}
+#all{
+	height:38px;
+	width:107px;
+	float:right;
+}
+#sea{
+	width:80px;
+	height:40px;
+	float:left;
+	margin-left:2px;
+}
+
+#nav{
+	border:0px solid #ff0000;
+	height:36px;
+	background-color:#FF0000;
+}
+#navC{
+	border:0px solid #00ff00;
+	height:36px;
+	width:1150px;
+	margin:auto;
+}
+#navCL{
+	border:0px solid #00ff00;
+	height:36px;
+	width:192px;
+	float:left;
+}
+#navCR{
+	border:0px solid #00ff00;
+	height:36px;
+	width:950px;
+	float:left;
+}
+#navTxt{
+	list-style:none;
+}
+#navTxt li{
+	border:0px solid #00ff00;
+	width:120px;
+	height:36px;
+	float:left;
+	text-align:center;
+	font-size:16px;
+	color:#FFFFFF;
+	line-height:36px;
+}
+#subNav{
+	border:0px solid #ff0000;
+	background-color:#F0F0F0;
+	height:25px;
+}
+#snTxt{
+	border:0px solid #00ff00;
+	height:25px;
+	width:1150px;
+	margin:auto;
+}
+#snts{
+	list-style:none;
+}
+.sts{
+	border:0px solid #ff0000;
+	width:80px;
+	line-height:25px;
+	text-align:center;
+	float:left;
+}
+.sep1{
+	border:0px solid #ff0000;
+	width:2px;
+	height:7px;
+	float:left;
+	margin-top:5px;
+}
+
+
+
+
+
+
+
+

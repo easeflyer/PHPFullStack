@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+tree_data1.json 数据 "persons":"111","begin":"1","end":"3" 仅用于本例。
+idField:'id',treeField:'text' 设置树形字段 其他字段见 th
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+        <script type="text/javascript" src="../../locale/easyui-lang-zh_CN.js"></script>
+    </head>
+    <body>
+
+        <table id="tt" class="easyui-treegrid" style="width:600px;height:400px"  
+               data-options="url:'tree_data1.json',idField:'id',treeField:'text'">  
+            <thead>  
+                <tr>  
+                    <th data-options="field:'text',width:180">Task Name</th>  
+                    <th data-options="field:'persons',width:60,align:'right'">Persons</th>  
+                    <th data-options="field:'begin',width:80">Begin Date</th>  
+                    <th data-options="field:'end',width:80">End Date</th>  
+                </tr>  
+            </thead>  
+        </table> 
+
+    </body>
+</html>

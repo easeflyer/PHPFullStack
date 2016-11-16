@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>添加用户</title>
+<include file="Common:miniheader"/>
+<link rel="stylesheet" type="text/css" href="__SKIN__css/tableform.css" />
+<style type="text/css">
+    table.table-form tr th{ width: 100px;}
+</style>
+<script type="text/javascript">
+    function changeaddressvalue(obj,_addid){
+        $.get("index.php?g=admin&m=address&a=editjson",{id:_addid,fieldname:obj.name,val:obj.value},function(){
+            })
+    }
+</script>
+</head>
+<body>
+<div  class="easyui-panel" data-options="
+    title:'【{$userdata.username}】地址管理',
+    border:false,
+    iconCls:'icon-user'
+">
+<div style="background:#f1f1f1; margin-top:10px">
+    <a href="{:U('Address/add',array('userid'=>$id))}" class="easyui-linkbutton" data-options="iconCls:'icon-book_addresses'" style="margin:10px 10px">添加地址</a>
+</div>
+<form name="f1" action="" method="POST" enctype="multipart/form-data">
+<table class="table-form" border="1" width="100%">
+<volist name="data" id="val">
+    <tr>
+        <th>收货人</th><td colspan="3"><input type="text" name="contact" class="ipt" style="width: 336px;" value="{$val.contact}" onblur="changeaddressvalue(this,'{$val.id}')"></td>
+    </tr>
+     <tr>
+        <th>详细地址</th><td colspan="3"><input type="text" name="address" class="ipt" style="width: 500px; "value="{$val.address}"  onblur="changeaddressvalue(this,'{$val.id}')"></td>
+    </tr>
+     <tr>
+        <th>电话</th><td style="width:270px"><input type="text" name="tel" class="ipt" style="width:200px" value="{$val.tel}"  onblur="changeaddressvalue(this,'{$val.id}')"></td>
+   
+       <th>手机</th><td><input type="text" name="phone" class="ipt" style="width:200px" value="{$val.phone}"  onblur="changeaddressvalue(this,'{$val.id}')"></td>
+        
+    </tr>
+    <tr>
+        <th>标志建筑</th><td style="width:270px"><input type="text" name="signbuild" class="ipt" style="width:200px" value="{$val.signbuild}"  onblur="changeaddressvalue(this,'{$val.id}')"></td>
+   
+       <th>最佳送货时间</th><td><input type="text" name="besttime" class="ipt" style="width:200px" value="{$val.besttime}"  onblur="changeaddressvalue(this,'{$val.id}')"></td>
+        
+    </tr>
+    <tr>
+        <td colspan="4" style="padding: 10px 0;"><a  href="{:U('Address/del',array(id=>$val[id]))}"class="easyui-linkbutton" data-options="iconCls:'icon-book_addresses'" style="margin-left:318px">删除该地址</a></td>
+    </tr>
+</volist>  
+   
+</table>
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+[ 2016-09-05T22:13:07+08:00 ] 0.0.0.0 /03/demo1/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+

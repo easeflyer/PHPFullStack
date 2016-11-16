@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+数值输入框,只能输入数值。
+添加: class="easyui-numberbox" 即可
+min:0,precision:2  最小值,精确到几位小数,失去焦点后,将会判断并更正
+../../locale/easyui-lang-zh_CN.js  自动切换中文提示
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+        <script type="text/javascript" src="../../locale/easyui-lang-zh_CN.js"></script>
+    </head>
+    <body>
+        
+        
+        numberbox:
+        <input type="text" class="easyui-numberbox" value="100" data-options="min:0,precision:2">
+        datetimebox:
+        <input class="easyui-datetimebox" name="birthday"   
+        data-options="required:true,showSeconds:false" value="3/4/2010 2:3" style="width:150px"> 
+        
+        
+    </body>
+</html>

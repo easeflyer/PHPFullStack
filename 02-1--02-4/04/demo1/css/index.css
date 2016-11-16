@@ -1,0 +1,18 @@
+/* CSS Document */
+#dv{
+	border:1px solid #ff0000;
+	width:100px;
+	margin:auto;
+	cursor:pointer;
+	/*filter:alpha(opacity=50);*/
+	opacity:0.5;
+}
+
+#dv1{
+	border:1px solid #ff0000;
+	width:100px;
+	margin:auto;
+	cursor:text;
+	/*filter:alpha(opacity=50);*/
+	opacity:0.5;
+}

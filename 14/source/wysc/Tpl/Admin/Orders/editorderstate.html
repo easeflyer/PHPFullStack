@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>修改订单状态</title>
+<include file="Common:miniheader"/>
+<link rel="stylesheet" type="text/css" href="__SKIN__css/tableform.css" />
+</head>
+<body>
+<div  class="easyui-panel" data-options="
+	title:'修改订单状态',
+	border:false,
+	iconCls:'icon-cart_edit'
+">
+<form name="f1" action="" method="POST" enctype="multipart/form-data">
+<table class="table-form" border="1" width="100%">
+	<tr>
+
+		<th>订单状态</th><td><input type="hidden" name="orders_id" value="{$orderid}" /> <select name="orderstate_id" class="easyui-combobox">
+		    <volist name="statedata" id="item">
+			<option value="{$item.id}"
+			<if condition="$item.id eq $stateid">
+				selected
+			</if>
+			>{$item.state}</option>
+			</volist>
+		</select></td>
+	</tr>
+	
+	<tr>
+		<th>修改理由</th><td>
+		<textarea name="info" rows="9" cols="60"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<th></th><td><input type="submit" name="s1" value="提交">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="r1" value="清除"></td>
+	</tr>
+</table>
+
+</form>
+</div>
+</body>
+</html>

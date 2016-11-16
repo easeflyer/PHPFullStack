@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>选择支付方式-我赢商城</title>
+        <include file="Admin:Common:miniheader" />
+        <link rel="stylesheet" type="text/css" href="__SKIN__css/shopflow.css" />
+        <script type="text/javascript">
+            $(function () {
+                $('#{$Think.get.step}').css('backgroundColor', '#ff0000').css('color', '#ffffff').css('fontWeight', 'bold');
+
+            })
+            function submitform() {
+                var _form = document.getElementById('myform');
+                _form.submit();
+            }
+        </script>
+    </head>
+
+    <body>
+        <include file="Common:header" />
+        <div class="main">
+            <div class="shopflow">
+                <ul>
+                    <li id="shoppingcar">购物车</li>
+                    <li>选择收货地址</li>
+                    <li id="shippingtype">选择配送方式</li>
+                    <li id="payment">选择付款方式</li>
+                    <li>付款</li>
+                    <li class="ll">确认订单</li>
+                </ul>
+                <div class="clear"></div>
+                <form id="myform" name="f1" action="" method="POST" enctype="multipart/form-data">
+                    <div class="shopcar">
+
+                        <table class="table-form" border="1" width="100%">
+                            <tr>
+                                <th style="width:70px">选择</th>
+                                <th>支付方式</th>
+                                <th>描述</th>
+                            </tr>
+
+                            <tr>
+                                <td align="center"><input type="radio" name="paymenttype" value="1" checked="checked" 
+                                                          ></td>
+                                <td>余额支付</td>
+                                <td>使用用户在本商城内的账户余额进行商品支付，在用户选择退款时，退换的相关费用将存储在用户余额当中</td>
+
+                            </tr>
+                            <tr>
+                                <td align="center"><input type="radio" name="paymenttype" value="2"
+                                                          ></td>
+                                <td>易宝支付</td>
+                                <td>支付宝（中国）网络技术有限公司是国内领先的第三方支付平台，致力于提供“简单、安全、快速”的支付解决方案。支付宝公司从2004年建立开始，始终以“信任”作为产品和服务的核心。旗下有“支付宝”与“支付宝钱包”两个独立品牌。自2014年第二季度开始成为当前全球最大的移动支付厂商。</td>
+
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td colspan="4" style="text-align:right; height:30px; line-height:30px; font-size:14px; " align="right"><span style="color:red;font-weight:bold" id="sumprice"></span></td>
+                            </tr>
+                        </table>
+
+
+                    </div>
+                    <hr style="color:dddddd; margin-top:10px">
+                        <div class="nextbtn">
+                            <!--点击下一步 提交表单-->
+                            <a onclick="submitform()" href="javascript:void(0)">
+                                <image src="__SKIN__images/nextbtn.jpg" width="150"/>
+                            </a>
+                        </div>
+                </form>
+            </div>
+        </div>
+        <include file='Common:footer' />
+        <!--商品列表结束-->
+        </div>
+    </body>
+
+</html>

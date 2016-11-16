@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+script 的执行顺序,知道了 script 的执行顺序,才知道在什么位置,是否能使用之前程序的执行结果。
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script>alert(1);</script>
+        <script>window.onload(alert(5));</script>
+        <script>$(function () {
+                alert(7);
+            });</script>
+    </head>
+    <body onload="alert(9)">
+        <script>
+            $(document).ready(function () {
+                alert(10);
+            });
+        </script>
+        <script>window.onload(alert(8));</script>
+        <script>alert(2);</script>
+        <div>TODO write content</div>
+        <script>alert(3);</script>
+        <script>window.onload(alert(4));</script>
+        <script>$(function () {
+                alert(6);});</script>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+<table>标签 设定正确的属性: pagination:true,pageSize:10 等
+pagerFilter(data)必须
+getData 模拟提供数据,可以由php提供json 数据. 注意字段.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic DataGrid - jQuery EasyUI Demo</title>
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    </head>
+    <body>
+
+        <h1>demo: datagrid 分页功能.</h1>
+        <table id="dg" title="Client Side Pagination" style="width:700px;height:300px" data-options="
+               rownumbers:true,
+               singleSelect:true,
+               autoRowHeight:false,
+               pagination:true,
+               pageSize:10">
+            <thead>  
+                <tr>  
+                    <th data-options="field:'inv',width:100">inv</th>  
+                    <th data-options="field:'name',width:100">name</th>
+                    <th data-options="field:'date',width:100">date</th> 
+                    <th data-options="field:'amount',width:100">amount</th> 
+                    <th data-options="field:'price',width:100,align:'right'">Price</th>
+                    <th data-options="field:'cost',width:100">cost</th>
+                </tr>  
+            </thead>  
+        </table>  
+        <script>
+            // 提供数据的方法
+            // 可以改写由php提供json
+            function getData() {
+                var rows = [];
+                for (var i = 1; i <= 800; i++) {
+                    var amount = Math.floor(Math.random() * 1000);
+                    var price = Math.floor(Math.random() * 1000);
+                    rows.push({
+                        inv: 'Inv No ' + i,
+                        date: $.fn.datebox.defaults.formatter(new Date()),
+                        name: 'Name ' + i,
+                        amount: amount,
+                        price: price,
+                        cost: amount * price,
+                        note: 'Note ' + i
+                    });
+                }
+                return rows;
+            }
+            // 用于实现分页功能的数据 参考手册 pagination
+            function pagerFilter(data) {
+                if (typeof data.length == 'number' && typeof data.splice == 'function') {	// is array
+                    data = {
+                        total: data.length,
+                        rows: data
+                    }
+                }
+                var dg = $(this);
+                var opts = dg.datagrid('options');
+                var pager = dg.datagrid('getPager');
+                pager.pagination({
+                    onSelectPage: function (pageNum, pageSize) {
+                        opts.pageNumber = pageNum;
+                        opts.pageSize = pageSize;
+                        pager.pagination('refresh', {
+                            pageNumber: pageNum,
+                            pageSize: pageSize
+                        });
+                        dg.datagrid('loadData', data);
+                    }
+                });
+                if (!data.originalRows) {
+                    data.originalRows = (data.rows);
+                }
+                var start = (opts.pageNumber - 1) * parseInt(opts.pageSize);
+                var end = start + parseInt(opts.pageSize);
+                data.rows = (data.originalRows.slice(start, end));
+                return data;
+            }
+
+            $(function () {
+                $('#dg').datagrid({loadFilter: pagerFilter}).datagrid('loadData', getData());
+            });
+        </script>
+    </body>
+</html>

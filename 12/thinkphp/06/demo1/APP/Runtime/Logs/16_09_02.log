@@ -1,0 +1,41 @@
+[ 2016-09-02T23:30:10+08:00 ] 0.0.0.0 /06/demo1/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-09-02T23:30:53+08:00 ] 0.0.0.0 /06/demo1/index.php/home/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001146s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-09-02T23:30:54+08:00 ] 0.0.0.0 /06/demo1/index.php/home/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-09-02T23:31:01+08:00 ] 0.0.0.0 /06/demo1/index.php/admin/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-09-02T23:33:29+08:00 ] 0.0.0.0 /06/demo1/index.php/home/index/demo
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+

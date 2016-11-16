@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+<ul class="easyui-tree" data-options="url:'tree_data1.json',method:'get',animate:true,lines:true"></ul>
+简单添加以上语句即可。
+json 数据可以从php 获得动态变化。或者使用 ajax 进行更新。
+修改图标增加 iconCls 属性。参考:tree_data1.json 节点数据 具体的图标,参考手册或者 icon.css 也可以自定义。
+
+        可以平铺 树形菜单的叶子选项 也就是最末端选项。
+        <style>
+            .easyui-tree{ width: 90%; margin-top: 10px; margin-left: 10px }
+            .easyui-tree>li>ul>li>ul>li{ float: left; margin:5px 0; }
+            .easyui-tree>li,
+            .easyui-tree>li>ul>li{ clear: both; margin:10px 0; }
+        </style>   
+
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tree Lines - jQuery EasyUI Demo</title>
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+     
+    </head>
+    <body>
+        <h2>demo1:Tree Lines</h2>
+        <div class="demo-info">
+            <div class="demo-tip icon-tip"></div>
+            <div>This sample shows how to show tree lines.</div>
+        </div>
+        <div style="margin:10px 0;">
+        </div>
+        
+        <ul class="easyui-tree" data-options="url:'tree_data1.json',method:'get',animate:true,lines:true"></ul>
+        
+        
+        <h2>demo2:tree</h2>
+        <!--
+        简单 增加 easyui-tree class 即可。
+        -->
+        <ul id="tt" class="easyui-tree">  
+            <li>  
+                <span>Folder3</span>  
+                <ul>  
+                    <li>  
+                        <span>Sub Folder 1</span>  
+                        <ul>  
+                            <li>  
+                                <span><a href="#">File 11</a></span>  
+                            </li>  
+                            <li>  
+                                <span>File 12</span>  
+                            </li>  
+                            <li>  
+                                <span>File 13</span>  
+                            </li>  
+                        </ul>  
+                    </li>  
+                    <li>  
+                        <span>File 2</span>  
+                    </li>  
+                    <li>  
+                        <span>File 3</span>  
+                    </li>  
+                </ul>  
+            </li>  
+            <li>  
+                <span>File21</span>  
+            </li>  
+        </ul>          
+
+        <h2>使用 jQuery 生成树</h2>
+        <!--使用 jQuery 处理数据-->
+        <ul id="tt1" class="easyui-tree"></ul>
+        
+        <script>
+            $(function () {
+                $('#tt1').tree({
+                    //url: 'tree_data1.json',
+                    url: 'newjsontest.json',
+                    mothed: 'get',
+                    //url:'http://localhost/wysc/index.php?g=Admin&m=Rbac&a=combotreejson1&id=2',
+                    animate: true,
+                    //lines:true,
+                    checkbox: true
+                });
+            });
+
+        </script>
+    </body>
+</html>

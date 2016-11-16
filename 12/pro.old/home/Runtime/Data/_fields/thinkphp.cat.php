@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'cId', 1 => 'cPid', 2 => 'cName', 3 => 'cLevel', '_autoinc' => true, '_pk' => 'cId', '_type' => array ( 'cId' => 'int(4)', 'cPid' => 'int(4)', 'cName' => 'varchar(20)', 'cLevel' => 'text', ), );?>

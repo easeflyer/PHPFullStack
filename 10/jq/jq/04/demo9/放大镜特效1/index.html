@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>修改了2处，第一处，.big的宽高为200 200 第二处左移为最大-800</title>
+</head>
+<!--案例中图片 400*400 和 800*800的图-->
+<style type="text/css">
+	*{margin:0px;padding:0px;}
+	.box{width:900px;height:500px;border:1px solid #ff0000;margin:50px auto;}
+	.small{width:400px;height:400px;border:1px solid #000000;
+		float:left;position:relative;}
+	.small b{
+		width:100px;height:100px;background:pink;
+		opacity:0.4;filter:alpha(opacity=40);
+		position:absolute;left:0px;top:0px;display:none;}
+	.big{
+		width:200px;height:200px;border:1px solid #0000FF;
+		overflow:hidden;float:left;margin-left:20px;margin-top:30px;
+		/*制作对应大图的时候才加*/
+		position:relative;display:none;
+	}
+	.big img{position:absolute;left:0px;top:0px;}
+</style>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".small").mousemove(function(e){
+			$("b").show();
+			$(".big").show();
+			//以下代码是为了让鼠标始终指向的是小图的中心位置。
+			//鼠标距离左边的距离
+			var L = e.pageX;
+			//小图距离左侧距离
+			var l = $(this).offset().left;
+			//计算小方块 中心到左侧的距离
+			var left = L-l-50;
+			//alert(left);//-50   350
+			var T = e.pageY;
+			var t =$(this).offset().top;
+			var top = T-t-50;
+		//	alert(top);//-50  350
+			//不能移出上边界 和 左边界
+			left = left<0?0:left;
+			top = top<0?0:top;
+			//不能移出有边界 和 下边界
+			left = left>300?300:left;
+			top = top>300?300:top;
+			$("b").css({left:left,top:top});
+			//alert(left);
+			//alert(top);
+			//alert('**');
+			//大图对应小块的移动 大小图比例是 2倍
+			//小图向右移动，大图是向左移动 而且是2倍的关系。
+			//下边界和有边界有问题
+			var imgLeft = -left*2;
+			var imgTop=-top*2;
+			imgLeft = imgLeft<-800?-800:imgLeft;
+			imgTop = imgTop<-800?-800:imgTop;
+			//alert(imgLeft);
+			//alert(imgTop);
+			//alert('###');
+			$(".big img").css({left:imgLeft,top:imgTop});
+	}).mouseout(function(){
+		$(".small b").hide();
+		$(".big").hide();
+	})
+})
+</script>
+<body>
+<div class="box">
+	<div class="small"><img src="small.jpg" alt=""><b></b></div>
+	<div class="big"><img src="big.jpg" alt=""></div>
+</div>
+</body>
+</html>

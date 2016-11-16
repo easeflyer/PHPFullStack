@@ -1,0 +1,237 @@
+知识点：
+一 javascript概述
+	firebug
+二 javascript 的语法结构
+
+三 javascript 中的变量
+四 js中的运算符;
+
+一 javascript概述
+1 什么是javascript  --》不是java 
+	javascript -->js , 是一种客户端运行的解释性的脚本语言，是基于事件和对象驱动型的语言。******
+	js代码是由网站程序员编写，但是由客户端 下载到本地 ，由浏览器负责解释执行。
+2 js的主要作用;
+	1>验证数据的
+	2>ajax将数据动态载入到页面。*****
+	3>可以响应事件
+	4>可以读写html文件 DOM 操作*****
+	5>可以对浏览器的某些功能操作
+	6>可以对cookie
+	7>可以实现网页上的特效:******
+3 js特点:	
+	1>js面向对象
+	2>js事件驱动
+	3>弱类型; 
+	4> 解释型语言
+4 javascrip 语言的构成:
+	ECMAScript：js语言的核心: 变量 数据类型 关键字，保留字 流程控制，内置对象 循环结构....
+	DOM: document objecct model 文档对象模型, 提供处理 html  xhtml  xml的应用程序接口(api):
+	BOM:borwser object model 浏览器对象模型 提供了操作浏览器的相关的接口((api)；
+
+5 js开发工具:
+	js没有专业的开发工具. 所有的文本类编辑型软件 都可开发js
+		 zend studio  、dreamweaver 、 editplus..... 专业的软件开发工具
+6 js的调试工具:
+	 firebug：火狐下提供的 调试 工具
+	 安装firebug
+	 火狐:  工具--》附加组件--》获取附加组件--》崭露头角（查看全部）--》网页开发--》最热门--》firebug 下载安装--》重启浏览器
+	 启动firebug： 工具--》web开发者--》firebug-->打开firebug
+	 
+二 javascript 的语法结构
+	1  js在网页中如何使用:
+		1> 外部引用:******
+			 index.php  -->index.css link
+			 <script  type="text/javascript" src="js文件路径"></script>
+		2> 页面内部使用*******
+			</head>
+			<style></style>
+			<script type="text/javascript">
+					js代码
+			</script>
+			<body>	 
+		3>标记上直接加入js代码
+			<div style="css">
+			<a href="javascript:js代码">
+		4>事件驱动 *******
+			<div 事件名称（属性）="js代码"></div>
+			事件：事情起因。
+				单击  双击  鼠标移动.....
+		5> 方法:打印变量，追踪变量。
+		document.write("内容");
+		window.alert("内容");弹出带有确定按钮的对话框。 alert();
+	2 语法
+		1》 注释符:
+				单行注释符//
+				多行注释符/**/
+		2》保留字和关键字:
+			关键字: 程序中见过的系统单词。
+			if  else for case switch array break ......
+			保留字: 暂时没有用到，在将来语言升级，可能会用到词；
+			class  interface extends implements public protected private.... 
+
+三 javascript 中的变量		
+		3》 js中的变量：
+			变量: 存储数据的容器.
+			js中的变量   var 变量名称 = value    // 变量名称 字符串定义
+			先声明，后赋值
+				var 变量名称 ；   //声明
+				变量名称 = value;  //赋值
+			声明和赋值同时进行 ******
+				var 变量名称 = value  //同时进行
+				var name=
+				var age = 
+				var .....
+			一次性声明多个变量
+			  var  name , age ,height;
+			  		name = "zhangsan";
+					age = 18;
+					height = 180;
+			 简化版
+			 	var name="zhangsan",age=18,height=180 ;
+			
+			注意:
+				如果同一个页面，变量被第二次声明，变量如果为空，不会影响第一次声明的结果。****
+				js允许不声明变量 直接赋值使用，如果该变量连赋值都没有，没有结果。****
+		4》 变量的命名规则:
+			  变量名称区分大小写    var A     var a
+			  变量名称 必须以 字母  开头 后边可以有 数字 字母 _ 		  aaa  a_1  
+			  不能使用关键字 和保留字。  var  else  
+			  变量声明: 驼峰命名法     变量名称2个 或 2个以上的单词   userName   booksDetail.....     ///  user_name books_detail
+			  习惯：变量要有一定的含义:    userEmail    booksPrice  yongHuMing  shuJiaGe
+			 注意：变量 命名  最好用字符 来命名。
+		5》数据类型:
+			var  变量 = value       value可以放什么
+			value 可以放什么类型的数据****
+			标量数据类型****************
+			未定义类型
+			undefined  变量创建后没有赋值 ，值默认为undefined;  
+			 Null 空值  什么都没有 占位符。
+			 string 字符串   用''  或  “”引起来的内容   字符串 ****      
+			 		   字符串包括转义字符     控制符 <====>字符      \      \n    \t 制表符       
+			number 数值型:  整数和小数 。 
+			boolean 布尔型   true   false   真|假   判断程序的结构
+							true  = = 1   false  == 0
+			引用数据类型:******************
+				object (class) 对象类型 引用类型
+			6》typeof操作符: 检测变量的数据类型的。
+				数据类型		值						typeof的操作结果
+				undefined  undefined			"undefined"
+				null				null						object
+				string			“” ‘’				string
+				boolean		true  false  			boolean
+				
+				
+四 js中的运算符;
+	1  +  拼接符号     ==> .		
+	2  算术运算符
+			+	-	*	/   %	(求模，取余数)
+	3 自加  自减
+		i++   i--  先赋值，自己在加1
+		++i   --i  先自己加1  然后在赋值。
+	4 关系运算符:
+		> < >= <=  == !=       ===     !==
+			注意: 
+				1> 运算结构  都是 boolean     true  false    4>3  ==>  ture
+				2> 字符比较 或字符串比较  ascII 码中字符排序的顺序。
+				ascII所有的字符 ，包括特殊字符。
+				3> 一个字符串  另外一个数值。  先把字符串 转换数值型 。 不能转换，字符串 返回NaN （不是数字。）
+				4> js中规定:  undefined   null 相等  ，不影响程序的使用。
+				5》如果两个字符串型的数值,之比较第一位。
+				6》 boolean型的数据  0  1  false  true  比较 时会把true 或 false 转换成 0 1 在比较。*****
+				7> ==  比较相等   ！=  *****
+				8》=== 比类型和值	******
+		5》赋值运算符:
+			  =   		a=3
+			  +=   //    we = we + te
+			  -=	 //    we = we - te
+			  *=	 //    we = we * te
+			  /=  //    we = we / te
+			  %=  //    we = we %te
+		6>逻辑运算符: 
+			&&  与     和  跟 .....
+			|| 		或		
+			！    非		 取反
+					
+				&&     表达式 1  &&  表达式2    要求: 表达式1，表达式2 同时成立 true       a=3  && 4>1  整体结果 true  
+							&& 两边表达式 都是true  整体结果就是ture ，如果有一边是false  整体结果就是说false 
+				||			表达式1 || 表达式2		要求: 表达式1，表达式2 只要有一边为true   结果  true 
+							||   两边表达式都是false  整体结果  false    否则 为true		
+			
+				短路:	 面试题  *****************
+					&&    左边的表达式 false  那整个 &&  肯定是false
+					||		  左边的表达式true  那整个|| 肯定是 true
+					
+				!     取反  !true  == false      !false==true
+						3  true  
+						！3  false
+					
+				固定的值   逻辑运算中  ***********
+					undefined   false   
+					Null 			false
+					boolean		true / false
+					number		除0以外的其他数值，都是true 
+					string			除了 空字符串以外都是真的。
+					对象				真
+			7》 一元运算符
+						i++  i--   ++i  --i  typeof   			new 创建对象 ？？？？
+			8》三元运算符	
+					格式: 
+						条件?条件为true执行:条件为false执行;
+						只有两种情况的判断 。
+			
+			9》位运算符：计算机底层的计算，项目开发中 用不到。
+	
+	
+	补充: ***
+			js 中可以输出任意的html代码（文本也包括在内）
+			document.write("<div>aaaaa</div>");
+	
+	
+	
+	
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	
+			
+			
+			
+			
+			
+			
+			
+	
+	
+	
+	
+	
+	
+	
+	

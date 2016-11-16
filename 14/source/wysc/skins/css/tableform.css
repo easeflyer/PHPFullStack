@@ -1,0 +1,6 @@
+.table-form{margin-top:10px; border-collapse:collapse;}
+.table-form tr,.table-form td,.table-form th{ border:1px solid #eeeeee}
+.table-form tr{ height:25px; line-height:25px; }
+.table-form tr td{ padding:5px 10px}
+.table-form tr th{width:180px; text-align:right;padding-right:20px;}
+.table-form .ipt{ border:1px solid #cccccc; height:22px; line-height:22px}

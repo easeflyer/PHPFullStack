@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'cId', 1 => 'bId', 2 => 'caCount', 3 => 'caTmpCode', 4 => 'uId', '_autoinc' => true, '_pk' => 'cId', '_type' => array ( 'cId' => 'int(4)', 'bId' => 'int(6)', 'caCount' => 'int(4)', 'caTmpCode' => 'varchar(20)', 'uId' => 'int(4)', ), );?>

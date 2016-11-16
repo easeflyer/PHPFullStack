@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{$gooddata[goodsname]}-{$CATEGORY[catname]}-我赢商城</title>
+        <link rel="stylesheet" type="text/css" href="__SKIN__css/show.css" />
+        <link rel="stylesheet" type="text/css" href="__SKIN__css/left.css" />
+        <script type="text/javascript">
+            function myminus() {
+                var _googsnum = parseInt($('#goodsnum').val()) - 1;
+                if (_googsnum > 0) {
+                    $('#goodsnum').val(_googsnum);
+                }
+            }
+
+            function myadd() {
+                var _googsnum = parseInt($('#goodsnum').val()) + 1;
+                if (_googsnum > 0) {
+                    $('#goodsnum').val(_googsnum);
+                }
+            }
+            // 用于添加到购物车 这里就是一个提交功能。
+            function gotoshopcar() {
+                var _form = document.getElementById('myform');
+                _form.submit();
+            }
+        </script>
+    </head>
+
+    <body>
+        <include file="Common:header" />
+        <!--left.js 依然负责左侧 手风琴菜单-->
+        <script type="text/javascript" src="__SKIN__js/left.js"></script>
+        <!--show.js 是详情页 图片放大镜效果--> 
+        <script type="text/javascript" src="__SKIN__js/show.js"></script>
+        
+        <div class="position">
+            <h6>当前位置：</h6><a href="__APPURL__">首页</a>
+            <!--面包屑导航-->
+            <volist name="pos" id="item">
+                <span>&gt;</span><a href="{:U('Index/lists',array('catid'=>$item[id]))}">{$item[catname]}</a>
+            </volist>
+        </div>
+        <!--当前位置结束-->
+        
+        
+        <!--页面主要区域开始-->
+        <div class="main">
+            <include file="Common:left" />
+            <!--右侧区域开始-->
+            <div class="right">
+                
+                <!--图片放大镜效果 开始  结合 show.css 和 show.js 实现效果 注意图片的存放格式和论经 参考 show.js 注释-->
+                <div class="picshow">
+                    <div id="demo">
+                        <div class="mainpic">
+                            <img src="__APPURL__Public/Uploads/{$pics[0][picdir]}thumb_350_350_{$pics[0][picname]}" width="350" height="350px" />
+                            <div id="mask">
+                            </div>
+                            <div id="bigmask">
+                            </div>
+                        </div>
+                        <div id="bigpic">
+                            <img src="__APPURL__Public/Uploads/{$pics[0][picdir]}thumb_800_800_{$pics[0][picname]}" width="700" height="700" />
+                        </div>
+                    </div>
+                    <div class="picnav">
+                        <a href="javascript:void(0)" class="arrow1"></a>
+                        <div class="scrollpic">
+                            <ul style="left:0">
+                                <volist name="pics" id="item">
+                                    <li><img src="__APPURL__Public/Uploads/{$item[picdir]}thumb_64_64_{$item[picname]}" width="64" height="64" id="{$item[picname]}" name="{$item[picdir]}" /></li>
+                                </volist>
+                            </ul>
+                        </div>
+                        <a href="javascript:void(0)" class="arrow2"><!-- 这里是小箭头 --></a>
+                    </div>
+                </div>
+                <!--图片放大镜效果 结束-->
+                
+                
+                <!--图片右侧 商品的概要信息-->
+                <div class="info">
+                    
+                    
+                    <h3>{$gooddata[brandname]}：{$gooddata[goodsname]}</h3>
+                    <div class="info1">
+                        <ul>
+                            <li>商品编号：{$gooddata[id]}</li>
+                            <li>市场价格：￥{$gooddata[mprice]}</li>
+                            <li>商城价格：<span class="red">￥{$gooddata[price]}</span> 为您节省<span class="red"> ￥{$gooddata[mprice]-$gooddata[price]}</span></li>
+                        </ul>
+                    </div>
+                    <div class="info2">
+                        <ul>
+                            <li>库 存：<span class="red">{$gooddata[storenum]}</span></li>
+                            <!--
+                                  商品属性输出 html 格式。包含属性的录入组件
+                                  循环输出 产品的属性列表 注意 val 的构造
+                                  参考 IndexAction show 方法 $itemlist 变量的构造过程 
+                                  利用 CommonAction 的 createinput 方法来构造 html 输出
+                            -->
+                            <volist name="attrlist" id="item">
+                                <li>
+                                    {$item[name]}： {$item[val]}
+                                </li>
+                            </volist>
+                        </ul>
+                    </div>
+                    <a href="http://127.0.0.1/wysc/index.php?m=index&a=show">3333333333</a>
+                    <!--购买数量输入调整，添加购物车操作-->
+                    <form name="f1" id="myform" action="{:U('Shopcar/addshopcar')}" method="post">
+                        <input type="hidden" name="goods_id" value="{$gooddata[id]}">
+                            <div class="info3">
+                                <span class="red">购买数量</span>
+                                <a href="javascript:void(0)" class="minus" onclick="myminus()"><img src="__SKIN__images/show_13.jpg" width="15" height="15" /></a>
+                                <input type="text" name="num" id="goodsnum" value="1" />
+                                <a href="javascript:void(0)" class="add" onclick="myadd()"><img src="__SKIN__images/show_15.jpg" width="15" height="15" /></a>
+                            </div>
+                            
+                            <!-- 点击加入购物车 gotoshopcar 函数仅仅用于 submit 表单 Shopcar/addshopcar   没有采用 ajax 实现 -->
+                            <a href="javascript:void(0)" onclick="gotoshopcar()" class="buy"><img src="__SKIN__images/show_20.jpg" /></a>
+                    </form>
+                    
+                    
+                </div>
+                
+                
+                <div class="clear"></div>
+                
+                
+                <!--商品参数，图文详情 部分-->
+                
+                <div class="detail">
+                    <div class="detail1">
+                        <ul>
+                            <!--商品参数，图文详情 两个标签图片-->
+                            <li><img src="__SKIN__images/show_31.jpg" height="34" /></li>
+                            <li><img src="__SKIN__images/show_33.jpg" height="34" /></li>
+                        </ul>
+                        
+                        <!--两个标签页 商品参数goodpro 商品详情goodsinfo 在数据库中使用 blob  字段保存
+                                这里注意 blob 字段的处理。
+                        -->
+                        <div class="content">
+                            <div class="tabcontent">
+                                {$gooddata[goodpra]}
+                            </div>
+                            <div class="tabcontent">
+                                {$gooddata[goodsinfo]}
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                
+                <!--用户评论 列表-->
+                <a name="comments"></a>
+                <div class="comments">
+                    <h3>评论列表</h3>
+                    <ul>
+                        <!--显示本商品所有用户的评论列表-->
+                        <volist name="commentdata" id="commentitem">
+                            <li><div class="commentitem">
+                                    <h4>用户：{$commentitem[username]}</h4>
+                                    <div class="commentcontent">
+                                        {$commentitem[content]}  
+                                    </div>
+                                </div></li>
+                        </volist>
+                    </ul>
+                    <div id="page" style="margin-top:10px">{$pageshow}</div>
+                    <div class="clear"></div>
+                </div>
+                
+                <!--用户评论输入框-->
+                <div class="comment">
+                    <form action="{:U('User/addcomment')}" method="post">
+                        <h3>我要评论</h3>
+                        <input type="hidden" name="goodid" value="{$gooddata[id]}">
+                            <textarea name="content" id="" cols="90" rows="7"></textarea>
+                            <div style="text-align:left; padding:10px">
+                                <input type="submit" name="s1" value="提交">
+                            </div>
+                    </form>
+                </div>
+                
+                
+            </div>
+            <!--右侧区域结束-->
+            
+        </div>
+        <!--页面主要区域结束-->
+        <include file="Common:footer" />
+        </div>
+    </body>
+
+</html>

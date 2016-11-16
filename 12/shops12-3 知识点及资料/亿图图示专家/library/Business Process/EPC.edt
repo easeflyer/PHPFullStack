@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<template name="EPC图表形状">
+    <imagelist>Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2xRUwUxBDkEOQQ5BDkEOQQ5BDkEOQQ5BDkEOQQ5BDkEOQQ5BDkEOQQ5BDkEOQQ5BDkEOQQ5BTnPQndsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2zUW8hBjdsv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/yO68hJk1t3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bExCiprP+y/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/M/7y7ILQnZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bFFTx3HO8y/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/zP+wiCz0p3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bDVkiDlN2y/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8juuHSdRbd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZsS0LKqi/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/Ay7CkI2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsEFMIcs7zL/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8z/MIgs9Kd2x3bHdsd2x3bHdsd2x3bHdsNmSHQUzTL/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/I3jh0k1ZHdsd2x3bHdsd2x3bHdsdmQLOsuyL/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wMy8k5NmR3bHdsd2x3bHdsd2wQS8hhz/sv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/M/7CXrPSndsd2x3bHdsd2zVY8hJTdMv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/yN28dZ1Ft3bHdsd2x3bAs6iqLP+y/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8y7oKOnZsd2x3bBFTyGHP8y/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/zP+wh6z0p3bHdsCzKKmi/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8y7LKMXZkd2zUW4dBTdsv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8juuHSZNbd2x3bHdsEFPHac7zL/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8z/sIes9Kd2x3bHdsd2x2bEtCiqLP+y/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/zLsgpCdmR3bHdsd2x3bHds1FuHOY7rL/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/zP84dJklN3bHdsd2x3bHdsd2x3bFFTx2HO8y/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/zP8wh6z0p3bHdsd2x3bHdsd2x3bHdsd2wLQoqiz/sv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/zP+8uyyUF3bHdsd2x3bHdsd2x3bHdsd2x3bNRbyEFN2y/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/I3jyFGTW3dsd2x3bHdsd2x3bHdsd2x3bHdsd2wQS8dhz/Mv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/M/7CHrOQndsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsCzqKoi/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8C7vJOXZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w1ZMhJTMsv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8TduHUdRbd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsEEvIac/7L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8L/wv/C/8z/sJes5Kd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2bAs6SZoMwwzDDMMMwwzDDMMMwwzDDMMMwwzDDMMMwwzDDMMMwwzDDMMMwwzDDMMMwwzDDMOKqsk5NmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNmRMOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOkw61WN3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1FvOQskpiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCHJKc5C1Ft3bHdsd2x3bHdsD0OGKulMrW5ud253bndud253bndud253bndud253bndud253bndud253bndud253bndud253bndud253bndud253bndud253bndud+1uKlXGMs5Cdmx3bHdsUVPHMi1v73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf253iDvPQndsNmRKMmxm73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/tbokyNWTUWwk7bnfvf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf69/yUOSU5JTyDuud+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/738oRFFTklPJQ69/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf2hEUVOSU8lDr3/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/aERRU5JTyUOvf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/739oRFFTklPJQ69/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf2hEUVOSU8lDr3/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/aERRU5JTyUOvf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/739oRFFTklPJQ69/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf2hEUVOSU8lDr3/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/aERRU5JTyUOvf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/739oRFFTklPJQ69/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf2hEUVOSU8lDr3/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/aERRU5JTyUOvf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/739oRFFTklPJQ69/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf2hEUVOSU8lDr3/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/aERRU5JTyUOvf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/739oRFFTklPJQ69/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf2hEUVOTU4k7rnfvf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/KERRU9RbCTtud+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/rneJO5Nbd2xLMqtd73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73+tZkkyNWR3bNRbhyosZu9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73/vf+9/73+tbscyUVN3bHdsd2ySU0gqBzMqVSxmLGYsZixmLGYsZixmLGYsZixmLGYsZixmLGYsZixmLGYsZixmLGYsZixmLGYsZixmLGYsZixmLGYsZixmLGYsZixmalVHO0cqUVN3bHdsd2x3bHdsd2zTW85CSzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzqNQpJTdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsdmR2ZHZkdmR2ZHZkdmR2ZHZkdmR2ZHZkdmR2ZHZkdmR2ZHZkdmR2ZHZkdmR2ZHZkdmx3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZkMmT1hPWE9YT1hPWE9YT1hPWE9YT1hPWE9YT1hPWE9YT1hPWE9YT1hPWE9YT1hPWE9YS0hNNbd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsklO7zv//////////////////////////////////////////////////////////////////9Yw1XHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNGS4pf////////////////////////////////////////////////////////////////////8933R0dmR3bHdsd2x3bHdsd2x3bHdsdmR2ZHZkdmR2ZHZkNWRzdPvWfed9533nfed9533nfed9533nfed9533nfed9533nfed9533nfed9533nfed9533nfed+7///er7TW3dsd2x3bHdsd2x3bHdsNmTSWzNsM2wzbDNsM2wzbHN09Yz1jPWM9Yz1jPWM9Yz1jPWM9Yz1jPWM9Yz1jPWM9Yz1jPWM9Yz1jPWM9Yz1jPWM9Yz1jLR8/////zaNNGR3bHdsd2x3bHdsd2w2ZHeV//f//////////////////////////////////////////////////////////////////////////////////773tIT/////fed0bDZkd2x3bHdsd2x3bDZkd5X/9///////////////////////////////////////////////////////////////////////////////////vve0hP///////zm+02N3bHdsd2x3bHdsNmR3lf/3//////////////////////////////////////////////////////////////////////////////////++97SE//////////82ldRbd2x3bHdsd2w2ZHeV//f//////////////////////////////////////////////////////////////////////////////////773tIT//////////77vM2x2ZHdsd2x3bDZkd5X/9///////////////////////////////////////////////////////////////////////////////////vve0hP////////////96vtNbd2x3bHdsNmR3lf/3//////////////////////////////////////////////////////////////////////////////////++97SE////////////////d500ZHdsd2w2ZHeV//f//////////////////////////////////////////////////////////////////////////////////773tIT///////////////9+7zNsdmR3bDZkd5X/9///////////////////////////////////////////////////////////////////////////////////vve0hP//////////////////esaSU3dsNmR3lf/3//////////////////////////////////////////////////////////////////////////////////++97SE//////////////////93ndRbd2w2ZHeV//f//////////////////////////////////////////////////////////////////////////////////773tIT///////////////+7ztNjd2x3bDZkd5X/9///////////////////////////////////////////////////////////////////////////////////vve0hP////////////9953N0dmR3bHdsNmR3lf/3//////////////////////////////////////////////////////////////////////////////////++97SE/////////////3ed1Ft3bHdsd2w2ZHeV//f//////////////////////////////////////////////////////////////////////////////////773tIT///////////vWklt3bHdsd2x3bDZkd5X/9///////////////////////////////////////////////////////////////////////////////////vve0hP///////33nc2x2ZHdsd2x3bHdsNmR3lf/3//////////////////////////////////////////////////////////////////////////////////++97SE////////d500XHdsd2x3bHdsd2w2ZHeV//f//////////////////////////////////////////////////////////////////////////////////773tIT/////esbTW3dsd2x3bHdsd2x3bDZkd5X/9///////////////////////////////////////////////////////////////////////////////////vve0hP//vu8zbDZkd2x3bHdsd2x3bHdsNmR3lf/3//////////////////////////////////////////////////////////////////////////////////++97SE//82lTRcd2x3bHdsd2x3bHdsd2w2ZHeV//f//////////////////////////////////////////////////////////////////////////////////773tHw5vjNkd2x3bHdsd2x3bHdsd2x3bDZkd5X/9///////////////////////////////////////////////////////////////////////////////////vvdzdDNsNmR3bHdsd2x3bHdsd2x3bHdsNmR3lf/3//////////////////////////////////////////////////////////////////////////////////++9zNsNWR3bHdsd2x3bHdsd2x3bHdsd2w2ZHeV//f//////////////////////////////////////////////////////////////////////////////////773M2x3bHdsd2x3bHdsd2x3bHdsd2x3bDZkd5X/9///////////////////////////////////////////////////////////////////////////////////vvczbHdsd2x3bHdsd2x3bHdsd2x3bHdsNmQ2lX3nvu++777vvu++777vvu++777vvu++777vvu++777vvu++777vvu++777vvu++777vvu++777vvu++777vvu995zNsd2x3bHdsd2x3bHdsd2x3bHdsd2w2ZDNktXy1hLWEtYS1hLWEtYS1hLWEtYS1hLWEtYS1hLWEtYS1hLWEtYS1hLWEtYS1hLWEtYS1hLWEtYS1hLWEtYS1hLR8klt3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZkdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsdmw1ZDRkM2TSWzNsdHR0dNJj0lszZDRkNmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2bNRbNGy1hLel/N6+9////////////////33ner42jXR001s1ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w0XNJbt6X81r73////////////////////////////////fed6xrR8klN2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNWTTY3edvu////////////////////////////////////////////////+7znN0NGR2bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1Fu0fPvW////////////////////////////////////////////////////////vve4rdNbdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1Fv1jH3v////////////////////////////////////////////////////////////////esbSWzZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds01u3pb/3//////////////////////////////////////////////////////////////////////zWdHQ2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1Fs2lf/3///////////////////////////////////////////////////////////////////////////81tJbdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNWT1hL7v////////////////////////////////////////////////////////////////////////////////esbTW3Zsd2x3bHdsd2x3bHdsd2x3bHdsdmRzbD3f/////////////////////////////////////////////////////////////////////////////////////7ilNGR3bHdsd2x3bHdsd2x3bHdsd2zTW3rG////////////////////////////////////////////////////////////////////////////////////////vu9zdHZkd2x3bHdsd2x3bHdsd2w1ZHR0/////////////////////////////////////////////////////////////////////////////////////////////7vOklN3bHdsd2x3bHdsd2x3bNNber7///////////////////////////////////////////////////////////////////////////////////////////////90dDVkd2x3bHdsd2x3bHZk9YS+9////////////////////////////////////////////////////////////////////////////////////////////////3q+01t3bHdsd2x3bHdsNWS3pf//////////////////////////////////////////////////////////////////////////////////////////////////Ped0dHdsd2x3bHdsd2wzZPzW/////////////////////////////////////////////////////////////////////////////////////////////////////zaNdmR3bHdsd2x2bDNs////////////////////////////////////////////////////////////////////////////////////////////////////////Or40ZHdsd2x3bDVkNpX///////////////////vetrX73v////++9/e9973/////vvf3vbKUda085/////95zjjG////////uta2tbrW//////////////////893zNkd2x3bHdsNWS4rf//////////////////+97HOQhCvvf///OcghDPe///utYIQsMYBCEEIUUpda3//45zCEJ97///POdJSoYxOMb//////////////////7730mN3bHdsd2w0XDm+//////////////////////OcghDPe3nORSkIQvvePOeKUsMYspT73nWtxzkEIXnOTWuGMTzn//8whEEIz3v////////////////////////SY3dsd2x3bNNbu87/////////////////////fe9JSgQhSUrDGHWt//84xoIQTWu+9/////80pYIQcYxNa4YxPOf3vYIQRSk85////////////////////////zNsd2x3bHds01u7zv///////////////////////3nOQQgAAE1r//////e9QQg0pf///////7rWBCHPe01rQQiGMYIQghAwhDzn////////////////////////dHR2ZHdsd2zUW3rG////////////////////////utaCEAAAjnP/////971BCPOc////////utYEIc97TWsEIbKU85zLWsMYz3v////////////////////////SY3dsd2x3bDRc+bX/////////////////////vvdNawQhxzkEIba1//95zgQhy1q+9/////+ylMMY85xNa4YxPOf//33vy1qGMX3v/////////////////////9Jjd2x3bHdsNWR3nf////////////////////80pcMYMIS61kUpCEI85773TWtBCE1rda1xjMMYhjE8501rBCHznDSlcYzDGAhCvvf//////////////////33vM2R3bHdsd2w2ZLV8///////////////////73klKhjE85///85wEIXGM//885wxjwxjDGAQhilI4xv//TWvDGAQhBCEEIYYxOMb/////////////////////u840ZHdsd2x3bHds02N97/////////////////////////////////////////////////ve//////////////////////////////////////////////////93nTVkd2x3bHdsd2w0ZDm+//////////////////////////////////////////////////////////////////////////////////////////////////++77V8dmx3bHdsd2x3bHZk9Yz///////////////////////////////////////////////////////////////////////////////////////////////////vWNGR3bHdsd2x3bHdsd2w0bPzW////////////////////////////////////////////////////////////////////////////////////////////////NpXUW3dsd2x3bHdsd2x3bDRcd5X/////////////////////////////////////////////////////////////////////////////////////////////fe/SW3dsd2x3bHdsd2x3bHdsd2ySUz3f//////////////////////////////////////////////////////////////////////////////////////////82jTVkd2x3bHdsd2x3bHdsd2x3bDVk9Yy+9/////////////////////////////////////////////////////////////////////////////////////+6xtNjd2x3bHdsd2x3bHdsd2x3bHdsd2zTW/it//////////////////////////////////////////////////////////////////////////////////9953R0NmR3bHdsd2x3bHdsd2x3bHdsd2x3bHds01s6vv////////////////////////////////////////////////////////////////////////////++97V8NWR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2ZDNk/Nb///////////////////////////////////////////////////////////////////////++93ad1Ft3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsdmQzZDq+//////////////////////////////////////////////////////////////////997/WE1Ft3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZk01u4rb73///////////////////////////////////////////////////////////81rR8NFx3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNNb9YQ83//////////////////////////////////////////////////////4tTNkNWR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w1ZJJTdpX81v/3/////////////////////////////////////37vObYzbNRbd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w0XDRs9Yz5tX3n//////////////////////////+7znedtXzUWzZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2ZDRkM2R0dHeVuKV6vnrGesY5tredNo0zZDRkNWR2bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZkNWQ1XNRb1FvUWzRcNWQ2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZkdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsdmw1ZDRkM2TSWzNsdHR0dNJj0lszZDRkNmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2bNRbNGy1hLel/N6+9////////////////33ner42jXR001s1ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w0XNJbt6X81r73////////////////////////////////fed6xrR8klN2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNWTTY3edvu////////////////////////////////////////////////+7znN0NGR2bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1Fu0fPvW////////////////////////////////////////////////////////vve4rdNbdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1Fv1jH3v////////////////////////////////////////////////////////////////esbSWzZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds01u3pb/3//////////////////////////////////////////////////////////////////////zWdHQ2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1Fs2lf/3///////////////////////////////////////////////////////////////////////////81tJbdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNWT1hL7v////////////////////////////////////////////////////////////////////////////////esbTW3Zsd2x3bHdsd2x3bHdsd2x3bHdsdmRzbD3f/////////////////////////////////////////////////////////////////////////////////////7ilNGR3bHdsd2x3bHdsd2x3bHdsd2zTW3rG////////////////////////////////////////////////////////////////////////////////////////vu9zdHZkd2x3bHdsd2x3bHdsd2w1ZHR0/////////////////////////////////////////////////////////////////////////////////////////////7vOklN3bHdsd2x3bHdsd2x3bNNber7///////////////////////////////////////////////////////////////////////////////////////////////90dDVkd2x3bHdsd2x3bHZk9YS+9////////////////////////////////////////////////////////////////////////////////////////////////3q+01t3bHdsd2x3bHdsNWS3pf//////////////////////////////////////////////////////////////////////////////////////////////////Ped0dHdsd2x3bHdsd2wzZPzW/////////////////////////////////////////////////////////////////////////////////////////////////////zaNdmR3bHdsd2x2bDNs////////////////////////////////////////////////////////////////////////////////////////////////////////Or40ZHdsd2x3bDVkNpX///////////////////////////////////////////////885/e9utb///////////////////////////////////////////////893zNkd2x3bHdsNWS4rf////////////////////////////////////////////////OcwxgIQn3v/////////////////////////////////////////////7730mN3bHdsd2w0XDm+/////////////////////////////////////////////33vSUqCEIIQtrX////////////////////////////////////////////////SY3dsd2x3bNNbu87/////////////////////////////////////////////utbDGAxjghDPe////////////////////////////////////////////////zNsd2x3bHds01u7zv/////////////////////////////////////////////Pe8MYOMZJSkUpPOf/////////////////////////////////////////////dHR2ZHdsd2zUW3rG//////////////////////////////////////////++9whCCEI85zSlghA4xv/////////////////////////////////////////////SY3dsd2x3bDRc+bX//////////////////////////////////////////7a1wxgwhP//ec4EIQxj/////////////////////////////////////////////9Jjd2x3bHdsNWR3nf///////////////////////////////////////773TWvDGPe9//++9wxjRSl97////////////////////////////////////////33vM2R3bHdsd2w2ZLV8////////////////////////////////////////utYIQghCvvf/////spRFKTSl////////////////////////////////////////u840ZHdsd2x3bHds02N97/////////////////////////////////////////////////////////////////////////////////////////////////////93nTVkd2x3bHdsd2w0ZDm+//////////////////////////////////////////////////////////////////////////////////////////////////++77V8dmx3bHdsd2x3bHZk9Yz///////////////////////////////////////////////////////////////////////////////////////////////////vWNGR3bHdsd2x3bHdsd2w0bPzW////////////////////////////////////////////////////////////////////////////////////////////////NpXUW3dsd2x3bHdsd2x3bDRcd5X/////////////////////////////////////////////////////////////////////////////////////////////fe/SW3dsd2x3bHdsd2x3bHdsd2ySUz3f//////////////////////////////////////////////////////////////////////////////////////////82jTVkd2x3bHdsd2x3bHdsd2x3bDVk9Yy+9/////////////////////////////////////////////////////////////////////////////////////+6xtNjd2x3bHdsd2x3bHdsd2x3bHdsd2zTW/it//////////////////////////////////////////////////////////////////////////////////9953R0NmR3bHdsd2x3bHdsd2x3bHdsd2x3bHds01s6vv////////////////////////////////////////////////////////////////////////////++97V8NWR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2ZDNk/Nb///////////////////////////////////////////////////////////////////////++93ad1Ft3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsdmQzZDq+//////////////////////////////////////////////////////////////////997/WE1Ft3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZk01u4rb73///////////////////////////////////////////////////////////81rR8NFx3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNNb9YQ83//////////////////////////////////////////////////////4tTNkNWR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w1ZJJTdpX81v/3/////////////////////////////////////37vObYzbNRbd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w0XDRs9Yz5tX3n//////////////////////////+7znedtXzUWzZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2ZDRkM2R0dHeVuKV6vnrGesY5tredNo0zZDRkNWR2bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZkNWQ1XNRb1FvUWzRcNWQ2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZkdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsdmw1ZDRkM2TSWzNsdHR0dNJj0lszZDRkNmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2bNRbNGy1hLel/N6+9////////////////33ner42jXR001s1ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w0XNJbt6X81r73////////////////////////////////fed6xrR8klN2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNWTTY3edvu////////////////////////////////////////////////+7znN0NGR2bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1Fu0fPvW////////////////////////////////////////////////////////vve4rdNbdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1Fv1jH3v////////////////////////////////////////////////////////////////esbSWzZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds01u3pb/3//////////////////////////////////////////////////////////////////////zWdHQ2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1Fs2lf/3///////////////////////////////////////////////////////////////////////////81tJbdmR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNWT1hL7v////////////////////////////////////////////////////////////////////////////////esbTW3Zsd2x3bHdsd2x3bHdsd2x3bHdsdmRzbD3f/////////////////////////////////////////////////////////////////////////////////////7ilNGR3bHdsd2x3bHdsd2x3bHdsd2zTW3rG////////////////////////////////////////////////////////////////////////////////////////vu9zdHZkd2x3bHdsd2x3bHdsd2w1ZHR0/////////////////////////////////////////////////////////////////////////////////////////////7vOklN3bHdsd2x3bHdsd2x3bNNber7///////////////////////////////////////////////////////////////////////////////////////////////90dDVkd2x3bHdsd2x3bHZk9YS+9////////////////////////////////////////////////////////////////////////////////////////////////3q+01t3bHdsd2x3bHdsNWS3pf//////////////////////////////////////////////////////////////////////////////////////////////////Ped0dHdsd2x3bHdsd2wzZPzW/////////////////////////////////////////////////////////////////////////////////////////////////////zaNdmR3bHdsd2x2bDNs////////////////////////////////////////vvf73n3v////////fe/73n3v////////////////////////////////////////Or40ZHdsd2x3bDVkNpX///////////////////////////////////////+61opSjnP////////znAhCOMb///////////////////////////////////////893zNkd2x3bHdsNWS4rf///////////////////////////////////////773y1oEITzn//885whCxzm+9////////////////////////////////////////7730mN3bHdsd2w0XDm+//////////////////////////////////////////+ylIIQ85z///e9ghCOc//////////////////////////////////////////////SY3dsd2x3bNNbu87//////////////////////////////////////////zznRSlNa773z3uCEHnO/////////////////////////////////////////////zNsd2x3bHds01u7zv/////////////////////////////////////////////LWkUpec4EIQhCfe//////////////////////////////////////////////dHR2ZHdsd2zUW3rG//////////////////////////////////////////////e9ghCOc4IQcYz////////////////////////////////////////////////SY3dsd2x3bDRc+bX/////////////////////////////////////////////POeGMcMYBCE4xv///////////////////////////////////////////////9Jjd2x3bHdsNWR3nf////////////////////////////////////////////++9897QQiKUr73/////////////////////////////////////////////33vM2R3bHdsd2w2ZLV8////////////////////////////////////////////////POf3vbrW////////////////////////////////////////////////u840ZHdsd2x3bHds02N97/////////////////////////////////////////////////////////////////////////////////////////////////////93nTVkd2x3bHdsd2w0ZDm+//////////////////////////////////////////////////////////////////////////////////////////////////++77V8dmx3bHdsd2x3bHZk9Yz///////////////////////////////////////////////////////////////////////////////////////////////////vWNGR3bHdsd2x3bHdsd2w0bPzW////////////////////////////////////////////////////////////////////////////////////////////////NpXUW3dsd2x3bHdsd2x3bDRcd5X/////////////////////////////////////////////////////////////////////////////////////////////fe/SW3dsd2x3bHdsd2x3bHdsd2ySUz3f//////////////////////////////////////////////////////////////////////////////////////////82jTVkd2x3bHdsd2x3bHdsd2x3bDVk9Yy+9/////////////////////////////////////////////////////////////////////////////////////+6xtNjd2x3bHdsd2x3bHdsd2x3bHdsd2zTW/it//////////////////////////////////////////////////////////////////////////////////9953R0NmR3bHdsd2x3bHdsd2x3bHdsd2x3bHds01s6vv////////////////////////////////////////////////////////////////////////////++97V8NWR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2ZDNk/Nb///////////////////////////////////////////////////////////////////////++93ad1Ft3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsdmQzZDq+//////////////////////////////////////////////////////////////////997/WE1Ft3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZk01u4rb73///////////////////////////////////////////////////////////81rR8NFx3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNNb9YQ83//////////////////////////////////////////////////////4tTNkNWR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w1ZJJTdpX81v/3/////////////////////////////////////37vObYzbNRbd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w0XDRs9Yz5tX3n//////////////////////////+7znedtXzUWzZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2ZDRkM2R0dHeVuKV6vnrGesY5tredNo0zZDRkNWR2bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZkNWQ1XNRb1FvUWzRcNWQ2ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNRbk1uTW5Nbk1vUW3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNRjk1sPS8xKiEoFQgQ6x1oHYwdjB2MHYwdjBUIEOohKy0oPS5JT1Ft2bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNWQQS0s6CVsofOqc673t3u//7//v/+//7//v/+//7//v/+//LedsziqlKIRJY0s6z0LUW3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bDZkD0sHOimELMYu5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/27vbM6qlAc6zUI1ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w2ZM9Kh0oohG7v7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//r/fplMdSzUI1ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2zUW8kxKHzt3u//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LueplElCklN3bHdsd2x3bHdsd2x3bHdsd2xSU8U5xVot5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//bM7HWhBLd2x3bHdsd2x3bHdsd2xRU4dS673Hey7n7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/27vCFsPS3dsd2x3bHdsd2zUW4dKbM7t3sd7Lufv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//t3sdaUlN3bHdsd2x3bEpCK8bv/+3ex3su5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7d4HOjZkd2x3bFFTB2Pv/+//7d7Hey7n7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/ymEzkJ3bHdsCzJszu//7//t3sd7Lufv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7d6KQjVkNWSKSi7n7//v/+3ex3su5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/9u70lj1FvUW0ljbu/v/+//7d7Hey7n7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/6/3KXySU9NbiWtu7+//7//t3sd7Lufv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/8ohFJT1WMJWy7n7//v/+3ex3su5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/+u94lzk1t3bEo6bM7v/+//7d7Hey7n7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+3eikI1ZHdsEEvIe+//7//t3sd7Lufv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//6pxMOndsd2x2ZElCrNbv/+3ex3su5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//bu8GQjVkd2x3bHdsk1uGSqzW7d7Hey7n7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LufHWhFLd2x3bHdsd2x3bBBLx1orxsd7Lufv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//bu9Ia85Cd2x3bHdsd2x3bHdsd2xRUwVCBmMt5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7d4HYw9Ldmx3bHdsd2x3bHdsd2x3bHdsklPHKWiELefv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/27v6pxIQlFLd2x3bHdsd2x3bHdsd2x3bHdsd2x3bDVkzULHUiql7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+u9BluMQtRbd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNVjjEJHQqmUbM4u5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/27vrdZqpchSSjrTW3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNRjzkKLQkljyHvpnGzOrvfv/+//7//v/+//7//v/+//7//v/+//rNYqpch7SWuKQo1Ck1t3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZs1GOTWw9LykpGQgQ6xlJHY4hrqYyplMh7B2PHWgVCBUKKSg5LklPUWzZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w2ZNRbk1MQSxBLklPTWzVkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHds1FvKKYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYghiCGIIYkp1FuSU48Z3CodMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdMx0zHTMdM90qkBlSU5JT0CEeMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzPRGVJTklPQIR4zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfM9EZUlOSU9AhHjMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8z0RlSU5JT0CEeMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzPRGVJTklPQIR4zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfM9EZUlOSU9AhHjMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8z0RlSU5JT0CEeMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzPRGVJTklPQIR4zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfM9EZUlOSU9AhHjMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8z0RlSU5JT0CEeMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzPRGVJTklPQIR4zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfM9EZUlOSU9AhHjMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8z0RlSU5JT0CEeMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzPRGVJTklPQIR4zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfM9EZUlOSU9AhHjMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8z0RlSU5JT0CEeMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzPRGVJTklPQIR4zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfM9EZUlOSU9AhHjMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8z0RlSU5JT0CEeMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzPRGVJTklPQIR4zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfM9EZUlOSU9AhHjMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8z0RlSU5JT0CEeMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzPRGVJTklPQIR4zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfM9EZUlOSU9AhHjMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8zHzMfMx8z0RlSU5NTjRlXIlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCpYKlgqWCJNGVJTNWRNOgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMgwyDDIMMk061Vt3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w1ZFFTk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5NbUlNSUzZkd2x3bHdsd2x3bHds01tJQoZSB2MHYwdjB2MHYwdjB2MHYwdjB2MHYwdjB2MHYwdjB2MHYwdjB2MHYwdjB2MHYwdjB2MHYwdjB2MHYwdjB2MHYwdjB2MHY0djRkqLQjVkd2x3bHds1FtIQuu97//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/+u9yqlSjp2ZHdsd2xLOmut7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/8phM9Kd2zUY8lSLufv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+3eSjp3bJNbyXOu9+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LeeKQjZkklvJe6/37//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/8t50pCNmSSW8l7r/fv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/y3nSkI2ZJJbyXuv9+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LedKQjZkklvJe6/37//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/8t50pCNmSSW8l7r/fv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/y3nSkI2ZJJbyXuv9+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LedKQjZkklvJe6/37//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/8t50pCNmSSW8l7r/fv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/y3nSkI2ZJJbyXuv9+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LedKQjZkklvJe6/37//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/8t50pCNmSSW8l7r/fv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/y3nSkI2ZJJbyXuv9+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LedKQjZkklvJe6/37//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/8t50pCNmSSW8l7r/fv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/y3nSkI2ZJJbyXuv9+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LedKQjZkklvJe6/37//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/8t50pCNmSTW4hzrvfv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/y3nSkI2ZNRjyVIu5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7d4KMndsd2xLOqu17//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/9pjM5Cd2x3bNRbh0osxu//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//rvcqpUo6dmR3bHdsd2yTW0lCx1rpnOu9LMYsxizGLMYsxizGLMYsxizGLMYsxizGLMYsxizGLMYsxizGLMYsxizGLMYsxizGLMYsxizGLMYsxizGLMYsxqu1KYSGUotC1WN3bHdsd2x3bHdsd2zUY406SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzoPSzVkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w1ZFFTk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5Nbk1uTW5NbUlNSUzZkd2x3bHdsd2x3bHds01tIQoJSAWMCYwJjAmMCYwJjAmMCYwJjAmMCYwJjAmMCYwJjAmMCYwJjAmMCYwJjAmMCYwJjAmMCYwJjAmMCYwJjAmMCYwJjAmMCY0JjQkqKQjVkd2x3bHds1FtFQuC94P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P+g9yClSDp2ZHdsd2xLOmCt4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P8hhM5Kd2zUY8ZSIOfg/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+DeSjp3bJJbwnOg9+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/IOeJQjZkklvCe6D34P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P8g50hCNmSSW8J7oPfg/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/yDnSEI2ZJJbwnug9+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/IOdIQjZkklvCe6D34P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P8g50hCNmSSW8J7oPfg/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/yDnSEI2ZJJbwnug9+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/IOdIQjZkklvCe6D34P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P8g50hCNmSSW8J7oPfg/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/yDnSEI2ZJJbwnug9+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/IOdIQjZkklvCe6D34P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P8g50hCNmSSW8J7oPfg/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/yDnSEI2ZJJbwnug9+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/IOdIQjZkklvCe6D34P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P8g50hCNmSSW8J7oPfg/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/yDnSEI2ZJJbwnug9+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/IOdIQjZkklvCe6D34P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P8g50hCNmSSW4JzoPfg/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/yDnSEI2ZNRjxlIg5+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4N4JMndsd2xLOqC14P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P9hjM5Cd2x3bNRbhEogxuD/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/4P/g/+D/oPcgpUg6dmR3bHdsd2yTW0dCwlrgnOC9IMYgxiDGIMYgxiDGIMYgxiDGIMYgxiDGIMYgxiDGIMYgxiDGIMYgxiDGIMYgxiDGIMYgxiDGIMYgxiDGIMYgxqC1IYSCUopC1WN3bHdsd2x3bHdsd2zUY4w6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzpLOks6SzoPSzVkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNRbk1uTW5Nbk1vUW3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNRjk1sPS8xKiEoFQgQ6x1oHYwdjB2MHYwdjBUIEOohKy0oPS5JT1Ft2bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsNWQQS0s6CVsofOqc673t3u//7//v/+//7//v/+//7//v/+//LedsziqlKIRJY0s6z0LUW3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bDZkD0sHOimELMYu5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/27vbM6qlAc6zUI1ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w2ZM9Kh0oohG7v7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//r/fplMdSzUI1ZHdsd2x3bHdsd2x3bHdsd2x3bHdsd2zUW0o6KITt3u//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LueplElCklN3bHdsd2x3bHdsd2x3bHdsd2xSU4ZK672v9+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//bM7HWhBLd2x3bHdsd2x3bHdsd2xRU4dS7d7v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/27vCFsPS3dsd2x3bHdsd2zUW4dKbM7v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//t3sdaUlN3bHdsd2x3bEpCK8bv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7d4HOjZkd2x3bFFTB2Pv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/ymEzkJ3bHdsCzJszu//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7d6KQjVkNWSKSi7n7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/9u70lj1FvUW0ljbu/v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/6/3KXySU9NbiWtu7+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/8ohFJT1WMJWy7n7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7/+u94lzk1t3bEo6bM7v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+3eikI1ZHdsEEvIe+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//6pxMOndsd2x2ZElCrNbv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//bu8GQjVkd2x3bHdsk1uGSqzW7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//LufHWhFLd2x3bHdsd2x3bBBLx1ot5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//bu9Ia85Cd2x3bHdsd2x3bHdsd2xRU8dSbM7v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7d4HYw9Ldmx3bHdsd2x3bHdsd2x3bHdsk1tJOmmMLefv/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/27v6pxIQlFLd2x3bHdsd2x3bHdsd2x3bHdsd2x3bDVkzULHUiql7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+u9BluMQtRbd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNVjjEJHQqmUbM4u5+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//v/27vrdZqpchSSjrTW3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bNRjzkKLQkljyHvpnGzOrvfv/+//7//v/+//7//v/+//7//v/+//rNYqpch7SWuKQo1Ck1t3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHZs1GOTWw9LykpGQgQ6xlJHY4hrqYyplMh7B2PHWgVCBUKKSg5LklPUWzZkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w2ZNRbk1MQSxBLklPTWzVkd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHd8M8wx3DHcMdwx3DHcMdwx3DHcMdwx3DHcMdwx3DHcMdwx3DHcMdwx3DHcMdwx3DHcMdwx3DHcMdwx3DHcMdwx3DHcMtR2hHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x0rDD8df04/jj+OP44/jj+OP44/jj+OP44/jj+OP44/jj+OP44/jj+OP44/jj+OP44/jj+OP44/jj+OP44/jj+OP7z/DPEd3R3bHdsd2x3bHdsd2x3bHdsd2x3bHd8MtR1/f///////////////////////////////////////////////////////////////////////////////zz/cfR0pHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2jDHsuv7///////////////////////////////////////////////////////////////////////////////84/jHsdoR3bHdsd2x3bHdsd2x3bHdsd2x3bHdsdKzz/H3//////////////////////////////////////////////////////////////////////////////77/NP0yzHd0d2x3bHdsd2x3bHdsd2x3bHdsd2x3dDLUdf2+//////////////////////////////////////////////////////////////////////////////88/3L0dKx3bHdsd2x3bHdsd2x3bHdsd2x3bHdsdowx7Hn+////////////////////////////////////////////////////////////////////////////////OP4x5HaMd2x3bHdsd2x3bHdsd2x3bHdsd2x3dHS0svx9//////////////////////////////////////////////////////////////////////////////++/zT9Msx3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd3Qy1HX9vv//////////////////////////////////////////////////////////////////////////////PP+y/HSsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHaMcfR5/v///////////////////////////////////////////////////////////////////////////////zj+MeR2jHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x0rHL8ff////////////////////////////////////////////////////////////////////////////////80/TLMd3R3bHdsd2x3bHdsd2x3bHdsd2x3bHd8Msx1/b7//////////////////////////////////////////////////////////////////////////////zz/svx0rHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x2jHH0ef7///////////////////////////////////////////////////////////////////////////////84/jHkdoR3bHdsd2x3bHdsd2x3bHdsd2x3bHaEMfQ4/v///////////////////////////////////////////////////////////////////////////////3n+cex2jHdsd2x3bHdsd2x3bHdsd2x3bHd0M8Q0/b7//////////////////////////////////////////////////////////////////////////////zz/svx0rHdsd2x3bHdsd2x3bHdsd2x3bHdsdKRx9Dz/////////////////////////////////////////////////////////////////////////////////df0y1Hd8d2x3bHdsd2x3bHdsd2x3bHdsdoRx7Dj+////////////////////////////////////////////////////////////////////////////////ef4x7HWMd2x3bHdsd2x3bHdsd2x3bHdsd3QzzDT9vv//////////////////////////////////////////////////////////////////////////////PP+y/DS0d2x3bHdsd2x3bHdsd2x3bHdsd2x0rHL0PP//////////////////////////////////////////////////////////////////////////////vv91/TLUd3R3bHdsd2x3bHdsd2x3bHdsd2x2jDHkOP7///////////////////////////////////////////////////////////////////////////////95/jHsdox3bHdsd2x3bHdsd2x3bHdsd2x3bDLMNf2+//////////////////////////////////////////////////////////////////////////////99/7L8dKx3bHdsd2x3bHdsd2x3bHdsd2x3bHSksvw8//////////////////////////////////////////////////////////////////////////////++/zT9Msx3dHdsd2x3bHdsd2x3bHdsd2x3bHaMMeR5/v///////////////////////////////////////////////////////////////////////////////3n+MfR2jHdsd2x3bHdsd2x3bHdsd2x3bHd0Msx1/f///////////////////////////////////////////////////////////////////////////////zz/cfx0rHdsd2x3bHdsd2x3bHdsd2x3bHdsdKQw/Lb9ef55/nn+ef55/nn+ef55/nn+ef55/nn+ef55/nn+ef55/nn+ef55/nn+ef55/nn+ef55/nn+ef55/nn+NP0yzHd0d2x3bHdsd2x3bHdsd2x3bHdsd3QzxDLcctxy3HLcctxy3HLcctxy3HLcctxy3HLcctxy3HLcctxy3HLcctxy3HLcctxy3HLcctxy3HLcctxy3HLcctwy1HaEd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;Qk3KEAAAAAAAAEIAAAAoAAAALgAAAC4AAAABABAAAwAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAPgAAOAHAAAfAAAAd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP893bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bD/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/z3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/Pd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP893bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bD/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/z3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/Pd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP893bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bD/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/z3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2wIQghCd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bAhCCEJ3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsCEIIQndsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2wIQghCd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bAhCCEJ3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsCEIIQndsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2wIQghCCEIIQghCCEIIQghCCEIIQghCCEIIQghCCEIIQghCCEIIQghCCEIIQghCCEIIQghCd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bAhCCEIIQghCCEIIQghCCEIIQghCCEIIQghCCEIIQghCCEIIQghCCEIIQghCCEIIQghCCEJ3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsCEIIQndsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2wIQghCd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bAhCCEJ3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsCEIIQndsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2wIQghCd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bAhCCEJ3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsCEIIQndsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP893bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bD/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/z3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/Pd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP893bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bD/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/z3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/Pd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w/zz/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP893bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bD/PP88/zz/PP88/zz/PP88/zz/PP88/zz/PP88/z3dsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2x3bHdsd2w=;</imagelist>
+    <items>
+        <item>
+            <name>事件</name>
+            <prompt>事件</prompt>
+            <shape type="shape" lpinx="width*0.5" lpiny="height*0.5" gpinx="296.441" gpiny="280.224" width="100" height="60" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10011">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="variabley1" y="height*1" joint-type="0" />
+                    <line-to x="width-variabley1" y="height*1" joint-type="0" />
+                    <line-to x="width" y="height*0.5" joint-type="0" />
+                    <line-to x="width-variabley1" y="height*0" joint-type="0" />
+                    <line-to x="variabley1" y="height*0" joint-type="0" />
+                    <line-to x="width*0" y="height*0.5" joint-type="0" />
+                    <line-to x="geometry1x1" y="geometry1y1" joint-type="0" />
+                </path>
+                <style id="10016">
+                    <fill type="solid-color" color="#FF807D" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#000000" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="5">0</marker-start>
+                    <marker-end size="5">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <control-list />
+                <variable-list>
+                    <variable x="20" y="min(width/4,variablex1)" a="0" b="0" />
+                </variable-list>
+                <anchor-list>
+                    <anchor x="width-variabley1" y="height*0" />
+                    <anchor x="variabley1" y="height*0" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width-variabley1" y="height*1" />
+                    <anchor x="variabley1" y="height*1" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <property-sheet />
+                <text rtf="" gpinx="parent.width*0.5" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1,parent.height*0)" height="hyp(parent.width*0,parent.height*1)" angle="0" protection="0" misc="0" id="10015" />
+            </shape>
+        </item>
+        <item>
+            <name>职能</name>
+            <prompt>职能</prompt>
+            <shape type="shape" gpinx="407" gpiny="462" lpinx="width*0.5" lpiny="height*0.5" width="100" height="60" angle="0" protection="67584" misc="0" flipx="false" flipy="false" id="10023">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="=width-variabley1" y="=height" joint-type="0" />
+                    <curve-to x="=width" y="=height-variabley1" a="=width-variablea1" b="=height" c="=width" d="=height-variablea1" joint-type="0" />
+                    <line-to x="=width" y="=variabley1" joint-type="0" />
+                    <curve-to x="=width-variabley1" y="=0" a="=width" b="=variablea1" c="=width-variablea1" d="=0" joint-type="0" />
+                    <line-to x="=variabley1" y="=0" joint-type="0" />
+                    <curve-to x="=0" y="=variabley1" a="=variablea1" b="=0" c="=0" d="=variablea1" joint-type="0" />
+                    <line-to x="=0" y="=height-variabley1" joint-type="0" />
+                    <curve-to x="=variabley1" y="=height" a="=0" b="=height-variablea1" c="=variablea1" d="=height" joint-type="0" />
+                    <line-to x="=geometry1x1" y="=geometry1y1" joint-type="0" />
+                </path>
+                <control-list>
+                    <control x="width*0.12" y="=height" anx="width*0.12" any="=height" flag="0" visible="1" comment="Shape Control" connectID="0" connectAnchor="-1" />
+                </control-list>
+                <style id="10011">
+                    <fill type="solid-color" color="#7DFF7D" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#000000" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="5">0</marker-start>
+                    <marker-end size="5">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <variable-list>
+                    <variable x="if(controlx1&lt;0)0; else controlx1;" y="min(min(width/2,height/2),max(variablex1,0))" a="variabley1*0.4477" b="0" />
+                </variable-list>
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <events eventdrop="0" />
+                <miscellaneous hidetext="0" invisible="0" />
+                <property-sheet />
+                <text rtf="" gpinx="parent.width*0.5" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1,parent.height*0)" height="hyp(parent.width*0,parent.height*1)" angle="0" protection="0" misc="0" id="10026" />
+            </shape>
+        </item>
+        <item>
+            <name>流程路径</name>
+            <prompt>流程路径</prompt>
+            <g type="g" gpinx="490" gpiny="179" lpinx="width*0.5" lpiny="height*0.5" width="102" height="70" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10183">
+                <control-list />
+                <style id="10192">
+                    <fill type="solid-color" color="#FFFFFF" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#3C5C74" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="4">0</marker-start>
+                    <marker-end size="4">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1.00699" y="height*0.548429" />
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                </anchor-list>
+                <action-list />
+                <property-sheet />
+                <shape type="shape" gpinx="parent.width*0.514127" gpiny="parent.height*0.571357" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.980392,parent.height*0)" height="hyp(parent.width*0,parent.height*0.857143)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10185">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="variabley1" y="height*1" joint-type="0" />
+                        <line-to x="width-variabley1" y="height*1" joint-type="0" />
+                        <line-to x="width" y="height*0.5" joint-type="0" />
+                        <line-to x="width-variabley1" y="height*0" joint-type="0" />
+                        <line-to x="variabley1" y="height*0" joint-type="0" />
+                        <line-to x="width*0" y="height*0.5" joint-type="0" />
+                        <line-to x="geometry1x1" y="geometry1y1" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <style id="10192">
+                        <fill type="solid-color" color="#FFFFFF" opcity="1" />
+                        <fill-rule>nonzero</fill-rule>
+                        <stroke type="solid-color" color="#3C5C74" opcity="1" />
+                        <stroke-width>1</stroke-width>
+                        <stroke-linecap>butt</stroke-linecap>
+                        <stroke-linejoin>miter</stroke-linejoin>
+                        <stroke-miterlimit>4</stroke-miterlimit>
+                        <stroke-dash>1</stroke-dash>
+                        <stroke-dashoffset>0</stroke-dashoffset>
+                        <marker-start size="4">0</marker-start>
+                        <marker-end size="4">0</marker-end>
+                        <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                    </style>
+                    <variable-list>
+                        <variable x="20" y="min(width/4,variablex1)" a="0" b="0" />
+                    </variable-list>
+                    <anchor-list />
+                    <action-list />
+                    <property-sheet />
+                </shape>
+                <shape type="shape" gpinx="parent.width*0.400185" gpiny="parent.height*0.433943" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.793421,parent.height*0)" height="hyp(parent.width*0,parent.height*0.857143)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10187">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width" y="height" joint-type="0" />
+                        <line-to x="width*1" y="height*0" joint-type="0" />
+                        <line-to x="width*0" y="height*0" joint-type="0" />
+                        <line-to x="width*0" y="height*1" joint-type="0" />
+                        <line-to x="width*1" y="height*1" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <style id="10192">
+                        <fill type="solid-color" color="#FFFFFF" opcity="1" />
+                        <fill-rule>nonzero</fill-rule>
+                        <stroke type="solid-color" color="#3C5C74" opcity="1" />
+                        <stroke-width>1</stroke-width>
+                        <stroke-linecap>butt</stroke-linecap>
+                        <stroke-linejoin>miter</stroke-linejoin>
+                        <stroke-miterlimit>4</stroke-miterlimit>
+                        <stroke-dash>1</stroke-dash>
+                        <stroke-dashoffset>0</stroke-dashoffset>
+                        <marker-start size="4">0</marker-start>
+                        <marker-end size="4">0</marker-end>
+                        <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                    </style>
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <property-sheet />
+                </shape>
+                <text rtf="" gpinx="parent.width*0.5" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1,parent.height*0)" height="hyp(parent.width*0,parent.height*1)" angle="0" protection="0" misc="0" id="10189" />
+            </g>
+        </item>
+        <item>
+            <name>XOR</name>
+            <prompt>XOR</prompt>
+            <shape type="ellipse" gpinx="362" gpiny="179" lpinx="width*0.5" lpiny="height*0.5" width="60" height="60" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10194">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="0" d="1" e="width*0.5" f="height*0.5" joint-type="0" />
+                    <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="0" d="1" e="width*0.5" f="height*0.5" joint-type="0" />
+                </path>
+                <control-list />
+                <style id="10192">
+                    <fill type="solid-color" color="#FFFFFF" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#3C5C74" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="4">0</marker-start>
+                    <marker-end size="4">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\lang2052\b\f0\fs24 XOR\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10196">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>700</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+        </item>
+        <item>
+            <name>OR</name>
+            <prompt>OR</prompt>
+            <shape type="ellipse" gpinx="490" gpiny="273" lpinx="width*0.5" lpiny="height*0.5" width="60" height="60" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10167">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="0" d="1" e="width*0.5" f="height*0.5" joint-type="0" />
+                    <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="0" d="1" e="width*0.5" f="height*0.5" joint-type="0" />
+                </path>
+                <control-list />
+                <style id="10192">
+                    <fill type="solid-color" color="#FFFFFF" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#3C5C74" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="4">0</marker-start>
+                    <marker-end size="4">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\lang2052\b\f0\fs24 V\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10199">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>700</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+        </item>
+        <item>
+            <name>AND</name>
+            <prompt>AND</prompt>
+            <shape type="ellipse" gpinx="362" gpiny="273" lpinx="width*0.5" lpiny="height*0.5" width="60" height="60" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10171">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="0" d="1" e="width*0.5" f="height*0.5" joint-type="0" />
+                    <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="0" d="1" e="width*0.5" f="height*0.5" joint-type="0" />
+                </path>
+                <control-list />
+                <style id="10192">
+                    <fill type="solid-color" color="#FFFFFF" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#3C5C74" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="4">0</marker-start>
+                    <marker-end size="4">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 \&apos;cb\&apos;ce\&apos;cc\&apos;e5;}}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\lang2052\b\f0\fs24 V\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.583354" gpiny="parent.height*0.500341" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999957,parent.height*1.50989e-007)" height="hyp(parent.width*1.511e-007,parent.height*1.00069)" angle="180" protection="0" misc="0" id="10173">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>700</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+        </item>
+        <item>
+            <name>组织单元</name>
+            <prompt>组织单元</prompt>
+            <shape type="ellipse" lpinx="width*0.5" lpiny="height*0.5" gpinx="492.059" gpiny="87" width="100" height="60" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10046">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <arc-to x="width*1" y="height*0.5" a="width*0.5" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    <arc-to x="width*0" y="height*0.5" a="width*0.5" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                </path>
+                <path nofill="true" noline="false" path-closed="false" noshow="false">
+                    <move-to x="width*0.125" y="height*0.1726" joint-type="0" />
+                    <line-to x="width*0.125" y="height*0.8281" joint-type="0" />
+                </path>
+                <style id="10050">
+                    <fill type="solid-color" color="#FFFF7D" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#000000" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="5">0</marker-start>
+                    <marker-end size="5">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <property-sheet />
+                <text rtf="" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10048" />
+            </shape>
+        </item>
+        <item>
+            <name>信息/材料</name>
+            <prompt>信息/材料</prompt>
+            <shape type="shape" lpinx="width*0.5" lpiny="height*0.5" gpinx="707.059" gpiny="108" width="100" height="60" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10052">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width" y="height" joint-type="0" />
+                    <line-to x="width*1" y="height*0" joint-type="0" />
+                    <line-to x="width*0" y="height*0" joint-type="0" />
+                    <line-to x="width*0" y="height*1" joint-type="0" />
+                    <line-to x="width*1" y="height*1" joint-type="0" />
+                </path>
+                <style id="10055">
+                    <fill type="solid-color" color="#3366FF" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#000000" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="5">0</marker-start>
+                    <marker-end size="5">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <property-sheet />
+                <text rtf="" gpinx="parent.width*0.5" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1,parent.height*0)" height="hyp(parent.width*0,parent.height*1)" angle="0" protection="0" misc="0" id="10054" />
+            </shape>
+        </item>
+        <item>
+            <name>主流程</name>
+            <prompt>主流程</prompt>
+            <shape type="shape" gpinx="407" gpiny="462" lpinx="width*0.5" lpiny="height*0.5" width="100" height="60" angle="0" protection="67584" misc="0" flipx="false" flipy="false" id="10023">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="=width-variabley1" y="=height" joint-type="0" />
+                    <curve-to x="=width" y="=height-variabley1" a="=width-variablea1" b="=height" c="=width" d="=height-variablea1" joint-type="0" />
+                    <line-to x="=width" y="=variabley1" joint-type="0" />
+                    <curve-to x="=width-variabley1" y="=0" a="=width" b="=variablea1" c="=width-variablea1" d="=0" joint-type="0" />
+                    <line-to x="=variabley1" y="=0" joint-type="0" />
+                    <curve-to x="=0" y="=variabley1" a="=variablea1" b="=0" c="=0" d="=variablea1" joint-type="0" />
+                    <line-to x="=0" y="=height-variabley1" joint-type="0" />
+                    <curve-to x="=variabley1" y="=height" a="=0" b="=height-variablea1" c="=variablea1" d="=height" joint-type="0" />
+                    <line-to x="=geometry1x1" y="=geometry1y1" joint-type="0" />
+                </path>
+                <control-list>
+                    <control x="width*0.12" y="=height" anx="width*0.12" any="=height" flag="0" visible="1" comment="Shape Control" connectID="0" connectAnchor="-1" />
+                </control-list>
+                <style id="10014">
+                    <fill type="solid-color" color="#FFFF7D" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#000000" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="5">0</marker-start>
+                    <marker-end size="5">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <variable-list>
+                    <variable x="if(controlx1&lt;0)0; else controlx1;" y="min(min(width/2,height/2),max(variablex1,0))" a="variabley1*0.4477" b="0" />
+                </variable-list>
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <events eventdrop="0" />
+                <miscellaneous hidetext="0" invisible="0" />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 Arial;}}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\lang2052\f0\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.5" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1,parent.height*0)" height="hyp(parent.width*0,parent.height*1)" angle="0" protection="0" misc="0" id="10026">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>10</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+        </item>
+        <item>
+            <name>组件</name>
+            <prompt>组件</prompt>
+            <shape type="shape" gpinx="407" gpiny="462" lpinx="width*0.5" lpiny="height*0.5" width="100" height="60" angle="0" protection="67584" misc="0" flipx="false" flipy="false" id="10023">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="=width-variabley1" y="=height" joint-type="0" />
+                    <curve-to x="=width" y="=height-variabley1" a="=width-variablea1" b="=height" c="=width" d="=height-variablea1" joint-type="0" />
+                    <line-to x="=width" y="=variabley1" joint-type="0" />
+                    <curve-to x="=width-variabley1" y="=0" a="=width" b="=variablea1" c="=width-variablea1" d="=0" joint-type="0" />
+                    <line-to x="=variabley1" y="=0" joint-type="0" />
+                    <curve-to x="=0" y="=variabley1" a="=variablea1" b="=0" c="=0" d="=variablea1" joint-type="0" />
+                    <line-to x="=0" y="=height-variabley1" joint-type="0" />
+                    <curve-to x="=variabley1" y="=height" a="=0" b="=height-variablea1" c="=variablea1" d="=height" joint-type="0" />
+                    <line-to x="=geometry1x1" y="=geometry1y1" joint-type="0" />
+                </path>
+                <control-list>
+                    <control x="width*0.12" y="=height" anx="width*0.12" any="=height" flag="0" visible="1" comment="Shape Control" connectID="0" connectAnchor="-1" />
+                </control-list>
+                <style id="10018">
+                    <fill type="solid-color" color="#FFFF00" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#000000" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="5">0</marker-start>
+                    <marker-end size="5">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <variable-list>
+                    <variable x="if(controlx1&lt;0)0; else controlx1;" y="min(min(width/2,height/2),max(variablex1,0))" a="variabley1*0.4477" b="0" />
+                </variable-list>
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <events eventdrop="0" />
+                <miscellaneous hidetext="0" invisible="0" />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset134 Arial;}}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\lang2052\f0\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.5" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1,parent.height*0)" height="hyp(parent.width*0,parent.height*1)" angle="0" protection="0" misc="0" id="10026">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>10</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+        </item>
+        <item>
+            <name>企业区域</name>
+            <prompt>企业区域</prompt>
+            <shape type="ellipse" lpinx="width*0.5" lpiny="height*0.5" gpinx="313.059" gpiny="303" width="100" height="60" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10058">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <arc-to x="width*1" y="height*0.5" a="width*0.500006" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                    <arc-to x="width*0" y="height*0.5" a="width*0.500006" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.500006" f="height*0.5" joint-type="0" />
+                </path>
+                <style id="10050">
+                    <fill type="solid-color" color="#FFFF7D" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#000000" opcity="1" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="5">0</marker-start>
+                    <marker-end size="5">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <property-sheet />
+                <text rtf="" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10060" />
+            </shape>
+        </item>
+        <item>
+            <name>流程组</name>
+            <prompt>流程组</prompt>
+            <shape type="shape" lpinx="width*0.5" lpiny="height*0.5" gpinx="193.059" gpiny="552" width="100" height="60" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10069">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*1" joint-type="0" />
+                    <line-to x="width-variabley1" y="height*1" joint-type="0" />
+                    <line-to x="width" y="height*0.5" joint-type="0" />
+                    <line-to x="width-variabley1" y="height*0" joint-type="0" />
+                    <line-to x="width*0" y="height*0" joint-type="0" />
+                    <line-to x="variabley1" y="height*0.5" joint-type="0" />
+                    <line-to x="geometry1x1" y="geometry1y1" joint-type="0" />
+                </path>
+                <style id="10071">
+                    <fill type="solid-color" color="#FFFFFF" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke type="solid-color" color="#FF8080" opcity="1" />
+                    <stroke-width>3</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="5">0</marker-start>
+                    <marker-end size="5">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <control-list />
+                <variable-list>
+                    <variable x="20" y="min(width/4,variablex1)" a="0" b="0" />
+                </variable-list>
+                <anchor-list>
+                    <anchor x="width-variabley1" y="height*0" />
+                    <anchor x="width*0" y="height*0" />
+                    <anchor x="variabley1" y="height*0.5" />
+                    <anchor x="width-variabley1" y="height*1" />
+                    <anchor x="width*0" y="height*1" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <property-sheet />
+                <text rtf="" gpinx="parent.width*0.5" gpiny="parent.height*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1,parent.height*0)" height="hyp(parent.width*0,parent.height*1)" angle="0" protection="0" misc="0" id="10073" />
+            </shape>
+        </item>
+        <item>
+            <name>动态连接线</name>
+            <prompt>动态连接线</prompt>
+            <shape type="connectline" beginx="387" beginy="212" endx="479" endy="312" con-beginid="0" con-beginanchor="-1" con-endid="0" con-endanchor="-1" class="-1" gpinx="(beginx+endx)*0.5" gpiny="(beginy+endy)*0.5" lpinx="width*0.5" lpiny="height*0.5" width="endx-beginx" height="endy-beginy" angle="0" protection="0" misc="16" flipx="false" flipy="false" id="10014">
+                <shapelayout jumpstyle="0" fixcode="0" jumpcode="-842150451" jumpdirx="0" jumpdiry="0" conlinetype="2" />
+                <path nofill="true" noline="false" path-closed="false" noshow="false">
+                    <move-to x="0" y="0" joint-type="0" />
+                    <line-to x="0" y="100" joint-type="0" />
+                    <line-to x="92" y="100" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <events eventdrop="0" />
+                <miscellaneous hidetext="0" invisible="0" />
+                <property-sheet />
+                <text rtf="" gpinx="0" gpiny="18" lpinx="width*0.5" lpiny="height*0.5" width="60" height="20" angle="0" protection="0" misc="268435456" id="10015" />
+                <text rtf="" gpinx="0" gpiny="96" lpinx="width*0.5" lpiny="height*0.5" width="60" height="20" angle="0" protection="0" misc="536870912" id="10016" />
+                <text rtf="" gpinx="60" gpiny="100" lpinx="width*0.5" lpiny="height*0.5" width="60" height="20" angle="0" protection="0" misc="1073741824" id="10017" />
+            </shape>
+        </item>
+    </items>
+</template>

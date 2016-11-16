@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Galleries version = "1.0" >
+
+<Gallery name = "基本形状" version = "1.0" >
+<Templates name = "2D 框图" icon = "basicdraw\2d.bmp" description= "包含用于反馈循环图、功能分解图、层次图、数据结构图、数据流程图和数据框图的二维几何形状和方向线">
+<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+<Template path = "\library\BasicShape\basicshapes.edt" name = "基本绘图形状"></Template>
+</Templates>
+<Templates name = "3D 框图" icon = "basicdraw\3d.bmp" description= "包含用于反馈循环图、功能分解图、层次图、数据结构图、数据流程图和数据框图的三维几何形状和方向线">
+<Template path = "\library\BasicShape\3Dblock.edt" name = "3D 框图"></Template>
+</Templates>
+</Gallery>
+
+<Gallery name = "流程图" version = "1.0" >
+<Templates name = "审计流程图" icon = "flowchart\auditflow.bmp" description= "创建用于会计核算、财务管理、财政信息跟踪、资金管理、决策流程和财务库存的审计图。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Business process\auditflow.edt" name = "审计流程图形状"></Template>
+</Templates>
+
+<Templates name = "基本流程图" icon = "flowchart\basicflow.bmp" description= "创建流程图、顺序图、信息跟踪图、流程规划图和结构预测图。包括连接线和链接。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Flowchart\basicflow.edt" name = "基本流程图形状"></Template>			
+</Templates>
+
+<Templates name = "因果图 (鱼骨图)" icon = "flowchart\causeeffect.bmp" description= "创建一个因果图（也称为鱼骨图盒石川图），系统地评价可能影响或导致特定情况的因素。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Business process\causeeffect.edt" name = "因果图形状"></Template>
+</Templates>
+
+<Templates name = "水平跨职能流程图" icon = "flowchart\cross-h.bmp" description= "显示业务进程和组织或职能单位（如部门）之间的关系，后果负责实施该进程的步骤。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Flowchart\basicflow.edt" name = "基本流程图形状"></Template>	
+	<Template path = "\library\Flowchart\cross functional horizontal.edt" name = "水平跨职能图形状"></Template>
+</Templates>
+
+<Templates name = "垂直跨职能流程图" icon = "flowchart\cross-v.bmp" description= "显示业务进程和组织或职能单位（如部门）之间的关系，后果负责实施该进程的步骤。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Flowchart\basicflow.edt" name = "基本流程图形状"></Template>	
+	<Template path = "\library\Flowchart\cross functional vertical.edt" name = "垂直跨职能图形状"></Template>	
+</Templates>
+
+<Templates name = "数据流程图" icon = "flowchart\dataflow.bmp" description= "创建结构化分析图、信息流图表、面向进程的图表、面向数据的图表和数据进程图表以及数据流程图。">
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\Flowchart\dataflow.edt" name = "数据流程图形状"></Template>	
+</Templates>
+
+<Templates name = "工作流程图" icon = "flowchart\workflow.bmp" description= "创建用于信息流、业务进程自动化、业务进程重建、会计、管理和人力资源人物的图表 和展示６ Sigma 和 ISO 9000　进程。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\Business process\workflow.edt" name = "工作流程图形状"></Template>
+	<Template path = "\library\Flowchart\department.edt" name = "部门"></Template>
+	<Template path = "\library\Flowchart\work flow objects.edt" name = "工作流对象"></Template>
+	<Template path = "\library\Flowchart\work flow steps.edt" name = "工作流步骤"></Template>
+</Templates>
+
+<Templates name = "SDL 图" icon = "flowchart\sdl.bmp" description= "使用规划和说明语言（SDL）为通信和电信系统和网络创建面向对象的图表。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\Flowchart\sdlflow.edt" name = "SDL 图形状"></Template>	
+</Templates>
+</Gallery>
+
+<Gallery name = "网络图" version = "1.0" >
+<Templates name = "活动目录" icon = "network\activedirectory.bmp" description= "使用表示普通Active Directory对象、站点和服务的形状展示Active Directory服务。">
+  <Template path = "\library\network\Active Directory.edt" name = "活动目录"></Template>	
+	<Template path = "\library\network\Active Directory Objects.edt" name = "活动目录对象"></Template>	
+	<Template path = "\library\network\Exchange Objects.edt" name = "Exchange 对象"></Template>
+</Templates>
+
+<Templates name = "基本网络图" icon = "network\netbase.bmp" description= "使用基本网络形状和计算机设备形状，可以创建简单网络设计图和网络体系结构图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\network\Computers and Monitors.edt" name = "计算机和监视器"></Template>
+  <Template path = "\library\network\Servers.edt" name = "服务器"></Template>		
+	<Template path = "\library\network\Network and Peripherals.edt" name = "网络和外设"></Template>		
+</Templates>
+
+<Templates name = "Cisco 网络设计" icon = "network\netcisco.bmp" description= "使用Cisco网络形状和计算机设备形状，可以创建Cisco网络设计图和网络体系结构图。">
+  <Template path = "\library\network\Cisco-Buildings.edt" name = "Cisco 建筑符号"></Template>	
+	<Template path = "\library\network\Cisco-IBM-Products.edt" name = "Cisco IBM 产品"></Template>		
+	<Template path = "\library\network\Cisco-WAN.edt" name = "Cisco 广域网符号"></Template>	
+	<Template path = "\library\network\Cisco-Media.edt" name = "Cisco 多媒体符号"></Template>	
+	<Template path = "\library\network\Cisco-Misc.edt" name = "其它 Cisco 符号"></Template>	
+	<Template path = "\library\network\Cisco-People.edt" name = "Cisco 人物符号"></Template>	
+	<Template path = "\library\network\Cisco-LAN.edt" name = "Cisco 局域网符号"></Template>
+	<Template path = "\library\network\Cisco-Products.edt" name = "Cisco 产品"></Template>				
+</Templates>
+
+<Templates name = "详细网络图" icon = "network\netdetail.bmp" description= "使用一组复杂的网络和计算机设备形状，可以创建详细的物理、逻辑图和网络体系结构图。">
+  <Template path = "\library\network\Computers and Monitors.edt" name = "计算机和监视器"></Template>	
+  <Template path = "\library\network\Servers.edt" name = "服务器"></Template>	
+	<Template path = "\library\network\Network and Peripherals.edt" name = "网络和外设"></Template>	
+	<Template path = "\library\network\Network Locations.edt" name = "网络位置符号"></Template>
+	<Template path = "\library\network\Detailed Network Diagram.edt" name = "详细网络图符号"></Template>	
+</Templates>
+
+<Templates name = "LDAP" icon = "network\ldap.bmp" description= "使用表示普通LDAP（轻型目录访问协议）对象的形状创建目录服务文档。">
+  <Template path = "\library\network\LDAP Objects.edt" name = "LDAP 对象"></Template>
+</Templates>
+
+<Templates name = "逻辑网络图" icon = "network\netsymbol.bmp" description= "使用一组网络和计算机符号，创建逻辑网络图。">
+  <Template path = "\library\network\Computers and Monitors.edt" name = "计算机和监视器"></Template>
+  <Template path = "\library\network\Servers.edt" name = "服务器"></Template>	
+	<Template path = "\library\network\Network Symbols.edt" name = "网络符号"></Template>		
+</Templates>
+
+<Templates name = "网络位置图" icon = "network\netarea.bmp" description= "使用一组网络和计算机符号，创建网络位置图和网络分布图。">
+	<Template path = "\library\network\Computers and Monitors.edt" name = "计算机和监视器"></Template>
+	<Template path = "\library\network\Network Locations.edt" name = "网络位置符号"></Template>	
+</Templates>
+
+<Templates name = "网络俯视图" icon = "network\netplanform.bmp" description= "使用一组网络和计算机符号，创建网络俯视图。">
+	<Template path = "\library\network\Network Planform.edt" name = "网络俯视图符号"></Template>	
+</Templates>
+
+<Templates name = "物理网络图" icon = "network\netphysical.bmp" description= "使用一组网络和计算机实体符号，创建计算机网络图。">
+ 	<Template path = "\library\network\Network Physical Devices.edt" name = "物理网络图"></Template>	
+</Templates>
+</Gallery>
+
+<Gallery name = "组织结构图" version = "1.0" >
+<Templates name = "基本组织结构图" icon = "orgchart\orgbase.bmp" description= "创建用于人力资源管理、职业组织、办公室行政管理和管理结构的图表。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Orgchart\orgchart.edt" name = "组织结构图-框架"></Template>
+	<Template path = "\library\Orgchart\Card shapes.edt" name = "组织结构图-实体"></Template>
+</Templates>
+
+<Templates name = "自定义组织结构图" icon = "orgchart\orgcustom.bmp" description= "创建自定义的用于人力资源管理、职业组织、办公室行政管理和管理结构的图表。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Orgchart\custom shapes.edt" name = "组织结构图-自定义"></Template>		
+</Templates>
+
+<Templates name = "人物组织结构图" icon = "orgchart\orgpeople.bmp" description= "创建人物模型的用于人力资源管理、职业组织、办公室行政管理和管理结构的图表。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Orgchart\people shapes.edt" name = "组织结构图-人物"></Template>			
+</Templates>
+
+<Templates name = "相片组织结构图" icon = "orgchart\orgphoto.bmp" description= "创建带照片的用于人力资源管理、职业组织、办公室行政管理和管理结构的图表。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\Orgchart\orgchart.edt" name = "组织结构图-框架"></Template>
+	<Template path = "\library\Orgchart\Card shapes.edt" name = "组织结构图-实体"></Template>
+	<Template path = "\library\Orgchart\photo shapes.edt" name = "组织结构图-相片"></Template>			
+</Templates>
+</Gallery>
+
+<Gallery name = "建筑设计" version = "1.0" >
+<Template path = "\library\BasicShape\Dimensioning.edt" name = "标注"></Template>	
+<Templates name = "电气和电信规划" icon = "building\electrical.bmp" description= "创建电气和电信平面图的设计和建造,包括出口,开关和一些其他设备。">
+<Template path = "\library\Building Plans\ElectricalTelecom.edt" name = "电器和电信"></Template>
+</Templates>
+
+<Templates name = "楼房设计平面图" icon = "building\floorplan.bmp" description= "用于商业楼房设计,空间规划,建筑布局,施工文件,结构图和设施规划。">
+<Template path = "\library\BasicShape\basicshapes.edt" name = "基本绘图形状"></Template>
+<Template path = "\library\BasicShape\Dimensioning.edt" name = "标注"></Template>	
+<Template path = "\library\Building Plans\Building Core.edt" name = "建筑核心"></Template>
+<Template path = "\library\Building Plans\ElectricalTelecom.edt" name = "电器和电信"></Template>
+<Template path = "\library\Building Plans\WallShellStructure.edt" name = "墙壁，外壳和结构"></Template>
+</Templates>
+
+<Templates name = "家居规划平面图" icon = "building\homeplan.bmp" description= "用于厨房和卫生间设计,建筑设计和施工文件,空间规划,改造规划和增补。">
+<Template path = "\library\Building Plans\Appliances.edt" name = "家电"></Template>	
+<Template path = "\library\Building Plans\BathKitchen.edt" name = "厨房和卫生间"></Template>		
+<Template path = "\library\Building Plans\Building Core.edt" name = "建筑物核心"></Template>
+<Template path = "\library\Building Plans\Cabinets.edt" name = "柜子"></Template>
+<Template path = "\library\BasicShape\Dimensioning.edt" name = "标注"></Template>	
+<Template path = "\library\Building Plans\ElectricalTelecom.edt" name = "电器和电信"></Template>
+<Template path = "\library\Building Plans\Furniture.edt" name = "家具"></Template>
+<Template path = "\library\Building Plans\GardenAccessories.edt" name = "庭院附属设施"></Template>
+<Template path = "\library\Building Plans\WallShellStructure.edt" name = "墙壁，外壳和结构"></Template>
+</Templates>
+
+<Templates name = "办公室布局图" icon = "building\officelayout.bmp" description= "创建楼房设计图,平面设计图,设施蓝图管理,移动管理,办公用品清单管理,资产清单管理, 办公室空间规划。">
+<Template path = "\library\Building Plans\Cubicles.edt" name = "隔间"></Template>
+<Template path = "\library\BasicShape\Dimensioning.edt" name = "标注"></Template>	
+<Template path = "\library\Building Plans\OfficeAccessories.edt" name = "办公室附属设施"></Template>
+<Template path = "\library\Building Plans\OfficeEquipment.edt" name = "办公室设备"></Template>
+<Template path = "\library\Building Plans\OfficeFurniture.edt" name = "办公室家具"></Template>
+<Template path = "\library\Building Plans\Plants.edt" name = "植物"></Template>
+<Template path = "\library\Building Plans\WallDoorWindow.edt" name = "墙壁和门窗"></Template>
+</Templates>
+</Gallery>
+
+<Gallery name = "业务处理" version = "1.0" >
+<Templates name = "EPC图" icon = "business_diagrams\epc.bmp" description= "创建事件驱动的进程链（EPC）图表，以展示业务进程。展示SAP进程。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Business process\EPC.edt" name = "EPC图"></Template>
+</Templates>
+
+<Templates name = "故障树分析" icon = "business_diagrams\faulttree.bmp" description= "创建“故障树”图表以展示业务进程。展示 6 Sigma 和 ISO 9000 进程。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Business process\faulttree.edt" name = "故障树分析形状"></Template>
+</Templates>
+
+<Templates name = "IDEF0图表" icon = "business_diagrams\idef0.bmp" description= "使用 IDEF0 过程制图模型为模型配置管理、需求和收益分析、要求定义和持续改进模型创建分层图。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Flowchart\IDEF0.edt" name = "IDEF0图表形状"></Template>
+</Templates>
+
+<Templates name = "TQM图" icon = "business_diagrams\tqm.bmp" description= "为业务进程重建、全面质量管理 (TQM) 和持续改进创建因果、自上而下及跨职能的进程流程图。展示６ Sigma 和 ISO 9000　进程。">
+	<Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+	<Template path = "\library\Business process\TQM.edt" name = "TQM图形状"></Template>		
+</Templates>
+</Gallery>
+
+<Gallery name = "图表和图形" version = "1.0" >
+<Templates name = "营销图表" icon = "charts\market.bmp" description= "用于进程图、基准问题测试、模拟、路径路由、资源或“假设”分析、部署图表、目标、销售塔形分布、业务成本计算和任务管理。">
+	<Template path = "\library\Charts and Graphics\marketing diagrams.edt" name = "营销图表"></Template>
+	<Template path = "\library\Charts and Graphics\marketing shapes.edt" name = "营销图形状"></Template>
+</Templates>
+</Gallery>
+
+<Gallery name = "数据库图表" version = "1.0" >
+<Templates name = "Chen ERD" icon = "database\chenerd.bmp" description= "创建基于Chen ERD模型的实体关系图。">
+	<Template path = "\library\ERD and Database\Chen ERD.edt" name = "Chen ERD"></Template>	
+</Templates>
+
+<Templates name = "数据模型图" icon = "database\databasemodel.bmp" description= "展示、设计、生成和更新数据库。支持 IDEF1X 和关系表示法。 ">
+	<Template path = "\library\ERD and Database\Entity Relationship.edt" name = "实体关系形状"></Template>	
+	<Template path = "\library\ERD and Database\Object Relationship.edt" name = "对象关系形状"></Template>	
+</Templates>
+
+<Templates name = "Express-G" icon = "database\express-g.bmp" description= "使用 Express-G 表示法创建实体级别和架构级别图表以及产品数据模型。达到 STEP （产品模型数据交换标准）接口规范的要求。">
+	<Template path = "\library\ERD and Database\Express-G.edt" name = "Express-G"></Template>	
+</Templates>
+
+<Templates name = "Martin ERD" icon = "database\martinerd.bmp" description= "创建基于Martin ERD模型的实体关系图。">
+	<Template path = "\library\ERD and Database\Martin ERD.edt" name = "Martin ERD"></Template>	
+</Templates>
+
+<Templates name = "ORM 图" icon = "database\ormdiagram.bmp" description= "包含对象的形状、约束、连接线、谓词和关系。在面向对象的分析和设计中用于对象－关系模型和静态图表。">
+	<Template path = "\library\ERD and Database\ORM Diagram.edt" name = "ORM 图形状"></Template>	
+</Templates>
+</Gallery>
+
+<Gallery name = "灵感设计" version = "1.0" >
+<Templates name = "灵感触发图" icon = "mindmap\mind.bmp" description= "创建灵感触发图包括图解交涉的思维过程 ,集思广益,解决问题,理性分析,决策等标识。">
+  <Template path = "\library\Mind Map\classic symbols.edt" name = "符号形状"></Template>	
+	<Template path = "\library\Mind Map\mind shapes.edt" name = "灵感触发图形状"></Template>	
+</Templates>
+</Gallery>
+
+<Gallery name = "时装设计" version = "1.0" >
+<Templates name = "时装设计" icon = "fashion\fashion.bmp" description= "包含一些模特，时装，让你轻松设计自己的着装。">
+	<Template path = "\library\Dress design\Man suit.edt" name = "男士套装"></Template>				
+	<Template path = "\library\Dress design\Child dress.edt" name = "儿童装"></Template>	
+  <Template path = "\library\Dress design\Model.edt" name = "模特"></Template>
+	<Template path = "\library\Dress design\Female dress 1.edt" name = "女士套装1"></Template>
+	<Template path = "\library\Dress design\Female dress 2.edt" name = "女士套装2"></Template>
+</Templates>
+</Gallery>
+
+<Gallery name = "地图、方向图" version = "1.0" >
+<Templates name = "方向图" icon = "maps\directional-map.bmp" description= "包括运输和公共交通形状，例如高速公路、园道、交叉路口、道路和街道标志、线路、铁路轨道、交通终点站、河流和建筑物。">
+	<Template path = "\library\Maps\Landmarks.edt" name = "娱乐形状"></Template>
+	<Template path = "\library\Maps\Metro and train.edt" name = "地铁形状"></Template>
+	<Template path = "\library\Maps\Road shapes.edt" name = "道路形状"></Template>
+	<Template path = "\library\Maps\Road signs.edt" name = "路标形状"></Template>
+	<Template path = "\library\Maps\Vehicle.edt" name = "交通形状"></Template>
+</Templates>
+
+<Templates name = "方向图 3D" icon = "maps\3dmap.bmp" description= "包括运输图形，例如道路、机动车、交叉路口和标志建筑物。">
+	<Template path = "\library\Maps\3D directional maps.edt" name = "3D 方向图"></Template>
+</Templates>
+
+<Templates name = "地图 - 非洲" icon = "maps\continent\geo-africa.bmp" description= "包含指定的形状为创建非洲地图。">
+	<Template path = "\library\Maps\Africa.edt" name = "非洲"></Template>
+</Templates>
+
+<Templates name = "地图 - 亚洲" icon = "maps\continent\geo-asia.bmp" description= "包含指定的形状为创建亚洲地图。">
+	<Template path = "\library\Maps\Asia.edt" name = "亚洲"></Template>
+</Templates>
+
+<Templates name = "地图 - 澳洲" icon = "maps\continent\geo-australia.bmp" description= "包含指定的形状为创建澳洲地图。">
+	<Template path = "\library\Maps\Australia.edt" name = "澳大利亚"></Template>
+</Templates>
+
+<Templates name = "地图 - 欧洲" icon = "maps\continent\geo-europe.bmp" description= "包含指定的形状为创建欧洲地图。">
+	<Template path = "\library\Maps\Europe.edt" name = "欧洲"></Template>
+</Templates>
+
+<Templates name = "地图 - 北美洲" icon = "maps\continent\geo-n-america.bmp" description= "包含指定的形状为创建北美洲地图。">
+	<Template path = "\library\Maps\USA.edt" name = "美国"></Template>
+	<Template path = "\library\Maps\Canada.edt" name = "加拿大"></Template>
+</Templates>
+
+<Templates name = "地图 - 南美洲" icon = "maps\continent\geo-s-america.bmp" description= "包含指定的形状为创建南美洲地图。">
+	<Template path = "\library\Maps\South America.edt" name = "南美洲"></Template>
+</Templates>
+</Gallery>
+
+<Gallery name = "软件设计" version = "1.0" >
+<Templates name = "UML 模型图" icon = "software\uml.bmp" description= "使用UML表示法创建UML模型和静态结构（类和对象）、用例、协作、序列、组件、部署、活动和状态图等图表。">
+  <Template path = "\library\Software\UML-Activity.edt" name = "UML 活动"></Template>
+	<Template path = "\library\Software\UML-Collaboration.edt" name = "UML 协作"></Template>
+	<Template path = "\library\Software\UML-Component.edt" name = "UML 组件"></Template>
+	<Template path = "\library\Software\UML-Deployment.edt" name = "UML 部署"></Template>
+	<Template path = "\library\Software\UML-Sequence.edt" name = "UML 序列"></Template>
+	<Template path = "\library\Software\UML-Statechart.edt" name = "UML 状态图"></Template>
+	<Template path = "\library\Software\UML-Static.edt" name = "UML 静态结构"></Template>
+	<Template path = "\library\Software\UML-UseCase.edt" name = "UML 用例"></Template>
+</Templates>
+
+<Templates name = "Booch OOD" icon = "software\Booch.bmp" description= "包含指定的符号为创建 Booch OOD 图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\Booch OOD.edt" name = "Booch OOD"></Template>
+</Templates>
+
+<Templates name = "COM 和 OLE" icon = "software\comole.bmp" description= "在面向对象的程序设计中创建系统图、COM 和 OLE 图表，或公共接口图表、COM 接口图表和 OLE 接口图表。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\COM and OLE.edt" name = "COM 和 OLE"></Template>
+</Templates>
+
+<Templates name = "数据流程模型图" icon = "software\datamodel.bmp" description= "使用Gane-Sarson(DFD)表示法创建书记流图表。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\Data Flow Model.edt" name = "数据流程模型图"></Template>
+</Templates>
+
+<Templates name = "企业应用" icon = "software\enterprise-app.bmp" description= "使用代表PC、主机和架构层的形状来创建企业架构图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\EnterpriseApplication.edt" name = "企业应用"></Template>	
+</Templates>
+
+<Templates name = "Jacobson 用例图" icon = "software\jackbson.bmp" description= "包含指定的符号为创建 Jackson 用例图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\Jacobson Use Case.edt" name = "Jacobson 用例图"></Template>
+</Templates>
+
+<Templates name = "Jackson" icon = "software\jackson.bmp" description= "包含指定的符号为创建 Jackson 图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\Jackson.edt" name = "Jackson"></Template>
+</Templates>
+
+<Templates name = "程序流程图" icon = "software\program.bmp" description= "创建结构图、流程图和内存图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\Program Flowchart.edt" name = "程序流程图形状"></Template>
+</Templates>
+
+<Templates name = "程序结构图" icon = "software\ProgramStructure.bmp" description= "创建结构图，流程图和内存图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\Language Level Shapes.edt" name = "程序流程图形状"></Template>
+	<Template path = "\library\Software\Memory Objects.edt" name = "内存对象"></Template>
+</Templates>
+
+<Templates name = "Nassi Schneiderman" icon = "software\Nassi.bmp" description= "包含指定的符号为创建 Nassi Schneiderman 图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\Nassi-Schneiderman.edt" name = "Nassi Schneiderman"></Template>
+</Templates>
+
+<Templates name = "ROOM" icon = "software\ROOM.BMP" description= "使用ROOM表示法基于适时性、动态内部结构、反应性和分布来对实时系统建模。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\ROOM.edt" name = "ROOM"></Template>
+</Templates>
+
+<Templates name = "Shlaer-Mellor OOA" icon = "software\shlaer.bmp" description= "包含指定的符号为创建 Shlaer-Mellor OOA 图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\Shlaer-Mellor OOA.edt" name = "Shlaer-Mellor OOA"></Template>
+</Templates>
+
+<Templates name = "SSADM" icon = "software\SSADM.BMP" description= "包含指定的符号为创建 SSADM 图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\SSADM.edt" name = "SSADM"></Template>
+</Templates>
+
+<Templates name = "Yourdon 和 Coad" icon = "software\yourdon.bmp" description= "包含指定的符号为创建 Yourdon 和 Coad 图。">
+  <Template path = "\library\BasicShape\backgrounds.edt" name = "背景"></Template>
+	<Template path = "\library\BasicShape\borders.edt" name = "边框和标题"></Template>
+	<Template path = "\library\BasicShape\arrow.edt" name = "箭头形状"></Template>
+  <Template path = "\library\BasicShape\Callouts.edt" name = "标注"></Template>	
+	<Template path = "\library\Software\Yourdon and Coad.edt" name = "Yourdon 和 Coad"></Template>
+</Templates>
+</Gallery>
+
+<Gallery name = "符号" version = "1.0" >
+<Templates name = "符号" icon = "symbols\symbol1.bmp" description= "包括一些经常用的符号。">
+  <Template path = "\library\Symbols\modern symbols.edt" name = "现代图标"></Template>
+	<Template path = "\library\Mind Map\classic symbols.edt" name = "经典图标"></Template>
+	<Template path = "\library\Symbols\presentation symbols.edt" name = "陈述表达"></Template>
+	<Template path = "\library\Symbols\People.edt" name = "人物"></Template>	
+	<Template path = "\library\Symbols\Profession.edt" name = "专家"></Template>
+	<Template path = "\library\Symbols\Business scene.edt" name = "商业场景"></Template>
+	<Template path = "\library\Symbols\Office.edt" name = "办公用品"></Template>
+</Templates>
+</Gallery>
+
+<Gallery name = "网站图" version = "1.0" >
+<Templates name = "网站总体设计" icon = "web\conceptual.bmp" description= "设计总体图和高水平体系结构的网页,网站,和链接文件。">
+  <Template path = "\library\Web Diagram\Conceptual Web Site.edt" name = "网站总体设计图"></Template>
+</Templates>
+
+<Templates name = "网站站点图" icon = "web\sitemap.bmp" description= "在HTTP服务器,网络服务器,和本地服务器上为网站创建网站站点图。">
+  <Template path = "\library\Web Diagram\Web Site Map.edt" name = "网站站点图形状"></Template>
+</Templates>
+</Gallery>
+</Galleries>

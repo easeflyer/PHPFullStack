@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+从标记创建tabs非常简单,我们不需要写任何的javascript代码,
+记得添加"easyui-tabs"样式给div标记,每个tab panel的创建通过子div标记,使用和panel是一样的.
+添加图标同样使用:iconCls;closable:true 则tabs 可以被关闭。
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    </head>
+    <body>
+        <div id="tt" class="easyui-tabs" style="width:500px;height:250px;">  
+            <div title="Tab1" style="padding:20px;display:none;">  
+                tab1  
+            </div>  
+            <div title="Tab2" data-options="closable:true" style="overflow:auto;padding:20px;display:none;">  
+                tab2  
+            </div>  
+            <div title="Tab3" data-options="iconCls:'icon-reload',closable:true" style="padding:20px;display:none;">  
+                tab3  
+            </div>
+            <div title="Tab4">简单添加 div 即可。</div>
+        </div>
+        <script>
+            // #tt1 改名 #tt 生效
+            // 添加 tools 按钮并且绑定事件。
+            $(function () {
+                $('#tt1').tabs({
+                    border: false,
+                    onSelect: function (title) {
+                        alert(title + ' is selected');
+                    }
+                });
+                $('#tt1').tabs('add', {
+                    title: 'New Tab',
+                    content: 'Tab Body',
+                    closable: true,
+                    tools: [{
+                            iconCls: 'icon-mini-refresh',
+                            handler: function () {
+                                alert('refresh');
+                            }
+                        }, {
+                            iconCls: 'icon-search',
+                            handler: function () {
+                                alert('search');
+                            }
+                        }]
+                });
+
+            });
+        </script>
+    </body>
+</html>

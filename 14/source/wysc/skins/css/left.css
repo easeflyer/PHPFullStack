@@ -1,0 +1,48 @@
+/* 列表页与内容页左侧区域样式 */
+.position{ height:27px; line-height:27px;}
+.position h6{ display:inline; margin-right:10px; font-weight:normal; margin-left:20px}
+.position span{ margin-left:5px; margin-right:5px;}
+.position *{ font-size:12px;}
+
+/*
+.left 左侧栏
+.currencat 当前分类:也就是左侧的 分类菜单
+h3 家用电器 h3 span 家用电器
+.curcatbt 底线
+.cat ul 的样式
+li.item  大分类 的名称:大家电,生活电器
+li.item h4 大分类标题字体
+li.item h4 .icon 是+号图标。
+li.item.current h4 .div 显示减号
+*/
+
+.main .left{ width:201px;  float:left}
+.main .left .currencat h3{ height:31px; background:url(../images/list_03.gif) no-repeat center}
+.main .left  .currencat h3 span{ font-weight:normal; height:30px; line-height:30px; padding-left:30px; color:#FFF; font-size:12px;}
+.main .left  .currencat .curcatbt{ height:5px; background:url(../images/list_07.gif) no-repeat center }
+.main .left  .currencat .cat{ background:url(../images/list_06.gif) repeat-y center; padding:1px 0;}
+.main .left  .currencat .cat li.item{  width:197px; margin:0 auto;margin-bottom:2px;}
+.main .left  .currencat .cat li.item h4{ height:22px; background:url(../images/list_071.gif) repeat-x; border:1px solid #c8c7c7; font-size:12px; line-height:22px; font-weight:normal; padding-left:20px}
+.main .left  .currencat .cat li.item h4 .icon{ width:13px; height:13px; display:inline-block; background:url(../images/addminus.gif) no-repeat left -13px; float:right; margin-top:4px; margin-right:10px; cursor:pointer}
+.main .left  .currencat .cat li.item.current h4 div{ background-position:left top}
+.main .left  .currencat .cat li.item .subcat{ margin-left:15px; display:none}
+.main .left  .currencat .cat li.item.current .subcat{ margin-left:15px; display:block}
+.main .left  .currencat .cat li.item .subcat li{ float:left; margin:0 5px;}
+.main .left  .currencat .cat li.item .subcat li a{ font-size:12px; line-height:1.5em}
+.main .left .hotgoods{ margin-top:10px;}
+.main .left .hotgoods h3{ height:31px; background:url(../images/list_13.jpg) no-repeat center}
+.main .left  .hotgoods h3 span{ font-weight:normal; height:30px; line-height:30px; padding-left:30px;font-size:12px;}
+.main .left  .hotgoods .curcatbt{ height:5px; background:url(../images/list_16.jpg) no-repeat center }
+.main .left  .hotgoods ul{ background:url(../images/list_15.jpg) repeat-y center; padding:1px 0; padding-top:9px; padding-left:5px; padding-right:5px;}
+.main .left  .hotgoods ul li.top{border-bottom:1px #a1a1a1 dashed; padding-bottom:10px; }
+.main .left  .hotgoods ul li.top img{ border:1px solid #979494; margin-left:15px; margin-right:10px; float:left}
+.main .left  .hotgoods ul li.top .goodinfo span{ font-size:12px;  }
+.main .left  .hotgoods ul li.top .goodinfo div.price{font-size:12px; font-weight:bold; color:#900; margin-top:5px;}
+.main .left  .hotgoods ul li.item{ clear:both; height:30px; line-height:30px; padding-left:15px; border-bottom:1px #a1a1a1 dashed}
+.main .left  .hotgoods ul li.item .icons{ display:inline-block; width:13px; height:13px; background:url(../images/icons.gif) no-repeat; float:left; margin-top:8px; margin-right:10px;}
+.main .left  .hotgoods ul li.item a{ font-size:12px;}
+
+.main .left  .hotgoods ul li.topm10{border-bottom:1px #a1a1a1 dashed; padding-bottom:10px; margin-top:10px; }
+.main .left  .hotgoods ul li.topm10 img{ border:1px solid #979494; margin-left:15px; margin-right:10px; float:left}
+.main .left  .hotgoods ul li.topm10 .goodinfo span{ font-size:12px;  }
+.main .left  .hotgoods ul li.topm10 .goodinfo div.price{font-size:12px; font-weight:bold; color:#900; margin-top:5px;}

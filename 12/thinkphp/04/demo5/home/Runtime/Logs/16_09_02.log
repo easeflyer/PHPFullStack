@@ -1,0 +1,288 @@
+[ 2016-09-02T13:58:30+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2016-09-02T13:58:41+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.002434s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` LEFT JOIN think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000201s ]
+
+[ 2016-09-02T13:59:04+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.001028s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` LEFT JOIN think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000177s ]
+NOTIC: [8] Use of undefined constant rs - assumed 'rs' /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/04/demo5/home/Lib/Action/IndexAction.class.php 第 19 行.
+
+[ 2016-09-02T13:59:19+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.000969s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` LEFT JOIN think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000301s ]
+
+[ 2016-09-02T14:01:45+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.001003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` LEFT JOIN think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000227s ]
+
+[ 2016-09-02T14:04:38+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.003589s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` right join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000284s ]
+
+[ 2016-09-02T14:04:40+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.009844s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` right join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000451s ]
+
+[ 2016-09-02T14:04:52+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.000914s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000214s ]
+
+[ 2016-09-02T14:04:53+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.009677s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000397s ]
+
+[ 2016-09-02T14:05:36+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.002299s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` LEFT JOIN right... think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000078s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'right... think_admin_msg ON think_admin.aId = think_admin_msg.aId' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_admin` LEFT JOIN right... think_admin_msg ON think_admin.aId = think_admin_msg.aId 
+
+[ 2016-09-02T14:05:41+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.004659s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` right join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.002283s ]
+
+[ 2016-09-02T14:06:37+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.001041s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000254s ]
+
+[ 2016-09-02T14:06:37+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.010080s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000554s ]
+
+[ 2016-09-02T14:06:39+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.009147s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000254s ]
+
+[ 2016-09-02T14:06:39+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.010071s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.001218s ]
+
+[ 2016-09-02T14:06:39+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.009542s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000317s ]
+
+[ 2016-09-02T14:07:20+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.001043s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000435s ]
+
+[ 2016-09-02T14:07:24+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.009397s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000334s ]
+
+[ 2016-09-02T14:08:05+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.001706s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` right join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000212s ]
+
+[ 2016-09-02T14:08:09+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.009211s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` right join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000341s ]
+
+[ 2016-09-02T14:08:32+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.000872s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` left join think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000232s ]
+
+[ 2016-09-02T14:16:59+08:00 ] ERR: (ThinkException) 无法加载模块:admin
+[ 2016-09-02T14:17:25+08:00 ] ERR: (ThinkException) 无法加载模块:ti
+[ 2016-09-02T14:17:32+08:00 ] ERR: (ThinkException) 无法加载模块:ti
+[ 2016-09-02T14:17:35+08:00 ] 0.0.0.0 /04/demo5/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.002684s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` LEFT JOIN think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000308s ]
+
+[ 2016-09-02T14:17:42+08:00 ] 0.0.0.0 /04/demo5/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.001322s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` LEFT JOIN think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000239s ]
+
+[ 2016-09-02T14:17:43+08:00 ] 0.0.0.0 /04/demo5/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.008882s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` LEFT JOIN think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000235s ]
+
+[ 2016-09-02T14:17:50+08:00 ] ERR: (ThinkException) 无法加载模块:ti
+[ 2016-09-02T14:18:15+08:00 ] 0.0.0.0 /04/demo5/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000678s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.001976s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Db.class.php 第 568 行.
+SQL: SELECT * FROM `think_admin` LEFT JOIN think_admin_msg ON think_admin.aId = think_admin_msg.aId  [ RunTime:0.000621s ]
+
+[ 2016-09-02T14:18:20+08:00 ] ERR: (ThinkException) 无法加载模块:ti
+[ 2016-09-02T14:18:57+08:00 ] ERR: (ThinkException) 无法加载模块:ti
+[ 2016-09-02T14:18:58+08:00 ] ERR: (ThinkException) 无法加载模块:ti
+[ 2016-09-02T14:19:09+08:00 ] 0.0.0.0 /04/demo5/index.php/index/ti
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000334s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+
+[ 2016-09-02T14:19:25+08:00 ] 0.0.0.0 /04/demo5/index.php/index/ti
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.003421s ]
+SQL: INSERT INTO `think_admin` () VALUES () [ RunTime:0.000328s ]
+
+[ 2016-09-02T14:20:53+08:00 ] 0.0.0.0 /04/demo5/index.php/index/ti
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000731s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.001073s ]
+SQL: INSERT INTO `think_admin` (`aName`,`aPwd`) VALUES ('zhaoliu','33333') [ RunTime:0.000129s ]
+
+[ 2016-09-02T14:21:22+08:00 ] 0.0.0.0 /04/demo5/index.php/index/up
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.000994s ]
+SQL: UPDATE `think_admin` SET `aName`='我很爱国' WHERE ( aId=3 ) [ RunTime:0.000140s ]
+
+[ 2016-09-02T14:21:41+08:00 ] 0.0.0.0 /04/demo5/index.php/index/up
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000636s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Core/Dispatcher.class.php 第 120 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/php_lesson/12/thinkphp/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.008284s ]
+SQL: UPDATE `think_admin` SET `aName`='3333' WHERE ( aId=3 ) [ RunTime:0.000168s ]
+

@@ -1,0 +1,47 @@
+﻿/* CSS Document */
+div{
+	border:1px solid #ff0000;
+	width:400px;
+	height:400px;
+	font-size:20px;
+	color:#00CCFF;
+	/*font-style:italic;*/
+	/*font-weight:bold;*/
+	font-family:"隶书";
+	text-align:center;
+	line-height: 25px;
+}
+/* ie 浏览器支持 微软雅黑 谷歌不支持 */
+.div1{
+	font:italic bold 30px/30px arial,"微软雅黑";
+}
+/* ul id=us */
+#us{
+	border:1px  solid #ff0000;
+	list-style:none;
+	list-style-image:url(../imgs/flag1.jpg);
+}
+#dv2{
+	/* 给文字 加删除线 */
+	/*text-decoration:line-through;*/
+}
+a{color:#FF0000; font-weight:bold; text-decoration:none;}
+a:link{color:#FF00cc;}
+a:hover{color:#FFcc00;}
+a:active{color:#00FF00;}
+a:visited{color:#110000; font-weight:bold; text-decoration:none;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

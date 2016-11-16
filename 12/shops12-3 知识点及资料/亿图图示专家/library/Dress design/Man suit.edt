@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<template name="Man Suit">
+    <imagelist>Qk1GIQAAAAAAADYAAAAoAAAALgAAAC4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbACCZlAAZVlTAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC4i2kABgYGACQlJwC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAiGxYAJp7ZQC+j2wApoBjAAAAAABaVVUAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sADw4OAAkJigAvo9sADw0MAAAAAAAX1ROAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbABCPDsAAAAAAL6PbABUTEkADA4QAFBIQwC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAYVhSABUXGwC+j2wAnHlgAAAAAAAYGBkAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAF9XUwAAAAAAuItpAL6PbAASExQAAAAAALKGZQC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbABfWloAAAAAAKZ9XgC+j2wAKikqAAAAAACCalkAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wASEZHAAAAAACUc1sAvo9sAEI9PAAAAAAAVE5NAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sADY2OQAAAAAAjnRhAL6PbABlWVMAAAAAABgZGwC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAAkJCUAAAAAAHxqXgC+j2wAgm9jAAAAAAAAAAAApn1eAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAEhITAAAAAABfVVAAvo9sAHxkUgAAAAAAAAAAAHZiVAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sABgYGQAAAAAANjMzAL6PbABlUEIAAAAAAAAAAAB8al4Avo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAAGBgcAAAAAAEhFRQC+j2wAX1NMAAAAAAAAAAAAmn5qAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbACyhmUAAAAAAAAAAABISEsAvo9sAFRPTwAAAAAAAAAAAKaAYwC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAmnpjAAAAAAAAAAAAPD5CAL6PbAAkJigAAAAAAAAAAACmfV4Avo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAIhzZAAAAAAAAAAAADAyNgCyiWoAAAAAAAAAAAAAAAAApn1eAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbABxZV8AAAAAAAAAAAAkJywAgmxdAAAAAAAAAAAAAAAAAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAWlVVAAAAAAAAAAAAGBodAFRNSwAAAAAAAAAAAAYGBwC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+nYcAv7KvAEJCRAAAAAAAAAAAAAwNDwAkJScAAAAAAAAAAAAYGRsAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAv77GAL67wQAqLC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQlAL6PbAC+j2wAvo9sAL6roQC+knEAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL/J3AC/zOAAEhMWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw4OAC+j2wAvo9sAL6PbAC/vsYAvquhAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC/yNgAucTUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABNRkIAvo9sAL6PbAC+j2wAv9XyAL+vqwC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAv8zgAKemrQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdmJUAL6PbAC+j2wAvpZ6AL/W8gC+nIUAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvpR1AL/a+wC5uMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKyCYgC+j2wAvo9sAL+vqwC/0+0Avo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6ikAC/2vsAv77GABITFAAAAAAAAAAAAAAAAAAAAAAAAAAAADAwMwC+j2wAvo9sAL6PbAC/zOAAv8PPAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+opAAv9r7AL++xgCAbFgAiW9VAI93XgCOdVsAdmJMAF5MOwCFdGYAvo9sAL6PbAC+oIsAv9r7AL+yrwC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvph9AL/a+wC/w88Av6KGAKyLaQC+nn0Avp59ALiXdQCkg2IAvpp9AL6PbAC+j2wAv77GAL/a+wC+opAAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC/2vsAv8ncAL+ihgCoh2UAvp59AL6efQC+nn0Ar49tAL6WdwC+j2wAvpR1AL/X9gC/0+0Avo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAv9HqAL/T7QC/pIsAqIdlAL6efQC+nn0Avp59AKSDYgC9n4YAvo9sAL+vqwC/2vsAvrq8AL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL/R6gC/2vsAv6eQAK+PbQC+nn0Avp59AL6efQChf14Av6aQAL6PbAC/zOAAv9r7AL6YfQC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC/0eoAv9r7AL6olACvj20Avp59AL6efQC+nn0AoX9eAL+okgC+pJUAv9r7AL/O5QC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAv9HqAL/a+wC9o4oArItpAL6efQC+nn0Avp59AKyLaQC9nn8Av8PPAL/a+wC+urwAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL/R6gC/2vsAs5Z5ALubeQC4mXkAd2NOAL6efQC7m3kAs45oAL7W9QC/2vsAvquhAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC/0eoAv9r7AK2RdgC+nn0AmoBmAAAAAAB9aFIAvp59AKqDWwC/2vsAv9r7AL6giwC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAv8ncAL/Y+ACukHIAvp59AINtVgAAAAAABgUEALKUdQC0kGsAtbS3AL/V8gC+knEAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL63uAC9y+AAqoNbAL6efQBlVEIAAAAAAAAAAACmim0AvZx7AKyTfQC/r6sAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+knEAtqGTALKPbACGak8AlZifAM/j/ADA0eYAe2VNALmaegCzln0Avo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+kG0Aoop4AL/O5QC/2vsAv9f2ALChmQC6kG8Avo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC7qqEAr83vALbD1gC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAu7i9AL/a+wC6x9kAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sALfF2wC/2vsAv9f2AL6UdQC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAIN6eQCtxeUAv9r7AL/a+wCUiocAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbACHfn0AZoiyALvV9wCpxucAeIKQAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAuo5uAE12nwBAbp4ATXKbAKiLdwC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAL6PbAC+j2wAvo9sAA==;</imagelist>
+    <items>
+        <item>
+            <name>Man suit 1</name>
+            <prompt>Man suit 1</prompt>
+            <g type="g" gpinx="475.562" gpiny="359.883" lpinx="width*0.5" lpiny="height*0.5" width="189.285" height="560.234" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10689">
+                <control-list />
+                <style id="10210">
+                    <fill type="solid-color" color="#FBDABF" opcity="1" />
+                    <fill-rule>nonzero</fill-rule>
+                    <stroke opcity="0" />
+                    <stroke-width>1</stroke-width>
+                    <stroke-linecap>butt</stroke-linecap>
+                    <stroke-linejoin>miter</stroke-linejoin>
+                    <stroke-miterlimit>4</stroke-miterlimit>
+                    <stroke-dash>1</stroke-dash>
+                    <stroke-dashoffset>0</stroke-dashoffset>
+                    <marker-start size="4">0</marker-start>
+                    <marker-end size="4">0</marker-end>
+                    <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                </style>
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <events eventdrop="0" />
+                <miscellaneous hidetext="0" invisible="0" />
+                <property-sheet />
+                <g type="g" gpinx="parent.width*0.498927" gpiny="parent.height*0.499272" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1.00215,parent.height*0)" height="hyp(parent.width*0,parent.height*0.998542)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10611">
+                    <control-list />
+                    <style id="10210">
+                        <fill type="solid-color" color="#FBDABF" opcity="1" />
+                        <fill-rule>nonzero</fill-rule>
+                        <stroke opcity="0" />
+                        <stroke-width>1</stroke-width>
+                        <stroke-linecap>butt</stroke-linecap>
+                        <stroke-linejoin>miter</stroke-linejoin>
+                        <stroke-miterlimit>4</stroke-miterlimit>
+                        <stroke-dash>1</stroke-dash>
+                        <stroke-dashoffset>0</stroke-dashoffset>
+                        <marker-start size="4">0</marker-start>
+                        <marker-end size="4">0</marker-end>
+                        <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                    </style>
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <events eventdrop="0" />
+                    <miscellaneous hidetext="0" invisible="0" />
+                    <property-sheet />
+                    <shape type="shape" gpinx="parent.width*0.40299" gpiny="parent.height*0.550313" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.615029,parent.height*0)" height="hyp(parent.width*0,parent.height*0.899376)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="12705">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.369912" y="height*0.0472023" joint-type="2" />
+                            <curve-to x="width*0.0154149" y="height*0.0798887" a="width*0.33886" b="height*0.0544039" c="width*0.1398" d="height*0.0688342" joint-type="0" />
+                            <curve-to x="width*0.175041" y="height*0.318803" a="width*-0.0607117" b="height*0.104004" c="width*0.158328" d="height*0.234838" joint-type="2" />
+                            <curve-to x="width*0.100411" y="height*0.413983" a="width*0.180184" b="height*0.344654" c="width*0.104862" d="height*0.365414" joint-type="2" />
+                            <curve-to x="width*0.208217" y="height*0.641357" a="width*0.0945976" b="height*0.477277" c="width*0.173922" d="height*0.60819" joint-type="2" />
+                            <curve-to x="width*0.233093" y="height*0.688947" a="width*0.230484" b="height*0.662898" c="width*0.214433" d="height*0.680294" joint-type="2" />
+                            <curve-to x="width*0.239313" y="height*0.774031" a="width*0.270908" b="height*0.706484" c="width*0.233919" d="height*0.755274" joint-type="2" />
+                            <curve-to x="width*0.270407" y="height*0.869215" a="width*0.245531" b="height*0.795666" c="width*0.26419" d="height*0.836046" joint-type="2" />
+                            <curve-to x="width*0.251748" y="height*0.925457" a="width*0.273622" b="height*0.886346" c="width*0.251748" d="height*0.926039" joint-type="1" />
+                            <curve-to x="width*0.369917" y="height*0.942762" a="width*0.251748" b="height*0.926039" c="width*0.282848" d="height*0.96007" joint-type="2" />
+                            <curve-to x="width*0.419669" y="height*0.857679" a="width*0.408835" b="height*0.935026" c="width*0.419669" d="height*0.883637" joint-type="2" />
+                            <curve-to x="width*0.481862" y="height*0.693274" a="width*0.419669" b="height*0.779901" c="width*0.475645" d="height*0.713464" joint-type="2" />
+                            <curve-to x="width*0.494302" y="height*0.635588" a="width*0.486758" b="height*0.677385" c="width*0.481862" d="height*0.65578" joint-type="2" />
+                            <curve-to x="width*0.531614" y="height*0.482724" a="width*0.521794" b="height*0.590965" c="width*0.51296" d="height*0.540406" joint-type="0" />
+                            <curve-to x="width*0.730633" y="height*0.688947" a="width*0.573071" b="height*0.546183" c="width*0.696561" d="height*0.64681" joint-type="2" />
+                            <curve-to x="width*0.662222" y="height*0.86633" a="width*0.749291" b="height*0.712023" c="width*0.711977" d="height*0.79855" joint-type="2" />
+                            <curve-to x="width*0.606249" y="height*0.926901" a="width*0.647025" b="height*0.887031" c="width*0.534727" d="height*0.907431" joint-type="2" />
+                            <curve-to x="width*0.73685" y="height*0.996123" a="width*0.679481" b="height*0.946834" c="width*0.667098" d="height*0.985389" joint-type="2" />
+                            <curve-to x="width*0.851908" y="height*0.993959" a="width*0.783353" b="height*1.00353" c="width*0.824279" d="height*0.998869" joint-type="0" />
+                            <curve-to x="width*0.799046" y="height*0.892288" a="width*0.845692" b="height*0.972326" c="width*0.743072" d="height*0.934111" joint-type="2" />
+                            <curve-to x="width*1" y="height*0.712022" a="width*0.89718" b="height*0.818963" c="width*0.991841" d="height*0.735096" joint-type="2" />
+                            <curve-to x="width*0.973184" y="height*0.658663" a="width*1.00432" b="height*0.688814" c="width*0.985621" d="height*0.680294" joint-type="2" />
+                            <curve-to x="width*0.920842" y="height*0.475045" a="width*0.956657" b="height*0.62993" c="width*0.945699" d="height*0.505812" joint-type="2" />
+                            <curve-to x="width*0.859155" y="height*0.401484" a="width*0.909899" b="height*0.461518" c="width*0.884037" d="height*0.427444" joint-type="2" />
+                            <curve-to x="width*0.755511" y="height*0.313994" a="width*0.826084" b="height*0.366972" c="width*0.748656" d="height*0.33959" joint-type="2" />
+                            <curve-to x="width*0.9443" y="height*0.0827175" a="width*0.774133" b="height*0.244283" c="width*1.01493" d="height*0.103483" joint-type="0" />
+                            <curve-to x="width*0.631119" y="height*0.0457601" a="width*0.863453" b="height*0.0726227" c="width*0.684913" d="height*0.0581818" joint-type="2" />
+                            <curve-to x="width*0.611222" y="height*0" a="width*0.590062" b="height*0.0362824" c="width*0.611222" d="height*0" joint-type="1" />
+                            <line-to x="width*0.377375" y="height*0.00133958" joint-type="0" />
+                            <curve-to x="width*0.369912" y="height*0.0472023" a="width*0.377375" b="height*0.00133958" c="width*0.400992" d="height*0.0400012" joint-type="2" />
+                        </path>
+                        <control-list />
+                        <style id="10210">
+                            <fill type="solid-color" color="#FBDABF" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.398821" gpiny="parent.height*0.11718" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.14535,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0365109)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="11045">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0.087405" joint-type="0" />
+                            <curve-to x="width*0.487063" y="height*0.994126" a="width*0" b="height*0.087405" c="width*0.0596654" d="height*1.00962" joint-type="2" />
+                            <curve-to x="width*1" y="height*0.0105934" a="width*1.02593" b="height*0.974613" c="width*1" d="height*0.112195" joint-type="2" />
+                            <curve-to x="width*0" y="height*0.087405" a="width*1" b="height*-0.0910089" c="width*0.478185" d="height*0.402372" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10583">
+                            <fill type="solid-color" color="#98743E" opcity="0.2" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.397061" gpiny="parent.height*0.0651446" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.22864,parent.height*0)" height="hyp(parent.width*0,parent.height*0.113997)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="11039">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.00199968" y="height*0.309091" joint-type="0" />
+                            <curve-to x="width*0.544021" y="height*-0.00190315" a="width*0.00868897" b="height*-0.0111865" c="width*0.242901" d="height*0.00273859" joint-type="0" />
+                            <curve-to x="width*1" y="height*0.369433" a="width*0.830685" b="height*-0.00190315" c="width*1.02584" d="height*0.0259472" joint-type="0" />
+                            <curve-to x="width*0.798316" y="height*0.856812" a="width*0.938844" b="height*0.638652" c="width*0.914736" d="height*0.76023" joint-type="2" />
+                            <curve-to x="width*0.483792" y="height*1" a="width*0.707761" b="height*0.931932" c="width*0.677862" d="height*1.01464" joint-type="0" />
+                            <curve-to x="width*0.169291" y="height*0.819677" a="width*0.323201" b="height*1" c="width*0.256593" d="height*0.901859" joint-type="2" />
+                            <curve-to x="width*0.00199968" y="height*0.309091" a="width*0.062151" b="height*0.718821" c="width*0.0555344" d="height*0.582952" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10210">
+                            <fill type="solid-color" color="#FBDABF" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.789166" gpiny="parent.height*0.337145" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.372301,parent.height*0)" height="hyp(parent.width*0,parent.height*0.324254)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="12710">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.196685" y="height*0" joint-type="0" />
+                            <curve-to x="width*0.46356" y="height*0.197486" a="width*0.388215" b="height*0.0561517" c="width*0.426746" d="height*0.130608" joint-type="2" />
+                            <curve-to x="width*0.634792" y="height*0.490819" a="width*0.479112" b="height*0.225744" c="width*0.470411" d="height*0.333485" joint-type="2" />
+                            <curve-to x="width*0.812875" y="height*0.666819" a="width*0.697214" b="height*0.550564" c="width*0.778629" d="height*0.605485" joint-type="2" />
+                            <curve-to x="width*0.997805" y="height*0.970818" a="width*0.872223" b="height*0.773115" c="width*0.997805" d="height*0.968261" joint-type="2" />
+                            <curve-to x="width*0.819724" y="height*1" a="width*0.860822" b="height*0.997488" c="width*0.819724" d="height*1" joint-type="0" />
+                            <curve-to x="width*0.333424" y="height*0.530819" a="width*0.819724" b="height*1" c="width*0.422461" d="height*0.618818" joint-type="2" />
+                            <curve-to x="width*-0.00219183" y="height*0.232152" a="width*0.266576" b="height*0.464755" c="width*-0.00219183" d="height*0.232152" joint-type="0" />
+                            <line-to x="width*0.196685" y="height*0" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10210">
+                            <fill type="solid-color" color="#FBDABF" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.949583" gpiny="parent.height*0.522678" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.09945,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0821444)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="12711">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*-0.00590006" y="height*0.347274" joint-type="0" />
+                            <curve-to x="width*0.429988" y="height*0" a="width*-0.00591572" b="height*0.191057" c="width*0.125567" d="height*0" joint-type="0" />
+                            <curve-to x="width*0.994097" y="height*0.378853" a="width*0.7344" b="height*0" c="width*0.994097" d="height*0.222638" joint-type="0" />
+                            <curve-to x="width*0.276148" y="height*1" a="width*0.994097" b="height*0.535068" c="width*0.58057" d="height*1" joint-type="0" />
+                            <curve-to x="width*-0.00590006" y="height*0.347274" a="width*0.199225" b="height*0.926221" c="width*0.455642" d="height*0.568327" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10210">
+                            <fill type="solid-color" color="#FBDABF" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.0885831" gpiny="parent.height*0.543189" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.10965,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0885215)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10091">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.00242863" y="height*0.262479" joint-type="0" />
+                            <curve-to x="width*0.502353" y="height*0" a="width*0.00242863" b="height*0.117518" c="width*0.226254" d="height*0" joint-type="0" />
+                            <curve-to x="width*1.00975" y="height*0.439154" a="width*0.778457" b="height*0" c="width*1.00975" d="height*0.294193" joint-type="0" />
+                            <curve-to x="width*0.777185" y="height*0.995935" a="width*0.381842" b="height*0.908021" c="width*1.05327" d="height*0.995935" joint-type="0" />
+                            <curve-to x="width*0.00242863" y="height*0.262479" a="width*0.172536" b="height*1.05413" c="width*0.00242863" d="height*0.407441" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10210">
+                            <fill type="solid-color" color="#FBDABF" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.380162" gpiny="parent.height*0.0468867" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.222424,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0615128)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10592">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.882664" y="height*0.00430534" joint-type="0" />
+                            <curve-to x="width*0.146634" y="height*0.270975" a="width*0.841824" b="height*-0.0128948" c="width*0.291087" d="height*0.0989335" joint-type="2" />
+                            <curve-to x="width*0.0021219" y="height*0.572051" a="width*0.0400332" b="height*0.397937" c="width*-0.0118069" d="height*0.461265" joint-type="2" />
+                            <curve-to x="width*0.126001" y="height*1.00216" a="width*0.0228153" b="height*0.735492" c="width*0.122562" d="height*1.02421" joint-type="2" />
+                            <curve-to x="width*0.211984" y="height*0.352694" a="width*0.129438" b="height*0.981207" c="width*0.0841851" d="height*0.463803" joint-type="2" />
+                            <curve-to x="width*0.902863" y="height*0.133341" a="width*0.573118" b="height*0.0387181" c="width*0.856163" d="height*0.162714" joint-type="2" />
+                            <curve-to x="width*0.882664" y="height*0.00430534" a="width*1.127" b="height*-0.00764895" c="width*0.89439" d="height*0.00430534" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10601">
+                            <fill type="solid-color" color="#724931" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.487737" gpiny="parent.height*0.0410671" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0571837,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0472258)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10595">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0" joint-type="0" />
+                            <curve-to x="width*0.882868" y="height*0.985995" a="width*0.185534" b="height*0.10084" c="width*0.882868" d="height*0.918768" joint-type="2" />
+                            <curve-to x="width*0.989898" y="height*0.761904" a="width*0.882868" b="height*1.05322" c="width*1.04342" d="height*0.862745" joint-type="2" />
+                            <curve-to x="width*0" y="height*0" a="width*0.936383" b="height*0.661064" c="width*0" d="height*-0.0224093" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10594">
+                            <fill type="solid-color" color="#4A301F" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.360043" gpiny="parent.height*0.0395602" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.22405,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0794707)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10598">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.989734" y="height*0.308386" joint-type="0" />
+                            <curve-to x="width*0.880903" y="height*0.0353955" a="width*1.01706" b="height*0.22537" c="width*0.990378" d="height*0.0680109" joint-type="2" />
+                            <curve-to x="width*0.286804" y="height*0.115296" a="width*0.635066" b="height*-0.037846" c="width*0.409723" d="height*0.00791011" joint-type="2" />
+                            <curve-to x="width*0" y="height*0.61467" a="width*0.163886" b="height*0.221829" c="width*-0.0136677" d="height*0.441554" joint-type="0" />
+                            <curve-to x="width*0.235584" y="height*0.997526" a="width*0.0341358" b="height*0.847709" c="width*0.235584" d="height*0.997526" joint-type="0" />
+                            <curve-to x="width*0.150226" y="height*0.561403" a="width*0.235584" b="height*0.997526" c="width*0.0614461" d="height*0.694569" joint-type="0" />
+                            <curve-to x="width*0.989734" y="height*0.308386" a="width*0.532637" b="height*0.148587" c="width*0.989734" d="height*0.308386" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10607">
+                            <fill type="solid-color" color="#996633" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.489053" gpiny="parent.height*0.0375937" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.069711,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0603223)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10603">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.729352" y="height*1" joint-type="0" />
+                            <curve-to x="width*0.24648" y="height*0" a="width*1.16831" b="height*0.788939" c="width*1.12441" d="height*0.131044" joint-type="0" />
+                            <curve-to x="width*0.0489621" y="height*0.183676" a="width*-0.0827305" b="height*0.0257806" c="width*-0.00391161" d="height*0.0712633" joint-type="0" />
+                            <curve-to x="width*0.729352" y="height*1" a="width*0.795187" b="height*0.578412" c="width*0.729333" d="height*1" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10607">
+                            <fill type="solid-color" color="#996633" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.0898068" gpiny="parent.height*0.347248" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.178181,parent.height*0)" height="hyp(parent.width*0,parent.height*0.352141)" angle="-0" protection="0" misc="0" flipx="true" flipy="false" id="10609">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.410976" y="height*0" joint-type="0" />
+                            <curve-to x="width*0.858688" y="height*0.168203" a="width*0.811166" b="height*0.0517074" c="width*0.80678" d="height*0.105858" joint-type="2" />
+                            <curve-to x="width*0.872996" y="height*0.541438" a="width*0.91593" b="height*0.236957" c="width*0.836622" d="height*0.432215" joint-type="2" />
+                            <curve-to x="width*0.987486" y="height*0.779622" a="width*0.901621" b="height*0.627381" c="width*1.0435" d="height*0.733968" joint-type="2" />
+                            <curve-to x="width*0.686951" y="height*0.995705" a="width*0.93024" b="height*0.826276" c="width*0.686951" d="height*0.993352" joint-type="2" />
+                            <curve-to x="width*0.286235" y="height*0.985883" a="width*0.457969" b="height*1.00799" c="width*0.286235" d="height*0.985883" joint-type="0" />
+                            <curve-to x="width*0.228987" y="height*0.583182" a="width*0.286235" b="height*0.985883" c="width*0.329166" d="height*0.688769" joint-type="2" />
+                            <curve-to x="width*-0.00456661" y="height*0.213771" a="width*0.103188" b="height*0.450592" c="width*-0.00456661" d="height*0.213771" joint-type="0" />
+                            <line-to x="width*0.410976" y="height*0" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10210">
+                            <fill type="solid-color" color="#FBDABF" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                </g>
+                <g type="g" gpinx="parent.width*0.425014" gpiny="parent.height*0.572364" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.591998,parent.height*0)" height="hyp(parent.width*0,parent.height*0.85527)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10693">
+                    <control-list />
+                    <style id="10548">
+                        <fill type="solid-color" color="#000000" opcity="1" />
+                        <fill-rule>nonzero</fill-rule>
+                        <stroke opcity="0" />
+                        <stroke-width>1</stroke-width>
+                        <stroke-linecap>butt</stroke-linecap>
+                        <stroke-linejoin>miter</stroke-linejoin>
+                        <stroke-miterlimit>4</stroke-miterlimit>
+                        <stroke-dash>1</stroke-dash>
+                        <stroke-dashoffset>0</stroke-dashoffset>
+                        <marker-start size="4">0</marker-start>
+                        <marker-end size="4">0</marker-end>
+                        <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                    </style>
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <events eventdrop="0" />
+                    <miscellaneous hidetext="0" invisible="0" />
+                    <property-sheet />
+                    <shape type="shape" gpinx="parent.width*0.456979" gpiny="parent.height*0.0880871" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.769616,parent.height*0)" height="hyp(parent.width*0,parent.height*0.148914)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10641">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.13942" y="height*0" joint-type="0" />
+                            <curve-to x="width*0" y="height*0.0552024" a="width*0.117784" b="height*0" c="width*0" d="height*0.0552024" joint-type="0" />
+                            <curve-to x="width*0.197112" y="height*0.9704" a="width*0" b="height*0.0552024" c="width*0.192305" d="height*0.973305" joint-type="2" />
+                            <curve-to x="width*0.747599" y="height*1" a="width*0.20192" b="height*0.967495" c="width*0.745194" d="height*1.00526" joint-type="2" />
+                            <curve-to x="width*1" y="height*0.0900665" a="width*0.750002" b="height*0.993643" c="width*1" d="height*0.0900665" joint-type="0" />
+                            <line-to x="width*0.838894" y="height*0.0145094" joint-type="0" />
+                            <curve-to x="width*0.504808" y="height*0.22662" a="width*0.838894" b="height*0.0145094" c="width*0.672928" d="height*0.218035" joint-type="2" />
+                            <curve-to x="width*0.13942" y="height*0" a="width*0.334133" b="height*0.235337" c="width*0.144228" d="height*0" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10548">
+                            <fill type="solid-color" color="#000000" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.447461" gpiny="parent.height*0.0303835" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.576744,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0349639)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10637">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.0417154" y="height*0.0826762" joint-type="0" />
+                            <curve-to x="width*0.914209" y="height*0.119798" a="width*0.42343" b="height*1.46852" c="width*0.83081" d="height*0.688927" joint-type="0" />
+                            <curve-to x="width*0.994426" y="height*0.0331525" a="width*0.949536" b="height*0.156613" c="width*1.02063" d="height*0.0908928" joint-type="0" />
+                            <curve-to x="width*0" y="height*0.0331578" a="width*0.699324" b="height*1.64185" c="width*0.16368" d="height*0.961257" joint-type="0" />
+                            <curve-to x="width*0.0417154" y="height*0.0826762" a="width*0.0706908" b="height*-0.0781129" c="width*-0.00319399" d="height*0.156716" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10551">
+                            <fill type="solid-color" color="#FFFFFF" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.510334" gpiny="parent.height*0.605473" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.97746,parent.height*0)" height="hyp(parent.width*0,parent.height*0.601174)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10643">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.0485779" y="height*0.00251869" joint-type="0" />
+                            <curve-to x="width*0.746341" y="height*0.00251869" a="width*0.079492" b="height*0.00251869" c="width*0.733092" d="height*-0.00251905" joint-type="2" />
+                            <curve-to x="width*0.914158" y="height*0.215784" a="width*0.75959" b="height*0.00755657" c="width*0.914158" d="height*0.188917" joint-type="2" />
+                            <curve-to x="width*0.975985" y="height*0.571787" a="width*0.914158" b="height*0.242654" c="width*0.984817" d="height*0.556675" joint-type="2" />
+                            <curve-to x="width*0.989233" y="height*0.669185" a="width*0.967152" b="height*0.586902" c="width*1.01131" d="height*0.655752" joint-type="2" />
+                            <curve-to x="width*0.989233" y="height*0.701091" a="width*0.967152" b="height*0.682619" c="width*1.02235" d="height*0.688497" joint-type="2" />
+                            <curve-to x="width*0.812584" y="height*0.936187" a="width*0.956112" b="height*0.713686" c="width*0.821417" d="height*0.919395" joint-type="2" />
+                            <curve-to x="width*0.803752" y="height*0.963057" a="width*0.803752" b="height*0.952981" c="width*0.830249" d="height*0.959697" joint-type="2" />
+                            <curve-to x="width*0.790503" y="height*0.97649" a="width*0.777255" b="height*0.966415" c="width*0.790503" d="height*0.95466" joint-type="2" />
+                            <curve-to x="width*0.790503" y="height*1" a="width*0.790503" b="height*1" c="width*0.821417" d="height*1.00167" joint-type="2" />
+                            <curve-to x="width*0.569692" y="height*0.952981" a="width*0.75959" b="height*0.994962" c="width*0.569692" d="height*0.956339" joint-type="2" />
+                            <curve-to x="width*0.578525" y="height*0.936188" a="width*0.569692" b="height*0.949622" c="width*0.578525" d="height*0.951302" joint-type="2" />
+                            <curve-to x="width*0.600606" y="height*0.919395" a="width*0.578525" b="height*0.921075" c="width*0.600606" d="height*0.93451" joint-type="2" />
+                            <curve-to x="width*0.68893" y="height*0.675904" a="width*0.600606" b="height*0.904282" c="width*0.68893" d="height*0.689336" joint-type="2" />
+                            <curve-to x="width*0.658017" y="height*0.664148" a="width*0.68893" b="height*0.662468" c="width*0.666849" d="height*0.679261" joint-type="2" />
+                            <curve-to x="width*0.675682" y="height*0.63728" a="width*0.649184" b="height*0.649034" c="width*0.675682" d="height*0.647356" joint-type="2" />
+                            <curve-to x="width*0.649184" y="height*0.607053" a="width*0.675682" b="height*0.627204" c="width*0.649184" d="height*0.617128" joint-type="2" />
+                            <curve-to x="width*0.675682" y="height*0.590261" a="width*0.649184" b="height*0.596977" c="width*0.675682" d="height*0.605374" joint-type="2" />
+                            <curve-to x="width*0.485784" y="height*0.286313" a="width*0.675682" b="height*0.575146" c="width*0.485784" d="height*0.293032" joint-type="2" />
+                            <curve-to x="width*0.437206" y="height*0.554995" a="width*0.485784" b="height*0.279597" c="width*0.437206" d="height*0.54492" joint-type="2" />
+                            <curve-to x="width*0.437206" y="height*0.575146" a="width*0.437206" b="height*0.565071" c="width*0.437206" d="height*0.570111" joint-type="2" />
+                            <curve-to x="width*0.437206" y="height*0.595297" a="width*0.437206" b="height*0.580185" c="width*0.415125" d="height*0.580185" joint-type="2" />
+                            <curve-to x="width*0.437206" y="height*0.654072" a="width*0.459287" b="height*0.610411" c="width*0.448246" d="height*0.649874" joint-type="2" />
+                            <curve-to x="width*0.428373" y="height*0.679261" a="width*0.426165" b="height*0.658271" c="width*0.428373" d="height*0.667507" joint-type="2" />
+                            <curve-to x="width*0.412917" y="height*0.696893" a="width*0.428373" b="height*0.691016" c="width*0.423957" d="height*0.679261" joint-type="2" />
+                            <curve-to x="width*0.375379" y="height*0.880773" a="width*0.401876" b="height*0.714526" c="width*0.384211" d="height*0.863979" joint-type="2" />
+                            <curve-to x="width*0.366546" y="height*0.936188" a="width*0.366546" b="height*0.897565" c="width*0.375378" d="height*0.922754" joint-type="2" />
+                            <curve-to x="width*0.203146" y="height*0.941226" a="width*0.357713" b="height*0.949623" c="width*0.216395" d="height*0.956339" joint-type="2" />
+                            <curve-to x="width*0.189897" y="height*0.877415" a="width*0.189897" b="height*0.926113" c="width*0.189897" d="height*0.897565" joint-type="2" />
+                            <curve-to x="width*0.132487" y="height*0.630562" a="width*0.189897" b="height*0.857262" c="width*0.121446" d="height*0.63476" joint-type="2" />
+                            <curve-to x="width*0.1634" y="height*0.618809" a="width*0.143527" b="height*0.626363" c="width*0.176649" d="height*0.630562" joint-type="2" />
+                            <curve-to x="width*0.132487" y="height*0.571787" a="width*0.150151" b="height*0.607053" c="width*0.132487" d="height*0.600335" joint-type="2" />
+                            <curve-to x="width*0" y="height*0.162049" a="width*0.132487" b="height*0.54324" c="width*0" d="height*0.1822" joint-type="2" />
+                            <curve-to x="width*0.0485779" y="height*0.00251869" a="width*0" b="height*0.141898" c="width*0.0485779" d="height*0.00251869" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10548">
+                            <fill type="solid-color" color="#000000" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.275191" gpiny="parent.height*0.906555" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.207203,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0898482)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10646">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.29687" y="height*0" joint-type="0" />
+                            <curve-to x="width*0.0260417" y="height*0.438201" a="width*0.29687" b="height*0.0674144" c="width*0.165979" d="height*0.257068" joint-type="2" />
+                            <curve-to x="width*0.401038" y="height*1" a="width*-0.0781275" b="height*0.573034" c="width*0.196068" d="height*1.03015" joint-type="2" />
+                            <curve-to x="width*1.0052" y="height*0.516854" a="width*0.630206" b="height*0.966291" c="width*1.0052" d="height*0.629211" joint-type="2" />
+                            <curve-to x="width*0.942706" y="height*0" a="width*1.0052" b="height*0.404493" c="width*0.942706" d="height*0" joint-type="0" />
+                            <line-to x="width*0.29687" y="height*0" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10548">
+                            <fill type="solid-color" color="#000000" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.676905" gpiny="parent.height*0.93674" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.329686,parent.height*0)" height="hyp(parent.width*0,parent.height*0.126001)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10647">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.234036" y="height*-0.00403436" joint-type="0" />
+                            <curve-to x="width*0.0834633" y="height*0.192259" a="width*0.201301" b="height*0.0560555" c="width*0.10965" d="height*0.128163" joint-type="2" />
+                            <curve-to x="width*0.00490359" y="height*0.384547" a="width*0.0572767" b="height*0.256355" c="width*-0.021283" d="height*0.376535" joint-type="2" />
+                            <curve-to x="width*0.12929" y="height*0.460661" a="width*0.0310902" b="height*0.392559" c="width*0.12929" d="height*0.460661" joint-type="0" />
+                            <curve-to x="width*0.201301" y="height*0.400571" a="width*0.12929" b="height*0.460661" c="width*0.168567" d="height*0.384547" joint-type="2" />
+                            <curve-to x="width*0.279863" y="height*0.72105" a="width*0.234036" b="height*0.416595" c="width*0.279863" d="height*0.656954" joint-type="2" />
+                            <curve-to x="width*0.463169" y="height*0.977434" a="width*0.279863" b="height*0.785146" c="width*0.332236" d="height*0.96141" joint-type="2" />
+                            <curve-to x="width*0.908341" y="height*0.993458" a="width*0.594102" b="height*0.993458" c="width*0.842874" d="height*1.00948" joint-type="2" />
+                            <curve-to x="width*1" y="height*0.913338" a="width*0.973807" b="height*0.977434" c="width*1" d="height*0.937374" joint-type="2" />
+                            <curve-to x="width*0.836327" y="height*0.652948" a="width*1" b="height*0.889302" c="width*0.862514" d="height*0.668972" joint-type="2" />
+                            <curve-to x="width*0.836327" y="height*0.208283" a="width*0.810141" b="height*0.636925" c="width*0.836327" d="height*0.240331" joint-type="2" />
+                            <curve-to x="width*0.234036" y="height*-0.00403436" a="width*0.836327" b="height*0.176235" c="width*0.234036" d="height*0.0119896" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10548">
+                            <fill type="solid-color" color="#000000" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.464166" gpiny="parent.height*0.168722" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.919689,parent.height*0)" height="hyp(parent.width*0,parent.height*0.315675)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10649">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.15222" y="height*0.0114285" joint-type="0" />
+                            <curve-to x="width*0.347349" y="height*0.107824" a="width*0.15222" b="height*0.0114285" c="width*0.346014" d="height*0.0991392" joint-type="2" />
+                            <curve-to x="width*0.417754" y="height*0.421229" a="width*0.348683" b="height*0.11651" c="width*0.403674" d="height*0.430823" joint-type="2" />
+                            <curve-to x="width*0.675911" y="height*0.226151" a="width*0.431837" b="height*0.411635" c="width*0.666523" d="height*0.254933" joint-type="2" />
+                            <curve-to x="width*0.675911" y="height*0.085438" a="width*0.685297" b="height*0.197367" c="width*0.647749" d="height*0.104626" joint-type="2" />
+                            <curve-to x="width*0.801956" y="height*0" a="width*0.704073" b="height*0.0662499" c="width*0.801956" d="height*0" joint-type="0" />
+                            <curve-to x="width*1" y="height*0.0790419" a="width*0.801956" b="height*0" c="width*1.00917" d="height*0.0758441" joint-type="2" />
+                            <curve-to x="width*0.896516" y="height*0.338081" a="width*0.990391" b="height*0.0822401" c="width*0.882435" d="height*0.235745" joint-type="2" />
+                            <curve-to x="width*0.910598" y="height*0.446813" a="width*0.90693" b="height*0.413766" c="width*0.910598" d="height*0.434021" joint-type="2" />
+                            <curve-to x="width*0.858966" y="height*0.619507" a="width*0.910598" b="height*0.459606" c="width*0.849578" d="height*0.61631" joint-type="2" />
+                            <curve-to x="width*0.858966" y="height*0.635496" a="width*0.868353" b="height*0.622705" c="width*0.877741" d="height*0.61311" joint-type="2" />
+                            <curve-to x="width*0.835498" y="height*0.677071" a="width*0.84019" b="height*0.657882" c="width*0.835498" d="height*0.657882" joint-type="2" />
+                            <curve-to x="width*0.835498" y="height*0.705853" a="width*0.835498" b="height*0.696259" c="width*0.844884" d="height*0.699458" joint-type="2" />
+                            <curve-to x="width*0.812029" y="height*0.737833" a="width*0.82611" b="height*0.712249" c="width*0.812029" d="height*0.718646" joint-type="2" />
+                            <curve-to x="width*0.802642" y="height*0.830576" a="width*0.812029" b="height*0.757022" c="width*0.783867" d="height*0.804992" joint-type="2" />
+                            <curve-to x="width*0.854273" y="height*0.987279" a="width*0.821418" b="height*0.856161" c="width*0.86366" d="height*0.990478" joint-type="2" />
+                            <curve-to x="width*0.488161" y="height*0.993676" a="width*0.844885" b="height*0.984082" c="width*0.605505" d="height*0.984081" joint-type="2" />
+                            <curve-to x="width*0.0516434" y="height*0.987279" a="width*0.42143" b="height*1" c="width*0.0516434" d="height*1.00647" joint-type="2" />
+                            <curve-to x="width*0.0704176" y="height*0.904129" a="width*0.0516434" b="height*0.96809" c="width*0.0704176" d="height*0.936111" joint-type="2" />
+                            <curve-to x="width*0.0704176" y="height*0.82418" a="width*0.0704176" b="height*0.872151" c="width*0.0610289" d="height*0.87215" joint-type="2" />
+                            <curve-to x="width*0.0751121" y="height*0.731437" a="width*0.0798046" b="height*0.77621" c="width*0.0751121" d="height*0.766615" joint-type="2" />
+                            <curve-to x="width*0.0422552" y="height*0.440418" a="width*0.0751121" b="height*0.696259" c="width*0.0563364" d="height*0.459606" joint-type="2" />
+                            <curve-to x="width*0.0854572" y="height*0.270922" a="width*0.028174" b="height*0.421229" c="width*0.104232" d="height*0.344478" joint-type="2" />
+                            <curve-to x="width*0" y="height*0.05026" a="width*0.0666813" b="height*0.197367" c="width*0" d="height*0.05026" joint-type="0" />
+                            <line-to x="width*0.15222" y="height*0.0114285" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10556">
+                            <fill type="solid-color" color="#7D9EBE" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.0556856" gpiny="parent.height*0.0880538" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.116552,parent.height*0)" height="hyp(parent.width*0,parent.height*0.131668)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10652">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0.0451402" joint-type="0" />
+                            <curve-to x="width*0.466659" y="height*0.0037375" a="width*0.111106" b="height*0.022138" c="width*0.411098" d="height*-0.00776294" joint-type="2" />
+                            <curve-to x="width*1" y="height*0.578781" a="width*0.522211" b="height*0.0152375" c="width*1" d="height*0.408567" joint-type="2" />
+                            <curve-to x="width*0.466659" y="height*0.998275" a="width*1" b="height*0.699182" c="width*0.466659" d="height*0.998275" joint-type="0" />
+                            <line-to x="width*0.333331" y="height*0.951408" joint-type="0" />
+                            <curve-to x="width*0.577775" y="height*0.56268" a="width*0.333331" b="height*0.951408" c="width*0.577775" d="height*0.72369" joint-type="2" />
+                            <curve-to x="width*0" y="height*0.0451402" a="width*0.577775" b="height*0.449059" c="width*0" d="height*0.0451402" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10558">
+                            <fill type="solid-color" color="#336699" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.856751" gpiny="parent.height*0.093007" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.1332,parent.height*0)" height="hyp(parent.width*0,parent.height*0.129986)" angle="-0" protection="0" misc="0" flipx="true" flipy="false" id="10656">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0.0577032" joint-type="0" />
+                            <curve-to x="width*0.41806" y="height*0.00249615" a="width*0.0972256" b="height*0.0344033" c="width*0.369439" d="height*-0.00857269" joint-type="2" />
+                            <curve-to x="width*1.00139" y="height*0.662905" a="width*0.466668" b="height*0.014725" c="width*1.00139" d="height*0.490488" joint-type="2" />
+                            <curve-to x="width*0.690284" y="height*1" a="width*1.00139" b="height*0.784863" c="width*0.690284" d="height*1" joint-type="0" />
+                            <line-to x="width*0.560733" y="height*0.940924" joint-type="0" />
+                            <curve-to x="width*0.709859" y="height*0.689305" a="width*0.560733" b="height*0.940924" c="width*0.709859" d="height*0.852399" joint-type="2" />
+                            <curve-to x="width*0" y="height*0.0577032" a="width*0.709859" b="height*0.574215" c="width*0" d="height*0.0577032" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10558">
+                            <fill type="solid-color" color="#336699" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.754652" gpiny="parent.height*0.105763" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0336705,parent.height*0)" height="hyp(parent.width*0,parent.height*0.00874927)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10659">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0.5" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223859" c="width*0.223863" d="height*0" joint-type="0" />
+                            <curve-to x="width*1" y="height*0.5" a="width*0.776137" b="height*0" c="width*1" d="height*0.223859" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776141" c="width*0.776137" d="height*1" joint-type="0" />
+                            <curve-to x="width*0" y="height*0.5" a="width*0.223863" b="height*1" c="width*0" d="height*0.776141" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10561">
+                            <fill type="solid-color" color="#003366" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.497643" gpiny="parent.height*0.317784" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0336705,parent.height*0)" height="hyp(parent.width*0,parent.height*0.00874927)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10662">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0.5" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223859" c="width*0.223863" d="height*0" joint-type="0" />
+                            <curve-to x="width*1" y="height*0.5" a="width*0.776137" b="height*0" c="width*1" d="height*0.223859" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776141" c="width*0.776137" d="height*1" joint-type="0" />
+                            <curve-to x="width*0" y="height*0.5" a="width*0.223863" b="height*1" c="width*0" d="height*0.776141" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10561">
+                            <fill type="solid-color" color="#003366" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.173888" gpiny="parent.height*0.130876" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0336705,parent.height*0)" height="hyp(parent.width*0,parent.height*0.00874927)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10666">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0.5" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223859" c="width*0.223863" d="height*0" joint-type="0" />
+                            <curve-to x="width*1" y="height*0.5" a="width*0.776137" b="height*0" c="width*1" d="height*0.223859" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776141" c="width*0.776137" d="height*1" joint-type="0" />
+                            <curve-to x="width*0" y="height*0.5" a="width*0.223863" b="height*1" c="width*0" d="height*0.776141" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10561">
+                            <fill type="solid-color" color="#003366" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.131347" gpiny="parent.height*0.103189" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0336705,parent.height*0)" height="hyp(parent.width*0,parent.height*0.00874927)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10669">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0.5" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223859" c="width*0.223863" d="height*0" joint-type="0" />
+                            <curve-to x="width*1" y="height*0.5" a="width*0.776137" b="height*0" c="width*1" d="height*0.223859" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776141" c="width*0.776137" d="height*1" joint-type="0" />
+                            <curve-to x="width*0" y="height*0.5" a="width*0.223863" b="height*1" c="width*0" d="height*0.776141" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10561">
+                            <fill type="solid-color" color="#003366" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.686159" gpiny="parent.height*0.128284" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0336705,parent.height*0)" height="hyp(parent.width*0,parent.height*0.00874927)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10672">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0.5" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223859" c="width*0.223863" d="height*0" joint-type="0" />
+                            <curve-to x="width*1" y="height*0.5" a="width*0.776137" b="height*0" c="width*1" d="height*0.223859" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776141" c="width*0.776137" d="height*1" joint-type="0" />
+                            <curve-to x="width*0" y="height*0.5" a="width*0.223863" b="height*1" c="width*0" d="height*0.776141" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10561">
+                            <fill type="solid-color" color="#003366" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.525421" gpiny="parent.height*0.302641" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0336705,parent.height*0)" height="hyp(parent.width*0,parent.height*0.00874927)" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10675">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0" y="height*0.5" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223859" c="width*0.223863" d="height*0" joint-type="0" />
+                            <curve-to x="width*1" y="height*0.5" a="width*0.776137" b="height*0" c="width*1" d="height*0.223859" joint-type="0" />
+                            <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776141" c="width*0.776137" d="height*1" joint-type="0" />
+                            <curve-to x="width*0" y="height*0.5" a="width*0.223863" b="height*1" c="width*0" d="height*0.776141" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10561">
+                            <fill type="solid-color" color="#003366" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.229963" gpiny="parent.height*0.0246958" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.183154,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0393716)" angle="0" protection="0" misc="0" flipx="true" flipy="true" id="10678">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.119296" y="height*0.38556" joint-type="0" />
+                            <curve-to x="width*0.0046547" y="height*0.00482245" a="width*0.190003" b="height*0.308634" c="width*0.0687897" d="height*0.187758" joint-type="0" />
+                            <curve-to x="width*0.998095" y="height*0.759192" a="width*0.23798" b="height*0.204252" c="width*0.664748" d="height*0.385562" joint-type="0" />
+                            <curve-to x="width*0.897075" y="height*1.00138" a="width*0.927374" b="height*0.935012" c="width*0.917277" d="height*0.956989" joint-type="0" />
+                            <curve-to x="width*0.119296" y="height*0.38556" a="width*0.73546" b="height*0.814133" c="width*0.119296" d="height*0.38556" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10568">
+                            <fill type="solid-color" color="#00254B" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.676873" gpiny="parent.height*0.0201166" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.134591,parent.height*0)" height="hyp(parent.width*0,parent.height*0.0393716)" angle="-0" protection="0" misc="0" flipx="false" flipy="true" id="10682">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.00679902" y="height*0.379122" joint-type="0" />
+                            <curve-to x="width*0.0480361" y="height*-0.00548981" a="width*0.103026" b="height*0.302196" c="width*0.135319" d="height*0.177443" joint-type="0" />
+                            <curve-to x="width*0.987026" y="height*0.704248" a="width*0.365546" b="height*0.193938" c="width*0.533388" d="height*0.330617" joint-type="0" />
+                            <curve-to x="width*0.982744" y="height*0.99451" a="width*1.01024" b="height*0.840659" c="width*0.996493" d="height*0.873626" joint-type="0" />
+                            <curve-to x="width*0.00679902" y="height*0.379122" a="width*0.786035" b="height*0.712905" c="width*0.00679902" d="height*0.379122" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10568">
+                            <fill type="solid-color" color="#00254B" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.250268" gpiny="parent.height*0.191668" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0424766,parent.height*0)" height="hyp(parent.width*0,parent.height*0.07099)" angle="0" protection="0" misc="0" flipx="true" flipy="true" id="10685">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*-0.0118498" y="height*0.0642577" joint-type="0" />
+                            <curve-to x="width*0.525129" y="height*0" a="width*0.061708" b="height*0.0335493" c="width*0.28122" d="height*0.0240591" joint-type="0" />
+                            <curve-to x="width*0.9927" y="height*0.985798" a="width*0.525129" b="height*0" c="width*0.170892" d="height*0.721293" joint-type="0" />
+                            <curve-to x="width*0.521717" y="height*0.981495" a="width*0.445307" b="height*1.00286" c="width*0.704626" d="height*1.00709" joint-type="0" />
+                            <curve-to x="width*-0.0118498" y="height*0.0642577" a="width*0.110494" b="height*0.982355" c="width*-0.0118498" d="height*0.0642577" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10568">
+                            <fill type="solid-color" color="#00254B" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.234754" gpiny="parent.height*0.275441" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0620314,parent.height*0)" height="hyp(parent.width*0,parent.height*0.101776)" angle="-0" protection="0" misc="0" flipx="false" flipy="true" id="10688">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.715431" y="height*0" joint-type="0" />
+                            <curve-to x="width*0.995478" y="height*0" a="width*1" b="height*-0.0013449" c="width*0.786355" d="height*0.0103919" joint-type="0" />
+                            <curve-to x="width*0.915857" y="height*0.31452" a="width*0.995478" b="height*0" c="width*1.01133" d="height*0.0956033" joint-type="2" />
+                            <curve-to x="width*0.3146" y="height*0.707318" a="width*0.866282" b="height*0.42819" c="width*0.301381" d="height*0.602475" joint-type="2" />
+                            <curve-to x="width*0.899143" y="height*1" a="width*0.328288" b="height*0.816044" c="width*0.751651" d="height*0.951694" joint-type="0" />
+                            <curve-to x="width*0.420794" y="height*0.962074" a="width*0.5505" b="height*0.979861" c="width*0.631936" d="height*0.983499" joint-type="0" />
+                            <curve-to x="width*0.0139655" y="height*0.640661" a="width*0.255806" b="height*0.937177" c="width*-0.0736805" d="height*0.794877" joint-type="2" />
+                            <curve-to x="width*0.581831" y="height*0.290715" a="width*0.073864" b="height*0.535304" c="width*0.485223" d="height*0.399155" joint-type="2" />
+                            <curve-to x="width*0.715431" y="height*0" a="width*0.752707" b="height*0.0988586" c="width*0.715415" d="height*0" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10568">
+                            <fill type="solid-color" color="#00254B" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                    <shape type="shape" gpinx="parent.width*0.647955" gpiny="parent.height*0.239469" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.0440954,parent.height*0)" height="hyp(parent.width*0,parent.height*0.167662)" angle="0" protection="0" misc="0" flipx="true" flipy="true" id="10691">
+                        <path nofill="false" noline="false" path-closed="true" noshow="false">
+                            <move-to x="width*0.00457163" y="height*0" joint-type="0" />
+                            <curve-to x="width*0.398529" y="height*0" a="width*0.403984" b="height*0" c="width*0.104327" d="height*0.00613315" joint-type="0" />
+                            <curve-to x="width*0.733543" y="height*0.367962" a="width*0.398529" b="height*0" c="width*0.556907" d="height*0.23866" joint-type="2" />
+                            <curve-to x="width*0.991992" y="height*0.521141" a="width*0.874845" b="height*0.471405" c="width*1.0517" d="height*0.462081" joint-type="2" />
+                            <curve-to x="width*0.874512" y="height*0.818829" a="width*0.922276" b="height*0.590144" c="width*0.85591" d="height*0.755187" joint-type="2" />
+                            <curve-to x="width*0.780533" y="height*1" a="width*0.893791" b="height*0.884832" c="width*0.573077" d="height*0.969601" joint-type="0" />
+                            <curve-to x="width*0.334136" y="height*1" a="width*0.493019" b="height*0.984479" c="width*0.334136" d="height*1" joint-type="0" />
+                            <curve-to x="width*0.292757" y="height*0.78422" a="width*0.102027" b="height*0.984349" c="width*0.169449" d="height*0.877833" joint-type="2" />
+                            <curve-to x="width*0.592568" y="height*0.632413" a="width*0.377008" b="height*0.720269" c="width*0.456676" d="height*0.698239" joint-type="2" />
+                            <curve-to x="width*0.404615" y="height*0.373743" a="width*0.694188" b="height*0.583187" c="width*0.546496" d="height*0.481082" joint-type="2" />
+                            <curve-to x="width*0.00457163" y="height*0" a="width*0.210851" b="height*0.227133" c="width*0.00455442" d="height*0" joint-type="0" />
+                        </path>
+                        <control-list />
+                        <style id="10568">
+                            <fill type="solid-color" color="#00254B" opcity="1" />
+                            <fill-rule>nonzero</fill-rule>
+                            <stroke opcity="0" />
+                            <stroke-width>1</stroke-width>
+                            <stroke-linecap>butt</stroke-linecap>
+                            <stroke-linejoin>miter</stroke-linejoin>
+                            <stroke-miterlimit>4</stroke-miterlimit>
+                            <stroke-dash>1</stroke-dash>
+                            <stroke-dashoffset>0</stroke-dashoffset>
+                            <marker-start size="4">0</marker-start>
+                            <marker-end size="4">0</marker-end>
+                            <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+                        </style>
+                        <variable-list />
+                        <anchor-list />
+                        <action-list />
+                        <hyperlink-list />
+                        <events eventdrop="0" />
+                        <miscellaneous hidetext="0" invisible="0" />
+                        <property-sheet />
+                    </shape>
+                </g>
+            </g>
+        </item>
+    </items>
+</template>

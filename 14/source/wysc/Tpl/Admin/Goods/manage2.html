@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>商品管理11111111111</title>
+        <include file="Common:miniheader" />
+        <script type="text/javascript">
+
+
+            function createop(_v, _r) {
+                return "<a href='index.php?g=admin&m=goods&a=edit&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-drive_edit\"'>编辑</a><a href='javascript:void(0)'  onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton'   data-options='iconCls:\"icon-cancel\"'>删除</a>";
+            }
+
+            function renderbutton() {
+                $('a.easyui-linkbutton').linkbutton({
+                    plain: true
+                });
+            }
+
+            function gotopage(_page, _pagesize) {
+                window.location.href = 'index.php?g=admin&m=Goods&a=manage&page=' + _page;
+            }
+
+            function confirmdel(_id) {
+                $.messager.confirm('确认删除', '是否确认删除该商品', function (r) {
+                    if (r) {
+                        window.location.href = 'index.php?g=admin&m=goods&a=del&id=' + _id;
+                    }
+                });
+                function changeclass(){
+                    $('#datagrid').datagrid('getselections');
+                    console.log(_items);
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="easyui-panel" data-options="
+             title:'商品管理',
+             border:false,
+             iconCls:'icon-application_view_gallery'
+             ">
+            <table id="datagrid" class="easyui-datagrid" data-options="
+                   border:false,
+                   fitColumns:true,
+                   toolbar:'#toolbar',
+                   onLoadSuccess:renderbutton
+                   ">
+                <thead>
+
+                    <th data-options="
+                        align:'center',
+                        field:'listorder',
+                        checkbox:'true'
+                        ">排序</th>
+                    <th data-options="
+                        field:'id',
+                        align:'center', 
+                        width:20">id</th>
+                    <th data-options="
+                        field:'goodsname',
+                        width:50">商品名称</th>
+                    <th data-options="
+                        field:'price',
+                        width:20">商城价格</th>
+                    <th data-options="
+                        field:'mprice',
+                        width:20">市场价格</th>
+                    <th data-options="field:'categoryname',
+                        align:'center', 
+                        width:30">所属分类</th>
+                    <th data-options="field:'brandname',
+                        align:'center', 
+                        width:30">商标</th>
+                    <th data-options="field:'attrname',
+                        align:'center', 
+                        width:30">模型</th>
+                    <th data-options="field:'typename',
+                        align:'center', 
+                        width:30">类型</th>
+                    <th data-options="field:'storenum',
+                        align:'left', 
+                        width:30">库存</th>
+                    <th data-options="field:'is_show',
+                        align:'center', 
+                        width:30">是否显示</th>
+                    <th data-options="field:'opration',
+
+                        formatter:createop
+                        ">操作</th>
+                </thead>
+                <tbody>
+                    <volist name="data" id="val">
+                        <tr>
+                            <td></td>
+                            <td>{$val[id]}</td>
+                            <td>{$val[goodsname]}</td>
+                            <td>{$val[price]}</td>
+                            <td>{$val[mprice]}</td>
+                            <td>{$val[catname]}</td>
+                            <td>{$val[brandname]}</td>
+                            <td>{$val[attrname]}</td>
+                            <td>{$val[typename]}</td>
+                            <td>{$val[storenum]}</td>
+                            <td>
+                                <if condition="$val[is_show] eq 1">是
+                                    <else/>
+                                    否
+                                </if>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </volist>
+                </tbody>
+            </table>
+            <div class="easyui-pagination" data-options="
+                 border:true,
+                 total:'{$total}',
+                 pageSize:'{:C('PAGE_SIZE')}',
+                 pageNumber:{$page},
+                 pageList:[{:C('PAGE_SIZE')}],
+                 onSelectPage:gotopage
+                 "></div>
+            <div id="toolbar">
+                <a href="{:U('Goods/add')}" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-application_form_add'" >添加商品</a>
+                <select id="cc" name="category_id" class="easyui-combotree" style=" width:150px " data-options="url:'{:U('category/combotreejson')}'"></select>
+                <a href="javascript:void(0)" onclick="changeclass()" class="easyui-linkbutton" data-options="plian:false,iconCls:'icon-arrow_right'" >批量移动</a>
+            </div>
+        </div>
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+/* CSS Document */
+div{
+	border:1px solid #ff0000;
+	width:100px;
+	height:100px;
+}
+#dv1{
+	float:left;
+}
+#dv2{
+	float:left;
+}
+#dv3{
+	clear:both;
+	display:block;
+}
+

@@ -1,0 +1,53 @@
+<link type="text/css" rel="stylesheet" href="__SKIN__css/reset.css" />
+<link type="text/css" rel="stylesheet" href="__SKIN__css/header.css" />
+<script type="text/javascript" src="__SKIN__js/jquery-1.7.2.min.js"></script>
+<div class="mini-nav">
+    <div class="mini-main">
+        <div class="fast-nav">
+        <if condition="$_USER[id]">
+        <span 
+        <if condition="$_USER[sex] eq 1">
+        class="usericon1"
+        <elseif condition="$_USER[sex] eq 2"/>
+        class="usericon"
+        <else/>
+        </if>
+        >欢迎你:{$_USER[username]}</span>| <a href="{:U('User/logout')}">退出登录</a>
+        <else/>
+        <a href="{:U('User/login')}">登录</a> | <a href="{:U('User/register')}">免费注册</a> 
+        </if>
+            
+            | <a href="{:U('User/ucenter')}">会员中心</a> | <a href="{:U('Shoppingflow/step',array('step'=>'shoppingcar'))}"> 购物车</a> | <a href="">帮助中心</a>
+        </div>
+        <div class="date">
+            {$nowtime}
+        </div>
+    </div>
+</div>
+<!--顶部导航结束-->
+<div class="wrap">
+    <!--头部开始-->
+    <div class="header">
+        <div class="header-top">
+            <h1><a href=""><img src="__SKIN__images/index_03.jpg" /></a></h1>
+            <div class="searchform">
+                <div class="form">
+                    <form name="f1" method="get" action="{:U('Index/search')}">
+                        <input type="text" name="keyword" class="keyword" />
+                        <input type="submit" name="s1" value="" class="searchbtn" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="allcate">
+            </div>
+            <!--全部分类：主菜单-->
+            <ul class="navigator">
+                <volist name="navdata" id="item">
+                    <li class="item"><a href="{:U('Index/lists',array('catid'=>$item[id]))}">{$item[catname]}</a></li>
+                </volist>
+            </ul>
+        </div>
+    </div>
+    <!--头部结束-->

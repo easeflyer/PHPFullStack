@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>订单管理-用户中心-我赢商城</title>
+    <include file="Admin:Common:miniheader" />
+    <link rel="stylesheet" type="text/css" href="__SKIN__css/ucentermenu.css" />
+    <link rel="stylesheet" type="text/css" href="__SKIN__css/ucenter.css" />
+    
+    <style type="text/css">
+    .table-form tr th {
+        text-align: center;
+        height: 24px;
+        line-height: 24px
+    }
+    </style>
+</head>
+
+<body>
+    <include file="Common:header" />
+    <div class="position">
+        <h6>当前位置：</h6><a href="__APPURL__">首页</a><span>&gt;</span><a href="{:U('User/ucenter')}">用户中心</a><span>&gt;</span><a href="{:U('User/ucenter',array('option'=>'selforder'))}">个人订单管理</a>
+    </div>
+    <div class="main">
+        <include file="User:ucentermenu" />
+        <div class="right">
+            <form name="f1" action="{:U("Shoppingflow/step",array('step'=>'shippingtype'))}" method="POST" enctype="multipart/form-data">
+                <table class="table-form" border="1" width="100%">
+                    <tr>
+                        <th style="width:20px">id</th>
+                        <th>下单时间</th>
+                        <th>付款金额</th>
+                        <th>订单状态</th>
+                        <th>操作</th>
+                    </tr>
+                    <volist name="orderdata" id="item">
+                        <tr>
+                            <td align="center">{$item[id]}</td>
+                            <td>{$item[ordertime]|date='Y-m-d H:i:s',###}</td>
+                            <td><span style="color:red">￥</span>{$item[totalprice]}</td>
+                            <td>{$item[state]}</td>
+                            <td align="center"><a href="{:U('User/ucenter',array(option=>'orderdetail','orderid'=>$item[id]))}"><span style="color:red">查看订单详情</span></a>&nbsp;&nbsp;<a href="{:U('Shoppingflow/step',array(step=>'nextstep',nextstep=>$item[nextstep],orderid=>$item[id]))}"><span style="color:red">继续操作</span></a></td>
+                        </tr>
+                    </volist>
+                </table>
+            </form>
+            <div id="pages" style="margin-top:15px;margin-bottom:10px; margin-right:20px; text-align:right">
+                 {$pageshow}
+            </div>
+        </div>
+    </div>
+    <include file='Common:footer' />
+    <!--商品列表结束-->
+</body>
+
+</html>

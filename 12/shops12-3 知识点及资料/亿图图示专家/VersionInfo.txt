@@ -1,0 +1,8 @@
+[VersionInfo]
+EDraw.exe=3.3.0.326
+ObjectModule.dll=3.3.0.322
+ExpItp.dll=3.0.0.322
+SVGExporter.dll=1.0.0.319
+PDFExporter.dll=1.1.0.318
+ThumbView.dll=2.1.0.304
+Updater.exe=3.0.0.317

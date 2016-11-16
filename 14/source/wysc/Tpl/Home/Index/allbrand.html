@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>商标列表-我赢商城</title>
+</head>
+<body>
+    <include file='Common:header' />
+    <link rel="stylesheet" type="text/css" href="__SKIN__css/list.css" />
+    <link rel="stylesheet" type="text/css" href="__SKIN__css/left.css" />
+    <script type="text/javascript" src="__SKIN__js/left.js"></script>
+    <script type="text/javascript" src="__SKIN__js/list.js"></script>
+    <!--当前位置开始-->
+    <div class="position">
+        <h6>当前位置：</h6><a href="__APPURL__">首页</a>
+
+                <span>&gt;</span><a href="javascript:void(0)">商标列表</a>
+           
+        </if>
+    </div>
+    <!--当前位置结束-->
+    <!--页面主要区域开始-->
+    <div class="main">
+        <include file="Common/left" />
+        <div class="right">
+            <!--热卖推荐开始-->
+            <div class="recommend">
+                <volist name="xptj" id="item">
+                    <div class="item">
+                        <div class="itempic">
+                            <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__APPURL__/Public/Uploads/{$item[thumb]}" width="88" height="60" /></a>
+                        </div>
+                        <div class="iteminfo">
+                            <p>
+                                <a href="{:U('Index/show',array('goodid'=>$item[id]))}">{$item[goodsname]}</a>
+                            </p>
+                            <div class="price">
+                                ￥{$item[price]}
+                            </div>
+                            <a href=""><img src="__SKIN__images/list_14.jpg" /></a>
+                        </div>
+                    </div>
+                </volist>
+            </div>
+            <!--热卖推荐结束-->
+            
+            <div class="clear">
+            </div>
+            <!--商品列表开始-->
+         
+            <div class="list" style="margin-top:10px">
+                <div class="sum">
+                   
+                </div>
+                <volist name="branddata" id="item">
+                    <div class="gooditem" style="height:90px;">
+                        <a href="{:U('Index/brandlist',array('brandid'=>$item[id]))}"><img src='
+                <if condition="$item[image]">
+                __APPURL__/Public/Uploads/{$item[image]}
+                <else/>
+                __SKIN__images/nopic.png
+                </if>
+                '  width="140" height="80" style="width:140px; height:80px" class="goodpic" /></a>
+                       
+                    </div>
+                </volist>
+            </div>
+            <div class="clear"></div>
+            <div id="page">
+                {$pageshow}
+            </div>
+            <!--商品列表结束-->
+        </div>
+    </div>
+    <!--页面主要区域结束-->
+    <include file='Common:footer' />
+    </div>
+</body>
+
+</html>

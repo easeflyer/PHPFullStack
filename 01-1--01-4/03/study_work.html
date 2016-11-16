@@ -1,0 +1,81 @@
+知识点:
+	 一 table
+	 二 form表单
+	 
+一 table
+	<table></table>表格标记 
+	<tr></tr> 行
+	<td></td>列
+	1.table 属性:
+		border="1" 表格的边框
+		align="center"  表格水平位置 left 左  center 中 right 右
+		width="600"  表格宽度
+	    height="300" 表格高度
+		cellpadding="40" 文字距离边框的距离
+		 cellspacing="20" 边框的厚度
+		bgcolor="#FF0000" 背景色
+		background="imgs/1.jpg"
+			当背景图宽度 和 高度 < 表格的宽度 和 高度 背景图会在横向和纵向平铺（重复）
+			当背景图宽度 和 高度 > 表格的宽度 和 高度  表格从左上角开始引用图片的一部分 （和表格的宽度和高度相同）
+	2 tr 属性 只控制该行内容
+		align="center" left center right 行中内容的左中右
+		 height="100"   行高
+		 valign="bottom" 行中内容的上中下   top middle bottom
+	3 td 属性：只控制该列内容
+		align="right"  left center right 列中内容的 左 中 右
+		valign="top"   top middle bottom  列中内容的上 中 下
+		width="100"   列宽（影响整列的宽度）
+		height="40"    行高（影响整行的高度）
+		标记具有就进原则
+		
+		colspan="列数" 和并列
+		rowspan="行数" 合并行
+		注意： 行列都有合并 先列 后行
+		
+ 二 form表单：	主要是用来和用户交互的
+ <form></form> 表单
+ 1. input
+ 		<input type="元素名称" />
+								button:  普通按钮   value="按钮的文字"    js /jquery代码
+								checkbox 复选框  value="隐藏起来"  checked="checked" 默认选中项    处理传递时候用
+								file 上传控件
+								hidden 隐藏域  value="值"  和php脚本程序交互。
+								image 图片提交按钮  src="图片路径"  图片形态
+								 <form> action=“处理页面”method="post/get" 
+								submit 图片提交按钮 和 image功能一样，按钮形态
+								password 密码框
+								radio 单选框  排他效果  name="相同"
+								text 文本框
+								reset  把所有表单元素 还原成默认状态  value="按钮上文字"
+								
+ 2 非input 元素
+ 	<select>  下拉 列表
+		<option>北京</option>  选项
+		<option>上海</option>
+		<option selected="selected">天津</option> selected="selected" 默认选项
+		<option>河北</option>
+	</select>
+	<textarea cols="文本列数" rows="文本行数"></textarea> 没有滚动条 cols+2   
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

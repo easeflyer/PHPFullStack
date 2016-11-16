@@ -1,0 +1,177 @@
+/* CSS Document */
+
+.main .right {
+    width: 790px;
+    float: left;
+    margin-left: 9px;
+}
+
+.right .recommend {
+    height: 110px;
+    background: url(../images/list_05.gif);
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.right .recommend .item {
+    width: 245px;
+    height: 105px;
+    margin-left: 5px;
+    float: left
+}
+
+.right .recommend .item .itempic {
+    width: 100px;
+    float: left
+}
+
+.right .recommend .item .itempic img {
+    width: 88px;
+    height: 60px;
+    margin-top: 27px;
+    margin-left: 3px;
+}
+
+.right .recommend .item .iteminfo {
+    width: 145px;
+    float: left
+}
+.right .recommend .item a {
+    font-size: 12px
+}
+.right .recommend .item .iteminfo p {
+    padding-top: 5px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 1.5em;
+    font-size: 12px;
+}
+
+.right .recommend .item .iteminfo .price {
+    height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #900
+}
+
+.right .recommend .item .iteminfo img {
+    margin-left: 7px;
+    margin-top: 2px;
+}
+
+.filter {
+    height: auto;
+    border-bottom: dashed 1px #000000;
+    background: url(../images/list_19.jpg) repeat-x;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.filter dl {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.filter dl dd,
+.filter dl dt {
+    float: left;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.filter dl.brand dd,
+.filter dl.brand dt {
+    float: left;
+    padding: 0 10px;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px
+}
+.filter dl.brand img{
+	height: 50px;
+	border: 1px solid #cccccc
+}
+.filter dl dd a {
+    font-size: 12px;
+}
+
+.right .order {
+    margin-top: 15px;
+    margin-bottom: 20px
+}
+
+.right .order h3 {
+    display: inline-block;
+    color: #900;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    margin-right: 20px
+}
+
+.right .order a {
+    margin: 0 10px;
+}
+
+.right .list {
+    background: #999;
+    background: url(../images/list_34.jpg) repeat-x;
+}
+.right .list a{
+    font-size: 12px;
+}
+.right .list .sum {
+    font-size: 12px;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 30px;
+    margin-bottom: 20px
+}
+
+.right .list .gooditem {
+    width: 166px;
+    height: 290px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.right .list .gooditem .goodpic {
+    width: 160px;
+    height: 160px;
+    border: 1px solid #c8c7c7;
+    margin-left: 2px;
+}
+
+.right .list .gooditem .goodname {
+    font-size: 12px;
+    line-height: 1.5em;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.right .list .gooditem .goodprice,
+.goodprice1 {
+    font-size: 12px;
+    line-height: 1.5em;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    text-decoration: line-through
+}
+
+.right .list .gooditem .goodprice1 {
+    color: #900;
+    font-weight: bold;
+    text-decoration: none
+}
+
+.right .list .gooditem .op {
+    margin-top: 10px;
+    margin-left: 10px
+}
+.order img{ width:100px; height: 35px;}

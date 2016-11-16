@@ -1,0 +1,40 @@
+/* CSS Document */
+body{
+	border:1px solid #ff0000;
+	height:500px;
+        width:500px;
+        margin: 0px;
+}
+#dv{ 
+	border:1px solid #ff0000;
+	width:400px;
+	height:400px;
+	margin:auto;
+        /* 绝对定位*/
+	/*position:absolute;*/
+        left:110px;
+        top:110px;
+}
+#dv2{
+	border:1px solid #ff0000;
+	width:100px;
+	height:200px;
+        /* 相对定位 占用文档空间 影响其他元素的定位 */
+        /*    
+	position:relative;
+	top:50px;
+	left:50px;
+	*/
+        /* 绝对定位 不占用文档空间 不影响其他元素的定位 */
+        
+	position:absolute;
+	left:10px;
+	top:10px; 
+}
+#dv3{
+        /* dv3 的位置依赖 dv2 的高度。 注释掉 dv2 的 定位部分可见 */
+	border:1px solid #ff0000;
+	width:100px;
+	height:100px;
+}
+

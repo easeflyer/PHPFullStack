@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+<th data-options="field:'ck',checkbox:true">ck</th>  只需这一句即可.
+其他参考官方 demo
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic DataGrid - jQuery EasyUI Demo</title>
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    </head>
+    <body>
+
+        <h1>Demo:check box</h1>
+        <table id="dg" class="easyui-datagrid" style="width:300px;height:250px"  
+               data-options="url:'products.json',fitColumns:true,singleSelect:true">  
+            <thead>  
+                <tr>  
+                    <th data-options="field:'ck',checkbox:true">ck</th>
+                    <th data-options="field:'code',width:100">Code</th>  
+                    <th data-options="field:'name',width:100">Name</th>  
+                    <th data-options="field:'price',width:100,align:'right'">Price</th>  
+                </tr>  
+            </thead>  
+        </table>
+        <div style="margin:10px 0;">
+            <span>Selection Mode: </span>
+            <select onchange="$('#dg').datagrid({singleSelect: (this.value == 0)})">
+                <option value="0">Single Row</option>
+                <option value="1">Multiple Rows</option>
+            </select><br/>
+            SelectOnCheck(勾选同时选中): <input type="checkbox" checked onchange="$('#dg').datagrid({selectOnCheck: $(this).is(':checked')})"><br/>
+            CheckOnSelect(选中同时勾选): <input type="checkbox" checked onchange="$('#dg').datagrid({checkOnSelect: $(this).is(':checked')})">
+        </div>
+
+    </body>
+</html>

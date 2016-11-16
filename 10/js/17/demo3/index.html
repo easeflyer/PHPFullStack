@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="StyleSheet" href="dtree/dtree.css" type="text/css" />
+<script type="text/javascript" src="dtree/dtree.js"></script>
+</head>
+<script type="text/javascript">
+	var tree = new dTree("tree"); //实例化
+	tree.add(0,-1,"图书类型") ;//根菜单
+	tree.add(1,0,"小说");
+	tree.add(2,0,"文学");
+	tree.add(3,0,"少儿");
+	//为小说添加子类型
+	tree.add(4,1,"武侠");
+	tree.add(5,1,"历史");
+	//为武侠添加子类
+	tree.add(6,4,"科幻武侠");
+	tree.add(7,4,"现代武侠");
+	document.write(tree); 
+</script>
+<body>
+<a href="javascript:tree.openAll();">打开全部</a>
+<a href="javascript:tree.closeAll();">关闭全部</a>
+</body>
+</html>

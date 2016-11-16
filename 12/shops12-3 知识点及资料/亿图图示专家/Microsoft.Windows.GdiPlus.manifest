@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright © 1981-2001 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+    <assemblyIdentity 
+        type="win32" 
+        name="Microsoft.Windows.GdiPlus" 
+        version="6.0.3275.0"
+        processorArchitecture="x86" 
+    />
+    <file name="gdiplus.dll"/>
+</assembly>

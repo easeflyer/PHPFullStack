@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>图票列表</title>
+    <include file="Common:miniheader" />
+
+</head>
+
+<body>
+<script type="text/javascript">
+    $(function(){
+        $('.filelist>li>img').click(function(e){
+            $('#icon').val('icon-'+this.alt);
+            $('#win').window('close');
+        })
+        // 弹出 nodeadd.html 文档中的 #sssl
+        //alert($('#sssl').text()); 
+    })
+</script>
+<style type="text/css">
+        .filelist {
+            list-style: none;
+        }
+        .filelist li{ float: left; margin: 5px;
+            cursor:pointer;
+         }
+        .main{
+            padding: 20px;
+        }
+    </style>
+   <div class="main">
+       <ul class="filelist">
+           <!--循环遍历文件列表-->
+           <volist name="files" id="file">
+           <if condition="$file!='.' && $file!='..'">
+           <li><img src="{$path}{$file}" alt="{$file|substr=0,-4}" width="16" height="16" /></li>
+           </if>
+           </volist>
+       </ul>
+   </div>
+	
+</body>
+
+</html>

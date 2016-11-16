@@ -1,0 +1,60 @@
+/* CSS Document */
+/*section1*/
+.sec1{ height:395px; }
+.sec1 .left{ width:200px; height:394px; border:1px solid #de504d; float:left; border-top:none; background:#fff9f9}
+/*end section1*/
+.menu{margin-top:5px; margin-left:10px; margin-right:10px; float:left; position:relative;}
+.menu .menuitem { height:37px; padding-left:10px; line-height:38px;  border-bottom:1px solid #e8e3e3; background:url(../images/index_25.png) no-repeat 155px center; width:170px;  cursor:pointer  }
+.menu .menuitem a{font-size:12px;background:url(../images/index_25.gif) no-repeat left center; padding-left:15px; display:block; width:155px; height:37px;}
+.menu .menuitem a:hover{ color:#900}
+/* 隐藏的子菜单，只有鼠标悬停 才会显示出来*/
+.menu .submenu{ width:560px; height:373px; background:#fff9f9; position:absolute; z-index:10; left:191px; top:-5px; border:1px solid #de504d; display:none; border-left:none; padding: 10px 20px}
+.menu .submenu a{ background:none; display:inline}
+.menu .submenu dl{ border-bottom:1px solid #DDD}
+.menu .submenu dt,.menu .submenu dd{ float:left}
+.menu .submenu dt{ font-weight:bold; }
+.menu .submenu dt a{color:#de504d;}
+.menu .submenu dd a{ border-right:#CCC 1px solid; padding:0 11px 0 10px;}
+/* 左侧导航菜单 hover 鼠标悬停时的样式*/
+.menu .menuitem:hover{ background:none; border:1px solid #de504d; width:180px; height:36px;}
+/* .mask 用于挡住中间的竖线，贯通菜单和子菜单 */
+.menu .menuitem:hover .mask{ display:block; width:10px; height:36px; background:#fff9f9; float:right; margin-right:-11px; position:relative; z-index:11;}
+.menu .menuitem:hover .submenu{ display:block}
+.main{ width:590px;height:394px; float:left; margin-left:10px;}
+.main-top{ height:220px; margin-top:3px; position:relative;overflow:hidden}
+.main-top .pic{ height:220px; }
+.main-top .pic img{ position:absolute; left:0; top:0}
+.imagenav{ height:33px; margin-left:3px; position:absolute; left:0; top:185px;}
+.imagenav li{ width:145px; background:#000; height:33px; float:left; margin-left:1px;text-align:center; line-height:33px; opacity:0.6; cursor:pointer; filter:alpha(opacity=60)}
+.imagenav li span{ color:#FFF; }
+.main-bottom{ height:168px; border:1px solid #dcdbdb;margin-top:2px; }
+.main-bottom .btn-left{ width:20px; height:50px; border:1px solid #ffd7d0; border-left:none;  margin-top:56px; float:left; background:url(../images/index_37.gif) center no-repeat; cursor:pointer}
+.main-bottom .btn-right{ width:20px; height:50px; border:1px solid #ffd7d0; border-right:none;  margin-top:56px; float:right;background: url(../images/index_39.gif) center no-repeat; cursor:pointer}
+.piclist{ margin-top:1px; position:relative;   white-space:nowrap; font-size:0;}
+.scrollpic{ width:516px; height:165px;float:left; margin-left:16px; overflow:hidden }
+.piclist li{ border:1px solid #ffdee2; display:inline-block; margin:0 1px}
+.sec1 .right{ width:190px; float:left; margin-top:3px; margin-left:8px;height:392px;}
+.sec1 .login{ height:55px; border:1px solid #dcdbdb; background:#f0f0f0; padding-left:1px; margin-top:10px;}
+.sec1 .login a{ float:left; margin-top:5px}
+.ad2{ margin-top:10px}
+/*ad3*/
+.ad3{ margin-top:10px; margin-bottom:10px;}
+.goodlist{ height:305px; background:#f0f0f0;}
+.goodlist .goodtitle{ height:34px; background:url(../images/index_63.gif) repeat-x; border:1px solid #b9b8b8}
+.goodtitle h3{ margin-left:2px; width:200px; background:url(../images/index_66.gif) no-repeat; background-position: left 27px ; height:34px;}
+.goodtitle h3 a{ display:block; height:27px; line-height:27px; margin-left:15px; font-weight:normal}
+.more{ float:right; font-size:12px; line-height:34px; margin-right:20px;}
+.more a{ font-size:12px; color:#F00}
+.ad4{ width:210px; height:260px;  padding-top:10px; float:left}
+.ad4 .adpic{ width:200px; height:220px; border:#bcbbbb 1px  solid; margin-left:2px;  }
+.goods{ height:255px; width:752px; float:left;padding-left:36px; margin-top:15px;}
+.goods li{ width:120px; height:220px; float:left; margin-right:20px}
+.goods li h4{ line-height:2em; margin-top:5px; }
+.goods li h4 a{ font-size:12px; font-weight:normal}
+.goods li  .pprice,.price{ font-weight:bold; line-height:1.5em }
+.goods li  .price{color:#900}
+.brand { margin-top: 10; margin-bottom: 10px}
+.brand ul { padding-left: 30px;}
+.brand ul li{ float: left;}
+.brand ul li img{ height: 60px; width: 105px; border: 1px solid #eeeeee; margin: 5px}
+.morebrand{ text-align: center; color: #0000ff}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;font-family:"宋体",sans-serif,Arial,"Times New Roman";font-size:12px;border:0px;}
+/*快捷通栏*/
+
+/*固定页面居中显示、宽度*/
+.page_width{margin:auto;width:980px;}
+
+a:link,a:visited{color:#666666;text-decoration:none;}
+
+.clear{clear:both;display:block;font-size:0px;height:0px;line-height:0px;}
+
+
+/*快捷服务项目列表*/
+#service{border:1px solid #E6E6E6;margin-bottom:10px;overflow:hidden;padding:20px 20px 10px;height:220px;}
+#service .fore1{padding-left:10px;}
+#service dt{overflow:hidden;}
+#service .fore1 b{background-position:0 -100px;width:25px;}
+#service .item{background:url(../images/foot_dot.jpeg) no-repeat;padding-left:14px;line-height:18px;}
+#service dt b{
+    background-image: url("../images/bg_shortcut.gif");
+    background-repeat:no-repeat;float:left;height:31px;margin-right: 6px;
+}
+#service dt strong {border-bottom:1px solid #E5E5E5;display:block;padding:8px 0 2px;color:#666666;}
+#service .fore1 dd{padding-left:18px;}
+#service dd{padding:5px 0 20px;}
+#service dl{float:left;padding-left:20px;width:165px;}
+#service .fore2 b{background-position:-30px -100px;width:37px;}
+#service .fore2 dd{padding-left:30px;}
+#service .fore3 b{background-position:-70px -100px;width:39px;}
+#service .fore3 dd{padding-left:34px;}
+#service .fore4 b{background-position:-110px -100px;width:31px;}
+#service .fore4 dd{padding-left:27px;}
+#service .fore5{width:180px;}
+#service .fore5 dd{overflow:hidden;padding-left:31px;}
+#service ul{background:none repeat scroll 0 0 #F7F7F7;
+    border:1px solid #EDEDED;overflow:hidden;padding:15px 2px;height:24px;
+}
+#service li.fore{background:none repeat 0 0;}
+#service li {
+    background:url("../images/bg_shortcut.gif") no-repeat -260px 0;
+    float:left;height:25px;padding:0 11px;
+}
+#service li a:link, #service li a:visited {
+    background-image:url("../images/bg_shortcut.gif");
+    background-repeat:no-repeat;display:block;font-size:0;
+    height:25px;line-height:100px;overflow:hidden;
+}
+#service .blink1{background-position:0 0;width:174px;}
+#service .blink2{background-position:0 -25px;width:196px;}
+#service .blink3{background-position:0 -50px;width:202px;}
+#service .blink4{background-position:0 -75px;width:262px;}
+
+/*脚部css*/
+#footer{padding-bottom:30px;text-align:center;}
+#footer .flinks a,#footer .flinks span{margin:0 10px;}
+#footer .copyright{font-family:arial;margin:10px 0;}
+#footer .ilinks a{margin:0 5px;}

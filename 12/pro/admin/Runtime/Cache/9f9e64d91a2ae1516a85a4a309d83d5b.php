@@ -1,0 +1,107 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="__PUBLIC__/Images/css1/css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+</head>
+<script type="text/javascript">
+		$(function(){
+			$("#bFid").change(function(){
+					$.ajax({
+						type:"get",
+						url:"__URL__/selSon/random/"+Math.random()+"/bFid/"+$("#bFid option:selected").val(),
+						dataType:"html",
+						success:function(data){
+							$("#bSid").html(data);
+						}
+					})
+			})
+		})
+	</script>
+<body>
+<form action="__URL__/addAction" method="post" enctype="multipart/form-data">
+<table class="table" cellspacing="1" cellpadding="2" width="99%" align="center" border="0">
+  <tbody>
+    <tr>
+      <th class="bg_tr" align="left" colspan="4" height="25">图书添加</th>
+    </tr>
+    <tr>
+      <td class="td_bg" width="20%" height="23" align="right">图书编号</td>
+      <td class="td_bg" width="30%"><input type="text" name="bCode" /></td>
+	  <td class="td_bg" width="20%" height="23" align="right">图书名称</td>
+      <td class="td_bg" width="30%"><input type="text" name="bName" /><td>
+    </tr>
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">作者</td>
+      <td class="td_bg" width="30%"><input type="text" name="bAuth" /></td>
+	  <td class="td_bg" width="20%" height="23" align="right">翻译者</td>
+      <td class="td_bg" width="30%"><input type="text" name="bTrans" /><td>
+    </tr>
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">出版社</td>
+      <td class="td_bg" width="30%">
+	  	<select name="pId">
+			<option value="-1">请选择出版社</option>
+			<?php if(is_array($rs)): foreach($rs as $key=>$val): ?><option value="<?php echo ($val["pId"]); ?>"><?php echo ($val["pName"]); ?></option><?php endforeach; endif; ?>
+		</select>
+	  </td>
+	  <td class="td_bg" width="20%" height="23" align="right">索书号</td>
+      <td class="td_bg" width="30%"><input type="text" name="bISBN" /><td>
+    </tr>
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">版次</td>
+      <td class="td_bg" width="30%"><input type="text" name="bPcount" /></td>
+	  <td class="td_bg" width="20%" height="23" align="right">页数</td>
+      <td class="td_bg" width="30%"><input type="text" name="bPages" /><td>
+    </tr>
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">装帧</td>
+      <td class="td_bg" width="30%"><input type="text" name="bStyle" /></td>
+	  <td class="td_bg" width="20%" height="23" align="right">开本</td>
+      <td class="td_bg" width="30%"><input type="text" name="bSize" /><td>
+    </tr>
+	
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">图书类型</td>
+      <td class="td_bg" colspan="3">
+	  	<select name="bFid" id="bFid">
+			<option value="-1">请选择主类型</option>
+			<?php if(is_array($rs_1)): foreach($rs_1 as $key=>$val_1): ?><option value="<?php echo ($val_1["cId"]); ?>"><?php echo ($val_1["cName"]); ?></option><?php endforeach; endif; ?>
+		</select>
+	  	<select name="bSid" id="bSid">
+			<option value="-1">请选择子类型</option>
+		</select>
+	  </td>
+    </tr>
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">图书封面</td>
+      <td class="td_bg" colspan="3"><input type="file" name="bImg" /></td>
+    </tr>
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">市场价</td>
+      <td class="td_bg" width="30%"><input type="text" name="bMprice" /></td>
+	  <td class="td_bg" width="20%" height="23" align="right">京东价</td>
+      <td class="td_bg" width="30%"><input type="text" name="bJDprice" /><td>
+    </tr>
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">编辑推荐</td>
+      <td class="td_bg" colspan="3"><textarea rows="8" cols="40" name="bEditor"></textarea></td>
+    </tr>
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">内容简介</td>
+      <td class="td_bg" colspan="3"><textarea rows="8" cols="40" name="bCon"></textarea></td>
+    </tr>
+	<tr>
+      <td class="td_bg" width="20%" height="23" align="right">目录</td>
+      <td class="td_bg" colspan="3"><textarea rows="8" cols="40" name="bTree"></textarea></td>
+    </tr>
+    <tr>
+      <td  colspan="4" class="td_bg" align="center"><input  type="submit" value="添加图书"></td>
+    </tr>
+  </tbody>
+</table>
+</form>
+</body>
+</html>

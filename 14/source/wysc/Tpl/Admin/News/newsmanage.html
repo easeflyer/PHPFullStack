@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>新闻管理</title>
+        <include file="Common:miniheader" />
+        <script type="text/javascript">
+            var oldorder;
+            var goodname = '{$goodname}';
+            var catid = '{$catid}';
+            var brand = '{$brand}';
+            var module = '{$moudle}';
+
+            function createop(_v, _r) {
+                return "<a href='index.php?g=admin&m=news&a=newsedit&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-drive_edit\"'>编辑</a>\n\
+        <a href='javascript:void(0)'  onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton'   data-options='iconCls:\"icon-cancel\"'>删除</a>";
+            }
+
+            function renderbutton() {
+                $('a.easyui-linkbutton').linkbutton({
+                    plain: true
+                });
+            }
+
+            function confirmdel(_id) {
+                $.messager.confirm('确认删除', '是否确认删除该新闻', function (r) {
+                    if (r) {
+                        window.location.href = 'index.php?g=admin&m=news&a=newsdel&id=' + _id;
+                    }
+                });
+            }
+
+            function gotopage(_page, _pagesize) {
+                console.log(_page);
+                var _searchstr = '';
+                if (goodname)
+                    _searchstr += '&goodname=' + goodname;
+                if (catid)
+                    _searchstr += '&catid=' + catid;
+                if (brand != 0)
+                    _searchstr += '&brand=' + brand;
+                if (module != 0)
+                    _searchstr += '&module=' + module;
+                window.location.href = 'index.php?g=admin&m=Goods&a=manage&' + _searchstr + '&page=' + _page;
+            }
+
+
+
+        </script>
+    </head>
+
+    <body>
+        <div class="easyui-panel" data-options="
+             title:'新闻管理',
+             border:false,
+             iconCls:'icon-page'
+             ">
+            <form name="f1" method="post" action="{:U('Goods/listorder')}" id="f1">
+                <!--datagrid 参数参见easyui手册--> 
+                <table id="datagrid" class="easyui-datagrid" data-options="
+                       border:false,
+                       fitColumns:true,
+                       toolbar:'#toolbar',
+                       onLoadSuccess:renderbutton,
+                       striped:true,
+                       rownumbers:true,
+                       singleSelect:false,
+                       checkOnSelect:false,
+                       selectOnCheck:false
+                       " style="display:none">
+                    <thead>
+                        <th data-options="
+                            field:'id',
+                            align:'center', 
+                            width:20">id</th>
+                        <th data-options="
+                            field:'title',width:150">标题</th>
+                        <th data-options="field:'categoryname',
+                            align:'center', 
+                            width:100">所属分类</th>
+                        <th data-options="field:'opration',
+
+                            formatter:createop,width:100
+                            ">操作</th>
+                    </thead>
+                    <tbody>
+                        <!--循环输出 新闻数据-->
+                        <volist name="data" id="val">
+                            <tr>
+                                <td>{$val[id]}</td>
+                                <td>{$val[title]}
+                                    <!--如果存在缩略图则显示一个小图标-->
+                                    <if condition="$val[thumb] neq ''">
+                                        <img src="__SKIN__/plugin/ui/themes/icons/image.png" style="margin-right: 10px;
+                                             float: right;">
+                                    </if>
+                                </td>
+                                <td>{$val[catname]}</td>
+                            </tr>
+                        </volist>
+                    </tbody>
+                </table>
+                <div class="easyui-pagination" data-options="
+                     border:true,
+                     total:'{$total}',
+                     pageSize:'{:C('PAGE_SIZE')}',
+                     pageNumber:{$page},
+                     pageList:[{:C('PAGE_SIZE')}],
+                     onSelectPage:gotopage
+                     "></div>
+                <div id="toolbar">
+                    <a href="{:U('News/newsadd')}" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-page_add'">添加新闻</a>
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>

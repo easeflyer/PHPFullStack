@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+    <if condition="$CATEGORY[catname]">
+    {$CATEGORY[catname]}
+    <elseif condition="$brandid"/>
+    {$branddata[0][brandname]}
+    <elseif condition="$keyword"/>
+    搜索“{$keyword}”
+    </if>
+    -我赢商城</title>
+</head>
+<body>
+    <include file='Common:header' />
+    <link rel="stylesheet" type="text/css" href="__SKIN__css/list.css" />
+    <link rel="stylesheet" type="text/css" href="__SKIN__css/left.css" />
+    <script type="text/javascript" src="__SKIN__js/left.js"></script>
+    <script type="text/javascript" src="__SKIN__js/list.js"></script>
+    <!--当前位置开始-->
+    <div class="position">
+        <h6>当前位置：</h6><a href="__APPURL__">首页</a>
+        <if condition="$catid">
+            <volist name="pos" id="item"> <!-- 面包屑导航 -->
+                <span>&gt;</span><a href="{:U('Index/lists',array('catid'=>$item[id]))}">{$item[catname]}</a>
+            </volist>
+            <elseif condition="$typeid" />
+            <span>&gt;</span><a href="{:U('Index/lists',array('typeid'=>$typeid))}">{$typedata[typename]}</a>
+            <elseif condition="$brandid" />
+            <span>&gt;</span>{$branddata[0][brandname]}
+            <elseif condition="$keyword"/>
+            <span>&gt;</span>搜索“{$keyword}”
+        </if>
+    </div>
+    <!--当前位置结束-->
+    <!--页面主要区域开始-->
+    <div class="main">
+        <include file="Common/left" />
+        <div class="right">
+            <!--热卖推荐开始-->
+            <div class="recommend">
+                <volist name="xptj" id="item">
+                    <div class="item">
+                        <div class="itempic">
+                            <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__APPURL__/Public/Uploads/{$item[thumb]}" width="88" height="60" /></a>
+                        </div>
+                        <div class="iteminfo">
+                            <p>
+                                <a href="{:U('Index/show',array('goodid'=>$item[id]))}">{$item[goodsname]}</a>
+                            </p>
+                            <div class="price">
+                                ￥{$item[price]}
+                            </div>
+                            <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__SKIN__images/list_14.jpg" /></a>
+                        </div>
+                    </div>
+                </volist>
+            </div>
+            <!--热卖推荐结束-->
+            <div class="filter">
+                <h3>商品筛选</h3>
+                <dl>
+                    <dt>价格：</dt>
+                    <dd><a href="{:U('Index/'.$myaction,array('catid'=>$catid,'typid'=>$typeid,'keyword'=>$keyword))}">全部</a></dd>
+                    <volist name="pricerange" id="range">
+                        <dd><a href="{:U('Index/'.$myaction,array('catid'=>$catid,'typid'=>$typeid,'gt'=>$range[gt],'lt'=>$range[lt],'brandid'=>$brandid,'keyword'=>$keyword))}">{$range[text]}</a></dd>
+                    </volist>
+                </dl>
+                <div class="clear">
+                </div>
+                <dl class="brand">
+                    <dt>品牌：</dt>
+                    <dd><a href="{:U('Index/'.$myaction,array('catid'=>$catid,'typid'=>$typeid,'gt'=>$range[gt],'lt'=>$range[lt],'order'=>$order,'keyword'=>$keyword))}">全部</a></dd>
+                    <volist name="branddata" id="brand">
+                        <dd>
+                            <a href="{:U('Index/'.$myaction,array('catid'=>$catid,'typid'=>$typeid,'gt'=>$gt,'lt'=>$lt,'brandid'=>$brand[id],'order'=>$order,'keyword'=>$keyword))}"><img src="__APPURL__/Public/Uploads/{$brand[image]}" height="50"></a>
+                        </dd>
+                    </volist>
+                    <div class="clear">
+                    </div>
+                </dl>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+            <!--商品列表开始-->
+            <div class="order">
+                <h3>排序</h3>
+                <a href="{:U('Index/'.$myaction,array('catid'=>$catid,'typid'=>$typeid,'gt'=>$gt,'lt'=>$lt,'brandid'=>$brandid,'order'=>'iddesc','keyword'=>$keyword))}">
+                    <if condition="$order eq 'iddesc'">
+                        <img src="__SKIN__images/list_25.jpg" />
+                        <else/>
+                        <img src="__SKIN__images/list2_03.jpg" />
+                    </if>
+                </a>
+                <a href="{:U('Index/'.$myaction,array('catid'=>$catid,'typid'=>$typeid,'gt'=>$gt,'lt'=>$lt,'brandid'=>$brandid,'order'=>'idasc','keyword'=>$keyword))}">
+                    <if condition="$order eq 'idasc'">
+                        <img src="__SKIN__images/list_03.jpg" />
+                        <else/>
+                        <img src="__SKIN__images/list1_03.jpg" />
+                    </if>
+                </a>
+                <a href="{:U('Index/'.$myaction,array('catid'=>$catid,'typid'=>$typeid,'gt'=>$gt,'lt'=>$lt,'brandid'=>$brandid,'order'=>'pricedesc','keyword'=>$keyword))}">
+                    <if condition="$order eq 'pricedesc'">
+                        <img src="__SKIN__images/list4_03.jpg" />
+                        <else/>
+                        <img src="__SKIN__images/list3_03.jpg" />
+                    </if>
+                </a>
+                <a href="{:U('Index/'.$myaction,array('catid'=>$catid,'typid'=>$typeid,'gt'=>$gt,'lt'=>$lt,'brandid'=>$brandid,'order'=>'priceasc','keyword'=>$keyword))}">
+                    <if condition="$order eq 'priceasc'">
+                        <img src="__SKIN__images/list5_03.jpg" />
+                        <else/>
+                        <img src="__SKIN__images/list_27.jpg" />
+                    </if>
+                </a>
+            </div>
+            <!-- 商品列表 开始 -->
+            <div class="list">
+                <div class="sum">
+                    共有{$count}件商品
+                </div>
+                <volist name="goodsdata" id="item">
+                    <div class="gooditem">
+                        <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src='
+                <if condition="$item[thumb]">
+                __APPURL__/Public/Uploads/{$item[thumb]}
+                <else/>
+                __SKIN__images/nopic.png
+                </if>
+                ' width="160" height="160" class="goodpic" /></a>
+                        <div class="goodname">
+                            <a href="{:U('Index/show',array('goodid'=>$item[id]))}">{$item[brandname]}:{$item[goodsname]}</a>
+                        </div>
+                        <div class="goodprice">
+                            市场价格:￥ {$item[mprice]}
+                        </div>
+                        <div class="goodprice1">
+                            商城价格:￥ {$item[price]}
+                        </div>
+                        <div class="op">
+                            <a href="{:U('User/addfavor',array('goodsid'=>$item[id]))}"><img src="__SKIN__images/list_491.jpg" width="70" height="26" /></a>
+                            <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__SKIN__images/list_51.jpg" width="70" height="26" /></a>
+                        </div>
+                    </div>
+                </volist>
+            </div>
+            <div class="clear"></div>
+            <div id="page">
+                {$pageshow}
+            </div>
+            <!--商品列表结束-->
+        </div>
+    </div>
+    <!--页面主要区域结束-->
+    <include file='Common:footer' />
+    </div>
+</body>
+
+</html>

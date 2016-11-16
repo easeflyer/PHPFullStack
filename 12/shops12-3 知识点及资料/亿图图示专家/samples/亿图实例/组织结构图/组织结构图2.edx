@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<document version="2.0">
+    <doc-setting>
+        <eConLineJumpCode>7</eConLineJumpCode>
+        <eConLineJumpStyle>3</eConLineJumpStyle>
+        <eJumpDirX>1</eJumpDirX>
+        <eJumpDirY>2</eJumpDirY>
+        <fJumpSize>6</fJumpSize>
+        <uDrawFlags>1</uDrawFlags>
+        <uSnapFlags>767</uSnapFlags>
+        <bShowGrid>0</bShowGrid>
+        <bShowRuler>1</bShowRuler>
+    </doc-setting>
+    <page width="1052.36" height="744.094" name="Page-1" class="10788" bk-clr="#FFFFFF" zoom="1" paper-index="13" orient="landscape" unit="mm" id="10785">
+        <defs id="10786">
+            <style id="10788">
+                <fill type="double-color-gradient" start-color="#EDF0F7" end-color="#A6BED0" gradient-style="4" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke type="solid-color" color="#3C5C74" opcity="1" />
+                <stroke-width>1</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10795">
+                <fill type="solid-color" color="#FCDB7A" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>1</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10798">
+                <fill type="solid-color" color="#99FF99" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>1</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10877">
+                <fill type="double-color-gradient" start-color="#EDF0F7" end-color="#A6BED0" gradient-style="4" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke type="solid-color" color="#BFBFBF" opcity="1" />
+                <stroke-width>5.33333</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10887">
+                <fill type="double-color-gradient" start-color="#EDF0F7" end-color="#A6BED0" gradient-style="4" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke type="solid-color" color="#BFBFBF" opcity="1" />
+                <stroke-width>5.33333</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>10</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10893">
+                <fill type="double-color-gradient" start-color="#E8DDB7" end-color="#FFFFFF" gradient-style="10" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke type="solid-color" color="#BFBFBF" opcity="1" />
+                <stroke-width>5.33333</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10894">
+                <fill type="single-color-gradient" color="#99FF99" lumin="255" gradient-style="2" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>1</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10895">
+                <fill type="single-color-gradient" color="#FFFF66" lumin="253" gradient-style="2" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>1</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10896">
+                <fill type="single-color-gradient" color="#99CCFF" lumin="255" gradient-style="2" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>1</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10897">
+                <fill type="single-color-gradient" color="#FF99FF" lumin="230" gradient-style="2" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>1</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+            <style id="10910">
+                <fill type="double-color-gradient" start-color="#FDE7C9" end-color="#FBAB40" gradient-style="4" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.666667</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#E1E1E1" opcity="1" />
+            </style>
+            <style id="10919">
+                <fill type="double-color-gradient" start-color="#EDEBBC" end-color="#CAC63B" gradient-style="4" opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="0" />
+                <stroke-width>0.666667</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="1" scale="0.98" offset-x="13.3333" offset-y="10.6667" angle="0" type="solid-color" color="#E1E1E1" opcity="1" />
+            </style>
+            <style id="30322">
+                <fill opcity="1" />
+                <fill-rule>nonzero</fill-rule>
+                <stroke opcity="1" />
+                <stroke-width>1</stroke-width>
+                <stroke-linecap>butt</stroke-linecap>
+                <stroke-linejoin>miter</stroke-linejoin>
+                <stroke-miterlimit>4</stroke-miterlimit>
+                <stroke-dash>1</stroke-dash>
+                <stroke-dashoffset>0</stroke-dashoffset>
+                <marker-start size="4">0</marker-start>
+                <marker-end size="4">0</marker-end>
+                <shadow mode="0" type="solid-color" color="#808080" opcity="1" />
+            </style>
+        </defs>
+        <layer name="background" id="10791" />
+        <layer name="layer-1" id="10792">
+            <shape type="ellipse" class="10893" gpinx="526.181" gpiny="417.999" lpinx="width*0.5" lpiny="height*0.5" width="673.228" height="552.98" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10862">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.499999" joint-type="0" />
+                    <arc-to x="width*1" y="height*0.499999" a="width*0.499999" b="height*0" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.499999" f="height*0.499999" joint-type="0" />
+                    <arc-to x="width*0" y="height*0.499999" a="width*0.499999" b="height*1" c="ellipseangle(1,3)" d="ellipseaspect(1,3)" e="width*0.499999" f="height*0.499999" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\lang2052\f0\fs21\par&#x0D;&#x0A;}" gpinx="parent.width*0.500018" gpiny="parent.height*0.500562" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1.00003,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00108)" angle="0" protection="0" misc="0" id="10863">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>11</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="ellipse" class="10795" gpinx="860.564" gpiny="292.903" lpinx="width*0.5" lpiny="height*0.5" width="124.418" height="79.784" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10040">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                    <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                    <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24 Operations\cf0\f1\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10019">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <g type="g" class="10798" gpinx="526.181" gpiny="387.423" lpinx="width*0.5" lpiny="height*0.5" width="427.972" height="391.307" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10132">
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <shape type="ellipse" class="10894" gpinx="parent.width*0.502919" gpiny="parent.height*0.2948" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.5388,parent.height*0)" height="hyp(parent.width*0,parent.height*0.589121)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10800">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                        <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                        <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                        <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs32 Chief\par&#x0D;&#x0A;Operating\par&#x0D;&#x0A;Officer\par&#x0D;&#x0A;\par&#x0D;&#x0A;\cf0\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10802">
+                        <text-style>
+                            <font-family>Arial</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>16</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+                <shape type="ellipse" class="10896" gpinx="parent.width*0.731412" gpiny="parent.height*0.705683" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.5388,parent.height*0)" height="hyp(parent.width*0,parent.height*0.589121)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10076">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                        <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                        <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                        <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs32 Office of \par&#x0D;&#x0A;the Secretary\cf0\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10079">
+                        <text-style>
+                            <font-family>Arial</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>16</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+                <shape type="ellipse" class="10895" gpinx="parent.width*0.269756" gpiny="parent.height*0.705683" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.5388,parent.height*0)" height="hyp(parent.width*0,parent.height*0.589121)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10081">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                        <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                        <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                        <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs32 Legal\par&#x0D;&#x0A;Services\cf0\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10084">
+                        <text-style>
+                            <font-family>Arial</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>16</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+                <shape type="ellipse" class="10897" gpinx="parent.width*0.502919" gpiny="parent.height*0.505207" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.300965,parent.height*0)" height="hyp(parent.width*0,parent.height*0.329073)" angle="0" protection="32" misc="0" flipx="false" flipy="false" id="10086">
+                    <path nofill="false" noline="false" path-closed="true" noshow="false">
+                        <move-to x="width*0" y="height*0.5" joint-type="0" />
+                        <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                        <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                        <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                        <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                    </path>
+                    <control-list />
+                    <variable-list />
+                    <anchor-list />
+                    <action-list />
+                    <hyperlink-list />
+                    <property-sheet />
+                    <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs22 Executive Office\cf0\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10089">
+                        <text-style>
+                            <font-family>Arial</font-family>
+                            <font-weight>400</font-weight>
+                            <font-height>11</font-height>
+                            <font-italic>false</font-italic>
+                            <font-underline>false</font-underline>
+                            <font-strikeout>false</font-strikeout>
+                            <align-horizontal>center</align-horizontal>
+                            <align-vertical>center</align-vertical>
+                            <color>#000000</color>
+                            <font-offset>0</font-offset>
+                        </text-style>
+                    </text>
+                </shape>
+            </g>
+            <shape type="ellipse" class="10910" gpinx="523.029" gpiny="65.9008" lpinx="width*0.5" lpiny="height*0.5" width="124.418" height="79.784" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10828">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                    <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                    <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24 Chairman\par&#x0D;&#x0A;&amp; CEO\cf0\f1\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10831">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="ellipse" class="10910" gpinx="413.092" gpiny="95.4201" lpinx="width*0.5" lpiny="height*0.5" width="124.418" height="79.784" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10833">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                    <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                    <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24 Board\par&#x0D;&#x0A;Members\cf0\f1\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10836">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="ellipse" class="10910" gpinx="639.143" gpiny="95.4201" lpinx="width*0.5" lpiny="height*0.5" width="124.418" height="79.784" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10838">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                    <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                    <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24 Vice Chairman\cf0\f1\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10841">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="ellipse" class="10795" gpinx="174.553" gpiny="292.903" lpinx="width*0.5" lpiny="height*0.5" width="124.418" height="79.784" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10843">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                    <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                    <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24 Applications\cf0\f1\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10846">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="ellipse" class="10795" gpinx="227.987" gpiny="601.297" lpinx="width*0.5" lpiny="height*0.5" width="124.418" height="79.784" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10848">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                    <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                    <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24 Commondities\cf0\f1\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10851">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="ellipse" class="10795" gpinx="526.181" gpiny="687.248" lpinx="width*0.5" lpiny="height*0.5" width="124.418" height="79.784" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10853">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                    <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                    <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24 Integrated Solution\cf0\f1\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10856">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="ellipse" class="10795" gpinx="816.985" gpiny="601.297" lpinx="width*0.5" lpiny="height*0.5" width="124.418" height="79.784" angle="0" protection="0" misc="0" flipx="false" flipy="false" id="10858">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*0" y="height*0.5" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*0" a="width*0" b="height*0.223858" c="width*0.223858" d="height*0" joint-type="0" />
+                    <curve-to x="width*1" y="height*0.5" a="width*0.776142" b="height*0" c="width*1" d="height*0.223858" joint-type="0" />
+                    <curve-to x="width*0.5" y="height*1" a="width*1" b="height*0.776142" c="width*0.776142" d="height*1" joint-type="0" />
+                    <curve-to x="width*0" y="height*0.5" a="width*0.223858" b="height*1" c="width*0" d="height*0.776142" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list>
+                    <anchor x="width*0.5" y="height*0" />
+                    <anchor x="width*0.5" y="height*1" />
+                    <anchor x="width*0" y="height*0.5" />
+                    <anchor x="width*1" y="height*0.5" />
+                    <anchor x="width*0.5" y="height*0.5" />
+                </anchor-list>
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\lang2052\f0\fs24 Planning,\par&#x0D;&#x0A;Pollicy and Coordination\cf0\f1\fs20\par&#x0D;&#x0A;}" gpinx="parent.width*0.500023" gpiny="parent.height*0.500346" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*0.999959,parent.height*0)" height="hyp(parent.width*0,parent.height*1.00069)" angle="0" protection="0" misc="0" id="10861">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>12</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="line" beginx="parent.localx(shape10828.worldx(shape10828.anchorx2,shape10828.anchory2),shape10828.worldy(shape10828.anchorx2,shape10828.anchory2)) @shape10828.eventtransform;" beginy="parent.localy(shape10828.worldx(shape10828.anchorx2,shape10828.anchory2),shape10828.worldy(shape10828.anchorx2,shape10828.anchory2)) @shape10828.eventtransform;" endx="523.029" endy="188.976" con-beginid="10828" con-beginanchor="1" con-endid="0" con-endanchor="-1" class="10877" gpinx="(beginx+endx)*0.5" gpiny="(beginy+endy)*0.5" lpinx="width*0.5" lpiny="height*0.5" width="hyp(endx-beginx, endy-beginy)" height="0" angle="flipx*180+atan2(endy-beginy, endx-beginx)*180/3.1415926" protection="0" misc="0" flipx="false" flipy="false" id="10872">
+                <path nofill="true" noline="false" path-closed="false" noshow="false">
+                    <move-to x="width*0" y="-7.33931e-005" joint-type="0" />
+                    <line-to x="width*1" y="-6.74696e-005" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;\viewkind4\uc1\pard\lang2052\f0\fs21\par&#x0D;&#x0A;}" gpinx="parent.width*0.15" gpiny="-13.3333" lpinx="width*0.5" lpiny="height*0.5" width="parent.width*0.3" height="26.6667" angle="0" protection="0" misc="0" id="10873">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>10</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+                <text rtf="" gpinx="parent.width*0.5" gpiny="-13.3333" lpinx="width*0.5" lpiny="height*0.5" width="parent.width*0.3" height="26.6667" angle="0" protection="0" misc="0" id="10874" />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;\viewkind4\uc1\pard\qr\lang2052\f0\fs21\par&#x0D;&#x0A;}" gpinx="parent.width*0.85" gpiny="-13.3333" lpinx="width*0.5" lpiny="height*0.5" width="parent.width*0.3" height="26.6667" angle="0" protection="0" misc="0" id="10875">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>10</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#000000</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="arc" beginx="524.409" beginy="118.11" endx="344.881" endy="389.764" con-beginid="0" con-beginanchor="-1" con-endid="0" con-endanchor="-1" class="10887" gpinx="(beginx+endx)*0.5" gpiny="(beginy+endy)*0.5" lpinx="width*0.5" lpiny="height*0" width="hyp(endx-beginx, endy-beginy)" height="59.9167" angle="flipx*180+atan2(endy-beginy, endx-beginx)*180/3.1415926" protection="0" misc="0" flipx="false" flipy="false" id="10881">
+                <path nofill="true" noline="false" path-closed="false" noshow="false">
+                    <move-to x="width*0" y="height*0" joint-type="0" />
+                    <arc-to x="width*1" y="height*0" a="width*0.421593" b="height*1" c="ellipseangle(1,2)" d="ellipseaspect(1,2)" e="width*0.696014" f="height*-2.49974" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red123\green75\blue35;}&#x0D;&#x0A;\viewkind4\uc1\pard\qc\cf1\f0\fs21 Legal Advice\lang2052\f1\par&#x0D;&#x0A;}" gpinx="parent.width*0.500505" gpiny="parent.height*0.548014" lpinx="width*0.5" lpiny="height*0.5" width="parent.width*1" height="parent.height*1" angle="176.54" protection="0" misc="0" id="10882">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>400</font-weight>
+                        <font-height>11</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>center</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#7B4B23</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+            <shape type="shape" class="10919" gpinx="177.22" gpiny="65.9008" lpinx="width*0.5" lpiny="height*0.5" width="353.333" height="132" angle="0" protection="0" misc="1" flipx="false" flipy="false" id="10915">
+                <path nofill="false" noline="false" path-closed="true" noshow="false">
+                    <move-to x="width*-0.00172337" y="height*0" joint-type="0" />
+                    <line-to x="width*1.0011" y="height*0" joint-type="0" />
+                    <line-to x="width*0.546486" y="height*0.858586" joint-type="0" />
+                    <line-to x="width*0.345922" y="height*0.75161" joint-type="0" />
+                    <line-to x="width*-0.00172337" y="height*1.00215" joint-type="0" />
+                    <line-to x="width*-0.00172337" y="height*0" joint-type="0" />
+                </path>
+                <control-list />
+                <variable-list />
+                <anchor-list />
+                <action-list />
+                <hyperlink-list />
+                <property-sheet />
+                <text rtf="{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#x0D;&#x0A;{\colortbl ;\red255\green255\blue255;}&#x0D;&#x0A;\viewkind4\uc1\pard\cf1\b\f0\fs40 Our Organization and \par&#x0D;&#x0A;Structure\lang2052\f1\fs37\par&#x0D;&#x0A;}" gpinx="parent.width*0.5" gpiny="parent.height*0.358661" lpinx="width*0.5" lpiny="height*0.5" width="hyp(parent.width*1,parent.height*0)" height="hyp(parent.width*0,parent.height*0.71582)" angle="0" protection="0" misc="0" id="10916">
+                    <text-style>
+                        <font-family>Arial</font-family>
+                        <font-weight>700</font-weight>
+                        <font-height>20</font-height>
+                        <font-italic>false</font-italic>
+                        <font-underline>false</font-underline>
+                        <font-strikeout>false</font-strikeout>
+                        <align-horizontal>left</align-horizontal>
+                        <align-vertical>center</align-vertical>
+                        <color>#FFFFFF</color>
+                        <font-offset>0</font-offset>
+                    </text-style>
+                </text>
+            </shape>
+        </layer>
+    </page>
+    <preview-image>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</preview-image>
+</document>

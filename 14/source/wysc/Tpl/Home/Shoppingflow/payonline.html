@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>首页-我赢商城</title>
+        <link rel="stylesheet" type="text/css" href="__SKIN__css/index.css"/>
+    </head>
+    <style>
+        .banks{ margin-left: 20px; }
+        .banks li{ float: left; margin: 5px 10px; }
+        .banks li *{ float: left; }
+        .banks li input{ margin-top: 18px; margin-right: 5px; }
+    </style>
+    <body>
+        <!--顶部导航开始-->
+        <include file="Common:header"/>
+        <!--第一屏开始-->
+        <div style=" text-align:center; font-size:14px;margin:0 auto; margin-top:20px; margin-bottom:20px;  min-height:100px; background:#f1f1f1; font-weight:bold; padding-top:10px; line-height:1.5em; border:1px solid #dddddd; padding: 20px;">
+            <h3>选择支付银行</h3>
+            <form action="" name="f1" method="post">
+                <ul class="banks">
+                    <li><input type="radio" name="pd_FrpId" value="CCB-NET-B2C"/><img src="__SKIN__images/yh1.png" width="166" height="47" alt="" /></li>
+                    <li><input type="radio" name="pd_FrpId" value="BOC-NET-B2C"/><img src="__SKIN__images/yh2.png" width="166" height="47" alt="" /></li>
+                    <li><input type="radio" name="pd_FrpId" value="CMBC-NET-B2C"/><img src="__SKIN__images/yh3.png" width="166" height="47" alt="" /></li>
+                    <li><input type="radio" name="pd_FrpId" value="BOCO-NET-B2C"/><img src="__SKIN__images/yh4.png" width="166" height="47" alt="" /></li>
+                    <li><input type="radio" name="pd_FrpId" value="ICBC-NET-B2C"/><img src="__SKIN__images/yh5.png" width="166" height="47" alt="" /></li>
+                    <li><input type="radio" name="pd_FrpId" value="HXB-NET-B2C"/><img src="__SKIN__images/yh6.png" width="166" height="47" alt="" /></li>
+                    <li><input type="radio" name="pd_FrpId" value="CMBCHINA-NET-B2C"/><img src="__SKIN__images/yh7.png" width="166" height="47" alt="" /></li>
+                    <li><input type="radio" name="pd_FrpId" value="ABC-NET-B2C"/><img src="__SKIN__images/yh8.png" width="166" height="47" alt="" /></li>
+                </ul>
+                <div class="clear">
+                </div>
+                <input type="submit" name="s1" value="提交" />
+            </form>
+        </div>
+
+        <include file='Common:footer'/>
+
+        <!--商品列表结束-->
+        </div>
+        <script type="text/javascript">
+            setTimeout(goto, 5000);
+        </script>
+    </body>
+</html>

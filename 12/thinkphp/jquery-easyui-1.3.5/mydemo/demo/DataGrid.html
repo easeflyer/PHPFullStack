@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+<table class="easyui-datagrid" style="width:200px">  宽度不同会有滚动跳,无需代码
+<th data-options="field:'code'">Code</th> 设置表头
+demo2 
+singleSelect:true 单选/多选
+fitColumns:true  使行自动 扩展/折叠 适应datagrid的宽度.
+url:'products.json' 当前路径加载数据
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic DataGrid - jQuery EasyUI Demo</title>
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    </head>
+    <body>
+        <h1>demo 1:最简单的表格</h1>
+        <table class="easyui-datagrid" style="width:200px">  
+            <thead>  
+                <tr>  
+                    <th data-options="field:'code'">Code</th>  
+                    <th data-options="field:'name'">Name</th>  
+                    <th data-options="field:'price'">Price</th>  
+                </tr>  
+            </thead>  
+            <tbody>  
+                <tr>  
+                    <td>001</td><td>name1</td><td>2323</td>  
+                </tr>  
+                <tr>  
+                    <td>002</td><td>name2</td><td>4612</td>  
+                </tr>  
+            </tbody>  
+        </table> 
+
+       
+        
+        
+        <h1>demo 2:使用 json 数据</h1>
+        <table class="easyui-datagrid" style="width:300px;height:250px"  
+               data-options="url:'products.json',fitColumns:true,singleSelect:true">  
+            <thead>  
+                <tr>  
+                    <th data-options="field:'code',width:100">Code</th>  
+                    <th data-options="field:'name',width:100">Name</th>  
+                    <th data-options="field:'price',width:100,align:'right'">Price</th>  
+                </tr>  
+            </thead>  
+        </table>  
+
+        <h1>demo 3:jQuery方式等效于 demo 2</h1>
+        <!--
+        url 获得json 数据, 获得数据时传递参数:
+        下面的语句给 url code=01&name=name01 两个参数
+        $('#dg').datagrid('load',{
+        code: '01',
+        name: 'name01'
+        });
+        -->
+        <table id="dg" style="width:300px"></table>
+        <script>
+            $(function () {
+                $('#dg').datagrid({
+                    url: 'products.json',
+                    fitColumns: true,
+                    singleSelect: true,
+                    columns: [[
+                            {field: 'code', title: 'Code', width: 100},
+                            {field: 'name', title: 'Name', width: 100},
+                            {field: 'price', title: 'Price', width: 100, align: 'right'}
+                        ]]
+                });
+            });
+
+        </script>
+
+        <h1>demo 4:可收起的表格</h1>
+        collapsible: true, 设置可以伸缩 必须给 table 标签增加  title=""
+        <table class="easyui-datagrid" title="有标题的 datagrid 才能伸缩"  style="width:300px;height:250px"  
+               data-options="url:'products.json',collapsible: true,fitColumns:true,singleSelect:true">  
+            <thead>  
+                <tr>  
+                    <th data-options="field:'code',width:100">Code</th>  
+                    <th data-options="field:'name',width:100">Name</th>  
+                    <th data-options="field:'price',width:100,align:'right'">Price</th>  
+                </tr>  
+            </thead>  
+        </table>  
+        
+        
+    </body>
+</html>

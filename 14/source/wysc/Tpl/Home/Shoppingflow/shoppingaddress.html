@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>选择收货地址-我赢商城</title>
+    <include file="Admin:Common:miniheader" />
+    <link rel="stylesheet" type="text/css" href="__SKIN__css/shopflow.css" />
+    <script type="text/javascript">
+    $(function() {
+        //把当前步骤背景色显示为红色
+        $('#{$Think.get.step}').css('backgroundColor', '#ff0000').css('color', '#ffffff').css('fontWeight', 'bold');
+    })
+
+    function submitaddress() {
+        var _form = document.getElementById('addressform');
+        _form.submit();
+    }
+    </script>
+</head>
+
+<body>
+    <include file="Common:header" />
+    <div class="main">
+        <div class="shopflow">
+            <ul>
+                <li id="shoppingcar">购物车</li>
+                <li id="shoppingaddress">选择收货地址</li>
+                <li>选择配送方式</li>
+                <li>选择付款方式</li>
+                <li>付款</li>
+                <li class="ll">确认订单</li>
+            </ul>
+            <div class="clear"></div>
+            <div class="shopcar">
+                <form name="f1" action="{:U('shoppingflow/step',array('step'=>'shoppingaddress'))}" id="addressform" method="POST" enctype="multipart/form-data">
+                    <table class="table-form" border="1" width="100%">
+                        <!--循环显示用户的所有收货地址-->
+                        <volist name="addressdata" id="val">
+                            <tr>
+                                <td colspan="4" style="padding: 10px 10px; text-align:left !important; font-weight:bold; color:red">选择该地址&nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="addressid" value="{$val.id}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>收货人</th>
+                                <td colspan="3" align="left" style="text-align:left !important">
+                                    <input type="text" name="contact" class="ipt" style="width: 336px;" value="{$val.contact}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>详细地址</th>
+                                <td colspan="3" style="text-align:left !important">
+                                    <input type="text" name="address" class="ipt" style="width: 500px; " value="{$val.address}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>电话</th>
+                                <td style="width:270px; text-align:left !important">
+                                    <input type="text" name="tel" class="ipt" style="width:200px" value="{$val.tel}">
+                                </td>
+                                <th>手机</th>
+                                <td style="text-align:left !important">
+                                    <input type="text" name="phone" class="ipt" style="width:200px" value="{$val.phone}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>标志建筑</th>
+                                <td style="width:270px;text-align:left !important">
+                                    <input type="text" name="signbuild" class="ipt" style="width:200px" value="{$val.signbuild}">
+                                </td>
+                                <th>最佳送货时间</th>
+                                <td style="text-align:left !important">
+                                    <input type="text" name="besttime" class="ipt" style="width:200px" value="{$val.besttime}">
+                                </td>
+                            </tr>
+                        </volist>
+                    </table>
+                </form>
+            </div>
+            <hr style="color:dddddd; margin-top:10px">
+            <div class="nextbtn">
+                <!--点击下一步提交收货地址表单 到 shoppingaddress 方法-->
+                <a onclick="submitaddress()" href="javascript:void(0)">
+                    <image src="__SKIN__images/nextbtn.jpg" width="150" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <include file='Common:footer' />
+    <!--商品列表结束-->
+    </div>
+</body>
+
+</html>

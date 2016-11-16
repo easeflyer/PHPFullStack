@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+<a id="btn" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">easyui</a> 
+iconCls: 负责设置图标
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css">
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    </head>
+    <body>
+        <a id="btn" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">UI</a> 
+
+        <a id="btn1" href="#">easyui</a>
+        <script>
+            // jQuery 方式创建按钮。
+            $(function () {
+                $('#btn1').linkbutton({
+                    iconCls: 'icon-add'
+                });
+                // 绑定事件
+                $('#btn1').bind('click', function () {
+                    alert('easyui');
+                });
+            });
+
+        </script>
+
+    </body>
+</html>

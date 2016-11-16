@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+最简单的 layout 基于div 代码来自 手册 1.3 chm
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="../demo.css"> <!-- 可以没有 -->
+        <script type="text/javascript" src="../../jquery.min.js"></script>
+        <script type="text/javascript" src="../../jquery.easyui.min.js"></script>        
+
+    </head>
+    <body>
+        
+        <div id="cc" class="easyui-layout" style="width:600px;height:400px;">  
+            <div data-options="region:'north',title:'North 标题',split:true" style="height:100px;"></div>  
+            <div data-options="region:'south',title:'South Title',split:true" style="height:100px;"></div>  
+            <div data-options="region:'east',iconCls:'icon-reload',title:'East',split:true" style="width:100px;"></div>  
+            <div data-options="region:'west',title:'West',split:true" style="width:100px;"></div>  
+            <div data-options="region:'center',title:'center title'" style="padding:5px;background:#eee;"></div>  
+        </div>
+        
+    </body>
+</html>

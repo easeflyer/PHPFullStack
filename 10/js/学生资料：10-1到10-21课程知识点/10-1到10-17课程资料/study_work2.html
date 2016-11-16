@@ -1,0 +1,153 @@
+知识点:
+	一  javascript数据的类型转换
+	二 流程控制  if  switch
+	三 循环结构 
+	
+一  javascript数据的类型转换
+    undefined
+	null 
+	string
+	number
+	boolean
+	object...
+
+	1 强制类型转换
+		格式: 变量类型(变量名称);
+		1>转换成数值型	
+				Number(变量),把任何类型的 数据转换为数值类型
+				布尔型--》数值型   Number(变量) true-->1 false -->0
+				null-->数值型      0
+				undefined-->数值型	NaN
+				string-->数值型
+						如果字符串只有数字，转换是数字本身
+						空字符串转换为0
+						其他字符串结果 NaN
+				支持字符串转换成数值型
+				parseInt(var1，var2) 将字符串转换为 整形
+							var1 要转换 的字符串
+							var2 进制    10进制       0x 或0X -->16
+				parseFloat(var1 )将字符串转换为浮点型
+		2>转换为字符串型
+			String(参数)
+				null  undefined 控制符  ==》 字符串   "null"  "undefined"   String(null )==> "null"
+				boolean				true false   ==> "true"  "false" 
+				number			123  ==>   "123"
+			toString(); 
+				格式：对象.toString();  对象转换成字符串。
+						array.toString();
+						Boolean.toString();
+						Number.toString();		
+			补充:
+				转换为 boolean	 true  false
+					boolean(参数)    ""  0  NaN undefined false 都是假值  其他值 都是真值。
+					
+	2 隐式类型转换:系统会帮助我们自动进行数据转换。
+		isNaN() 该函数会对参数进行隐式的Number 。true  false
+		注意：
+			隐式对于用户来说是透明的，不需要特别关注。
+		 
+二 流程控制  if  switch
+	1》if  分支 
+	格式：
+		if(条件){
+				条件true执行
+		}else if(条件2){
+				条件2true执行
+		}else if(条件3){
+				条件3true执行
+		}........
+		else{
+			以上条件都不成立执行。
+		}
+	2》switch 语句:  分支:
+		 var wea = "";
+		 switch(条件){
+		 	case val1 :  条件和val1相等 执行 ;break;     //break 跳出语句块
+		 	case val2 :  条件和val2相等 执行 ;break;     //break 跳出语句块
+		 	case val3 :  条件和val3相等 执行 ;break;     //break 跳出语句块
+		 	case val4 :  条件和val4相等 执行 ;break;     //break 跳出语句块
+			.......
+			default: 以上条件和val都不想等 执行;   break;
+		 }
+	
+三 循环结构 ：
+循环:	 在有限的条件内，往复不断做一件事情，该事件实际上就是在循环。
+1 for
+2  while
+3 do...while 
+4 for in  遍历数组  ????
+5 循环控制结构
+6 with语句	
+	
+1 for 循环:******
+	for(起始条件;终止条件;步长值){
+		循环体;
+	}	
+	
+ 9*9
+ 	循环嵌套
+		for(){
+			for(){
+				
+			}
+		}	
+	
+练习  9*9 打印3次
+		用表格的形式 能不能规划出来 	
+		
+2 while 循环:*****
+   起始条件
+   while(终止条件){
+		循环体
+		步长值
+   }
+
+3 do...while 
+	起始条件
+	do{
+		循环体
+		步长值  //注意
+	}while(终止条件);
+	注意：
+	do...while 执行步骤 ，先执行一次，在判别循环条件，即使起始条件，不满足终止条件，先执行一次。****
+
+练习 用 do 。。。 while 打印99乘法表
+
+5 循环控制结构
+	1》break;
+		作用：跳出且终止循环，继续 执行后边的代码
+	2》continue
+		作用: 终止当前循环 后边循环继续执行。
+	注意： 
+		break 
+		break可以退出语句块，switch 满足条件执行代码。
+		用在循环中，终止循环，循环外后边代码继续执行。
+		continue：
+			用在循环中，跳出本次循环，继续后边循环。
+
+6 with语句	 效率不高，容易引起代码混淆。了解。
+设置代码在对象中的作用域 。
+格式:
+	with(对象){
+			方法1
+			方法2
+			方法3
+			.....
+	}	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

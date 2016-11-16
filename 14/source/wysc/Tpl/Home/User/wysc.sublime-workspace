@@ -1,0 +1,500 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"_",
+				"_len"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"icon",
+				"iconCls"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-bottom-width"
+			],
+			[
+				"on",
+				"onblur	Attr"
+			],
+			[
+				"ec",
+				"enctype	Attr"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"bo",
+				"border-right"
+			],
+			[
+				"lists",
+				"list-style"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"a",
+				"align	Attr"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"_o",
+				"_obj2"
+			],
+			[
+				"check",
+				"checkvalue"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"border-top-r",
+				"border-top-left-radius"
+			],
+			[
+				"vo",
+				"volist"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"data",
+				"datagrid"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"_se",
+				"_searchstr"
+			],
+			[
+				"get",
+				"getValue"
+			],
+			[
+				"combotr",
+				"combotree"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 307.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/AppServ/www/wysc",
+		"/D/AppServ/www/wysc/Tpl",
+		"/D/AppServ/www/wysc/Tpl/Admin",
+		"/D/AppServ/www/wysc/Tpl/Home",
+		"/D/AppServ/www/wysc/Tpl/Home/Common",
+		"/D/AppServ/www/wysc/Tpl/Home/Shoppingflow"
+	],
+	"file_history":
+	[
+		"/D/AppServ/www/wysc/Tpl/Home/Shoppingflow/payonline.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Shoppingflow/paypost.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Users/moneydetail.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Users/addmoney.html",
+		"/D/AppServ/www/wysc/Tpl/Home/User/register.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Shoppingflow/selectpayment.html",
+		"/D/AppServ/www/wysc/test1.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Public/login.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/access.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Admin/index.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Public/welcome.html",
+		"/D/AppServ/www/wysc/menu.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/roleadd.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/roleedit.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/nodeadd.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/editnode.html",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/managenode.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/getallicons.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/manageadmin.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/manageroleuser.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/managerole.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/adminedit.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Rbac/adminadd.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Index/index.html",
+		"/D/AppServ/www/wysc/Tpl/Home/News/lists.html",
+		"/D/AppServ/www/wysc/Lib/Action/Home/IndexAction.class.php",
+		"/D/AppServ/www/wysc/Tpl/Admin/News/newsedit.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Goods/edit.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/News/newsmanage.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/News/newscateadd.html",
+		"/C/Users/lenovo/Desktop/aa.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/News/newscatemanage.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/News/newscateedit.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/News/newsadd.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Goods/add.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Address/manage.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Orders/detail.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Users/edit.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Orders/editorderstate.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Users/manage.html",
+		"/D/AppServ/www/wysc/Tpl/Home/User/orderdetail.html",
+		"/D/AppServ/www/wysc/Tpl/Home/User/selfaddress.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Orderstate/edit.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Shippingtype/edit.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Shoppingflow/shippingtype.html",
+		"/D/AppServ/www/wysc/Tpl/Home/User/selforder.html",
+		"/D/AppServ/www/wysc/Tpl/Home/User/ucentermenu.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Shippingtype/manage.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Shoppingflow/shoppingaddress.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Common/header.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Index/show.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Index/lists.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Shoppingflow/shoppingcar.html",
+		"/D/AppServ/www/wysc/Tpl/Home/User/selffavor.html",
+		"/D/AppServ/www/wysc/Tpl/Home/User/modifypwd.html",
+		"/D/AppServ/www/wysc/skins/css/shopflow.css",
+		"/D/AppServ/www/wysc/Tpl/Admin/Orderstate/manage.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Orderstate/add.html",
+		"/D/AppServ/www/wysc/Tpl/Home/User/selfcomment.html",
+		"/D/AppServ/www/wysc/skins/css/show.css",
+		"/D/AppServ/www/wysc/Tpl/Home/Common/left.html",
+		"/D/AppServ/www/wysc/skins/css/register.css",
+		"/D/AppServ/www/wysc/skins/css/tableform.css",
+		"/D/AppServ/www/wysc/Tpl/Home/User/addaddress.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Address/add.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Common/error.html",
+		"/D/AppServ/www/wysc/Tpl/Home/User/selfinfo.html",
+		"/D/AppServ/www/wysc/skins/css/ucenter.css",
+		"/D/AppServ/www/wysc/skins/css/header.css",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/D/AppServ/www/wysc/Tpl/Admin/Users/add.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Brand/managebrand.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Userrank/edit.html",
+		"/D/AppServ/www/wysc/skins/css/index.css",
+		"/D/AppServ/www/wysc/Tpl/Home/Index/allbrand.html",
+		"/D/AppServ/www/wysc/skins/css/left.css",
+		"/D/AppServ/www/wysc/skins/css/list.css",
+		"/D/AppServ/www/wysc/skins/js/show.js",
+		"/D/AppServ/www/wysc/Tpl/Admin/Goods/manage.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Category/editcat.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Goodtype/manage.html",
+		"/D/AppServ/www/wysc/Lib/Model/GoodsViewModel.class.php",
+		"/D/AppServ/www/wysc/Tpl/Admin/Goodtype/edit.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Goodattr/editattr.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Goodtype/add.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Goodattr/addgoodattr.html",
+		"/F/工作/合作/商城项目/页面效果/list.html",
+		"/D/AppServ/www/wysc/.htaccess",
+		"/D/AppServ/www/wysc/test.html",
+		"/F/工作/合作/商城项目/页面效果/show.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Category/addcat.html",
+		"/F/工作/合作/商城项目/页面效果/index.html",
+		"/D/AppServ/www/wysc/Tpl/Home/Common/footer.html",
+		"/D/AppServ/www/wysc/Runtime/Cache/Admin/0623006c2e1d5bb951789c659d67324e.php",
+		"/D/AppServ/www/wysc/skins/plugin/ui/detailview.js",
+		"/D/AppServ/www/wysc/skins/plugin/ui/themes/icon.css",
+		"/D/AppServ/www/wysc/Public/Uploads/2015/11/23/56531342f06a6.png",
+		"/C/Users/lenovo/Desktop/a.js",
+		"/D/AppServ/www/wysc/Lib/Model/CategoryModel.class.php",
+		"/F/学习资料/bootstrap/css.html",
+		"/D/AppServ/www/wysc/Tpl/Admin/Category/managecat.html",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/C/Users/lenovo/Desktop/text.html",
+		"/C/Users/lenovo/Desktop/aa.php"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"<li data-options=\"\n              iconCls:'icon-car'\n              \"><span><a href=\"{:U('News/newscatemanage')}\" target=\"main\">新闻栏目管理</a></span></li>",
+			"<span>",
+			">\n",
+			"left",
+			"<tr>\n		<th>级别名称</th><td><input type=\"text\" name=\"rankname\" class=\"ipt\"></td>\n	</tr>",
+			"src=\"images/",
+			"saveorder",
+			"down",
+			"eeeeee",
+			"<th data-options=\"\n	field:'brandname',\n	width:100\">商标名称</th>",
+			"	header(\"content-typpe: tex/ht\")"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<span class=\"msg\">",
+			"src=\"__SKIN__images/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 49.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wysc.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\AppServ\\www\\wysc\\Tpl\\Home\\User\\36524.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
