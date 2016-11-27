@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<style type="text/css"> 
+        /* .tab 最外层的容器  定义了：颜色，宽高，位置*/
+        .tab { background-color: mintcream;   width: 200px;    height: 200px;   margin-left: 200px;    }  
+        /* .header 定义了 选项卡的头部，也就是鼠标点击的位置 */
+        .header {    height: 20px;    width: 100%;    }   
+        /* .content 定义了3个选项卡的 外层容器 */
+        .content {    border: 1px solid #CCCCFF;    border-top: none;   height: 180px;     }   
+        /* 以上3个部分定义了 整个选项卡的整体结构，也就是外部框架，然后下面定义：局部样式 和 特定效果
+            这是 css 定义的结构化思路。
+         */
+
+
+         /* .liStyle 每个选项卡头部 样式：鼠标样式，宽高，左浮动，背景色*/
+        .liStyle {   cursor: pointer;    height: 20px;   width: 66px;    float: left;  background-color: white;   }   
+        /* 选项卡点击后 增加.show 样式， 变为选中状态， 选中状态的没有下边框 */
+        .show {   background-color: mintcream;   border: 1px solid #CCCCFF;   border-bottom: none;   }   
+        /* 点击以外的选项卡 添加.hide 样式：未选中状态，只有下边框，注意和选中状态比较 */
+        .hide {   background-color: white;   border-bottom: 1px solid #CCCCFF;    }   
+        .ulHide {    display: none;   }   
+        .ulShow {    display: block;   }   
+        ul {   list-style: none outside none;    }   
+        * {   margin: 0;   padding: 0;   }   
+    </style>  
+<script type="text/javascript">  
+/*
+这个选项卡 实现的太复杂繁琐。
+
+知识点：
+    $(选择器).parent()  获取 选择到的元素的父元素集。 选择到的元素不一定是一个，因此他们的父元素 也不一定是一个。
+    .find(表达式)  从 jq 结果集中找到 与表达式匹配的元素， 表达式是jq 的选择器
+
+    .parents(表达式)  取得一个包含着所有匹配元素的“祖先”(不只是父元素)元素的元素集合（不包含根元素）。可以通过一个可选的表达式进行筛选。
+        注意和 .parent() 区分，对比手册。
+
+    $.inArray(arg1, arg2) 确定第一个参数在数组中的位置，从0开始计数(如果没有找到则返回 -1 )。
+    ul:eq(index) 选中索引为index 的 ul 标签。
+
+选项卡思路：
+
+    header 部分：为选下卡的头部，鼠标点击时，应该显示对应的选项卡。
+
+    content 部分：当鼠标点击头部时，根据 头部的顺序，显示对应的 content 内容。
+
+*/
+
+        $(function () {
+			//当单击标题 li 的时候            
+            $(".tab > ul.header > li").click(function () {   
+
+				//把之前为 .show 状态的li 添加 hide 删除show
+                $(this).parent().find("li.show").addClass("hide").removeClass("show");   
+				//当前点击的li 添加show ，删除hide
+                $(this).addClass("show").removeClass("hide");  
+
+
+				//获取 当前li的父对象 parentsEl 就是 .tab 容器
+                var parentsEl = $(this).parents(".tab");   
+                //alert( parentsEl.is($('.tab')) );
+				//获取内容.content 也就是 div 中之前为 .ulShow 的，添加 ulHide 删除ulShow    ; 选择器中 div 修改为 .content 效果一样
+                parentsEl.find("div > ul.ulShow").addClass("ulHide").removeClass("ulShow");   
+                /* 找到对应当前 点击li的编号 的 内容中的ul，为其添加ulShow 删除ulHide*/  
+				//$.inArray(arg1,arg2) 确定第一个参数在数组中的位置(如果没有找到则返回 -1 )。 
+                var ary = parentsEl.find("ul.header > li");  // 获得所有 选项卡头部 集合:ary
+
+                // content 下面的 3个ul 根据 头部被点击的 li 的序号，来 显示。 上次添加.ulShow 的已经被隐藏 
+                parentsEl.find("div > ul:eq(" + $.inArray(this, ary) + ")").addClass("ulShow").removeClass("ulHide");       
+            })   
+        });   
+    </script>  
+
+<body>  
+   <div class="tab">  
+        <ul class="header">  
+            <li class="liStyle show">Java</li>  
+            <li class="liStyle hide">Spring</li>  
+            <li class="liStyle hide">Hibernate</li>  
+        </ul>  
+        <div class="content">  
+            <ul class="ulShow">  
+                Java   
+                <li>java javaSE</li>  
+                <li>java javaME</li>  
+                <li>java javaEE</li>  
+            </ul>  
+            <ul class="ulHide">  
+                Spring   
+                <li>java springMVC</li>  
+                <li>java spring aop</li>  
+                <li>java spring Ioc DI</li>  
+            </ul>  
+            <ul class="ulHide">  
+                Hibernate   
+                <li>java Hibernate Configuration Transaction</li>  
+                <li>java Hibernate Query Criteria</li>  
+                <li>java Hibernate Session SessionFactory</li>  
+            </ul>  
+        </div>  
+    </div>  
+  </body>  
+</html>
