@@ -1,6 +1,6 @@
 // JavaScript Document
 document.write("<br />-------------if else--------------<br />");
-var wea = "阴天";
+var wea = "雪天";
 if (wea == "阴天") {   //晴天 == 阴天  false 
     document.write("游泳");
 } else if (wea == "雪天") {//晴天 == 雪天  false 
@@ -10,6 +10,7 @@ if (wea == "阴天") {   //晴天 == 阴天  false
 } else {  ///晴天 和以上条件都比较   false 
     document.write("跑步");
 }
+document.write("<br />-------------if else--end------------<br />");
 
 if (wea != "白天") {
     document.write("<br />睡觉");

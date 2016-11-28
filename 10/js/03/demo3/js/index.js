@@ -10,6 +10,8 @@ function func2(n3, n4) {
 function demo(n5, n6, fun) {   //fun是一个回调函数,函数名称
     fun(n5, n6);//-->aa(2,2)  //调用回调函数
 }
+
+
 demo(2, 3, func1);  // 调用回调函数func1  函数作为参数传入
 document.write("<br />");
 demo(2, 3, func2);  // 调用回调函数func2  函数作为参数传入
@@ -20,6 +22,9 @@ document.write("<br />------匿名-回调函数--------<br />");
 function demo1(str1, str2, fun) {
     fun(str1, str2);
 }
+
+
+
 
 demo1(3, 5, function (num1, num2) {
     document.write(num1 + num2);

@@ -5,9 +5,12 @@ document.write(a);
 
 document.write("<br />-------函数外定义的变量--------<br />");
 var b = 234;
+
 function demo(){
+    var b1 = 3333;
 	alert(b);
 }
+//alert("b1:"+b1);
 //demo();
 document.write("<br />-------没有定义，直接赋值--------<br />");
 
@@ -24,9 +27,9 @@ document.write("<br />-------函数内部声明变量--------<br />");
 
 function demo2(a1){
 	var str2 = a1+"bbbbbbbb";	//只在函数内部有效
-	//return str2;
+	return str2;
 }
-demo2(3);
+document.write(demo2(3));
 //alert(str2);//??????index.js:30 Uncaught ReferenceError: str2 is not defined
 //alert(a1);  //index.js:31 Uncaught ReferenceError: a1 is not defined
 

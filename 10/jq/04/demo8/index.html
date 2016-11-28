@@ -6,22 +6,15 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <style type="text/css">
-	/* 边距都取消 */
 	*{margin:0px;padding:0px;}
-	body{margin: 100px;}
-	/* 最外层的容器 margin 上下 50px 左右居中 */
-	.box{ width:900px;height:500px;border:1px solid #ff0000;margin:50px auto;position: relative;}
-	/* 固定不动的小图 */
+	.box{ width:900px;height:500px;border:1px solid #ff0000;margin:50px auto;}
 	.small{
 		width:400px;
 		height:400px;
 		border:1px  solid #000000;
 		float:left;
-		position:relative; /* 相对定位：收到文档流的影响，且子元素相对 .small 定位 */
+		position:relative;
 	}
-	/* 鼠标移入时 显示的一个 透明的小方框，也就是要放大的区域
-		默认 display:none ,鼠标经过时 才显示出来
-	 */
 	.small b{
 		width:100px;
 		height:100px;
@@ -40,83 +33,39 @@
 		overflow:hidden;
 		float:left;
 		margin-left:15px;
-		margin-top:10px;
-		position:relative;  /* 因此 .big img 定位 相对于 .big ; 也就是 top,left 属性值相对于 .big  */
-		display:none;		/* .big 图默认不显示 */
+		margin-top:30px;
+		position:relative;
+		display:none;
 	}
 	.big img{position:absolute;left:0px;top:0px;}
 </style>
 <script type="text/javascript">
-/*
-涉及知识点：
-
-	screen.width 屏幕宽度
-	$().offset() 返回 offset 对象，包含 left,top 两个属性 到浏览器窗口的距离根据定位确定。
-	e.pageX 鼠标距离浏览器左边的距离
-
-	position:relative 如果父元素包含定位属性，无论是据对定位还是相对定位，则子元素的 top,left 属性都是相对于父元素而言。
-	$(".small").mousemove(function(){}).mouseout(function(){})	连续定义两个时间处理。
-
-放大镜效果设计思路：
-
-	1 在一副普通产品展示图上.small ，当鼠标经过时。 在.small 旁边显示 局部放大效果.big。
-	2 .small 鼠标经过的位置显示一个小方框的透明层，以对应要放大的局部位置。
-	3 .big 方框内显示局部放大效果，位置在 .small 右侧。放大倍数 为1倍，也就是说 .big 图应该比 .small 尺寸大一倍。
-	4 .big 方框内显示的应该是 图片的局部，.big方框图片的左上角显示的内容，应该与 .small 图中鼠标所在的小方框左上角显示的内容一致。
-
-*/
-
 	$(function(){
-		var $info = $("#info");
-		/* 鼠标在 .small 小图上移动事件处理； */
 		$(".small").mousemove(function(e){
-				// 透明小方框显示出来； 同时 放大图显示出来
 				$("b").show();
 				$(".big").show();
-				//鼠标的位置  ,一下代码 计算小图的移动位置。 -50--351 ; e.pageX 鼠标距离 浏览器窗口左边的距离。
+				//鼠标的位置  ,一下代码 计算小图的移动位置。 -50--351
 				var  L = e.pageX;
-				//计算方块中心到左边的边距 。 this 是 .small 选中的对象 offset() 对象.left 距离左边的距离。
-				// 注意不是相对于父元素，而是相对于浏览器窗口。不是相对于 body。设置 body的 margin 可知。
-				//alert(  $(this).is(  $(".small")  )   ); jquery 对象的比较用 is ， 很多时候 == 比较结果为 false
-				var l = $(this).offset().left; 
-				var left = L - l -50;   // 鼠标距离左边的距离，-  小图距离左边的距离  ，因为鼠标在 b 的中心，因此再-50 也就是说 鼠标距离 .small 左边50的时候 b 就到达了 .small 的左边界了。
-										// 也就是说：L - l - 50 == 0 时，b 达到 .samll 的左边界
-				var T = e.pageY;		// 鼠标距离浏览器窗口上边的距离。
+				//计算方块中心到左边的边距
+				var l = $(this).offset().left;
+				var left = L - l -50;
+				var T = e.pageY;
 				var t =  $(this).offset().top;
-				var top = T-t-50;		// 同样 b 宽度 100  鼠标距离 .small 顶部 50的时候， b 就到达 .small 的顶边界了。
-										// 也就是说：T - t - 50 == 0 时，b 达到 .samll 的顶边界
+				var top = T-t-50;
 				
-				//计算b小图层的位置，避免超出 .small 的范围
-				left  = left<0?0:left;  // left 就是 b 距离 .small 左侧的距离
-				top = top<0?0:top;		// top  就是 b 距离 .small 顶部的距离
-				//计算小图右边界
-				left = left>300?300:left; // small 的宽高都是 400 b 的宽高都是100 因此 b 距离 samll 左边300时 达到有边界
-				top = top>300?300:top;    // 距离顶部 300时 达到 .samll 的底部边界
-				$("b").css({left:left,top:top}); // 设置 b 的位置。 因为上面的计算 b 不会超出 .samll  的范围
-
-				/*
-					大图：800 小图 400 ；一倍差距
-					大图的移动规则：大图的左上角位置，依据 b 透明层在 .small 上的位置移动。 b 向 .small 右下角移动。则 .big 向左上角移动。
-				 	换句话说：小图上是 放大镜移动，小图不动；  而大图上是 大图移动，而放大镜不动。
-					
-					根据以上移动规则：小图右下角移动1像素，则大图向左上角移动2像素，也可以说是向有下角 移动  -2像素。 因此：imgLeft = -left*2;
-
-				*/
+				//计算小图层超出左边界
+				left  = left<0?0:left;
+				top = top<0?0:top;
+				//极端小图右边界
+				left = left>300?300:left;
+				top = top>300?300:top;
+				$("b").css({left:left,top:top});
+				//大图的移动
 				var imgLeft = -left*2;
 				var imgTop = -top*2;
-				//console.log("imgLeft:"+imgLeft+"   imgTop:"+imgTop);
-				/*
-					注意大图定位相对于：外边框.big
-					大图大小为：800，大图外框大小为 400，也就是说，如果大图位置为 -400时 右下角刚好进入外边框。 如果大图再向左上角移动，则在外边框里将显示不完整的图片。
-					因此：限制大图的位置左上移动 不超过 -400；右下移动，不超过0；保证了大图始终 可以覆盖整个外边框。
-				*/
-				imgLeft = imgLeft < -400 ? -400 : imgLeft;  
-				imgTop = imgTop < -400 ? -400 : imgTop;
-				$(".big img").css({left:imgLeft,top:imgTop}); // 从这里可知：imgLeft,imgTop 就是大图的位置 ; img 定位 相对于 .big 也就是外边框。
-
-				$info.html("$(this).offset().left:"+l+
-					"screen.width:"+screen.width+
-					"e.pageX:"+L);
+				imgLeft = imgLeft<-400?-400:imgLeft;
+				imgTop = imgTop<-400?-400:imgTop;
+				$(".big img").css({left:imgLeft,top:imgTop});
 		}).mouseout(function(){
 			$(".small b").hide();
 			$(".big").hide();
@@ -124,13 +73,9 @@
 	})
 </script>
 <body>
-<div id="info"></div>
 <div class="box">
-	
 	<div class="small"><img src="imgs/small.jpg" /><b></b></div>
 	<div class="big"><img src="imgs/big.jpg"></div>
-
-
 </div>
 </body>
 </html>

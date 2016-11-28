@@ -14,7 +14,9 @@ a:hover{color:red;}
 .top .top_menu ul{margin-top:5px;}
 .top .top_menu ul li{float:left;width:68px;height:30px;line-height:30px;text-align:center;background:url(../images/home_sprite2_1017.png) no-repeat 71px -287px}
 
+/* 主要用于 center2 的父元素，因为定义了position:relative 所以 center2 相对这个div 定位 */
 .center1{width:100%;position:relative;}
+/* 负责 整个页面的内容居中 和主体宽度。*/
 .center2{margin:0px auto;width:1200px;}
 
 .logo_line{float:left;height:110px;margin-top:2px;}
@@ -46,6 +48,8 @@ a:hover{color:red;}
 .first .left_menu{float:left;width:210px;background-color:#fafafa;}
 .first .left_menu ul{width:210px;}
 .first .left_menu ul li{width:200px;overflow:hidden;height:38px;line-height:38px;color:#323232;font-family:"Microsoft Yahei";font-size:14px;padding-left:20px;}
+/* 下面增加了 鼠标移动上去后的效果定义 */
+.first .left_menu ul li:hover{color:#FF0000;width:200px;overflow:hidden;height:38px;line-height:38px;font-family:"Microsoft Yahei";font-size:14px;padding-left:20px;}
 .first .ppt{width:760px; height:312px;float:left;overflow:hidden;background-color:#fff;}
 .first .ad3{width:228px; height:112px;float:left;overflow:hidden;background-color:#fff;}
 

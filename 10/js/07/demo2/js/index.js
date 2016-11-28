@@ -11,7 +11,8 @@ function fun1() {
 }
 var obj = new fun1();
 wt("obj.name:"+obj.name);
-wt("obj.play:");obj.play();
+wt("obj.play:");
+obj.play();
 
 wt("----------- 空类型--------------");
 function fun2() {
@@ -19,8 +20,8 @@ function fun2() {
 }
 
 var obj2 = new fun2(); //实例化对象
-obj2.name = "李四";
-obj2.play = function () {
+obj2.name = "李四";      // 添加属性
+obj2.play = function () {  // 添加方法
     wt("足球");
 }
 
@@ -50,10 +51,13 @@ String.prototype.fc = function () {
     return "新方法返回值";
 
 }
-
 var str = "一个字符串对象";
-
 wt("str.fc:" + str.fc());
+
+
+
+
+
 
 wt("----------- prototype - 为所有类添加新方法--------------");
 

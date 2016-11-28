@@ -20,6 +20,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		var dv = $("#dv").offset();
+                console.log(dv); // 通过浏览器 查看dv 对象
 		alert(dv.top);
 		alert(dv.left);
 	})

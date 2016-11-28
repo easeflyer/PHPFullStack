@@ -8,10 +8,11 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$("#bt").click(function (){
-				//alert($("#dv1").html());
-				//$("#dv1").html("我很爱国<br /><table><img>"); //赋值的时候 是对原来的值进行覆盖
-				//alert($("#dv1").text());
-				$("#dv1").text("cccccc"); //赋值也是一个覆盖
+				//alert($("#dv1").html());  // 弹出 #dv1 包含的 html
+				$("#dv1").html("<h1>我很爱国</h1>"); //赋值的时候 是对原来的值进行覆盖 里面的 html  会被正常解析
+				//alert($("#dv1").text());  // 弹出内容不包含 html
+				//$("#dv1").text("<h1>cccccc</h1>"); //赋值也是一个覆盖  设置 #dv1 里面的文本 <h1> 不会被解析
+                                
 		})
 	})
 </script>

@@ -15,7 +15,7 @@ ren.fun1 = function(){
 	wt("11111111111");
 }
 
-var ren2 
+var ren2; 
 
 //以前 ren.name;
 //alert(ren["name"]);  // 这样也可以

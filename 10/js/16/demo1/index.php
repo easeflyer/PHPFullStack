@@ -5,6 +5,11 @@
 <title>无标题文档</title>
 </head>
 <script type="text/javascript">
+    /*
+     * get 方式 发送参数
+     * 
+     * get 方式 ajax 发送参数到 a.php 然后 a.php 把参数再返回输出。
+     */
 window.onload = function(){
 	var bt1 = document.getElementById("bt1");
 	bt1.onclick = function(){

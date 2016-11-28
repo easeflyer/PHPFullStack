@@ -7,8 +7,11 @@ var  name = "zhangsan";  //第一次声明
 var  name = "lisi";	//第二次声明 覆盖前一次的声明。
 //var name;              // 如果第二次声明没有赋值 不影响之前的结果
 document.write(name);
-wt("<br />-------------------------------------<br />");
-demo = "我很爱国";
+//name = n1/0;
+//document.write(name);
+wt("<br />-------------------3------------------<br />");
+var demo;
+demo = "我很1111<br />爱国";
 wt(demo);
 
 wt("<br />------------undefined-------------------------<br />");
@@ -17,7 +20,7 @@ wt(test);
 
 wt("<br />------------number-------------------------<br />");
 //数值型 不带 ""
-var  n1 =3.14;
+var  n1 = 3.14;
 wt(n1);
 
 wt("<br />------------boolean-------------------------<br />");
@@ -34,27 +37,33 @@ wt("<br />------------typeof-------------------------<br />");
 var  userName = "tom";
 var  age = 3.14;
 var  bn5 = true;
-wt(typeof(bn5));  // 显示 bn5 的数据类型 boolean
-wt(typeof 3);   // typeof 是运算符
+//wt(typeof(bn5));  // 显示 bn5 的数据类型 boolean
+//wt(typeof 3);   // typeof 是运算符
 //wt( typeof(eval) ); // eval 是函数
 
 wt("<br />------------大小写-------------------------<br />");
 
 var a = 111;
 var A = 222;
-wt(a+A);
+//wt(a+A);
 wt(""+a+A); // 类型自动转换
 
 
 wt("<br />------------引用类型-------------------------<br />");
 
 function obj(){
-    this.p1 = "p1";
-    this.p2 = "p2";
+    this.p1 = "p11";
+    this.p2 = "p22";
 }
+
+// 引用数据类型 存储的是 对象的引用或者说是地址，而不是对象本身。
 var obj1 = new obj(); // 实例化对象 new  关键词
-wt(typeof(obj1));
-wt(obj1.p1);
+var obj2 = obj1;
+obj1.p1 = "p11111111";
+wt(obj2.p1);
+
+//wt(typeof(obj1));
+//wt(obj1.p1);
 
 
 

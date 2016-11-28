@@ -1,5 +1,5 @@
 <?php
-
+header("Content-Type: text/html; charset=UTF-8");
 // 直接返回的响应结果
 
 echo "<h1>你好，这是服务器返回的响应数据。</h1>";

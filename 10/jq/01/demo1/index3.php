@@ -9,10 +9,12 @@
 	$(document).ready(function(){
 		// 选中的是第二个儿子，以及每个儿子的第二个孙子
 		//$("div.one :nth-child(2)").css("background","#ff0000");
+                $("div.one :nth-child(odd)").css("background","#ff0000");
 		//选中的是第一个儿子，以及每个儿子的第一个孙子
 		//$("div.one :first-child").css("background","#ff0000");
 		//选择的是只有唯一的儿子的元素 ，以及 儿子有唯一孙子的元素
-		$("div.one :only-child").css("background","#ff0000");
+		//$("div.one :only-child").css("background","#ff0000");
+                
 	})
 </script>
 <body>

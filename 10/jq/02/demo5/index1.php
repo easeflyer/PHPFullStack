@@ -8,8 +8,8 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$("#bt").click(function (){
-			//alert($("#un").val());
-			$("#un").val("今天天气不错");
+			//alert($("#un").val());  // 获得 text 的 value
+			$("#un").val("今天天气不错"); // 设置 text 的 value
 		})
 	})
 </script>
