@@ -7,10 +7,16 @@
 <script type="text/javascript" src="dtree/dtree.js"></script>
 </head>
 <script type="text/javascript">
+/**
+
+格式： tree.add(id, 父id, 节点文本);
+
+*/
+
 	var tree = new dTree("tree"); //实例化
 	tree.add(0,-1,"图书类型") ;//根菜单
 	tree.add(1,0,"小说");
-	tree.add(2,0,"文学");
+	tree.add(2,0,"文学","http://www.baidu.com","提示文字","_blank");
 	tree.add(3,0,"少儿");
 	//为小说添加子类型
 	tree.add(4,1,"武侠");

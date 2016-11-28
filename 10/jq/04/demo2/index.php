@@ -6,13 +6,16 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <script type="text/javascript">
+	// 表格随鼠标经过变色效果
+
+
 	$(function(){
-		 $("table tr:odd").attr("class","odd");
-		 $("tbody>tr").hover(function(){
-		 		$("tbody>tr").removeClass("selected");
+		 $("table tr:odd").attr("class","odd");  // 获取 奇数行 odd
+		 $("tbody>tr").hover(function(){		 // 表格主体所有行 的鼠标移入移出效果
+		 		$("tbody>tr").removeClass("selected"); // 此句 和下面一句 有一个即可。
 				$(this).addClass("selected");
 		 },function(){
-		 		$("tbody>tr").removeClass("selected");
+		 		//$("tbody>tr").removeClass("selected");
 		 })
 	})
 </script>

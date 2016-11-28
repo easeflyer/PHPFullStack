@@ -13,10 +13,12 @@
 					url:"test.php?random="+Math.random(),
 					dataType:"Json",
 					success:function(data){
-						//alert(eval(data)) // eval（var） 返回  var 的字符串型，可以当做命令执行。
-						var myJson = eval(data);
-						for(var i=0;i<myJson.length;i++){
-							 alert(myJson[i].uName+myJson[i].uPwd);
+						//alert(data) // 视频中对 eval 解释有误，这里不需要 eval
+						//var myJson = eval(data);
+						myJson = data;
+						// 遍历 json 对象 弹出结果
+						for(var i=0;i<myJson.length;i++){  
+							 alert(myJson[i].uName+":"+myJson[i].uPwd);
 						} 
 					}
 				})

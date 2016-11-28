@@ -12,7 +12,7 @@
 					type:"post",
 					url:"test.php?random="+Math.random(),
 					dataType:"html",
-					data:"id=200",
+					data:"id=200",	// post 方式传递数据
 					success:function(data){
 						$("#testVal").html(data);
 					}

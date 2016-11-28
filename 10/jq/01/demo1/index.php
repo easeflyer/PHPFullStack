@@ -8,7 +8,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		//jquery 代码
-		// 基本选择器
+		// 基本选择器 * 全部元素
 		//$("*").css("background","#ff0000");
 		//$("#one").css("background","#00ff00");
 		//$(".oneC").css("background","#efefef");

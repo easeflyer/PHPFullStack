@@ -8,8 +8,17 @@
 <script type="text/javascript">
 	$(function(){
 		$("#checkAll").click(function(){
-			$("[name=items]:checkbox").attr("checked",true);
+			// :checkbox 没有见过？ 查手册：表单选择器
+			//$("[name=items]:checkbox").attr("checked",true);  // 这里使用 attr 无法二次全选
+			$("[name=items]:checkbox").prop("checked",true);
 		})
+		$("#uncheckAll").click(function(){
+			// :checkbox 没有见过？ 查手册：表单选择器
+			//$("[name=items]:checkbox").removeAttr("checked");  // 有效
+			$("[name=items]:checkbox").prop("checked",false);  // 有效
+			//$("[name=items]:checkbox").removeProp("checked");  // 无效。
+		})
+
 		$("#checkRev").click(function(){
 			$("[name=items]:checkbox").each(function(){
 					//$(this).attr("checked",!$(this).attr("checked")); jq 1.* 版本的时候可以 2.* 
@@ -27,8 +36,9 @@
 	<input type="checkbox" name="items" value="3">棒球<br />
 	<input type="checkbox" name="items" value="4">篮球<br />
 	<input type="checkbox" name="items" value="5">台球<br />
+
 	<input type="button" id="checkAll" value="全选">
-	<input type="button" id="checkAll" value="取消全选">
+	<input type="button" id="uncheckAll" value="取消全选">
 	<input  type="button" id="checkRev" value="反选">
 </form>
 </body>
