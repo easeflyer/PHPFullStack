@@ -5,6 +5,9 @@
 <title>无标题文档</title>
 </head>
 <script type="text/javascript">
+    /*
+     * post 方式发送参数 并且返回发送测参数
+     */
 window.onload = function(){
 	var bt1 = document.getElementById("bt1");
 	bt1.onclick = function(){

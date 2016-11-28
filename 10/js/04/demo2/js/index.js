@@ -15,7 +15,7 @@
                 注意：加了replace参数，将会把前面截取到的元素替换成replace元素。
 
  */
-function wt(str=""){
+function wt(str){
     document.write("<br />"+str+"<br />");
 }
 // JavaScript Document
@@ -28,7 +28,7 @@ document.write("<br />---------join-以特定的分隔符把数组转换成字�
 
 var brr = ["aaaa","bbbb","cccc","dddd"];
 var str1 = brr.join("#");
-document.write(str1);
+document.write("特定分隔符链接的数组："+str1);
 document.write("<br />---------push-为数组追加一个元素，返回数组的长度；(在最后追加)----------------<br />");
 var crr = ["aaaa","bbbb","cccc","dddd"];
 wt(crr);
@@ -57,7 +57,9 @@ document.write(grr+"<br />");
 grr.reverse();
 document.write(grr);
 
-/*
+document.write("<br />---------sort--排序数组---------------<br />");
+/*  Array.sort() 排序的使用：有参数的  和 无参数的 参数是一个 比较函数
+ * 
 如果省略 参数  则按照字符编码顺序排序
 
 比较函数应该具有两个参数 a 和 b，其返回值如下：
@@ -67,7 +69,7 @@ document.write(grr);
 若 a 大于 b，则返回一个大于 0 的值。 
 
  */
-document.write("<br />---------sort--排序数组---------------<br />");
+
 function cm(v1,v2){
 	if(v1<v2){
 		return -1;	

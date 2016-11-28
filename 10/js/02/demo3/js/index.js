@@ -1,7 +1,8 @@
 // JavaScript Document  循环的课程，适当多留一些时间 练习
 document.write("<br />----------最简单的---for--------------<br />");
 for (var i = 0; i <= 10; i++) {
-    document.write(i + "<br />");
+    document.write(i);
+    document.write("重复这条语句<br />");
 }
 document.write("最后i的值是：" + i);
 
@@ -9,15 +10,21 @@ document.write("最后i的值是：" + i);
 document.write("<br />-------------for 9*9--------------<br />");
 
 for (var m = 1; m <= 9; m++) {
+    // m = 2
+
     for (var n = 1; n <= m; n++) {
         document.write(m + "*" + n + "=" + m * n + "&nbsp;&nbsp;");
     }
+
+
+
+
     document.write("<br />");
 }
 document.write("<br />-----------简单--while--------------<br />");
 
 var y = 0;
-while (y <= 10) {
+while (y <= 15) {
     document.write(y + "<br />");
     y++; //不加步长 死循环 
 }
@@ -83,6 +90,17 @@ with (document) {
 
 
 
+document.write("<br />-------------do while--------------<br />");
+var m = 9;
 
+do {
+    var n = 1;
+    do {
+        document.write(m + "*" + n + "=" + m * n + "&nbsp;&nbsp;");
+        n++;
+    } while (n <= m);
+    document.write("<br />");
+    m--;
+} while (m >=1);
 
-
+//document.write(m + "*" + n + "=" + m * n + "&nbsp;&nbsp;");

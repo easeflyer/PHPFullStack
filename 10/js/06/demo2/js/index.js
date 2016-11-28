@@ -16,7 +16,7 @@ document.write(reg4.test(str4));
 
 
 document.write("<br />------------*-0次或多次-----------<br />")
-var str1 = "gooooooooooooogle";
+var str1 = "goooooooooooooooogle";
 var reg1 = new RegExp("go*gle");  //   g.*gle
 document.write(reg1.test(str1));
 

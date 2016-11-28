@@ -22,3 +22,13 @@ for (var name in this)
 //variables += name + "<br />";
     document.write(name + "<br />");
 }
+
+
+// this 就是 window
+alert(this === window);
+
+// 控制台的使用 用于程序的调试 点击浏览器的检查可见
+console.log("333"); 
+console.log("444"); 
+console.log(555);
+console.log(wt);

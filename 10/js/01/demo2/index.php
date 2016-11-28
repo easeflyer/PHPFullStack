@@ -3,13 +3,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
-</head>
 <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+
+<body>
 <script type="text/javascript">
 	document.write("你也很爱国<br />");
+
 	alert("大家都很爱国");
 </script>
-<body>
 我是调用index页面 
 </body>
 </html>

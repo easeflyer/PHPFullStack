@@ -22,7 +22,9 @@ window.onload = function(event){
 		var sy = ev.screenY;
 		var ofx = ev.offsetX || ev.layerX;
 		var ofy = ev.offsetY || ev.layerY;
-		div1.innerHTML = "clientX="+cx+ "--"+ "clientY="+cy+"<br />"+"screenX="+sx+ "--"+ "screenY="+sy+"<br />"+"offsetX="+ofx+"offsetY="+ofy;
+                var mx = ev.pageX;
+                var my = ev.pageY;
+		div1.innerHTML = "clientX="+cx+ "--"+ "clientY="+cy+"<br />"+"screenX="+sx+ "--"+ "screenY="+sy+"<br />"+"offsetX="+ofx+"offsetY="+ofy + "<br />pageX="+mx + "pageY=" + my;
 		
    }
 }

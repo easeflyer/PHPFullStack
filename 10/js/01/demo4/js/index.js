@@ -24,9 +24,9 @@ document.write("b:"+b);
 document.write("<br />-------------   关系      ------------------<br />");
 
 var  c = 7;
-//var  d= 8;
+var  d = "a3";
 //var c = "f";
-var d = "m";
+//var d = "m";
 //var c = "a";  //97   ===>a 转换成  数值型    NaN 不是数字
 //var d = 2;
 document.write("c>d:");
@@ -45,11 +45,11 @@ document.write(c===d); // == true === false;
 document.write("<br />-------------   赋值      ------------------<br />");
 var  we = 10;
 var  te	 = 1;
-we+=te;  //    we = we + te
+we += te;  //    we = we + te
 document.write(we);
 
 document.write("<br />-------------   &&  ||      ------------------<br />");
-var a =    4<3  &&  5>2;
+var a =    2<3  &&  5>2;
 document.write(a+"<br />");
 var b = 4>3  ||  5<2 ;  //两边又一边是true 最终就是true
 document.write(b+"<br />");
@@ -61,6 +61,7 @@ var d = 3;
 document.write(!d);
 
 document.write("<br />-------------   三元运算符   ------------------<br />");
+// var 变量 = 条件 ？ 条件成立取值 : 条件不成立取值
 var s = 5<3 ? "ok" : "no";
 document.write(s+"<br />");
 

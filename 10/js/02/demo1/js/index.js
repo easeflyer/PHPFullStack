@@ -24,8 +24,8 @@ document.write(Number(str3)+"\t(字串)<br />");
 var str4 = "12345";
 document.write(parseInt(str4)+"\t(转换成 整形数)<br />"); //已经转换成 整形数
 
-var str5 = "16"; // 8 进制 转 10进制 8+6 = 14
-document.write(parseInt(str5,8)+"\t(用8进制16转换10进制数字)<br />");//8进制转换
+var str5 = "16"; // 8进制 转 10进制  8+6 = 14   第二个参数8代表str5 是8进制数字
+document.write(parseInt(str5,8)+"\t(用8进制16转换10进制数字)<br />");  //8进制转换
 
 var str6 = "3.14";
 document.write(parseFloat(str6)+"\t(转换成浮点值)<br />");
