@@ -1,8 +1,0 @@
-<Library>
-<OpenedTemplates>
-<Template name="背景" path="\library\BasicShape\backgrounds.edt" selected="no"/>
-<Template name="箭头形状" path="\library\BasicShape\arrow.edt" selected="no"/>
-<Template name="因果图形状" path="\library\Business process\causeeffect.edt" selected="no"/>
-<Template name="网站总体设计形状" path="\library\Web Diagram\Conceptual Web Site.edt" selected="yes"/>
-</OpenedTemplates>
-</Library>

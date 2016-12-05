@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+	<{$arr}>
+	<br />---------foreach----------<br />
+	<{foreach $arr as $val}>
+		<{$val}><br />
+	<{/foreach}>
+	<br />---------foreach遍历二维数组 ----------<br />
+	<{$brr}><br />
+	<{foreach $brr as $val1}>
+		<{$val1["uName"]}>---<{$val1["uAge"]}>---<{$val1["uTel"]}><br />
+	<{/foreach}>
+	<br />---------section----------<br />
+	<{$crr}><br />
+	<{section name=key loop=$crr}>
+		<{$crr[key]}><br />
+	<{/section}>
+	<br />---------section遍历二维数组 ----------<br />
+	<{$drr}><br />
+	<{section name=key1 loop=$drr}>
+			<{$drr[key1].uName}><br />
+	<{/section}>
+</body>
+</html>

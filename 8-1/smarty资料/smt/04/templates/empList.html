@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style type="text/css">
+	tr{ font-size:12px; line-height:25px; text-align:center;}
+</style>
+<body>
+<table align="center" border="1" cellpadding="0" cellspacing="0" width="800">
+	<tr>
+		<td>员工姓名</td>
+		<td>所属部门</td>
+		<td>直接负责人</td>
+		<td>电话</td>
+		<td>邮箱</td>
+		<td>员工照片</td>
+		<td>操作</td>
+	</tr>
+	<{section name=key loop=$rows}>
+	<tr>
+		<td><{$rows[key].ceName}></td>
+		<td><{$rows[key].cdName}></td>
+		<td><{$rows[key].clName}></td>
+		<td><{$rows[key].ceTel}></td>
+		<td><{$rows[key].ceEmail}></td>
+		<td><img src="<{$rows[key].cePic}>" width="40" height="30"></td>
+		<td>
+		<a href="empAction.php?action=delete&ceId=<{$rows[key].ceId}>">删除</a>
+		|
+		<a href="empUpdate.php?ceId=<{$rows[key].ceId}>">修改	</a>
+		</td>
+	</tr>
+	<{/section}>
+</table>
+</body>
+</html>

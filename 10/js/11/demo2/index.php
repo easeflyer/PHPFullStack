@@ -10,6 +10,7 @@
             bt.onclick = function () {
                 //getElementById
                 var ds = document.getElementsByClassName("ds"); // 获得所有符合的元素集合。
+                //document.write("ds[0]:"+ds[0].innerHTML);
                 alert(ds.length);
                 var ns = document.getElementsByName("aa"); // 获得集合
                 var dv1 = document.getElementById("dv1");

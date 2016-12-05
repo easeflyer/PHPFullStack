@@ -12,8 +12,11 @@ window.onload = function(){
 	}
 }
 </script>
+    
+    
+    
 <body>
-	<input type="button" value="跳转" id="one" />
+        <input type="button" value="跳转" id="one" />
         <input type="text" value="" id="two" />
         <input type="button" value="刷新" onclick="window.location.reload()" />
         

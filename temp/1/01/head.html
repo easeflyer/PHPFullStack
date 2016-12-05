@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <script type="text/javascript" src="1.js"></script>
+        <script type="text/javascript">
+            window.onload = function () {
+                var one = document.getElementById("one");
+                one.onclick = function () {
+                    window.open("http://www.youku.com", "right");
+                };
+                var two = document.getElementById("two");
+                two.onclick = function () {
+                    //document.write(window.top.frames[1].name);
+                    window.top.frames[2].history.forward();
+                    //parent.frames[2].history.forward();
+                };
+                var three = document.getElementById("three");
+                three.onclick = function () {
+                    //alert(444);
+                    window.top.frames[2].history.back();
+                };
+            };
+
+
+
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <input type="button" value="跳转" id="one" />
+        <input type="button" value="前进" id="two" />
+        <input type="button" value="后退" id="three" />
+    </body>
+</html>

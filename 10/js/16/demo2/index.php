@@ -22,7 +22,7 @@ window.onload = function(){
 		oAjax.open("POST","a.php?random="+Math.random(),true);//连接a页面
 		//setRequestHeader();
 		oAjax.setRequestHeader("Content-Type","application/x-www-form-urlencoded;charset=UTF-8");
-		oAjax.send("id="+3); //发送请求了
+		oAjax.send("id="+3+"&name=zhangsanfeng");            //发送请求了 post 方式这样传递变量。
 		oAjax.onreadystatechange = function(){  
 			 if(oAjax.readyState==4){
 			 	 if(oAjax.status==200){

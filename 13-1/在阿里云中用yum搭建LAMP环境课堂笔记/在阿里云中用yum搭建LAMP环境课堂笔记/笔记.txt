@@ -1,0 +1,99 @@
+阿里云官网
+www.aliyun.com
+阿里云域名选择
+wanwang.aliyun.com/domain/
+------------------
+123.57.165.72 (公)
+10.171.43.100 (内)
+------------------
+连接服务器软件
+SecureCRT.exe
+------------------
+运行环境的搭建++++
+---yum安装---
+apache mysql php
+yum search 包名    查找软件
+yum install 包名   安装软件
+---
+安装apache |||   yum install httpd
+启动 service httpd start
+关闭 service httpd stop
+重启 service httpd restart
+查看状态    service httpd status
+---
+安装mysql ||| yum install mysql-server mysql
+启动 service mysqld start
+关闭 service mysqld stop
+重启 service mysqld restart
+查看状态    service mysqld status
+---
+安装php ||| yum install php php-mysql php-pdo php-gd php-mbstring 
+查看版本号 php -v
+---
+1.修改apache配置，使其支持php
+2.修改php配置，使其支持Mysql
+3.修改mysql配置，使其编码变为UTF8格式，清除乱码隐患
+
+apache 默认项目根目录 /var/www/html/
+
+安装一个软件 yum install lrzsz   #上传下载
+zip 包 可以通过unzip解压缩
+
+查看mysql编码设置 show variables like "%char%";
+
+mysql 默认配置文件 /etc/my.cnf
+
+cms项目db文件 /var/www/html/cms/db.sql
+source sql文件路径  #导入sql文件 （得先use数据库）
+pro项目db文件 /var/www/html/pro/SQL.txt
+
+
+
+
+------------------
+乱码问题：
+1.项目文件本身不是UTF8
+2.html的header头信息没有设置成UTF8
+3.mysql连接设置没有设置成UTF8的
+4.mysql中的数据本身就是乱码
+---
+两个域名
+91wyzc.com
+92wyzc.com
+---
+不同域名访问不同的项目
+91wyzc.com  =>   cms项目
+92wyzc.com  =>   pro项目
+主要修改的apache配置文件  /etc/httpd/conf/httpd.conf 
+vim Ctrl+d 跳到文件的结尾
+1.NameVirtualHost *:80  注释打开，去掉了#号开头
+2.
+<VirtualHost *:80>
+    DocumentRoot /var/www/html/cms
+    ServerName www.91wyzc.com
+    ErrorLog /var/www/html/logs/cms_error_log
+    CustomLog /var/www/html/logs/cms_log common
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot /var/www/html/pro
+    ServerName www.92wyzc.com
+    ErrorLog /var/www/html/logs/pro_error_log
+    CustomLog /var/www/html/logs/pro_log common
+</VirtualHost>
+--下边的配置是为了IP访问到apahce根目录
+<VirtualHost *:80>
+   DocumentRoot /var/www/html
+   ServerName 47.88.148.184
+</VirtualHost>
+
+mysql里面 修改密码 set password=password("91wyzc");
+
+
+***记得创建/var/www/html/logs文件夹***
+----
+
+
+---
+编译安装配置环境 
+
+

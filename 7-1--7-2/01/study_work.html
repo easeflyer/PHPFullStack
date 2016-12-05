@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 知识点: 
 	一 mysql中的视图
 	二 mysql中存储过程
@@ -160,4 +161,167 @@
 
 
 
+=======
+知识点: 
+	一 mysql中的视图
+	二 mysql中存储过程
+	
+一 mysql中的视图
+	1 视图:	虚拟表,由select 语句 组成一张带有数据和结构的虚拟表。
+	2 创建视图：
+		create view 视图名称(虚表名称) as select（语句）	
+		
+		demo  连接 news category 表组成虚拟表
+		create view nc as select n.nId,n.nTitle,n.nDate,cg.cgName from news as n left join category as cg on n.cFid=cg.cgId;
+		
+		注意：视图 简化 select 语句。
+		视图中的数据和原表中数据同步。
+		
+	3 删除视图:
+		drop view 视图名称;	
+
+二 mysql中存储过程 mysql 5.0 
+	mysql中的存储过程 封装mysql代码的。
+	1 格式：
+		create procedure 过程名称(参数，参数,.....)
+		begin
+				sql 语句
+		end
+		
+		;执行符号
+		修改执行符号 delimiter 新 执行符号
+		delimiter //
+		create procedure selCg()
+		begin
+			select * from category;
+		end  //
+		
+		调用存储过程
+			call 过程名(参数)
+			call selCg()//
+			
+		2 过程中参数的解释:
+			in		 传入参数				in 参数名 类型
+			out   传出参数  返回
+			inout 传入传出参数
+			
+			create procedure selOne(in str int)
+			begin
+				select * from category where cgId=str;
+			end//
+			create procedure demo(out pa varchar(200))
+			begin
+				select nTitle into pa  from  news where nId=3;
+			end//
+			into 在select 语句中赋值。
+			
+			@==》$ 
+			call demo(@a);  //@a mysql中的变量
+			
+		3  过程内的变量
+			declare 变量名称 类型   ==》过程内的变量没有@
+			create procedure demo1()
+			begin
+				declare str varchar(200);
+				set str = (select nTitle from  news where  nId=1);
+				select str;
+			end
+		4 条件处理程序:  满足一定的条件执行特定的代码，多用于进行排错。
+			declare handler_type handler for contition_value sql_statement
+			handler_type
+					continue
+					exit
+					undo 
+		contition_value
+					sqlstate "num"  ,sql出现了 num号的错误  02000
+					sql_statement  将要执行的语句   set nt=1
+			
+			declare continue handlere for sqlstate "02000" set nt=1 ？？？？
+			当出现 02000 错误的时候  设置 nt  =1 后边的程序继续执行。
+  	 5 光标：
+	 	数据抓取器:  mysql_fetch_assoc(); 
+		1>声明光标 :
+			declare 光标名称 cursor for  select 语句
+		2>打开光标
+			open 光标名称
+		3>抓取数据
+			fetch 光标名称 into 变量名称......
+		4>关闭光标:
+			close 光标名称
+		demo
+			create procedure demo2()
+			begin
+				declare id int;
+				declare nt varchar(50);
+				declare ns varchar(200);
+				declare ops cursor for select nId,nTitle,nSource from news;
+				open ops;
+				fetch ops into id,nt,ns;
+				select id,nt,ns;
+				fetch ops into id,nt,ns;
+				select id,nt,ns;
+				fetch ops into id,nt,ns;
+				select id,nt,ns;
+				fetch ops into id,nt,ns;
+				select id,nt,ns;
+			end
+			
+			repeat 循环：
+				repeat 
+					循环体
+					until 终止条件    // 终止条件 成立    true 终止循环
+				end  repeat
+			demo
+			create procedure demo3()
+			begin
+				declare id int;
+				declare nt varchar(50);
+				declare ns varchar(200);
+				declare done int default 0;
+				declare ops cursor for select nId,nTitle,nSource from news;
+				declare continue handler for sqlstate '02000'  set done=1;
+				open ops;
+				repeat 
+					fetch ops into id,nt,ns;
+					select id,nt,ns;
+					until done  // 终止条件成立 才终止循环。
+				end repeat;
+			end
+			
+			loop 循环:
+				loop
+					循环体
+					if 终止条件 then  leave;
+				end loop
+				
+			leave 退出循环
+			iterate  继续下次循环	
+			
+			if   条件 then 执行语句
+			else if　条件　ｔｈｅｎ
+			....
+			else 执行语句
+			end if 
+				
+			
+			
+			6 php调用存储过程:
+				create procedure demo4()
+				begin
+					select * from news;
+				end	
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+>>>>>>> f407ad3bbcbbd827e8bfdf1e4f8410c6352e89c3
 		

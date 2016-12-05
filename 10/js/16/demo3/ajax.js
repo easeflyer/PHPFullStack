@@ -28,7 +28,7 @@ function ajax(json) { //  [name:"zhangsan",url:"a.php",success:function(){}]  js
         if (oAjax.readyState == 4) {
             if (oAjax.status == 200) {
                 var data = oAjax.responseText;
-                success(data);
+                success(data);  // 用传递进来的 json 参数的 success 方法 处理 返回数据。
             }
         }
     }

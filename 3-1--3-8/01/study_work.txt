@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 知识点：
 	一 php基础
 	二 php环境搭建
@@ -49,4 +50,57 @@ php的文件构成:
 
 
 
+=======
+知识点：
+	一 php基础
+	二 php环境搭建
+
+一 php基础
+php: 超文本预处理程序，制作网站的脚本程序。
+运行环境:
+	wamp  windows+apache+mysql+php  开发 学习 研究
+	lamp  linux+apache+mysql+php	运行和维护
+工作原理:
+	请求---》apache--》执行php+ html(div,css)--->响应
+php  .php后缀--》动态网站  与数据库交互
+php的文件构成:
+	html  div css
+	php代码
+	js jquery ajax
+
+二 php环境搭建
+	index.html 双击打开 
+1.集成环境
+	
+	appserv:
+		http://localhost[:8888默认是 80]/【index.php】--》c:/appserv/www/index.php
+	wamp
+
+2.独立搭建的环境
+	apache  
+	php
+	mysql
+	phpmyadmin
+	1>配置apache
+	apache/conf/httpd.conf
+		DocumentRoot "C:/apps/www"   //指定工作目录
+		DirectoryIndex index.php index.html
+
+ 
+
+3 开发环境:
+	Zend studio
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> f407ad3bbcbbd827e8bfdf1e4f8410c6352e89c3
 	

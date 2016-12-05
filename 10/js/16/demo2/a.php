@@ -1,4 +1,4 @@
 <?php
 $id = $_POST["id"];
-echo $id;
+echo $id.":".$_POST['name'];
 ?>

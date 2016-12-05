@@ -1,0 +1,39 @@
+CREATE TABLE `books` (
+  `bId` int(8) NOT NULL auto_increment,
+  `bName` varchar(255) default NULL,
+  `bTypeId` int(3) NOT NULL,
+  `bPublishing` varchar(80) default NULL,
+  `bAuthor` varchar(60) default NULL,
+  `bDate` date default NULL,
+  `bStatus` enum('0','1') default NULL,
+  PRIMARY KEY  (`bId`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=117 ;
+
+-- 
+-- 导出表中的数据 `books`
+-- 
+
+INSERT INTO `books` VALUES (93, '网站制作直通车', 2, '电脑爱好者杂志社', '苗壮', NULL, NULL);
+INSERT INTO `books` VALUES (94, '黑客与网络安全', 6, '航空工业出版社', '白立超', NULL, NULL);
+INSERT INTO `books` VALUES (95, '网络程序与设计－asp', 2, '北方交通大学出版社', '王玥', NULL, NULL);
+INSERT INTO `books` VALUES (96, 'pagemaker 7.0短期培训教程', 9, '中国电力出版社', '孙利英', NULL, NULL);
+INSERT INTO `books` VALUES (97, '黑客攻击防范秘笈', 8, '北京腾图电子出版社', '赵雷雨', NULL, NULL);
+INSERT INTO `books` VALUES (98, 'Dreamweaver 4入门与提高', 2, '清华大学出版社', '岳玉博', NULL, NULL);
+INSERT INTO `books` VALUES (99, '网页样式设计－CSS', 2, '人民邮电出版社', '张晓阳', NULL, NULL);
+INSERT INTO `books` VALUES (100, 'Internet操作技术', 7, '清华大学出版社', '肖铭', NULL, NULL);
+INSERT INTO `books` VALUES (101, 'Dreamweaver 4网页制作', 2, '清华大学出版社', '黄宇', NULL, NULL);
+INSERT INTO `books` VALUES (102, '3D MAX 3.0 创作效果百例', 3, '北京万水电子信息出版社', '耿影', NULL, NULL);
+INSERT INTO `books` VALUES (103, 'Auto CAD职业技能培训教程', 3, '北京希望电子出版社', '张晓阳', NULL, NULL);
+INSERT INTO `books` VALUES (104, 'Fireworks 4网页图形制作', 2, '清华大学出版社', '白立超', NULL, NULL);
+INSERT INTO `books` VALUES (105, '自己动手建立企业局域网', 7, '清华大学出版社', '郭刚', NULL, NULL);
+INSERT INTO `books` VALUES (106, '页面特效精彩实例制作', 2, '人民邮电出版社', '白宇', NULL, NULL);
+INSERT INTO `books` VALUES (107, '平面设计制作整合案例详解－页面设计卷', 9, '人民邮电出版社', '陈继云', NULL, NULL);
+INSERT INTO `books` VALUES (108, 'Illustrator 10完全手册', 9, '科学出版社', '周玉勇', NULL, NULL);
+INSERT INTO `books` VALUES (109, 'FreeHand 10基础教程', 9, '北京希望电子出版', '耿影', NULL, NULL);
+INSERT INTO `books` VALUES (110, '网站设计全程教程', 2, '科学出版社', '吴守辉', NULL, NULL);
+INSERT INTO `books` VALUES (111, '动态页面技术－HTML 4.0使用详解', 2, '人民邮电出版社', '卢立超', NULL, NULL);
+INSERT INTO `books` VALUES (112, 'Auto CAD 3D模型大师', 3, '中国铁道出版社', '曹泽林', NULL, NULL);
+INSERT INTO `books` VALUES (113, 'Linux傻瓜书', 4, '清华大学出版社', '朱佳男', NULL, NULL);
+INSERT INTO `books` VALUES (114, '网页界面设计艺术教程', 2, '人民邮电出版社', '刘刚', NULL, NULL);
+INSERT INTO `books` VALUES (115, 'Flash MX 标准教程', 9, '北京希望电子出版社', '郭刚', NULL, NULL);
+INSERT INTO `books` VALUES (116, 'Auto CAD 2000 应用及实例基集锦', 3, '清华大学出版社', '陈继云', NULL, NULL);

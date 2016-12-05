@@ -27,7 +27,7 @@ span{
 <script type="text/javascript">
 	window.onload = function(){
 		var outdiv = document.getElementById("outdiv");
-		var childs = outdiv.childNodes;  // 获取所有孩子节点
+		var childs = outdiv.childNodes;  // 获取所有孩子节点 注意上面首先 获得元素对象。
 		//alert(childs.length);
 		for(var i=0;i<childs.length;i++){
 			alert(childs[i].nodeType+" : "+childs[i].nodeName+" : "+childs[i].nodeValue);
