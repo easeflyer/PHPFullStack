@@ -29,7 +29,7 @@ span{
 		var a = document.createElement("a");
 		a.href="http://www.baidu.com";
 		a.innerHTML = "百度";
-		a.style.color = "#ff0000";
+		a.style.color = "#ff0000";           // 设置属性  注意有个行内属性的问题。
 		a.setAttribute("style","color:#00ff11"); // setAttribute 设置属性
 		document.body.appendChild(a);  // 追加一个节点
 

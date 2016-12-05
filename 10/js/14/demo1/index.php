@@ -5,14 +5,15 @@
 <title>无标题文档</title>
 </head>
 <script type="text/javascript">
+// 兼容性 测试程序
 
 window.onload = function(){
 	alert("window.event:"+window.event); //ie下有效。 谷歌浏览器有效
-	alert("event:"+event); // 兼容性较好
-
+	alert("event:"+ event); // 兼容性较好
 	var evObj = event || window.event //ie 和 火狐兼容 谷歌都有效 ******  注意语法
 	alert("兼容方式1："+evObj);
 }
+
 
 </script>
 <body>

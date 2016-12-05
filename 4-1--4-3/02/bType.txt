@@ -1,0 +1,30 @@
+create table bType(
+bTypeId int(10) not null primary key auto_increment,
+bTypeName varchar(60)
+);
+insert into bType(bTypeName) values("windows应用");
+insert into bType(bTypeName) values("网站");
+insert into bType(bTypeName) values("3D动画");
+insert into bType(bTypeName) values("linux学习");
+insert into bType(bTypeName) values("Delphi学习");
+insert into bType(bTypeName) values("黑客");
+insert into bType(bTypeName) values("网络技术");
+insert into bType(bTypeName) values("安全");
+insert into bType(bTypeName) values("平面");
+insert into bType(bTypeName) values("AutoCAD技术");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

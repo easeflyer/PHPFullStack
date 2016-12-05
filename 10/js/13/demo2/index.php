@@ -30,6 +30,7 @@ span{ /* 里面的div 文字*/
 		var innerdiv = document.getElementById("innerdiv");
 		var ipt = document.getElementById("ipt1");
 		alert(innerdiv);
+                // 弹出 节点名字 节点类型 节点值（注意不同的节点类型，三个值不同 参考笔记）   注意 nodeValue 为什么是 null 参考笔记
 		alert("ipt.nodeName:"+ipt.nodeName+"ipt.nodeType:"+ipt.nodeType+"ipt.nodeValue:"+ipt.nodeValue);
 		alert(innerdiv.parentNode.innerHTML);  // 获得 outdiv 的内容。
 	}

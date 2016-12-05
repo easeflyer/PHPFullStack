@@ -1,0 +1,74 @@
+/* public-style */
+*html{background-image:url(about:blank);background-attachment:fixed;}
+body,div,span,a,img,iframe,form,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,em,var,strong,input,p,textarea,select,option,table,tr,td{margin:0;padding:0;color:#333;font-family:Arial,"微软雅黑","宋体"}
+html{min-width:1000px;}
+body{font-size:12px;background-color:#fff}
+h1, h2, h3, h4, h5, h6{font-weight:normal;font-size:12px;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#333;}
+a:hover{text-decoration:underline;outline:none}
+a img{border:none;}
+img{border:none;}
+map{border:none;display:inline;}
+area{border:none;outline:none}
+em,var,i{font-style:normal;}
+textarea{resize:none;outline:none}
+input{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear,.c{clear:both;height:0;overflow:hidden;}
+.left{float:left !important;}
+.right{float:right !important;}
+.mrt0{margin-right:0px !important}
+.mt5{margin-top:5px !important}
+.mt10{margin-top:10px !important}
+.mb10{margin-bottom:10px !important}
+.mb15{margin-bottom:15px !important}
+.mt15{margin-top:15px !important}
+.mt20{margin-top:20px !important}
+.mlt0{margin-left:0 !important}
+.mlt10{margin-left:10px !important}
+.mlt20{margin-left:20px !important}
+.mrt10{margin-right:10px !important}
+.mrt20{margin-right:20px !important}
+.mtb15{margin-top:15px !important;margin-bottom:15px !important}
+.pt20{padding-top:20px !important}
+.pb20{padding-bottom:20px !important}
+.fontRed{color:#D90000 !important}
+.cGary3{color:#333 !important}
+.cGary6{color:#666 !important}
+.cGary9{color:#999 !important}
+.font14{font-size:14px !important}
+.alR{text-align:right !important}
+.alC{text-align:left !important}
+.topLine{border-top:1px dashed #d7d7d7 !important;border-bottom:none !important}
+.bottomLine{border-bottom:1px dashed #d7d7d7 !important}
+.bLt-none{border-left:none !important}
+.bgNone{background:none !important}
+.bgimgNone{background-image:none !important}
+.bor-topN{border-top:none !important}
+.bor-botN{border-bottom:none !important}
+.borNone{border:none !important}
+
+.w1000,.banner-con,.new-nav,.new-bd-con,.blogrollcon,.bodyer{width:1000px;margin:0 auto} 
+
+
+/*** 分页 ***/
+.new-page{overflow:hidden;}
+.page-block {text-align:center;}
+.new-page span,.new-page a{display:inline;text-align:center;font-size:16px;color:#fff;margin:0 5px;background:#666;overflow:hidden;padding:11px 19px;}
+.new-page a:hover,.new-page .current{background:#ff5a00;text-decoration:none;}
+.new-page a.prev{line-height:150px;overflow:hidden;background:url(../images/ico-page.png) 0 -47px no-repeat #666;padding:11px 15px;color:#666;}
+.new-page a.next{line-height:150px;overflow:hidden;background:url(../images/ico-page.png) 0 -91px no-repeat #666;padding:11px 15px;color:#666;}
+.new-page a.prev:hover,.new-page a.next:hover{background-color:#ff5a00}
+    
+
+
+/*** 面包屑 ***/
+.main-crumbsBox p{font-size:14px;color:#666;}
+.main-crumbsBox p em{font-size:14px;color:#f15a34;}
+.main-crumbsBox p a,.main-crumbsBox p span{color:#666;margin:0 5px;}
+
+/*** 没有数据的样式 ***/
+.nodata-box{height:36px;line-height:36px;text-align:center;background:#ddd;font-size:14px;color:#333}
+.nodata-box a{color:#f15a34;text-decoration:underline}
+

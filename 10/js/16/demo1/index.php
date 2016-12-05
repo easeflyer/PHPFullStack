@@ -9,6 +9,9 @@
      * get 方式 发送参数
      * 
      * get 方式 ajax 发送参数到 a.php 然后 a.php 把参数再返回输出。
+     * 
+     * 
+     * htttp://wwww.baidu.com/index.php?a=1&b=2&str=abcde
      */
 window.onload = function(){
 	var bt1 = document.getElementById("bt1");
@@ -20,7 +23,7 @@ window.onload = function(){
 		}else{
 			var oAjax =  new ActiveXObject("Microsoft.XMLHTTP");
 		}
-		oAjax.open("get","a.php?random="+Math.random()+"&id=8",true);//连接a页面
+		oAjax.open("get","a.php?random="+Math.random()+"&id=8",true);  // get 方式发送数据 ?变量=值&变量=值
 		oAjax.send(); //发送请求了
 		oAjax.onreadystatechange = function(){  
 			 if(oAjax.readyState==4){

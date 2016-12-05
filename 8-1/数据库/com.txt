@@ -1,0 +1,108 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.3
+-- http://www.phpmyadmin.net
+-- 
+-- 主机: localhost
+-- 生成日期: 2014 年 05 月 19 日 09:17
+-- 服务器版本: 5.0.51
+-- PHP 版本: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- 数据库: `com`
+-- 
+CREATE DATABASE `com` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `com`;
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `com_admin`
+-- 
+
+CREATE TABLE `com_admin` (
+  `cmId` int(4) NOT NULL auto_increment,
+  `cmName` varchar(20) NOT NULL,
+  `cmPwd` varchar(20) NOT NULL,
+  PRIMARY KEY  (`cmId`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+
+-- 
+-- 导出表中的数据 `com_admin`
+-- 
+
+INSERT INTO `com_admin` VALUES (1, 'admin', '123456');
+INSERT INTO `com_admin` VALUES (3, '放大师傅撒', '11111');
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `com_dept`
+-- 
+
+CREATE TABLE `com_dept` (
+  `cdId` int(3) NOT NULL auto_increment,
+  `cdName` varchar(40) NOT NULL,
+  `cdInfo` text NOT NULL,
+  `clId` int(2) NOT NULL,
+  PRIMARY KEY  (`cdId`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+
+-- 
+-- 导出表中的数据 `com_dept`
+-- 
+
+INSERT INTO `com_dept` VALUES (1, '财务部', '报销发票\r\n发放工资', 2);
+INSERT INTO `com_dept` VALUES (2, 'it部门', '公司的服务器\r\n公司的电脑设备', 3);
+INSERT INTO `com_dept` VALUES (3, '市场部', '寻找目标客户\r\n为客户解决问题', 4);
+INSERT INTO `com_dept` VALUES (4, '教学部2222', '解决学生问题 制作课件 讲课33333', 108);
+INSERT INTO `com_dept` VALUES (5, '市场部1111', '寻找目标客户\r\n为客户解决问题2222', 108);
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `com_emp`
+-- 
+
+CREATE TABLE `com_emp` (
+  `ceId` int(6) NOT NULL auto_increment,
+  `ceName` varchar(40) NOT NULL,
+  `cdId` int(3) NOT NULL,
+  `clId` int(3) NOT NULL,
+  `ceTel` varchar(20) NOT NULL,
+  `ceEmail` varchar(200) NOT NULL,
+  `cePic` varchar(200) NOT NULL,
+  PRIMARY KEY  (`ceId`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+
+-- 
+-- 导出表中的数据 `com_emp`
+-- 
+
+INSERT INTO `com_emp` VALUES (8, '王大五', 3, 3, '13444444444', 'uu@uu.com', 'public/upload/13944217206292.jpg');
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `com_leader`
+-- 
+
+CREATE TABLE `com_leader` (
+  `clId` int(2) NOT NULL auto_increment,
+  `clName` varchar(30) NOT NULL,
+  `clTel` varchar(20) NOT NULL,
+  `clEmail` varchar(200) NOT NULL,
+  `clInfo` text NOT NULL,
+  PRIMARY KEY  (`clId`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=109 ;
+
+-- 
+-- 导出表中的数据 `com_leader`
+-- 
+
+INSERT INTO `com_leader` VALUES (2, '张三', '13111111111', 'zhangsan@sina.com', '管理人力资源部门的日常工作\r\n招聘信任\r\n对员工绩效考核');
+INSERT INTO `com_leader` VALUES (3, '李四5', '132222222225', 'lisi@sina.com5', '负责财务监管 发放工资5555');
+INSERT INTO `com_leader` VALUES (4, '王五', '133333333333', 'aa@aa.com', '负责行政部门的管理');
+INSERT INTO `com_leader` VALUES (5, '赵六', '1322222222', 'qq@qq.comm', '负责公司市场部运行');
+INSERT INTO `com_leader` VALUES (108, '小明', '134555555555', 'cc@cc.com', '管理生产部门');

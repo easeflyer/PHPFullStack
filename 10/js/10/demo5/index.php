@@ -15,6 +15,6 @@ window.onload = function(){
 </script>
 <body>
 <a href="test.php">链接跳转到test</a>
-<input type="button" value="前进" id="bt1">
+<input type="button" value="前进" id="bt1" />
 </body>
 </html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+<{$arr}><br />
+<{$arr[0]}>---<{$arr[1]}>----<{$arr[2]}>----<{$arr[3]}><br />
+<{append var="arr" value="zhangsan"}>
+<{$arr[0]}>---<{$arr[1]}>----<{$arr[2]}>----<{$arr[3]}><br />
+<br />----------assign---------------<br />
+<{assign var="str" value="我很爱国"}>
+<{$str}>
+<br />----------assign索引---------------<br />
+<{assign var="brr" value=[11,222,333]}>
+<{$brr[1]}>
+<br />----------assign关联---------------<br />
+<{assign var="crr" value=["un"=>"zhangsan","ua"=>18,"ul"=>178]}>
+<{$crr["ua"]}>
+<br />----------for---------------<br />
+<{for $i=1 to 10 step 2}>
+	<{$i}><br />
+<{/for}>
+
+</body>
+</html>

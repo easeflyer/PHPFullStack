@@ -1,0 +1,9 @@
+[ 2016-12-05T09:46:12+08:00 ] 192.168.0.13 /wysc/news-show-newsid-18.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2016-12-05T09:46:39+08:00 ] 192.168.0.13 /wysc/Public/Uploads/thumb_800_800_
+ERR: 无法加载模块:Public/Uploads/thumb_800_800_
+
+[ 2016-12-05T09:46:39+08:00 ] 192.168.0.13 /wysc/Public/Uploads/thumb_350_350_
+ERR: 无法加载模块:Public/Uploads/thumb_350_350_
+

@@ -6,10 +6,10 @@
 </head>
 <script type="text/javascript">
 function openUrl(){
-	window.open("test.php","a","width=400,height=400,left=600,top=600");
+	window.open("test.php","a","width=400,height=400,left=600,top=500");
 }
 </script>
 <body>
-<input type="button" value="点击打开新窗口" onclick="openUrl();">
+<input type="button" value="点击打开新窗口" onclick="openUrl();" />
 </body>
 </html>

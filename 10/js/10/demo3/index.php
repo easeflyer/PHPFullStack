@@ -6,11 +6,11 @@
 </head>
 <script type="text/javascript">
     function resizeWindow(){
-	resizeTo(100,100);  // ie 支持 谷歌不支持
+	resizeTo(500,500);  // ie 支持 谷歌不支持
     }
 	window.onload =function(){
 		 var i=1;
-		 id = setInterval(changeTime,1000);
+		 id = setInterval(changeTime,2000);
 		 //setTimeout(changeTime,1000);
 		 function changeTime(){
 		 	alert(i) //每隔1秒钟 弹出窗口。
@@ -21,8 +21,7 @@
 </script>
 <body>
     
-    <input type="button" onclick="resizeWindow()"
-value="Resize window" />
+    <input type="button" onclick="resizeWindow()" value="Resize window" />
     
 </body>
 </html>

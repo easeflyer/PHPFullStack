@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style type="text/css">
+	tr{
+		font-size:12px;
+		line-height:30px;
+	}
+	
+</style>
+<body>
+<form action="deptAction.php?action=update&cdId=<{$rs['cdId']}>" method="post">
+<table align="center" border="1" cellpadding="0" cellspacing="0" width="800">
+	<tr>
+		<td align="right">部门名称</td>
+		<td><input type="text" name="cdName" value="<{$rs['cdName']}>"></td>
+	</tr>
+	<tr>
+		<td align="right">负责人姓名</td>
+		<td>
+			<select name="clId">
+				<option value="-1">请选择负责人</option>
+				<{$str}>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td align="right">部门职能</td>
+		<td>
+			<textarea rows="8" cols="60" name="cdInfo"><{$rs['cdInfo']}></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" colspan="2"><input type="submit" value="修改部门"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

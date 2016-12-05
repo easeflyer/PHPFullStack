@@ -1,0 +1,107 @@
+知识点:
+	一 mysql 事务
+	二 mysql中存储引擎
+	三 数据的备份与还原
+	四 mysql中用户管理
+	
+一 mysql 事务
+	1 事务:	mysql 中的语句，拆分的逻辑单元执行的一系列操作。
+	事物处理：可以确保事务性的逻辑单元都能执行成功，否则将不会更新数据资源。
+	2 事务的特性:
+		一致性  原子性  隔离性 持续性
+		原子性: 事务实不可分割的逻辑单元
+		一致性: 数据库中数据要一致
+		隔离性: 事务的处理之间是相互独立的。
+		持久性： 事务的执行结果可以永久的保存。
+	
+	3 事务的相关操作:
+		begin / start transaction 开启事务
+		 编写事务中的代码
+		 commit 确认事务（执行）
+		 
+		start transaction;
+			delete from books where bId=96;
+			delete from books where bId=97;
+			delete from books where bId=98;
+		commit;
+	4 回滚:
+		savepoint flag;
+		rollback flag
+		
+		
+		start transaction;
+			savepoint  demo;
+					执行的代码 就具有了 共同成功或失败。
+			rollback demo;
+		commit;
+	
+	
+二 mysql中存储引擎
+	 mysql 当中的内核。
+	 1 Myisam  默认的 存储引擎，一般项目 都用此引擎
+	 	myisam 数据库文件存放成3个文件
+		.frm  文件的定义
+		.myi  索引文件 
+		.myd 数据文件	
+	2 innodb 事务型引擎 
+		支持事务 和 外键。
+		银行 ，大型项目。
+	
+三 数据的备份与还原 DBA
+	1 数据库备份:
+		mysqldump -u用户名 -p密码  备份的目标> 备份的地址（物理地址）	
+		cd f:/appserv/mysql/bin 在该目录下 才能 mysqldump
+	2 还原数据库:
+		创建一个同名的数据库。
+		mysql -u用户名 -p密码 数据库名称<备份文件的 地址
+	
+	3 phpmyadmin备份:
+	
+四 mysql中用户管理
+	1 创建用户:
+		create user 用户名@服务器名称  identified by "密码";	
+	2 修改密码:
+		set password [for 用户名@服务器名称] = password("新密码");
+		set password for lisi@localhost = password("123456");
+	3 删除用户
+		drop user 用户名@localhost;
+		
+	4 授权:
+		grant 权限列表 on 对象列表 to  用户列表
+		权限列表:
+			all				所有权限  创建 alter drop insert update delete selecct 
+			create    		创建表 视图 
+			alter				修改结构
+			drop				删除
+			insert	
+			delete
+			update
+			select 
+		对象列表:
+			*.*				 所有数据库
+			数据库名称.*	 指定数据库下的所有数据对象
+			数据库名称.表名称   指定数据库的指定表	
+			
+		demo
+			grant all on pro.* to lisi@localhost; 	
+	
+		5 收回权限:
+			
+			
+			
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		

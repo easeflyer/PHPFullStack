@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+	<{function name="demo"}>
+			我很爱国
+	<{/function}>
+	<{demo}>
+	<br />-----------带参数的函数------------------<br />
+	<{function name="demo1" uName="zhangsan" uAge="18"}>
+			姓名是:<{$uName}><br />
+			年龄: <{$uAge}><br />
+			测试代码:<{$test}>--<{$db}>
+	<{/function}>
+	<{demo1 test="aaaaa" db="bbbbb"}>
+</body>
+</html>

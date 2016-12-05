@@ -1,0 +1,15 @@
+<script>
+
+
+function MyClass(){
+    this.p1 = 111;  // 定义属性
+    this.p2 = 222;
+    this.f1 = function (){ // 定义方法
+        return 333;
+    }
+}
+
+var mc = new MyClass();
+document.write(mc.p1 + mc.f1());
+
+</script>

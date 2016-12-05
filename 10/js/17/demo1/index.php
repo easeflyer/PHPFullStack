@@ -20,7 +20,7 @@
             border:1px solid #00ff00;
             margin-top:10px;
             position:relative;
-            top:10px;   /* 相对于父元素顶部偏移 15像素;必须有 position 才有效 */ 
+            top:200px;   /* 相对于父元素顶部偏移 15像素;必须有 position 才有效 标签里定义了，这里就无效了*/
 
         }
     </style>
@@ -30,11 +30,12 @@
             var div2 = document.getElementsByTagName("div")[1];
             //div2.style = "top:25px"; // 设置
             alert(div2.style.top);  /* 相对于父元素顶部偏移 15像素 */
+            alert(div2.offsetTop);  /* 返回元素相对于父元素的坐标  */
         }
     </script>
     <body>
-        <div class="one">
-            <div class="two" style="top:100px"></div>
+        <div class="one">one
+            <div class="two" style="">two</div>
         </div>
     </body>
 </html>

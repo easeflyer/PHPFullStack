@@ -9,7 +9,7 @@
 <form action="#" method="post" id="frm1">
 	<input type="text" id="un" value="请输入用户名">
 	<input type="radio" name="us" id="us" checked="checked"> 男
-	<input type="radio" name="us"> 女
+	<input type="radio" name="us" id="us1" /> 女
 	<input type="checkbox" id="cks" onclick="checkAll();">全选
 	<input type="checkbox" name="ck[]">北京
 	<input type="checkbox" name="ck[]">上海

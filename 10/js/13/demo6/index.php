@@ -22,7 +22,7 @@ window.onload = function(){
 		 
 		 //3 div添加 到body
 		document.body.appendChild(divs);	   // 在 bt 按钮之后；body的最后插入对象。
-		//document.body.insertBefore(divs,bt);  // 在 bt 按钮之前插入对象	 
+		//document.body.insertBefore(divs,bt);          // 在 bt 按钮之前插入对象	 
 		var dv = document.getElementById("dv");
 		dv.onclick = function(){
 			document.body.removeChild(divs); // 删除子对象。

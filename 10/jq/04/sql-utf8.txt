@@ -25,3 +25,23 @@ INSERT INTO `class` VALUES (13, '柒牌', 5);
 INSERT INTO `class` VALUES (14, '劲霸', 5);
 INSERT INTO `class` VALUES (15, '红风衣', 6);
 INSERT INTO `class` VALUES (16, '绿风衣', 6);
+
+
+
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uName` varchar(32) NOT NULL,
+  `uPwd` varchar(32) NOT NULL,
+    PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+--
+-- 转存表中的数据 `users`
+--
+
+INSERT INTO `users` (`id`, `uName`, `uPwd`) VALUES
+(1, 'zhangsan', '111111'),
+(2, 'lisi', '222222'),
+(3, 'wangwu', '333333'),
+(4, 'zhaoliu', '444444');
