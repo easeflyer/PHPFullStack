@@ -30,7 +30,7 @@ window.onload = function(){
 		}
                 
                 // ajax 有缓存  在open中的url上绑定一个随机数。因为 url 发生了变化，因此避免了缓存。
-                
+                //http://localhost/a.php?a=1&b=2&c=3
 		oAjax.open("get","a.php?random="+Math.random(),true);//连接a页面   true 采用异步方式发送请求 其他元素不会等待。
 		oAjax.send(); //发送请求了
 		oAjax.onreadystatechange = function(){   // on readystate change  当 readystate 发生变化时执行

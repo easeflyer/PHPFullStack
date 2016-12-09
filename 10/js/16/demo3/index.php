@@ -11,7 +11,6 @@
             var dv1 = document.getElementById("dv1");
             bt1.onclick = function () {
                 //调用ajax包
-                //ajax();
                 ajax({
                     type: "get",
                     url: "a.php?random=" + Math.random(),
@@ -24,9 +23,9 @@
                           但是在 ajax() 函数内部，调用了 success(data) 并且把 ajax 返回的数据作为参数传递进去。
                           也就是说 外部定义匿名函数时，我们是知道将来这个函数的用途的。因此函数的设计 就是针对这个用途而设计的。
                         */    
-                })
-            }
-        }
+                });
+            };
+        };
     </script>
     <body>
         <input type="button" id="bt1" value="测试ajax">

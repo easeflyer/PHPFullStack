@@ -12,7 +12,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$("#bt").click(function (){
-			alert($("#tb1").attr("width")); //获取属性值
+			alert(  $("#tb1").attr("width")    ); //获取属性值
 			
 		})
 		$("#bt1").click(function(){

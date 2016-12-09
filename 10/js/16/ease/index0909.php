@@ -47,6 +47,12 @@
                 1 首先实现 index.php 如本页功能。
                 2 自己编写 getJsonDiv.php 。使得 index.php 调用本地数据。
 
+           开发思路：
+                1 ajax 尝试获得数据 并且 alert 确认。
+                2 用 json 解析 获得的数据  还原对象。
+                3 利用 对象的 各个属性 拼接成一个 div
+                4 innerHTML 插入已有的 div 中
+                5 通过事件 获取 text 的 value 然后替换 url 的 style 动态获得 json 数据
         </pre>
     </body>
 </html>

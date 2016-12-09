@@ -8,7 +8,7 @@
 <script type="text/javascript">
 	$(function(){
 		$("#bt").bind("click",function(){
-			alert("我是用bind方法绑定的时间");
+			alert("我是用bind方法绑定的事件");
 		});
 	})
 </script>

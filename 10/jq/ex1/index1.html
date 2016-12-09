@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <script src="../jquery.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            /*next() 和nextAll()的用法
+             $(function () {
+             $("div").click(function () {
+             //alert($(this).next().text());
+             //alert($(this).next("p").text());
+             //alert($(this).nextAll().text());
+             //alert($(this).nextAll("div").text());
+             });
+             });*/
+            /* 高亮显示所以next */
+            // $(function () { $("div").click(function () { $(this).nextAll("div").css("background","red"); }); });
+            /*高亮显示自己而已*/
+            // $(function () { $("div").click(function () { $(this).css("background", "red"); $(this).siblings().css("background","white"); }); });
+
+
+            $(function () {
+                $("div").click(function () {
+                    $(this).css("background", "red").siblings().css("background", "white");
+                });
+            });
+
+
+        </script>
+    </head>
+    <body>
+        <div>
+            aa</div>
+        <div>
+            bb</div>
+        <div>
+            cc</div>
+        <p>
+            p1</p>
+        <p>
+            p2</p>
+        <div>
+            dd</div>
+        <div>
+            ee</div>
+    </body>
+</html>

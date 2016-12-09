@@ -22,8 +22,8 @@
 		$("#checkRev").click(function(){
 			$("[name=items]:checkbox").each(function(){
 					//$(this).attr("checked",!$(this).attr("checked")); jq 1.* 版本的时候可以 2.* 
-					var s = $(this)[0];
-					s.checked = !s.checked;
+					var s = $(this)[0]; // 转换为 js  对象； this 代表的就是遍历的每隔匹配元素
+					s.checked = !s.checked; // js  对象的 checked 属性 设置。
 			})
 		})
 	})

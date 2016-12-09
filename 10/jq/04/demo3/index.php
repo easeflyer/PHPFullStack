@@ -12,7 +12,7 @@
 			$("tr.parent").click(function(){
 				//alert($(this).attr("id"));
 				var $cr = "child_"+$(this).attr("id");  // 拼接出 子节点的 class
-				if($("."+$cr).is(":visible")){			// 判断子节点的 显示状态
+				if($("."+$cr).is(":visible")){	    // 判断子节点的 显示状态
 					$("."+$cr).hide();
 				}else{
 					$("."+$cr).show();

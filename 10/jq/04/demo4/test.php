@@ -6,10 +6,15 @@
 </head>
 
 <body>
-我是测试ajax的数据  放大法大赛萨菲 
+    
+    
+我是测试ajax的数据  
 <?php
 $id = $_GET["id"];
 echo $id;
 ?>
+
+
+
 </body>
 </html>

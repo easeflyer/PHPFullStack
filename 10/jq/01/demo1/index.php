@@ -9,11 +9,12 @@
 	$(document).ready(function(){
 		//jquery 代码
 		// 基本选择器 * 全部元素
-		//$("*").css("background","#ff0000");
-		//$("#one").css("background","#00ff00");
-		//$(".oneC").css("background","#efefef");
-		//$("p").css("background","#ff0000");
+		$("*").css("background","#ff0000");
+		$("#one").css("background","#00ff00");
+		$(".oneC").css("background","#efefef");
+		$("p").css("background","#ff0000");
 		$("#one,.oneC,p").css("background","#ffccdd");
+                $("#one").css("background","#ff0000");
 	})
 </script>
 <body>

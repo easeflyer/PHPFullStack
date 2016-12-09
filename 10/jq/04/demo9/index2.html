@@ -1,107 +1,108 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<script type="text/javascript" src="js/jquery.js"></script>
-</head>
-<style type="text/css">
-	*{margin:0px;padding:0px;}
-	ul{ list-style:none;}
-	.tab{
-		width:198px;
-		height:200px;
-		background-color:#D1F3F8;
-		margin-left:200px;
-	}
-	.header{
-		height:25px;
-		width:100%;
-	}
-	.liStyle{
-		height:23px;
-		width:65px;
-		border:0px solid #ff0000;
-		background-color:#FFFFFF;
-		float:left;
-		text-align:center;
-		line-height:23px;
-	}
-	.content{
-		border:1px solid #ff0000;
-		border-top:none;
-		height:175px;
-	}
-	.show{
-		background-color:#D1F3F8;
-		border:1px solid #ff0000;
-		border-bottom:none;
-	}
-	.hide{  background-color:#FFFFFF; border-bottom:1px solid #ff0000;}
-	.ulShow{
-		display:block;
-	}
-	.ulHide{
-		display:none;
-	}
-</style>
-<script type="text/javascript">
-	$(function(){
-			// 修改 .tab 为 .1tab 屏蔽掉这部分代码
-			$(".1tab>ul.header>li").click(function(){
-					$(this).parent().find("li.show").addClass("hide").removeClass("show");
-					$(this).addClass("show").removeClass("hide");
-					var parentsEl = $(this).parents(".tab"); //获取当前 元素的父元素 tab;
-					// 添加 ulHide  删除 ulShow
-					parentsEl.find("div>ul.ulShow").addClass("ulHide").removeClass("ulShow");
-					//找到 与表头对应的需要的 ul 内容，
-					//$.inArray 确定 第一个参数在数组中的位置，没有返回-1
-					var ary = parentsEl.find("ul.header>li"); //li的集合
-					parentsEl.find("div>ul:eq("+$.inArray(this,ary)+")").addClass("ulShow").removeClass("ulHide");
-			})
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+        <script type="text/javascript" src="js/jquery.js"></script>
+    </head>
+    <style type="text/css">
+        *{margin:0px;padding:0px;}
+        ul{ list-style:none;}
+        .tab{
+            width:198px;
+            height:200px;
+            background-color:#D1F3F8;
+            margin-left:200px;
+        }
+        .header{
+            height:25px;
+            width:100%;
+        }
+        .liStyle{
+            height:23px;
+            width:65px;
+            border:0px solid #ff0000;
+            background-color:#FFFFFF;
+            float:left;
+            text-align:center;
+            line-height:23px;
+        }
+        .content{
+            border:1px solid #ff0000;
+            border-top:none;
+            height:175px;
+        }
+        .show{
+            background-color:#D1F3F8;
+            border:1px solid #ff0000;
+            border-bottom:none;
+        }
+        .hide{  background-color:#FFFFFF; border-bottom:1px solid #ff0000;}
+        .ulShow{
+            display:block;
+        }
+        .ulHide{
+            display:none;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            // 修改 .tab 为 .1tab 屏蔽掉这部分代码
 
-			/*
-				选项卡设计思路修改：
+            $(".1tab>ul.header>li").click(function () {
+                $(this).parent().find("li.show").addClass("hide").removeClass("show");
+                $(this).addClass("show").removeClass("hide");
+                var parentsEl = $(this).parents(".tab"); //获取当前 元素的父元素 tab;
+                // 添加 ulHide  删除 ulShow
+                parentsEl.find("div>ul.ulShow").addClass("ulHide").removeClass("ulShow");
+                //找到 与表头对应的需要的 ul 内容，
+                //$.inArray 确定 第一个参数在数组中的位置，没有返回-1
+                var ary = parentsEl.find("ul.header>li"); //li的集合
+                parentsEl.find("div>ul:eq(" + $.inArray(this, ary) + ")").addClass("ulShow").removeClass("ulHide");
+            })
 
-					1 给 header 部分 li 增加 id 属性。 content 部分 ul 也增加id 属性与之对应。 
-					2 代码中直接利用 id 之间的关系，即可直接选中 对应的元素。免去了计算过程，代码更加已读，效率更高。
-			*/
-			$(".tab>ul.header>li").click(function(){
-				//$(".tab>ul.header>li.show").addClass("hide").removeClass("show");
-				$(".tab li.show").addClass("hide").removeClass("show"); // 只要选择器 唯一即可
-				$(this).addClass("show").removeClass("hide");
+            /*
+             选项卡设计思路修改：
+         
+             1 给 header 部分 li 增加 id 属性。 content 部分 ul 也增加id 属性与之对应。 
+             2 代码中直接利用 id 之间的关系，即可直接选中 对应的元素。免去了计算过程，代码更加已读，效率更高。
+             */
+            $(".tab>ul.header>li").click(function () {
+                //$(".tab>ul.header>li.show").addClass("hide").removeClass("show");
+                $(".tab li.show").addClass("hide").removeClass("show"); // 只要选择器 唯一即可
+                $(this).addClass("show").removeClass("hide");
 
-				$id = $(this).prop("id"); // 获得 header li 的 id
-				$(".content ul.ulShow").addClass("ulHide").removeClass("ulShow");
-				$("#"+$id+"_content").addClass("ulShow").removeClass("ulHide");
+                $id = $(this).prop("id"); // 获得 header li 的 id
+                $(".content ul.ulShow").addClass("ulHide").removeClass("ulShow");
+                $("#" + $id + "_content").addClass("ulShow").removeClass("ulHide");
 
-			});
-	})
-</script>
-<body>
-<div class="tab">
-	<ul class="header">
-		<li id="h1" class="liStyle show">国际</li>
-		<li id="h2" class="liStyle hide">国内</li>
-		<li id="h3" class="liStyle hide">体育</li>
-	</ul>
-	<div class="content">
-			<ul id="h1_content" class="ulShow">
-				<li>国际上最近发生事很多1</li>
-				<li>国际上最近发生事很多2</li>
-				<li>国际上最近发生事很多3</li>
-			</ul>
-			<ul id="h2_content" class="ulHide">
-				<li>国内上最近发生事很多1</li>
-				<li>国内上最近发生事很多2</li>
-				<li>国内上最近发生事很多3</li>
-			</ul>
-			<ul id="h3_content" class="ulHide">
-				<li>体育上最近发生事很多1</li>
-				<li>体育上最近发生事很多2</li>
-				<li>体育上最近发生事很多3</li>
-			</ul>
-	</div>
-</div>
-</body>
+            });
+        })
+    </script>
+    <body>
+        <div class="tab">
+            <ul class="header">
+                <li id="h1" class="liStyle show">国际</li>
+                <li id="h2" class="liStyle hide">国内</li>
+                <li id="h3" class="liStyle hide">体育</li>
+            </ul>
+            <div class="content">
+                <ul id="h1_content" class="ulShow">
+                    <li>国际上最近发生事很多1</li>
+                    <li>国际上最近发生事很多2</li>
+                    <li>国际上最近发生事很多3</li>
+                </ul>
+                <ul id="h2_content" class="ulHide">
+                    <li>国内上最近发生事很多1</li>
+                    <li>国内上最近发生事很多2</li>
+                    <li>国内上最近发生事很多3</li>
+                </ul>
+                <ul id="h3_content" class="ulHide">
+                    <li>体育上最近发生事很多1</li>
+                    <li>体育上最近发生事很多2</li>
+                    <li>体育上最近发生事很多3</li>
+                </ul>
+            </div>
+        </div>
+    </body>
 </html>

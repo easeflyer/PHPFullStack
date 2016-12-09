@@ -42,19 +42,22 @@
 <script type="text/javascript">
 	$(function(){
 		$(".small").mousemove(function(e){
+                        //alert(event.clientX);
 				$("b").show();
 				$(".big").show();
-				//鼠标的位置  ,一下代码 计算小图的移动位置。 -50--351
-				var  L = e.pageX;
+				//鼠标的位置  ,一下代码 计算小图的移动位置。 -50--351  e.pageX 鼠标的x坐标
+				//var  L = e.pageX;
+                                var  L = event.clientX;
 				//计算方块中心到左边的边距
 				var l = $(this).offset().left;
-				var left = L - l -50;
-				var T = e.pageY;
+				var left = L - l - 50;
+				//var T = e.pageY;
+                                var T = e.clientY;
 				var t =  $(this).offset().top;
 				var top = T-t-50;
 				
 				//计算小图层超出左边界
-				left  = left<0?0:left;
+				left  = left<0 ? 0 : left;
 				top = top<0?0:top;
 				//极端小图右边界
 				left = left>300?300:left;
@@ -73,9 +76,11 @@
 	})
 </script>
 <body>
+    
 <div class="box">
-	<div class="small"><img src="imgs/small.jpg" /><b></b></div>
+	<div class="small"><img src="imgs/small.jpg" /><b>22</b></div>
 	<div class="big"><img src="imgs/big.jpg"></div>
 </div>
+    
 </body>
 </html>

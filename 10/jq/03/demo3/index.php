@@ -9,22 +9,24 @@
 	$(function(){
 		$("#bt").click(function(){
 			//dv是 显示的  点击按钮 ，影藏，反之则显示
-			var $dv = $("#dv"); // 对象.is("状态")
+			var $dv = $(".dv"); // 对象.is("状态")
 			if($dv.is(":visible")){
 				//$dv.hide(2000);
-				//$dv.fadeOut(2000);
-				$dv.slideDown(2000);
+				$dv.fadeOut(2000);
+				//$dv.slideDown(2000);
 			}else{
 				//$dv.show(2000);
-				//$dv.fadeIn(2000);
-				$dv.slideUp(2000);
+				$dv.fadeIn(2000);
+				//$dv.slideUp(2000);
 			}
 			
 		})
 	})
 </script>
 <body>
-<div id="dv" style="border:1px solid #ff0000; font-size:36px;">aaaa</div>
+    <div class="dv" style="border:1px solid #ff0000; font-size:36px;"><img src="1.jpg" /></div>
+    <div class="dv" style="border:1px solid #ff0000; font-size:36px;"><img src="1.jpg" /></div>
+    <div class="dv" style="border:1px solid #ff0000; font-size:36px;"><img src="1.jpg" /></div>
 <input type="button" id="bt" value="隐藏">
 </body>
 </html>

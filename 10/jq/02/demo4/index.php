@@ -37,6 +37,8 @@
 <body>
 <input type="button" id="bt" value="操作class">
 <input type="button" id="bt1" value="删除class">
-<div id="dv1" class="one">aaaa</div>
+    <div id="dv2" class="one">aaaa</div>
+<div id="dv1" class="one">DV1aaaa</div>
+<div id="dv3" class="one">aaaa</div>
 </body>
 </html>

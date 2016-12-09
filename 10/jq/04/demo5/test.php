@@ -6,7 +6,7 @@
 </head>
 
 <body>
-我是测试ajax的数据  放大法大赛萨菲 
+我是测试ajax的数据 
 <?php
 $id = $_POST["id"];
 echo $id;

@@ -13,7 +13,7 @@
 <title>无标题文档</title>
 </head>
 <?php 
-
+  // php 代码写在这里。其他部分不会被 php 处理。
 ?>
 <body>
 aaaaaa

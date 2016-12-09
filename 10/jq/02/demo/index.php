@@ -19,15 +19,20 @@
 			$createLi_3.appendTo($("ul"));
 		 	var $createLi_4 = $("<li style='color:#ff0000'>桃子</li>");
 			$("ul").prepend($createLi_4);
+                        $("ul").after( $("<p>添加到最后</p>") );
 	})
 </script>
 <body>
 <p>你喜欢吃什么水果</p>
 <ul>
-	<li>苹果</li>
+<li>苹果</li>
 	<li id="v2">菠萝</li>
 	<li>西瓜</li>
 	<li>胡萝卜</li>
+</ul>
+<hr />
+<ul>
+    <li>1111</li>
 </ul>
 </body>
 </html>

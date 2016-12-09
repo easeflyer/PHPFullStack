@@ -4,7 +4,8 @@
 	三 数据的备份与还原
 	四 mysql中用户管理
 	
-一 mysql 事务
+一 mysql 事务（这里先介绍，php 中使用的时候再介绍。）
+
 	1 事务:	mysql 中的语句，拆分的逻辑单元执行的一系列操作。
 	事物处理：可以确保事务性的逻辑单元都能执行成功，否则将不会更新数据资源。
 	2 事务的特性:
@@ -15,11 +16,11 @@
 		持久性： 事务的执行结果可以永久的保存。
 	
 	3 事务的相关操作:
-		begin / start transaction 开启事务
+		begin / start transaction 开启事务 
 		 编写事务中的代码
-		 commit 确认事务（执行）
+		 commit 确认事务（执行） # 事务代码将都被完成。
 		 
-		start transaction;
+		start transaction;   （注意末尾 分好。）
 			delete from books where bId=96;
 			delete from books where bId=97;
 			delete from books where bId=98;
