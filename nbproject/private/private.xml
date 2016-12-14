@@ -3,20 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-            <file>file:/F:/ease/php_lesson/10/jq/03/demo3/index.php</file>
-            <file>file:/F:/ease/php_lesson/10/dangdang/css/main.css</file>
-            <file>file:/F:/ease/php_lesson/10/dangdang/js/main.js</file>
-            <file>file:/F:/ease/php_lesson/10/dangdang/index.html</file>
-=======
-<<<<<<< HEAD
-            <file>file:/Applications/XAMPP/htdocs/php_lesson/10/js/17/demo2/index.php</file>
-            <file>file:/Applications/XAMPP/htdocs/php_lesson/10/js/17/demo/index.php</file>
-=======
-            <file>file:/F:/ease/php_lesson/10/js/17/demo3/dtree/dtree.js</file>
-            <file>file:/F:/ease/php_lesson/10/js/17/demo3/index.html</file>
->>>>>>> f407ad3bbcbbd827e8bfdf1e4f8410c6352e89c3
->>>>>>> fa3e1b6728d13565d53bcaf032df601c724aed36
+            <file>file:/F:/ease/php_lesson/10/dangdang/old/css/main.css</file>
+            <file>file:/F:/ease/php_lesson/10/dangdang/old/js/main.js</file>
+            <file>file:/F:/ease/php_lesson/10/dangdang/new/code/css/index.css</file>
+            <file>file:/F:/ease/php_lesson/10/dangdang/old/index.html</file>
+            <file>file:/F:/ease/php_lesson/10/dangdang/new/code/js/main.js</file>
+            <file>file:/F:/ease/php_lesson/02-1--02-4/动态效果/左侧-菜单/jianjie.html</file>
+            <file>file:/F:/ease/php_lesson/02-1--02-4/动态效果/左侧-菜单/1.html</file>
+            <file>file:/F:/ease/php_lesson/10/dangdang/new/code/index.html</file>
+            <file>file:/F:/ease/php_lesson/02-1--02-4/动态效果/自动轮播tab切换页/1.html</file>
         </group>
     </open-files>
 </project-private>

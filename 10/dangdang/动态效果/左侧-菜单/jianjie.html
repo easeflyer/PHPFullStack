@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $(".one ul li").hover(function(){
+	  $(this).removeClass("menu");
+	  //$(".one ul li").find(".mask").hide();
+	  //$(".one ul li").find(".menu_1").hide();
+	  $(this).addClass("menu");
+	  $(this).find(".mask").show();
+	  $(this).find(".menu_1").show();
+	  
+	},function(){
+	  $(this).removeClass("menu").addClass("yuan");
+	  $(this).find(".mask").hide();
+	  $(this).find(".menu_1").hide();
+	})
+})
+</script>
+<style>
+  *{ margin:0px; padding:0px;}
+  ul{ list-style:none;}
+  .one{ width:202px; height:648px; background:#CDCDCD; margin-left:50px; margin-top:10px; padding:10px 0; position:relative; margin-bottom:100px;}
+  .one ul{width:200px; height:600px;}
+  
+  .one ul li.yuan{ width:200px; height:50px; border:2px  solid #CDCDCD; border-right:none;line-height:50px; text-align: center; }
+  .one ul li.menu{ width:200px; height:50px; border:2px  solid red; border-right:none;line-height:50px; text-align: center; }
+  .one ul li .menu_1{ width:400px; height:664px;  position:absolute; top:0px; left:202px; background:#CDCDCD; z-index:10; border:2px solid red; display:none;}
+    .one ul li .mask{ display:none;width:5px; height:50px; background:#CDCDCD; float:right; margin-right:-5px; position:relative; z-index:15; }
+</style>
+<body>
+<div class="one">
+  <ul>
+    <li class="yuan">
+	     苹果  苹果  苹果
+	   <div class="mask"></div>
+	   <div class="menu_1">苹果  苹果  苹果111111</div>
+	</li>
+	<li class="yuan">
+	    梨子  梨子  梨子
+		<div class="mask"></div>
+	   <div class="menu_1">梨子  梨子  梨子111111</div>
+   </li>
+	<li class="yuan">
+	     苹果  苹果  苹果
+	   <div class="mask"></div>
+	   <div class="menu_1">苹果  苹果  苹果111111</div>
+	</li>
+	<li class="yuan">
+	    梨子  梨子  梨子
+		<div class="mask"></div>
+	   <div class="menu_1">梨子  梨子  梨子111111</div>
+   </li>
+	<li class="yuan">
+	     苹果  苹果  苹果
+	   <div class="mask"></div>
+	   <div class="menu_1">苹果  苹果  苹果111111</div>
+	</li>
+	<li class="yuan">
+	    梨子  梨子  梨子
+		<div class="mask"></div>
+	   <div class="menu_1">梨子  梨子  梨子111111</div>
+   </li>
+	<li class="yuan">
+	     苹果  苹果  苹果
+	   <div class="mask"></div>
+	   <div class="menu_1">苹果  苹果  苹果111111</div>
+	</li>
+	<li class="yuan">
+	    梨子  梨子  梨子
+		<div class="mask"></div>
+	   <div class="menu_1">梨子  梨子  梨子111111</div>
+   </li>
+	<li class="yuan">
+	     苹果  苹果  苹果
+	   <div class="mask"></div>
+	   <div class="menu_1">苹果  苹果  苹果111111</div>
+	</li>
+	<li class="yuan">
+	    梨子  梨子  梨子
+		<div class="mask"></div>
+	   <div class="menu_1">梨子  梨子  梨子111111</div>
+   </li>
+	<li class="yuan">
+	     苹果  苹果  苹果
+	   <div class="mask"></div>
+	   <div class="menu_1">苹果  苹果  苹果111111</div>
+	</li>
+	<li class="yuan">
+	    梨子  梨子  梨子
+		<div class="mask"></div>
+	   <div class="menu_1">梨子  梨子  梨子111111</div>
+   </li>
+	
+	
+  </ul>
+</div>
+</body>
+</html>

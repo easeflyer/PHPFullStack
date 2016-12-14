@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 <?php
-$handle = fopen("a.html","a+");
+/* 写入文件案例 2 */
+
+$handle = fopen("a.html","a+");                 // 读写方式打开，将文件指针指向文件末尾。如果文件不存在则尝试创建之。
 $str = "<div style='color:#ff0000'>zhangsan</div>";
 fwrite($handle, $str);
-=======
-<?php
-$handle = fopen("a.html","a+");
-$str = "<div style='color:#ff0000'>zhangsan</div>";
-fwrite($handle, $str);
->>>>>>> f407ad3bbcbbd827e8bfdf1e4f8410c6352e89c3
 fclose($handle);

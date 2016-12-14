@@ -1,0 +1,28 @@
+html,body,div,ul,li{margin:0px;padding:0px;font:12px 'Hiragino Sans GB',"Simsun","Arial";color:#646464;}
+li{list-style:none;}
+a{text-decoration:none;color:#646464;}
+a:hover{color:red;}
+
+
+
+.bggray{background-color:#ccc;}
+.r{clear:both;}
+
+
+
+.one{float:left;width:280px;height:auto;border:1px solid #e6e6e6}
+.one_head{height:45px;width:282px;}
+.one_head_tab{width:139px;float:left;color:#666;font:16px/46px "Microsoft YaHei",Simsun;border-top:1px solid #e6e6e6;border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6;text-align:center;}
+.one_body dl dt{height:28px;line-height:28px;border-bottom:1px solid #e6e6e6;}
+.one_body dl dt div{width:200px;height:28px;line-height:28px;}
+
+.one_body dl dd{border-bottom:1px solid #e6e6e6;}
+.one_body dl dd{display:none;}
+
+.one_body_dl_dt_1,.one_body_dl_dt_2,.one_body_dl_dt_3{color:#ff3228;}
+
+
+
+.one_body_img{float:left;width:90px;height:90px;overflow:hidden;margin-left:-30px;}
+
+.one_desc{float:right;width:130px;}

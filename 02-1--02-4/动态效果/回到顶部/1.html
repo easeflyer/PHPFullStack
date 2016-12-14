@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".xing").hover(function(){
+      $(this).attr("class","xing1");
+     $(".shoucang").show().animate({left:"-100px"},300)
+  },function(){
+      $(this).attr("class","xing");
+	  $(".shoucang").css("left","0px");
+	  $(".shoucang").stop(true);//清除元素的所有动画
+  })
+   
+   $(".shang").click(function(){
+	 $("html,body").animate({"scrollTop":"0px"});
+   })
+})
+</script>
+<style>
+*{ margin:0px; padding:0px;}
+ul{ list-style:none;}
+.one{ width:600px; height:1500px; margin:0 auto; position:relative; border:2px solid red; overflow:hidden;}
+.one .two{ width:40px; height:200px; background:green; position:absolute; right:0; bottom:0;}
+.one .two .xing{ width:40px; height:40px; background:url(img/1.png) 84px -84px;position:relative;}
+.one .two .xing1{ width:40px; height:40px; background:url(img/1.png) 42px -84px;position:relative;}
+.one .two .xing1 .shoucang{ width:100px; height:40px; background:#FF2832; position:absolute; right:-100px; top:0px; display:none;}
+.one .two .shang{ width:40px; height:40px; background:url(img/1.png) 84px 40px; }
+
+</style>
+<body>
+<div class="one">
+    <div class="two">
+	   <div class="xing">
+	      <div class="shoucang"></div>
+	   </div>
+	   <div class="shang"></div>
+	</div>
+</div>
+</body>
+</html>

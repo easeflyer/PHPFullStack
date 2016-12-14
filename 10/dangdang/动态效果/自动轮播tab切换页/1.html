@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+$(function(){
+   $(".one .onetop div").hover(function(){
+      $(".one .onetop div").removeClass("xin");
+	   $(this).addClass("xin");
+	   $(".one .onebottom ul").hide();
+	   $(".one .onebottom .onebottom_"+$(this).attr("ext")).show();
+	   clearInterval(time);
+   },function(){
+   time = setInterval(donghua,700);
+   })
+   
+   var index = "";
+   
+   var donghua = function(){
+     if(index == ""){
+	     index = $(".one .onetop div").first();
+	 }else{
+	     index = index.next();
+		 if(!index.is(".one .onetop div")){
+		     index = $(".one .onetop div").first();
+		 }
+	 }
+	  $(".one .onetop div").removeClass("xin");
+	  $(index).addClass("xin");
+	  $(".one .onebottom ul").hide();
+	  $(".one .onebottom .onebottom_"+$(index).attr("ext")).show();
+	  
+	 
+   }
+   var time = setInterval(donghua,700);
+   
+   
+})
+</script>
+<style>
+*{ margin:0px; padding:0px;}
+ul{ list-style:none;}
+.one{ width:202px; height:231px; background:white; margin-left:50px; margin-top:10px; border:2px solid grey;}
+.one .onetop{ width:202px; height:31px; background:#CDCDCD;}
+.one .onetop .onetopleft{ width:100px; height:30px; line-height:30px; text-align:center; border-bottom:1px solid grey; border-right:1px solid grey; float:left;}
+.one .onetop .onetopright{width:100px; height:30px; line-height:30px; text-align:center; border-bottom:1px solid grey; border-right:1px solid grey; float:left;}
+.one .onetop .xin{ border-bottom:1px solid white; background:white;}
+
+.one .onebottom ul.onebottom_2{ display:none;}
+</style>
+<body>
+  <div class="one">
+      <div class="onetop">
+	      <div class="onetopleft xin" ext="1">苹果</div>
+		  <div class="onetopright" ext="2">梨子</div>
+	  </div>
+	  
+	  <div class="onebottom">
+	      <ul class="onebottom_1">
+		     <li>111</li>
+			 <li>111</li>
+			 <li>111</li>
+			 <li>111</li>
+		  </ul>
+		  <ul class="onebottom_2">
+		     <li>222</li>
+			 <li>222</li>
+			 <li>222</li>
+			 <li>222</li>
+		  </ul>
+	  </div>
+  </div>
+</body>
+</html>

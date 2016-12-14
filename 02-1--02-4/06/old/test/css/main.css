@@ -1,0 +1,85 @@
+html,body,div,ul,li{margin:0px;padding:0px;font:12px 'Hiragino Sans GB',"Simsun","Arial";color:#646464;}
+li{list-style:none;}
+a{text-decoration:none;color:#646464;}
+a:hover{color:red;}
+.red{color:red;}
+
+.r{clear:both;}
+.top{float:left;width:100%;height:34px;background-color:#f9f9f9;border-bottom:1px solid #f2f2f2}
+.top .top_login{float:left;margin-left:45px;height:34px;width:180px;line-height:34px;}
+.top .top_menu{float:right;height:34px;width:600px;}
+.top .top_ad1{float:right;margin-right:70px;height:29px;line-height:34px;width:123px;}
+
+.top .top_menu ul{margin-top:5px;}
+.top .top_menu ul li{float:left;width:68px;height:30px;line-height:30px;text-align:center;background:url(../images/home_sprite2_1017.png) 0px -287px}
+
+.center1{width:100%;position:relative;}
+.center2{margin:0px auto;width:1200px;}
+
+.logo_line{float:left;height:110px;margin-top:2px;}
+.logo_line1{width:1200px;height:110px;}
+.logo_line .logo_line1 .logo{float:left;width:316px;height:110px;overflow:hidden;}
+
+.logo_line .logo_line1 .search{float:left;margin-left:27px;width:620px;padding-top:30px;}
+.logo_line .logo_line1 .search .text{float:left;width:398px;height:38px;border:1px solid #c8c8c8}
+
+.logo_line .logo_line1 .search .select{float:left;width:107px;height:40px;line-height:40px;font-size:18px;color:#969696;font-family:"黑体";background-color:#fff;border:1px solid #c8c8c8;text-align:center;}
+
+.logo_line .logo_line1 .search .submit{float:left;width:80px;height:40px;line-height:40px;margin-left:3px;text-align:center;font-size:18px;font-family:"黑体";color:#fff;background-color:red;}
+
+.logo_line .logo_line1 .search .submit p{font-size:12px;color:#969696;margin-top:-5px;font-family:'Hiragino Sans GB',"Simsun","Arial"}
+
+.logo_line .logo_line1 .search .hot{float:left;}
+.logo_line .logo_line1 .ad2{float:right;margin-top:15px;}
+
+.menu{float:left;width:100%;height:36px;background-color:#ff2832;}
+.menu .center2 .alltype{float:left;width:190px;height:36px;border-left:2px solid #e6242d;border-right:2px solid #e6242d;color:#fff;font-family:"microsoft yahei";font-size:14px;font-weight:bold;padding-left:16px;line-height:36px;}
+.menu .center2 ul{float:left;width:919px;overflow:hidden;}
+.menu .center2 ul li{height:36px;float:left;margin-left:25px;font-family:"microsoft yahei";font-size:14px;color:#fff;line-height:36px;font-weight:bold;}
+
+.first .left_menu{float:left;width:210px;}
+.first .left_menu ul{width:210px;}
+.first .left_menu ul li{width:200px;overflow:hidden;height:38px;line-height:38px;color:#323232;font-family:"Microsoft Yahei";font-size:14px;padding-left:20px;}
+.first .ppt{width:760px; height:312px;float:left;overflow:hidden;}
+.first .ad3{width:228px; height:117px;float:left;overflow:hidden;}
+
+.first .ad4{width:228px;height:195px;float:left;}
+.first .ad4 .tab .tab1,.first .ad4 .tab .tab2{width:112px;height:30px;float:left;border:1px solid #c8c8c8;text-align:center;line-height:30px;}
+.first .ad4 .ad4_list{height:161px;width:226px;float:left;border:1px solid #c8c8c8;}
+.first .ad4 .ad4_list ul{height:161px;width:228px;float:left;margin-left:4px;}
+.first .ad4 .ad4_list ul li{width:200px;height:25px;line-height:25px;}
+
+.first .ppt2{width:760px;height:175px;float:left;}
+.first .ppt2 div{width:188px;height:175px;float:left;border-left:1px solid #c8c8c8;}
+
+.first .ad5{height:170px;width:228px;float:left;}
+.first .ad5 .tab .tab1,.first .ad5 .tab .tab2,.first .ad5 .tab .tab3{width:74px;height:20px;float:left;border:1px solid #c8c8c8;}
+.first .ad5 .ad5_img{width:228px;overflow:hidden;}
+
+
+.sg{width:964px;height:520px;float:left;margin-top:20px;border-bottom:4px solid #fa5000;}
+
+.sg_head{height:28px;width:100%;}
+.sg_body{width:100%;border-top:4px solid #fa5000;}
+.sg_body ul li{float:left;width:190px; height:242px;border-right:1px solid  #e5e5e5;border-bottom:1px solid #e5e5e5;position:relative}
+.sg_body ul li img{margin-top:18px;margin-left:20px;}
+.sg_body_title{margin-left:5px;}
+.sg_body_title_2{color:#fa5000;margin-top:3px;margin-bottom:5px;display:block;}
+.sg_body_price_1{color:#fa5000;font-size:16px;line-height:26px;float:left;margin-left:5px;}
+.sg_body_price_2{color:#b4b4b4;float:right;margin-right:10px;font-size:12px;font-family:"Arial"}
+
+.sg_head_title,.cad1_head_title{float:left;font-size:22px;font-family:'Microsoft YaHei';color:#fa5000;font-weight:60px;}
+
+.cad1{margin-top:20px;width:236px;height:520px;float:right;border-bottom:4px solid #fa5000;}
+.cad1_head{height:28px;width:100%;}
+.cad1_body{border-top:4px solid #fa5000;}
+
+.icon_car{width:16px;height:14px;float:left;display:block;background:url(../images/home_sprite2_1017.png) -40px -86px;position:absolute;top:7px;left:535px;}
+.icon_phone{width:11px;height:16px;float:left;display:block;background:url(../images/home_sprite2_1017.png) -40px -70px;position:absolute;top:7px;left:759px;}
+.icon_stock{width:30px;height:30px;	;display:block;background:url(../images/nyse_icon_1017.png) no-repeat;position:absolute;top:7px;left:1125px;}
+
+.icon_gif1{width:45px;height:19px;display:block;position:absolute;top:-10px;background:url(../images/isgif3.gif)}
+
+.icon_time{width:54px;height:54px;display:block;position:absolute;right:0px;;background:url(../images/tag_xsq.png)}
+.switchP{float:right;}
+.switchP li{float:left;margin-left:5px;margin-top:12px;width:10px;height:10px;background:url(../images/home_sprite2_1017.png) -69px -545px;}

@@ -1,0 +1,27 @@
+html,body,div,ul,li{margin:0px;padding:0px;font:12px 'Hiragino Sans GB',"Simsun","Arial";color:#646464;}
+li{list-style:none;}
+a{text-decoration:none;color:#646464;}
+a:hover{color:red;}
+
+.hideDom{display:none;}
+
+
+.sg{width:965px;height:520px;float:left;margin-top:20px;border-bottom:4px solid #fa5000;}
+
+.sg_head{height:28px;width:100%;}
+.sg_body{width:100%;height:486px;border:4px solid #fa5000; }
+.sg_body ul li{float:left;width:192px; height:242px;border-right:1px solid  #e5e5e5;border-bottom:1px solid #e5e5e5;position:relative}
+.sg_body ul li img{margin-top:18px;margin-left:20px;}
+.sg_body_title{margin-left:5px;}
+.sg_body_title_2{color:#fa5000;margin-top:3px;margin-bottom:5px;display:block;}
+.sg_body_price_1{color:#fa5000;font-size:16px;line-height:26px;float:left;margin-left:5px;}
+.sg_body_price_2{color:#b4b4b4;float:right;margin-right:10px;font-size:12px;font-family:"Arial"}
+
+.sg_head_title,.cad1_head_title{float:left;font-size:22px;font-family:'Microsoft YaHei';color:#fa5000;font-weight:60px;}
+
+
+.switchP{float:right;}
+.switchP li{float:left;margin-left:5px;margin-top:12px;width:10px;height:10px;background:url(../images/home_sprite2_1017.png) -67px -545px;}
+
+.switchP li:first-child{background:url(../images/home_sprite2_1017.png) -82px -545px;}
+

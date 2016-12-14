@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-12-7, 17:31:13
+    Author     : Administrator
+*/
+/*div{border:1px solid #ff4455}
+span{border: 1px solid #11ff99}
+#d{border: 1px solid #ff5566;width: 500px;height: 200px;
+   font-size:50px;color: #ff1234
+       
+       
+}*/
+/*#d1,#d2,#s3,#s2{border:1px solid #ff0088}
+#d3{border:5px solid #66CCFF;height: 80px}
+#n,#n1,#n2{border:1px solid #ff7755}*/
+/*#d4{border:1px solid #00FF44;height: 300px;width: 300px}
+#d5{border:1px solid #00FF44;width: 120px;height: 120px;padding-top:0px;margin-left:90px}*/
+/*#dv1{border:1px solid #ff5566;
+     width:100px;
+     height:100px;
+     
+     float: left
+     
+
+}
+#dv2{border:1px solid #ff5566;
+      
+     width:100px;
+     height:100px;
+     float: left;
+     
+    
+}
+#dv3{border:1px solid #ff0000;
+     
+     width:100px;
+     height:100px;
+     float: left;
+     clear: both
+    
+}
+#dv4{border: 1px solid #ff0000;
+      
+     width:100px;
+     height:100px;
+     float: left;
+     
+}*/
+/*#cjcy{border:1px solid #44ff55;
+      width:1500px;
+      height: 700px;
+      background-image: url(1.jpg)
+          
+    
+}*/
+/*#dv5{border:1px solid #ff1111;
+     width:400px;
+     height: 300px;
+     padding-left:220px;
+     font-size:25px; 
+     font-family:隶书
+     
+     
+}
+#dv6{border:1px solid #11ff00;
+     height: 100px;
+     
+}
+#dv7{border:1px solid #ff1111;
+     width:400px;
+     height: 300px;
+     padding-left: 220px;
+     font-weight: 500;
+     font-size: 20px;
+     text-decoration:line-through;
+     text-align: center
+}
+#dv8{border:1px solid #ff1111;
+     width:400px;
+     height: 300px;
+     font-style:italic;
+     font-size:30px;
+     font-weight:bold;
+}*/
+
+a{color:#FF0000; font-weight:bold; text-decoration:none;}
+a:link{color:#FF00cc; text-decoration:underline;}
+a:hover{color:#FFcc00; text-decoration:underline;}
+a:active{color:#00FF00; text-decoration:underline;}
+a:visited{color:#110000; font-weight:bold; text-decoration:none;} 
+#t{border:1px solid #ff0011;
+  width: 100px;
+  margin: auto;
+}
+#t1{border:1px solid #ff0011;
+    width: 100px;
+    margin: auto;
+    opacity: 0.5
+}
+
+
+
+

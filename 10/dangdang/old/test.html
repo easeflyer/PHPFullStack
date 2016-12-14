@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .ppt2{width:765x;height:182px;float:left;background-color:#fff;}
+            .ppt2 span span{width:189px;height:175px;float:left;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;overflow:hidden;}
+            .hideDom{display:none;}            
+        </style>
+        <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+        <script>
+            $(function () {
+                var index1 = 0;
+                
+                var lb = function () {
+                    if(index1 > 4) index1 = 0;
+                    //$(".ppt2 span").css('opacity', 0).hide();
+                    $(".ppt2 span").hide();
+                    //$(".ppt2 span").stop();                 // 下面的所有小图滚动 动画停止。 因为在点击的时候应该立即响应，上一个动画必须停止。
+                    //$(".ppt2 span:eq(" + currentPptIndex + ")").fadeIn(1000).show();                       // 小滚动图 也同样 切换。
+                    $(".ppt2 span:eq(" + index1 + ")").hide().fadeIn(1000);                       // 小滚动图 也同样 切换。
+                    //$(".ppt2 span:eq(" + index1 + ")").animate({'opacity': 1}, 1000).show();
+                    index1++;
+                }
+                
+                var pptNextTimer = setInterval(lb, 1000);
+            });
+        </script>
+    </head>
+    <body>
+        <div class="ppt2">
+            <span>
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+            </span>
+
+            <span class="hideDom">
+                <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+
+            </span>
+
+            <span class="hideDom">
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+            </span>
+
+            <span class="hideDom">
+
+                <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+            </span>
+            <span class="hideDom">
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+            </span>
+
+        </div>
+    </body>
+</html>

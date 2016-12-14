@@ -1,0 +1,41 @@
+html,body,div,ul,li{margin:0px;padding:0px;font:12px 'Hiragino Sans GB',"Simsun","Arial";color:#646464;}
+li{list-style:none;}
+a{text-decoration:none;color:#646464;}
+a:hover{color:red;}
+
+
+.center1{width:100%;position:relative;}
+.center2{margin:0px auto;width:1200px;}
+
+
+.tushu{margin-top:30px;	}
+.tushu_left{float:left;width:910px;height:500px;overflow:hidden;}
+.tushu_left_head{height:45px;width:910px;border-bottom: 2px solid #000;}
+.tushu_left_head_title{float:left;font-size:20px;color:#323232;font:bold 20px/44px "Microsoft YaHei"}
+.tushu_left_head_tab{float:right;height:45px;width:471px;}
+.tushu_left_head_tab div{float:left;width:115px;height:43px;background-color:#f7f7f7;line-height:43px;color:#525252;text-align:center;border-top: 1px solid #e6e6e6;border-right: 1px solid #e6e6e6;}
+
+
+.tushu_left_body{width:906px;height:444px;position:relative;border:2px solid black; border-top:none;}
+.tushu_left_body div{position:absolute;border:1px solid #e6e6e6;}
+.tushu_left_product_1{width:240px;height:444px;top:0px;left:0px;}
+.tushu_left_product_1 p{height:330px;overflow:hidden;padding:0px;margin:0px;}
+.tushu_left_product_1 p{margin-left:0px !important;}
+.tushu_left_product_1 p img{margin:0px !important;}
+.tushu_left_product_1 ul{width:240px;overflow:hidden;}
+.tushu_left_product_1 ul li{float:left;width:80px;height:28px;line-height:28px;overflow:hidden;font:12px/28px "Microsoft YaHei";color:#323232}
+
+
+.tushu_left_product_2{width:336px;height:222px;top:0px;left:240px;}
+.tushu_left_product_2 img{margin-left:0px !important;}
+.tushu_left_product_3{width:167px;height:222px;top:222px;left:240px;}
+.tushu_left_product_4{width:167px;height:222px;top:222px;left:408px;}
+.tushu_left_product_5{width:167px;height:222px;top:0px;left:576px;}
+.tushu_left_product_6{width:163px;height:222px;top:0px;left:744px;}
+.tushu_left_product_7{width:167px;height:222px;top:222px;left:576px;}
+.tushu_left_product_8{width:163px;height:222px;top:222px;left:744px;}
+
+.tushu_left_body div p,.tushu_left_body div span,.tushu_left_body div img{margin-left:6px;margin-top:0px;}
+.tushu_left_body div p{margin-top:5px;}
+.tushu_left_head_tab_curr{border:2px solid #000 !important;border-bottom:2px solid #fff !important;background-color:#fff !important;font-weight:bold;}
+

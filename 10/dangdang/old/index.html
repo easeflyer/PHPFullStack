@@ -1,0 +1,2167 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=7" />
+            <title></title>
+            <link href="./css/main.css" rel="stylesheet" type="text/css" />
+            <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+            <script type="text/javascript" src="./js/main.js"></script>
+    </head>
+
+    <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--top 最顶部迷你导航 开始
+        .center1{width:100%;position:relative;}  负责全屏
+        .center2{margin:0px auto;width:1200px;}  负责宽度和控制居中 整个页面都利用。
+        
+        -->
+        <div class="top center1">
+            <div class="center2">
+            <!-- 隐藏域 jq 中用来记录 滚动图当前显示的图的索引 -->
+            <input type="hidden" id="DD_hidden_1" value="" />
+            <input type="hidden" id="DD_hidden_2" value="" />
+            <div class="top_login">欢迎光临当当，请<a href="###" class="red">登录</a><a href="###">免费注册</a></div>
+            <div class="top_ad1"><i class="icon_stock"></i>&nbsp;&nbsp;纽交所上市公司</div>
+            <div class="top_menu">
+                <ul>
+                    <li class=""><i class="icon_car"></i><a href="###">购物车</a></li>
+                    <li>我的订单</li>
+                    <li>电子书架</li>
+                    <li class="phone_h">
+                        <i class="icon_phone"></i>手机当当
+                        <div class="phone_l">
+                            <div>
+                                <p>当当购物客户端</p>
+                                <img src="./images/go_erweima.png" />
+                                <p>下载购物APP<br />首单立减5元</p>
+                            </div>
+                            <div>
+                                <p>当当购物客户端</p>
+                                <img src="./images/du_erweima.png" />
+                                <p>下载购物APP<br/>首单立减5元</p>	
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="top_menu_w" ext="1">
+                        <i class="icon_downicon"></i>
+                        我的当当
+                        <div class="my_l_1">
+                            <p>我的积分</p>
+                            <p>我的积分</p>
+                            <p>我的积分</p>
+                            <p>我的积分</p>
+                            <p>电子书架</p>
+                        </div>
+
+                    </li>
+                    <li class="top_menu_w" ext="2"><i class="icon_downicon"></i>企业采购
+                        <div class="my_l_2">
+                            <p>我的积分</p>
+                            <p>我的积分</p>
+                            <p>我的积分</p>
+                            <p>我的积分</p>
+                            <p>电子书架</p>
+                        </div>
+                    </li>
+                    <li class="top_menu_w" ext="3"><i class="icon_downicon"></i>客户服务
+                        <div class="my_l_3">
+                            <p>我的积分</p>
+                            <p>我的积分</p>
+                            <p>我的积分</p>
+                            <p>我的积分</p>
+                            <p>企业建议</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <!--top 最顶部迷你导航 结束 -->
+        
+        <!-- LOGO行 开始
+        包含元素： logo，搜索框，热词，二维码等
+        -->
+        <div class="logo_line center1">
+            <div class="logo_line1 center2">
+                <div class="logo"><img src="images/logo.jpg" /></div>
+                <div class="search">
+                    <input type="text" class="text" />
+
+                    <div class="select">
+                        <i class="icon_downs"></i>全部分类
+                        <div class="select_all_category">
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>全部分类</p>
+                            <p>图书</p>
+                        </div>
+                    </div>
+                    <div class="submit">搜索<p>高级搜索</p></div>
+                    <p class="hot">热搜: 妖精的口袋 男士T恤 摩西奶奶 惠氏 玛咖</p>
+                </div>
+                <div class="ad2"><img src="images/erweima.png" /></div>
+            </div>
+        </div>
+        <!-- LOGO 行 结束 -->
+        
+
+        <!-- 通栏菜单 开始-->
+        <div class="menu center1">
+            <div class="center2">
+                <div class="alltype">全部商品详细分类<i class="icon_downbs"></i></div>
+                <ul>
+                    <li>新品闪购</li>
+                    <li>尾品汇</li>
+                    <li>图书</li>
+                    <li><i class="icon_gif1"></i>电子书</li>
+                    <li>服装</li>
+                    <li>运动户外</li>
+                    <li>孕婴童</li>
+                    <li>家居</li>
+                    <li>当当优品</li>
+                    <li>电器城</li>
+                    <li>当当超市</li>
+                    <li>书香节</li>
+                </ul>
+            </div>
+        </div>
+        <!-- 通栏菜单 结束-->
+        
+        <!-- 水平线 同时对两侧做 clear:both 清楚浮动带来的影响-->
+        <div class="r"></div>
+        <!--首屏-->
+        <div class="center1 first_bg">
+            <div class="first center2">
+
+
+                <!-- 左侧菜单 -->
+
+
+                <div class="left_menu">
+                    <ul>
+                        <li class="left_menu_li" ext="1">图书/童书/电子书</li>
+                        <li class="left_menu_li" ext="2">手机/数码</li>
+                        <li>图书/童书/电子书</li>
+                        <li>手机/数码</li>
+                        <li>图书/童书/电子书</li>
+                        <li>手机/数码</li>
+                        <li>图书/童书/电子书</li>
+                        <li>手机/数码</li>
+                        <li>手机/数码</li>
+                        <li>图书/童书/电子书</li>
+                        <li>手机/数码</li>
+                        <li>图书/童书/电子书</li>
+                        <li>手机/数码</li>
+                    </ul>
+
+
+                    <!-- 动态出现的扩展菜单 id="left_menu_ext_1 注意上面的 li 包含了 ext 属性和这个 ext 菜单相关，便于dom操作 -->
+
+
+                    <div class="left_menu_ext" id="left_menu_ext_1">
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>
+                                <a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>经营</dt>
+                            <dd>
+                                <a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>音像</dt>
+                            <dd>
+                                <a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>文艺</dt>
+                            <dd>
+                                <a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a>
+                            </dd>
+                        </dl>
+
+                    </div>
+
+                    <div class="left_menu_ext" id="left_menu_ext_2">
+                        <dl>
+                            <dt>手机</dt>
+                            <dd>
+                                <a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>通信</dt>
+                            <dd>
+                                <a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>手机</dt>
+                            <dd>
+                                <a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>手机</dt>
+                            <dd>
+                                <a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>手机</dt>
+                            <dd>
+                                <a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a><a>小说</a><a>文学</a><a>传记</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <!-- ppt 部分是 中间的动态图部分-->
+
+                <div class="ppt">
+                    <img src="images/ydll772x310_wzh_20150413.jpg" />
+                    <img src="images/ppt1.jpg" />
+                    <img src="images/ppt2.jpg" />
+                    <img src="images/ppt3.jpg" />
+                    <img src="images/ppt4.jpg" />
+                    <ul id="circle"></ul>
+                    <div id="pptpre"></div> <!-- pptpre 是图片向左切换的按钮  -->
+                    <div id="pptnext"></div> <!-- pptnext 是图片向右切换的按钮  -->
+                </div>
+                <style>
+
+                </style>
+                <div class="ad3">
+                    <img src="images/13943235x112.jpg" />
+                </div>
+
+
+
+                <!-- 选项卡 -->
+
+
+                <div class="ad4">
+                    <div class="tab">
+                        <div class="tab1 tab_current" ext="1">尾品汇</div>
+                        <div class="tab2" ext="2">服务公告</div>
+                    </div>
+                    <script>
+
+                    </script>
+                    <style>
+
+                    </style>
+                    <div class="ad4_list">
+                        <ul class="ad4_list_1">
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                        </ul>
+                        <ul class="ad4_list_2 hideDom">
+                            <li>封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                            <li>【零食】三只松鼠,3.9折封顶!</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 滚动图下面的 分组滚动小图 
+                
+                注意 图片顺序做一下调整，页面显示效果 比较明显，否则感觉图片没有变化。
+                
+                -->
+
+                <div class="ppt2">
+                    <span>
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                    </span>
+
+                    <span class="hideDom">
+                        <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                        <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                        <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                        <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+
+                    </span>
+
+                    <span class="hideDom">
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                    </span>
+
+                    <span class="hideDom">
+
+                        <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                        <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                        <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                        <img src="images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                    </span>
+
+                    <span class="hideDom">
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img src="images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                    </span>
+
+                </div>
+                <div class="ad5">
+                    <div class="tab">
+                        <div class="tab1 tab_current" ext="1">原创文学</div>
+                        <div class="tab2" ext="2">当当优品</div>
+                        <div class="tab3" ext="3">礼品卡</div>
+                    </div>
+                    <div class="ad5_img">
+                        <img class="ad5_img_1" src="images/al-233x147.jpg" />
+                        <img class="ad5_img_2 hideDom" class="hideDom" src="./images/9fb06094-35af-40e2-81be-0e6757ac314a_g.jpg" />
+                        <img class="ad5_img_3 hideDom" class="hideDom" src="./images/b00ca764-c91f-4db3-85a1-b963fdeeeb7d_g.jpg" />
+                    </div>
+                </div>
+                <script>
+
+                </script>
+            </div>
+        </div>
+        <script>
+
+        </script>
+        <div class="r"></div>
+
+        <div class="center1" id="floor_l_head2">
+            <div class="center2">
+                <div class="sg ">
+                    <div class="sg_head">
+                        <div class="sg_head_title">畅品今日闪购</div>
+                        <ul class="switchP">
+                            <li ext="1" ></li>
+                            <li ext="2"></li>
+                            <li ext="3"></li>
+                            <li ext="4"></li>
+                        </ul>
+                    </div>
+                    <script>
+
+                    </script>
+                    <div class="sg_body">
+                        <ul class="sg_body_1">
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">111111</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="sg_body_2 hideDom">
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon_time"></i>
+                                <img src="images/1190843235-1_l.jpg" />
+                                <div class="sg_body_title">
+                                    <span class="sg_body_title_1">渔民部落夏季情侣速干运动卫裤</span>
+                                    <span class="sg_body_title_2">9.9元起 仅限今天 满199减20元</span>
+                                </div>
+                                <div class="sg_body_price">
+                                    <div class="sg_body_price_1">¥269</div>
+                                    <div class="sg_body_price_2">¥399</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="cad1">
+                    <div class="cad1_head">
+                        <div class="cad1_head_title">厂商周</div>
+                        <ul class="switchP">
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="cad1_body">
+                        <div class="cad1_body_ad1"><img src="images/fae68042-adc9-49d7-bd25-c558df3b7bea_g.jpg" /></div>
+                        <div class="cad1_body_ad1"><img src="images/ea9ac380-6352-4e1a-b90c-83608ca73649_g.jpg" /></div>
+                        <div class="cad1_body_ad1"><img src="images/fae68042-adc9-49d7-bd25-c558df3b7bea_g.jpg" /></div>
+                        <div class="cad1_body_ad1"><img src="images/ea9ac380-6352-4e1a-b90c-83608ca73649_g.jpg" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="r"></div>
+
+
+        <div class="center1 newsg">
+            <div class="center2">
+                <div class="newsg_head">
+                    <div class="newsg_head_title">
+                        <img src="images/home_new_logo.jpg" />
+                        <img src="images/home_update.png" />
+                    </div>
+                    <div class="newsg_head_menu">
+                        <ul>
+                            <li>裂帛</li>
+                            <li>calvin klein</li>
+                            <li>CASIO</li>
+                            <li>NIKE</li>
+                            <li>迪士尼</li>
+                            <li>安奈儿</li>
+                            <li>更多新品>></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="newsg_body">
+                    <div><img src="images/goods/150514-12359pc-zuoshangxiaotu.jpg" /></div>
+                    <div><img src="images/goods/97770006395735_y.jpg" /></div>
+                    <div><img src="images/goods/117300006491560_y.jpg" /></div>
+                    <div><img src="images/goods/97770006395735_y.jpg" /></div>
+                    <div><img src="images/goods/xiajid.jpg" /></div>
+                    <div><img src="images/goods/xpsg0512.jpg" /></div>
+                    <div class="newsg_body_i1"><img src="images/goods/94510005258773_y.jpg" /></div>
+                    <div class="newsg_body_i2"><img src="images/goods/97770006395735_y.jpg" /></div>
+                    <div class="newsg_body_i3"><img src="images/goods/92530008542646_y.jpg" /></div>
+                    <div class="newsg_body_i4"><img src="images/goods/145240005180186_y.jpg" /></div>
+                    <div class="newsg_body_i5"><img src="images/goods/234daishu0509.jpg" /></div>
+                    <div class="newsg_body_i6"><img src="images/goods/123610005252238_y.jpg" /></div>
+                    <div class="newsg_body_i7"><img src="images/goods/77100006642231_y.jpg" /></div>
+                    <div class="newsg_body_i8"><img src="images/goods/123610005252238_y.jpg" /></div>
+                    <div class="newsg_body_i9"><img src="images/goods/8411banner0514.jpg" /></div>
+                </div>
+                <div class="r"></div>
+                <div class="newsg_body newsg2">
+                    <div><img src="images/goods/150514-12359pc-zuoshangxiaotu.jpg" /></div>
+                    <div><img src="images/goods/97770006395735_y.jpg" /></div>
+                    <div><img src="images/goods/117300006491560_y.jpg" /></div>
+                    <div><img src="images/goods/97770006395735_y.jpg" /></div>
+                    <div><img src="images/goods/xiajid.jpg" /></div>
+                    <div><img src="images/goods/xpsg0512.jpg" /></div>
+                    <div class="newsg_body_i1"><img src="images/goods/94510005258773_y.jpg" /></div>
+                    <div class="newsg_body_i2"><img src="images/goods/97770006395735_y.jpg" /></div>
+                    <div class="newsg_body_i3"><img src="images/goods/92530008542646_y.jpg" /></div>
+                    <div class="newsg_body_i4"><img src="images/goods/145240005180186_y.jpg" /></div>
+                    <div class="newsg_body_i5"><img src="images/goods/234daishu0509.jpg" /></div>
+                    <div class="newsg_body_i6"><img src="images/goods/123610005252238_y.jpg" /></div>
+                    <div class="newsg_body_i7"><img src="images/goods/77100006642231_y.jpg" /></div>
+                    <div class="newsg_body_i8"><img src="images/goods/123610005252238_y.jpg" /></div>
+                    <div class="newsg_body_i9"><img src="images/goods/8411banner0514.jpg" /></div>
+                </div>
+            </div>
+        </div>
+        <div class="center1 floor " id="floor_l_head1">
+            <div class="center2">
+                <div class="floor_l">
+                    <div class="floor_l_head">
+                        <span>1F</span> <a>图书</a>·<a>童书</a>·<a>电子书</a>
+                    </div>
+                    <div class="floor_l_body">
+                        <div class="floor_l_body_img">
+                            <img src="./images/ds1fnws2.jpg" />
+                        </div>
+                        <div class="floor_l_body_menu">
+                            <ul>
+                                <li>小说</li>
+                                <li>文学</li>
+                                <li>青春文学</li>
+                                <li>小说</li>
+                                <li>文学</li>
+                                <li>青春文学</li>
+                                <li>小说</li>
+                                <li>文学</li>
+                                <li>青春文学</li>
+                                <li>小说</li>
+                                <li>文学</li>
+                                <li>青春文学</li>
+                                <li>小说</li>
+                                <li>文学</li>
+                                <li>青春文学</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="floor_c">
+                    <div class="floor_c_head">
+                        <div>重点推荐</div>
+                        <div>独家推荐</div>
+                        <div>童书</div>
+                        <div>电子书</div> 
+                    </div>
+                    <div class="floor_c_body">
+                        <div class="floor_c_body_content">
+                            <div class="fcbc_img"><img src="./images/fcbci1.jpg" /></div>
+                            <div class="fcbc_title"><a>我不喜欢这世界，我只喜欢你</a></div>
+                            <div class="fcbc_price">
+                                <div class="price1">¥17.90</div>
+                                <div class="price2">¥27.90</div>
+                            </div>
+                        </div>
+                        <div class="floor_c_body_content"><div class="fcbc_img"><img src="./images/fcbci1.jpg" /></div>
+                            <div class="fcbc_title"><a>格非：江南三部曲（全3册）第九届茅盾文学奖获奖作品</a></div>
+                            <div class="fcbc_price">
+                                <div class="price1">¥17.90</div>
+                                <div class="price2">¥27.90</div>
+                            </div></div>
+                        <div class="floor_c_body_content"><div class="fcbc_img"><img src="./images/fcbci1.jpg" /></div>
+                            <div class="fcbc_title"><a>我不喜欢这世界，我只喜欢你</a></div>
+                            <div class="fcbc_price">
+                                <div class="price1">¥17.90</div>
+                                <div class="price2">¥27.90</div>
+                            </div></div>
+                        <div class="floor_c_body_content"><div class="fcbc_img"><img src="./images/fcbci1.jpg" /></div>
+                            <div class="fcbc_title"><a>我不喜欢这世界，我只喜欢你</a></div>
+                            <div class="fcbc_price">
+                                <div class="price1">¥17.90</div>
+                                <div class="price2">¥27.90</div>
+                            </div></div>
+                        <div class="floor_c_body_content"><div class="fcbc_img"><img src="./images/fcbci1.jpg" /></div>
+                            <div class="fcbc_title"><a>我不喜欢这世界，我只喜欢你</a></div>
+                            <div class="fcbc_price">
+                                <div class="price1">¥17.90</div>
+                                <div class="price2">¥27.90</div>
+                            </div></div>
+                        <div class="floor_c_body_content"><div class="fcbc_img"><img src="./images/fcbci1.jpg" /></div>
+                            <div class="fcbc_title"><a>我不喜欢这世界，我只喜欢你</a></div>
+                            <div class="fcbc_price">
+                                <div class="price1">¥17.90</div>
+                                <div class="price2">¥27.90</div>
+                            </div></div>
+                        <div class="floor_c_body_content"><div class="fcbc_img"><img src="./images/fcbci1.jpg" /></div>
+                            <div class="fcbc_title"><a>我不喜欢这世界，我只喜欢你</a></div>
+                            <div class="fcbc_price">
+                                <div class="price1">¥17.90</div>
+                                <div class="price2">¥27.90</div>
+                            </div></div>
+                        <div class="floor_c_body_content"><div class="fcbc_img"><img src="./images/fcbci1.jpg" /></div>
+                            <div class="fcbc_title"><a>我不喜欢这世界，我只喜欢你</a></div>
+                            <div class="fcbc_price">
+                                <div class="price1">¥17.90</div>
+                                <div class="price2">¥27.90</div>
+                            </div></div>
+                    </div>
+                </div>
+                <div class="floor_r">
+                    <div class="floor_r_head"></div>
+                    <div class="floor_r_body">
+                        <div class="floor_r_body_tab floor_r_body_tab1">当当图书榜</div>
+                        <div class="floor_r_body_tab">当当童书榜</div>
+                        <ul>
+                            <li><span>1.</span>&nbsp;<a>神奇校车·图画书版（全11册）</a></li>
+                            <li><span>2.</span>.&nbsp;<a>神奇校车·图画书版（全11册）</a></li>
+                            <li><span>3.</span>.&nbsp;<a>可爱的鼠小弟（1-12）（平装）</a></li>
+                            <li><span>4.</span>.&nbsp;<a>神奇校车·图画书版（全11册）</a></li>
+                            <li><span>5.</span>.&nbsp;<a>神奇校车·图画书版（全11册）</a></li>
+                            <li><span>6.</span>.&nbsp;<a>神奇校车·图画书版（全11册）</a></li>
+                            <li><span>7.</span>.&nbsp;<a>神奇校车·图画书版（全11册）</a></li>
+                            <li><span>8.</span>.&nbsp;<a>神奇校车·图画书版（全11册）</a></li>
+                        </ul>
+                        <p><a>童书畅销榜>></a></p>
+                    </div>
+                    <div class="floor_r_ad"><img src="./images/r_ad.jpg" /></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 zdz">
+            <div class="center2">
+                <div class="zdz_head">
+                    <img src="./images/ea31e4b8-92fe-4bf8-bc70-215897a186be.hpI37Uks" />
+                </div>
+                <div class="zdz_body">
+                    <div class="zdz_product_1">
+                        <span class="zdz_product_img1"><img src="./images/product/53840009781772_y.jpg" /></span>
+                        <p>茵曼 11.11纵情狂欢</p>
+                        <img src="./images/product/53840008871962_y.jpg" />
+                    </div>
+                    <div class="zdz_product_2">
+                        <span class="zdz_product_img2"><img src="./images/product/149290012214276_y.jpg" /></span>
+                        <p>茵曼 11.11纵情狂欢</p>
+                        <img src="./images/product/53840008871962_y.jpg" />
+                    </div>
+                    <div class="zdz_product_3">
+                        <span class="zdz_product_img2"><img src="./images/product/149290012214276_y.jpg" /></span>
+                        <p>茵曼 11.11纵情狂欢</p>
+                        <img src="./images/product/53840008871962_y.jpg" />
+                    </div>
+                    <div class="zdz_product_4">
+                        <span class="zdz_product_img2"><img src="./images/product/149290012214276_y.jpg" /></span>
+                        <p>茵曼 11.11纵情狂欢</p>
+                        <img src="./images/product/53840008871962_y.jpg" />
+                    </div>
+                    <div class="zdz_product_5">
+                        <span class="zdz_product_img2"><img src="./images/product/149290012214276_y.jpg" /></span>
+                        <p>茵曼 11.11纵情狂欢</p>
+                        <img src="./images/product/53840008871962_y.jpg" />
+                    </div>
+                    <div class="zdz_product_6">
+                        <span class="zdz_product_img1"><img src="./images/product/53840009781772_y.jpg" /></span>
+                        <p>茵曼 11.11纵情狂欢</p>
+                        <img src="./images/product/53840008871962_y.jpg" />
+                    </div>
+                    <div class="zdz_product_7">
+                        <span class="zdz_product_img2"><img src="./images/product/60780015332395_y.jpg" /></span>
+                        <p>茵曼 11.11纵情狂欢</p>
+                        <img src="./images/product/53840008871962_y.jpg" />
+                    </div>
+                    <div class="zdz_product_8">
+                        <span class="zdz_product_img2"><img src="./images/product/53840009781772_y.jpg" /></span>
+                        <p>茵曼 11.11纵情狂欢</p>
+                        <img src="./images/product/53840008871962_y.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 wph">
+            <div class="center2">
+                <div class="wph_head">
+                    <img src="./images/3e4f5419-49fb-4779-bbb9-bec6a7318e2b.hpESLZqK" />
+                    <img src="./images/ea6f38b3-c16b-4bf1-a7a1-54b01e2b67ea.hpzlLGy0" />
+                </div>
+                <div class="wph_body">
+                    <div class="wph_product_1">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_2">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_3">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_4">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_5">
+                        <img src="./images/product/103830015917723_y.jpg" />
+                    </div>
+                    <div class="wph_product_6">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_7">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_8">
+                        <img src="./images/product/86030015921416_y.jpg" />
+                    </div>
+                    <div class="wph_product_9">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_10">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_11">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_12">
+                        <img src="./images/product/20151106-3957-pc-A.jpg" />
+                    </div>
+                    <div class="wph_product_13">
+                        <img src="./images/product/c69ff174-c7b7-4bc6-b7dc-01a2f9e5bfc6.hpk5bRC6" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 ddyp">
+            <div class="center2">
+                <div class="ddyp_head">
+                    <img src="./images/863176e4-4c6d-492d-8da2-3cb93713a26d.hpFn7gq3" />
+                </div>
+                <div class="ddyp_body">
+                    <div class="ddyp_product_1">
+                        <img src="./images/product/egisoo-A-1-20151107.jpg" />
+                    </div>
+                    <div class="ddyp_product_2">
+                        <img src="./images/product/1107pcdskwt2.jpg" />
+                    </div>
+                    <div class="ddyp_product_3">
+                        <img src="./images/product/egisoo-A-1-20151107.jpg" />
+                    </div>
+                    <div class="ddyp_product_4">
+                        <img src="./images/product/egisoo-A-1-20151107.jpg" />
+                    </div>
+                    <div class="ddyp_product_5">
+                        <img src="./images/product/103830015917723_y.jpg" />
+                    </div>
+                    <div class="ddyp_product_6">
+                        <img src="./images/product/6666.jpg" />
+                    </div>
+                    <div class="ddyp_product_7">
+                        <img src="./images/product/egisoo-A-1-20151107.jpg" />
+                    </div>
+                    <div class="ddyp_product_8">
+                        <img src="./images/product/ypzzd-zy-1110-8.jpg" />
+                    </div>
+                    <div class="ddyp_product_9">
+                        <img src="./images/product/egisoo-A-1-20151107.jpg" />
+                    </div>
+                    <div class="ddyp_product_10">
+                        <img src="./images/product/egisoo-A-1-20151107.jpg" />
+                    </div>
+                    <div class="ddyp_product_11">
+                        <img src="./images/product/egisoo-A-1-20151107.jpg" />
+                    </div>
+                    <div class="ddyp_product_12">
+                        <img src="./images/product/egisoo-A-1-20151107.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 tushu">
+            <div class="center2">
+                <div class="tushu_left">
+                    <div class="tushu_left_head">
+                        <div class="tushu_left_head_title">图书 . 童书 . 电子书</div>
+                        <div class="tushu_left_head_tab">
+                            <div class="tushu_left_head_tab_curr" ext="1">重点推荐</div>
+                            <div ext="2">独家畅品</div>
+                            <div ext="3">童书</div>
+                            <div ext="4">电子书</div>
+                        </div>
+                    </div>	
+
+                    <script>
+
+
+                    </script>
+                    <div class="tushu_left_body tushu_left_body_1">
+                        <div class="tushu_left_product_1">
+                            <p><img src="./images/product/1Fleft_1108.jpg" /></p>
+                            <ul>
+                                <li>中小学教辅小</li>
+                                <li>中小学教辅小</li>
+                                <li>中小学教辅</li>
+                                <li>教辅</li>
+                                <li>中小学教辅小学教辅</li>
+                                <li>教小学教辅辅</li>
+                                <li>中小学教辅小学教辅</li>
+                                <li>中小学教辅</li>
+                                <li>教小学教辅辅</li>
+                                <li>中小学教辅</li>
+                                <li>中小学教辅</li>
+                            </ul>
+                        </div>
+                        <div class="tushu_left_product_2">
+                            <img src="./images/product/f0257798-5702-4c29-abf9-c77e57800fae.hpEIZgAa" />
+                        </div>
+
+                        <div class="tushu_left_product_3">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_4">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_5">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_6">
+                            <img src="./images/product/11071fdp2.jpg" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_7">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+                        <div class="tushu_left_product_8">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+                    </div>
+
+                    <div class="tushu_left_body hideDom tushu_left_body_2">
+                        <div class="tushu_left_product_1">
+                            <p><img src="./images/product/1Fleft_1108.jpg" /></p>
+                            <ul>
+                                <li>中小</li>
+                                <li>中小</li>
+                                <li>中小学教辅</li>
+                                <li>教辅</li>
+                                <li>中小学教辅</li>
+                                <li>教辅</li>
+                                <li>中小学教辅</li>
+                                <li>中小学教辅</li>
+                                <li>教辅</li>
+                                <li>中小学教辅</li>
+                                <li>中小学教辅</li>
+                            </ul>
+                        </div>
+                        <div class="tushu_left_product_2">
+                            <img src="./images/product/f0257798-5702-4c29-abf9-c77e57800fae.hpEIZgAa" />
+                        </div>
+
+                        <div class="tushu_left_product_3">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_4">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_5">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_6">
+                            <img src="./images/product/11071fdp2.jpg" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_7">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+                        <div class="tushu_left_product_8">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+                    </div>
+
+                    <div class="tushu_left_body hideDom tushu_left_body_3">
+                        <div class="tushu_left_product_1">
+                            <p><img src="./images/product/1Fleft_1108.jpg" /></p>
+                            <ul>
+                                <li>中小</li>
+                                <li>中小</li>
+                                <li>中小学教辅</li>
+                                <li>教辅</li>
+                                <li>中小学教辅</li>
+                                <li>教辅</li>
+                                <li>中小学教辅</li>
+                                <li>中小学教辅</li>
+                                <li>教辅</li>
+                                <li>中小学教辅</li>
+                                <li>中小学教辅</li>
+                            </ul>
+                        </div>
+                        <div class="tushu_left_product_2">
+                            <img src="./images/product/f0257798-5702-4c29-abf9-c77e57800fae.hpEIZgAa" />
+                        </div>
+
+                        <div class="tushu_left_product_3">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_4">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_5">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_6">
+                            <img src="./images/product/11071fdp2.jpg" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+
+                        <div class="tushu_left_product_7">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+                        <div class="tushu_left_product_8">
+                            <img src="./images/product/a08af056-1236-4235-b5cc-27b0a0e54a22.hptLJu33" />
+                            <p>爱心树国际大奖绘本（平装）（全20册）</p>
+                            <span class="price1">¥146.50</span> <span class="price2">¥299.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tushu_right">
+                    <div class="tushu_right_head">
+                        <div class="tushu_right_head_tab" ext="1">当当图书榜</div>
+                        <div class="tushu_right_head_tab bggray" ext="2">当当图童榜</div>
+                    </div>
+                    <div class="tushu_right_body">
+                        <dl class="tushu_right_body_dl tushu_right_body_dl_1">
+                            <dt  style="display:none;"><span class="tushu_right_body_dl_dt_1">1</span>白岩松:白说</dt>
+                            <dd style="display:block;">
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_2">2</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_3">3</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_4">4</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_5">5</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_6">6</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_7">7</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_8">8</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_9">9</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_10">10</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                        </dl>
+
+
+                        <dl class="tushu_right_body_dl tushu_right_body_dl_2" style="display:none;">
+                            <dt style="display:none;"><span class="tushu_right_body_dl_dt_1">1</span>白岩松:白说白说白说白说</dt>
+                            <dd style="display:block;">
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_2">2</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_3">3</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_4">4</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_5">5</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_6">6</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_7">7</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_8">8</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_9">9</span>白岩松:白说</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:白说</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                            <dt><span class="tushu_right_body_dl_dt_10">10</span>白岩松:言语中的心灵之路</dt>
+                            <dd>
+                                <div class="tushu_right_body_img">
+                                    <img src="./images/product/23763621-1_l.jpg" />
+                                </div>
+                                <div class="tushu_right_desc">
+                                    <p class="tushu_right_desc_title">白岩松:言语中的心灵之路</p>
+                                    <p class="tushu_right_desc_body">新闻人白岩松：言语中的心灵之路，与我和我们的未来有关，限量签名本随机发放</p>
+                                </div>
+                                <div class="r"></div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+
+        </script>
+
+        <div class="r"></div>
+        <div class="center1 nvzhuang">
+            <div class="center2">
+                <div class="nvzhuang_head">
+                    <div class="nvzhuang_head_title">女装 . 内衣配饰</div>
+                    <div class="nvzhuang_head_tab">
+                        <div>时尚风向标</div>
+                        <div>全网热销</div>
+                        <div>羊绒羽绒</div>
+                        <div>保暖/内衣/配饰</div>
+                    </div>
+                </div>
+                <div class="nvzhuang_body">
+                    <div class="nvzhuang_body_product_1">
+                        <p><img src="./images/product/1891f8b9-d6af-4ae7-91f7-bc1f2eac5072.hpYdSGAX" /></p>
+                        <ul>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>全部女装分</li>
+                        </ul>
+                    </div>
+                    <div class="nvzhuang_body_product_2">
+                        <img src="./images/product/77100012860801_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_3">
+                        <img src="./images/product/59360009630363_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_4">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_5">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_6">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_7">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_8">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_9">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_10">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_logo">
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="r"></div>
+        <div class="center1 nvzhuang nanzhuang">
+            <div class="center2">
+                <div class="nvzhuang_head">
+                    <div class="nvzhuang_head_title">男装 . 手表眼镜</div>
+                    <div class="nvzhuang_head_tab">
+                        <div>时尚风向标</div>
+                        <div>全网热销</div>
+                        <div>羊绒羽绒</div>
+                        <div>保暖/内衣/配饰</div>
+                    </div>
+                </div>
+                <div class="nvzhuang_body">
+                    <div class="nvzhuang_body_product_1">
+                        <p><img src="./images/product/1891f8b9-d6af-4ae7-91f7-bc1f2eac5072.hpYdSGAX" /></p>
+                        <ul>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>全部女装分</li>
+                        </ul>
+                    </div>
+                    <div class="nvzhuang_body_product_2">
+                        <img src="./images/product/77100012860801_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_3">
+                        <img src="./images/product/59360009630363_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_4">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_5">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_6">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_7">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_8">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_9">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_10">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_logo">
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 nvzhuang xiangbao">
+            <div class="center2">
+                <div class="nvzhuang_head">
+                    <div class="nvzhuang_head_title">鞋靴 . 箱包</div>
+                    <div class="nvzhuang_head_tab">
+                        <div>时尚风向标</div>
+                        <div>全网热销</div>
+                        <div>羊绒羽绒</div>
+                        <div>保暖/内衣/配饰</div>
+                    </div>
+                </div>
+                <div class="nvzhuang_body">
+                    <div class="nvzhuang_body_product_1">
+                        <p><img src="./images/product/1891f8b9-d6af-4ae7-91f7-bc1f2eac5072.hpYdSGAX" /></p>
+                        <ul>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>全部女装分</li>
+                        </ul>
+                    </div>
+                    <div class="nvzhuang_body_product_2">
+                        <img src="./images/product/77100012860801_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_3">
+                        <img src="./images/product/59360009630363_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_4">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_5">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_6">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_7">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_8">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_9">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_10">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_logo">
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 nvzhuang">
+            <div class="center2">
+                <div class="nvzhuang_head">
+                    <div class="nvzhuang_head_title">运动户外 . 器械</div>
+                    <div class="nvzhuang_head_tab">
+                        <div>时尚风向标</div>
+                        <div>全网热销</div>
+                        <div>羊绒羽绒</div>
+                        <div>保暖/内衣/配饰</div>
+                    </div>
+                </div>
+                <div class="nvzhuang_body">
+                    <div class="nvzhuang_body_product_1">
+                        <p><img src="./images/product/1891f8b9-d6af-4ae7-91f7-bc1f2eac5072.hpYdSGAX" /></p>
+                        <ul>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>全部女装分</li>
+                        </ul>
+                    </div>
+                    <div class="nvzhuang_body_product_2">
+                        <img src="./images/product/77100012860801_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_3">
+                        <img src="./images/product/59360009630363_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_4">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_5">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_6">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_7">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_8">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_9">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_10">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_logo">
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 nvzhuang">
+            <div class="center2">
+                <div class="nvzhuang_head">
+                    <div class="nvzhuang_head_title">童装 . 童鞋 . 孕装</div>
+                    <div class="nvzhuang_head_tab">
+                        <div>时尚风向标</div>
+                        <div>全网热销</div>
+                        <div>羊绒羽绒</div>
+                        <div>保暖/内衣/配饰</div>
+                    </div>
+                </div>
+                <div class="nvzhuang_body">
+                    <div class="nvzhuang_body_product_1">
+                        <p><img src="./images/product/1891f8b9-d6af-4ae7-91f7-bc1f2eac5072.hpYdSGAX" /></p>
+                        <ul>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>全部女装分</li>
+                        </ul>
+                    </div>
+                    <div class="nvzhuang_body_product_2">
+                        <img src="./images/product/77100012860801_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_3">
+                        <img src="./images/product/59360009630363_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_4">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_5">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_6">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_7">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_8">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_9">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_10">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_logo">
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 nvzhuang">
+            <div class="center2">
+                <div class="nvzhuang_head">
+                    <div class="nvzhuang_head_title">母婴 . 玩具 . 童书</div>
+                    <div class="nvzhuang_head_tab">
+                        <div>时尚风向标</div>
+                        <div>全网热销</div>
+                        <div>羊绒羽绒</div>
+                        <div>保暖/内衣/配饰</div>
+                    </div>
+                </div>
+                <div class="nvzhuang_body">
+                    <div class="nvzhuang_body_product_1">
+                        <p><img src="./images/product/1891f8b9-d6af-4ae7-91f7-bc1f2eac5072.hpYdSGAX" /></p>
+                        <ul>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>全部女装分</li>
+                        </ul>
+                    </div>
+                    <div class="nvzhuang_body_product_2">
+                        <img src="./images/product/77100012860801_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_3">
+                        <img src="./images/product/59360009630363_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_4">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_5">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_6">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_7">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_8">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_9">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_10">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_logo">
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 nvzhuang">
+            <div class="center2">
+                <div class="nvzhuang_head">
+                    <div class="nvzhuang_head_title">美妆 . 珠宝</div>
+                    <div class="nvzhuang_head_tab">
+                        <div>时尚风向标</div>
+                        <div>全网热销</div>
+                        <div>羊绒羽绒</div>
+                        <div>保暖/内衣/配饰</div>
+                    </div>
+                </div>
+                <div class="nvzhuang_body">
+                    <div class="nvzhuang_body_product_1">
+                        <p><img src="./images/product/1891f8b9-d6af-4ae7-91f7-bc1f2eac5072.hpYdSGAX" /></p>
+                        <ul>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>秋装新品</li>
+                            <li>秋装新品</li>
+                            <li>全部女装分</li>
+                            <li>全部女装分</li>
+                        </ul>
+                    </div>
+                    <div class="nvzhuang_body_product_2">
+                        <img src="./images/product/77100012860801_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_3">
+                        <img src="./images/product/59360009630363_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_4">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_5">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_6">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_7">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_8">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_9">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_product_10">
+                        <img src="./images/product/90560009364167_y.jpg" />
+                    </div>
+                    <div class="nvzhuang_body_logo">
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                        <p><img src="./images/product/53840008562992_y.jpg" /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="r"></div>
+        <div class="center1 tg">
+            <div class="center2">
+                <div class="tg_head">
+                    <div class="tg_title">推广商品</div>
+                    <div class="tg_tab">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="tg_body">
+                    <div class="tg_product">
+                        <div><img src="./images/product/1334588207-5_l_1.jpg" /></div>
+                        <p class="tg_product_title">青婉田春秋季新款复古英伦风双11返场 再战一天您想不到的便宜不</p>
+                        <p class="price1">¥258.00</p>
+                    </div>
+                    <div class="tg_product">
+                        <div><img src="./images/product/1006999608-1_l_1.jpg" /></div>
+                        <p class="tg_product_title">青婉田春秋季新款复古英伦风双11返场 再战一天您想不到的便宜不</p>
+                        <p class="price1">¥258.00</p>
+                    </div>
+                    <div class="tg_product">
+                        <div><img src="./images/product/1006999608-1_l_1.jpg" /></div>
+                        <p class="tg_product_title">旭亚正品 欧美羊毛格子围巾100%纯羊毛格子围巾全场低至39元 更多惊喜</p>
+                        <p class="price1">¥258.00</p>
+                    </div>
+                    <div class="tg_product">
+                        <div><img src="./images/product/1006999608-1_l_1.jpg" /></div>
+                        <p class="tg_product_title">青婉田春秋季新款复古英伦风双11返场 再战一天您想不到的便宜不</p>
+                        <p class="price1">¥258.00</p>
+                    </div>
+                    <div class="tg_product">
+                        <div><img src="./images/product/1006999608-1_l_1.jpg" /></div>
+                        <p class="tg_product_title">青婉田春秋季新款复古英伦风双11返场 再战一天您想不到的便宜不</p>
+                        <p class="price1">¥258.00</p>
+                    </div>
+                    <div class="tg_product">
+                        <div><img src="./images/product/1209811006-1_l_1.jpg" /></div>
+                        <p class="tg_product_title">祺彤香茶叶礼盒 铁观音礼盒装 新茶 安溪铁观音</p>
+                        <p class="price1">¥258.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1 footer1_1">
+            <div class="center2 footer1">
+                <div class="footer1_bg1"></div>
+                <div class="footer1_bg2"></div>
+                <div class="footer1_bg3"></div>
+                <div class="footer1_bg4"></div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1">
+            <div class="center2 footer2">
+                <div class="footer2_text_1 footer2_text">
+                    <p>购物指南</p>
+                    <ul>
+                        <li>购物流程</li>
+                        <li>发票制度</li>
+                        <li>账户管理</li>
+                        <li>会员优惠</li>
+                    </ul>
+                </div>
+                <div class="footer2_text">
+                    <p>购物指南</p>
+                    <ul>
+                        <li>购物流程</li>
+                        <li>发票制度</li>
+                        <li>账户管理</li>
+                        <li>会员优惠</li>
+                    </ul>
+                </div>
+                <div class="footer2_text">
+                    <p>购物指南</p>
+                    <ul>
+                        <li>订单配送查询</li>
+                        <li>发票制度</li>
+                        <li>账户管理</li>
+                        <li>会员优惠</li>
+                    </ul></div>
+                <div class="footer2_text">
+                    <p>购物指南</p>
+                    <ul>
+                        <li>配送范围及免邮标准</li>
+                        <li>发票制度</li>
+                        <li>账户管理</li>
+                        <li>会员优惠</li>
+                    </ul>
+                </div>
+                <div class="footer2_text">
+                    <p>购物指南</p>
+                    <ul>
+                        <li>购物流程</li>
+                        <li>发票制度</li>
+                        <li>账户管理</li>
+                        <li>会员优惠</li>
+                    </ul>
+                </div>
+                <div class="footer2_text">
+                    <p>商家服务</p>
+                    <ul>
+                        <li>购物流程</li>
+                        <li>发票制度</li>
+                        <li>账户管理</li>
+                        <li>加入尾品汇</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1">
+            <div class="center2 footer3">
+                <ul>
+                    <li>公司简介</li>
+                    <li>|</li>
+                    <li>Investor Relations</li>
+                    <li>|</li>
+                    <li>诚征英才</li>
+                    <li>|</li>
+                    <li>网站联盟</li>
+                    <li>|</li>
+                    <li>广告服务</li>
+                    <li>|</li>
+                    <li>当当招商</li>
+                    <li>|</li>
+                    <li>机构销售</li>
+                    <li>|</li>
+                    <li>手机当当</li>
+                    <li>|</li>
+                    <li>官方Blog</li>
+                    <li>|</li>
+                    <li>热词搜索</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1">
+            <div class="center2 footer4">
+                <p>Copyright (C) 当当网 2004-2014, All Rights Reserved</p>
+            </div>
+        </div>
+
+        <div class="r"></div>
+        <div class="center1">
+            <div class="center2 footer5">
+                <ul class="footer5_1">
+                    <li>京ICP证041189号</li>
+                    <li>|</li>
+                    <li>出版物经营许可证 新出发京批字第直0673号</li>
+                    <li>|</li>
+                    <li>食品流通许可证：SP1101011010021855(1-1)</li>
+                </ul>
+                <div class="r"></div>
+                <ul class="footer5_2">
+                    <li>互联网药品信息服务资格证编号：(京)-非经营性-2012-0016</li>
+                    <li>|</li>
+                    <li>京公网安备110101000001号</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="r"></div>
+        <div class="center1">
+            <div class="center2 footer6">
+                <img src="./images/validate.gif" />&nbsp;
+                <img src="./images/knetSealLogo.png" />
+            </div>
+        </div>
+
+        <style>
+
+        </style>
+        <div class="r"></div>
+        <div class="float_left transform2">
+            <ul>
+                <li class="float_left_s float_left_s_1" ext="1"><div class="float_left_s_1_div">图书</div></li>
+                <li class="float_left_s float_left_s_2" ext="2"><div class="float_left_s_2_div">图书</div></li>
+                <li class="float_left_s float_left_s_3" ext="3"><div class="float_left_s_3_div">图书</div></li>
+                <li class="float_left_s float_left_s_4" ext="4"><div class="float_left_s_4_div">图书</div></li>
+                <li class="float_left_s float_left_s_5" ext="5"><div class="float_left_s_5_div">图书</div></li>
+                <li class="float_left_s float_left_s_6" ext="6"><div class="float_left_s_6_div">图书</div></li>
+                <li class="float_left_s float_left_s_7" ext="7"><div class="float_left_s_7_div">图书</div></li>
+                <li class="float_left_s float_left_s_8" ext="8"><div class="float_left_s_8_div">图书</div></li>
+                <li class="float_left_s float_left_s_9" ext="9"><div class="float_left_s_9_div">图书</div></li>
+                <li class="float_left_s float_left_s_10" ext="10"><div class="float_left_s_10_div">图书</div></li>
+                <li class="float_left_s float_left_s_11" ext="11"><div class="float_left_s_11_div">图书</div></li>
+            </ul>
+        </div>
+        <script>
+
+        </script>
+        <style>
+
+        </style>
+        <div class="float_right">
+            <div class="fr_ad"><img src="./images/58740011292505_y.jpg" /></div>
+            <div class="fr_qrcode"><div class="fr_qrcode_i"><img src="./images/4afa2037-8c78-4a22-ba84-21990c7e26d6.jpg" /></div></div>
+            <div class="fr_car"></div>
+            <div class="fr_car_t">购<br />物<br />车</div>
+            <div class="fr_car_n"><div class="fr_car_n_d">1</div></div>
+            <div class="fr_fav"><div class="fr_fav_d">收藏页面</div></div>
+            <div class="fr_fav2"><div class="fr_fav2_d">我的收藏</div></div>
+            <div class="fr_top"></div>
+            <div class="fr_yj">意见<br />反馈</div>
+        </div>
+
+        <script>
+
+        </script>
+    </body>
+</html>

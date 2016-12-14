@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".one").hover(function(){
+     $(this).removeClass("one").addClass("one1");
+	 $(".two").show();
+  },function(){
+     $(this).removeClass("one1").addClass("one");
+	 $(".two").hide();
+  })
+  
+  $(".two ul li").hover(function(){
+     $(".two ul li").removeClass("hou");
+	 $(this).addClass("hou");
+  },function(){
+    $(".two ul li").removeClass("hou").addClass("yuan");
+  
+  
+  })
+})
+</script>
+<style>
+*{ margin:0px; padding:0px;}
+ul{ list-style:none;}
+.one{ width:100px; height:30px; line-height:30px; text-align:center; border:2px solid #CDCDCD; margin-left:50px; margin-top:10px; background:#CDCDCD;}
+.one1{ width:100px; height:30px; line-height:30px; text-align:center; border:2px solid red; border-bottom:2px solid white; margin-left:50px; margin-top:10px; position:relative; background:white; color:red;}
+.two{ width:100px; height:120px; position:absolute; top:30px; left:-2px; border:2px solid red; border-top:none; background:white; display:none;}
+.two ul{width:100px; height:120px;}
+.two ul li.yuan{ width:100px; height:30px; line-height:30px; text-align:center; color:black; background:white;}
+.two ul li.hou{ background:#CDCDCD; color:black;}
+
+</style>
+<body>
+<div class="one">
+我的当当
+  <div class="two">
+     <ul>
+	    <li class="yuan">111</li>
+		<li class="yuan">222</li>
+		<li class="yuan">333</li>
+		<li class="yuan">444</li>
+	 </ul>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

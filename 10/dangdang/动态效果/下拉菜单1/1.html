@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $(".one").hover(function(){
+	   $(".one").attr("class","one1");
+	   $(".mask").show();
+	   $(".two").show();
+	},function(){
+	  $(".one1").removeClass("one1").addClass("one");
+	  $(".mask").hide();
+	  $(".two").hide();
+	})
+})
+</script>
+<style>
+.one{ width:100px; height:30px; line-height:30px; text-align:center; margin-left:50px; margin-top:10px; background:#CDCDCD; border:2px solid #CDCDCD;}
+.one1{ width:100px; height:30px; line-height:30px; text-align:center; margin-left:50px; margin-top:10px; background:white; border:2px solid red; position:relative; }
+ .mask{ width:100px; height:2px; position:absolute; left:0px; top:30px; background:white; z-index:10; display:none;}
+.two{ width:200px; height:100px; border:2px solid red; background:white; position:absolute; top:30px; left:-2px; display:none;}
+</style>
+<body>
+<div class="one">
+手机当当
+  <div class="mask"></div>
+  <div class="two" >内容</div>
+</div>
+
+</body>
+</html>
