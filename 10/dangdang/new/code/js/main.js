@@ -115,6 +115,26 @@ $(document).ready(function () {
     var pptNextTimer = setInterval(pptNextFunc, 1500);
 
     /*
+     * 手机当当 动态部分
+     ************************************/
+
+
+    $("#m_dangdang").hover(function(){
+        //alert(333);
+       $("#m_dangdang").attr("class","active");
+       $(".topnav li .mask").show();
+       $(".topnav li .two").show();
+    },function(){
+      $("#m_dangdang").removeClass("active");
+      $(".topnav li .mask").hide();
+      $(".topnav li .two").hide();
+    });
+
+
+
+
+
+    /*
      * 选项卡1  tab11
      ************************************/
     $(".firstab1 .tabindex li").hover(function () {
@@ -153,6 +173,7 @@ $(document).ready(function () {
  *********************************************/
 
     $("#left_menu ul li").hover(function(){
+        //alert(333);
 	  //$(this).removeClass("menu");
 	  //$(".one ul li").find(".mask").hide();
 	  //$(".one ul li").find(".menu_1").hide();
@@ -164,7 +185,7 @@ $(document).ready(function () {
 	  $(this).removeClass("menu").addClass("yuan");
 	  $(this).find(".mask").hide();
 	  $(this).find(".menu_1").hide();
-	})
+	});
 
 
 });
