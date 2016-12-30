@@ -6,10 +6,12 @@
 </head>
 
 <body>
+    
 <form action="up.php" method="post" enctype="multipart/form-data">
-	用户名:<input type="text" name="uName"><br />
-	头像:<input type="file" name="uImg"><br/>
-	<input type="submit" value="提交">
+	用户名:<input type="text" name="uName" /><br />
+	头像:<input type="file" name="uImg" /><br/>
+	<input type="submit" value="提交" />
 </form>
+    
 </body>
 </html>

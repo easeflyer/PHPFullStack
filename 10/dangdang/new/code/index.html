@@ -285,19 +285,22 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 选项卡2 -->
                     <div class="firstab2">
                         <ul class="tabindex">
-                            <li>当当读书</li>
-                            <li class="cur">当当优品</li>
-                            <li>礼品卡</li>
+                            <li ext="1">当当读书</li>
+                            <li ext="2" class="cur">当当优品</li>
+                            <li ext="3">礼品卡</li>
                         </ul>
                         <div class="tabcon">
-                            <div class="tabcontent" style="display:none">
+                            <div id="tb_1" class="tabcontent" style="display:none">
+                                内容1
                             </div>
-                            <div class="tabcontent">
+                            <div id="tb_2" class="tabcontent">
                                 <a href=""><img src="images/tabpics.jpg" width="198" height="88" alt="" /></a>
                             </div>
-                            <div class="tabcontent" style="display:none">
+                            <div id="tb_3" class="tabcontent" style="display:none">
+                                内容3
                             </div>
                         </div>
                     </div>
@@ -514,15 +517,76 @@
                         </div>
                         <div class="righttitle">
                             <ul class="tabtitle">
-                                <li style="border-left: 1px solid #e6e6e6;"><a href="javascript:void(0)">最新上架</a></li>
-                                <li class="tabtitlecur"><a href="javascript:void(0)">独家畅品</a></li>
-                                <li><a href="javascript:void(0)">重点推荐</a></li>
-                                <li><a href="javascript:void(0)">电子书</a></li>
+                                <li ext="1" style=""><a href="javascript:void(0)">最新上架</a></li>
+                                <li ext="2" class="tabtitlecur"><a href="javascript:void(0)">独家畅品</a></li>
+                                <li ext="3"><a href="javascript:void(0)">重点推荐</a></li>
+                                <li ext="4"><a href="javascript:void(0)">电子书</a></li>
                             </ul>
                         </div>
 
                         <div class="clear" style="height:10px"></div>
-                        <div class="bookleftcon">
+                        <div id="bookleftcon_1" class="bookleftcon">
+                            <div class="book1">
+                                <div class="book1_top">
+                                    <a href=""><img src="images/index_79.jpg" alt="" /></a>
+                                </div>
+                                <div class="book1_bottom">
+                                    <ul>
+                                        <li><a href="">青春文学</a></li>
+                                        <li><a href="">成功/励志</a></li>
+                                        <li><a href="">管理</a></li>
+                                        <li><a href="">历史</a></li>
+                                        <li><a href="">哲学/宗教</a></li>
+                                        <li><a href="">亲子/家教</a></li>
+                                        <li><a href="">全部分类></a></li>
+                                        <li><a href="">中小学教辅</a></li>
+                                        <li><a href="">外语</a></li>
+                                        <li><a href="">考试</a></li>
+                                        <li><a href="">小说</a></li>
+                                        <li><a href="">文学</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="book2">
+                                <div class="book2_top">
+                                    <a href=""><img src="images/picbook1.jpg" width="335" height="220" alt="" /></a>
+                                </div>
+                                <div class="book2_bottom">
+                                    <ul>
+                                        <li><a href=""><img src="images/bookpic3.jpg" alt="" /></a>
+                                            <div class="info">超限战</div>
+                                            <div class="price"><span class="priceleft">￥22.5</span><span class="priceright">￥25.5</span></div>
+                                        </li>
+                                        <li><a href=""><img src="images/bookpic4.jpg" alt="" /></a>
+                                            <div class="info">你男神凭什么喜欢你</div>
+                                            <div class="price"><span class="priceleft">￥22.5</span><span class="priceright">￥25.5</span></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="book3">
+                                <ul>
+                                    <li><a href=""><img src="images/bookpic8.jpg" width="165" height="160" alt="" /></a>
+                                        <div class="info">超限战</div>
+                                        <div class="price"><span class="priceleft">￥22.5</span><span class="priceright">￥25.5</span>
+                                    </li>
+                                    <li><a href=""><img src="images/bookpic5.jpg" width="165" height="160" alt="" /></a>
+                                        <div class="info">超限战</div>
+                                        <div class="price"><span class="priceleft">￥22.5</span><span class="priceright">￥25.5</span></div>
+                                    </li>
+                                    <li><a href=""><img src="images/bookpic6.jpg" width="165" height="160" alt="" /></a>
+                                        <div class="info">超限战</div>
+                                        <div class="price"><span class="priceleft">￥22.5</span><span class="priceright">￥25.5</span></div>
+                                    </li>
+                                    <li><a href=""><img src="images/bookpic7.jpg" width="165" height="160" alt="" /></a>
+                                        <div class="info">超限战</div>
+                                        <div class="price"><span class="priceleft">￥22.5</span><span class="priceright">￥25.5</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div id="bookleftcon_2" class="bookleftcon hideDom">
                             <div class="book1">
                                 <div class="book1_top">
                                     <a href=""><img src="images/index_79.jpg" alt="" /></a>
@@ -586,14 +650,14 @@
                     </div>
                     <div class="bookright">
                         <ul class="tabindex">
-                            <li style="border-right:none" >图书畅销榜</li>
-                            <li class="tabcur">图书新书榜</li>
+                            <li ext="1" style="border-right:none" >图书畅销榜</li>
+                            <li ext="2" class="tabcur">图书新书榜</li>
                         </ul>
-                        <div class="rightcontent">
+                        <div id="rightcontent_1" class="rightcontent hideDom">
                             <ul>
-                                <li><span>1</span><a href="">微微一笑很倾城（豪华典藏版）</a></li>
-                                <li><span>2</span><a href="">解忧杂货店</a></li>
-                                <li class="cur"><span>3</span><a href="">
+                                <li><span>1</span>
+                                    <a class="sline" href="">微微一笑很倾城（豪华典藏版）</a>
+                                    <a href="" class="mline">
                                         <div class="bookinfo">
                                             <img src="images/index_81.jpg" alt="" width="89" height="132" />
                                             <div class="bookdetail">
@@ -603,16 +667,273 @@
                                                 </p>
                                             </div>
                                         </div>
-                                    </a></li>
-                                <li><span>4</span><a href="">天才在左疯子在右（完整版）</a></li>
-                                <li><span>5</span><a href="">从你的全世界路过 2014中国好书榜获奖图书</a></li>
-                                <li><span>6</span><a href="">我们仨（新版）</a></li>
-                                <li><span>7</span><a href="">摆渡人</a></li>
-                                <li><span>8</span><a href="">岛上书店（每个人的生命中，都有无比艰难的那一年，将人生变得美好而辽阔）</a></li>
-                                <li><span>9</span><a href="">白夜行（东野圭吾推理小说无冕之王。全新精装典藏版。）</a></li>
-                                <li><span>10</span><a href="" style="border:none">三体：全三册（刘慈欣代表作，亚洲首部“雨果奖”获奖作品！）</a></li>
+                                    </a>
+                                </li>
+                                <li><span>2</span>
+                                    <a class="sline" href="">解忧杂货店</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="cur"><span>3</span>
+                                    <a href="" class="sline">追风筝的人</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>4</span>
+                                    <a href="" class="sline">天才在左疯子在右（完整版）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>5</span>
+                                    <a href="" class="sline">从你的全世界路过 2014中国好书榜获奖图书</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>6</span>
+                                    <a href="" class="sline">我们仨（新版）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>7</span><a href="" class="sline">摆渡人</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>8</span><a href="" class="sline">岛上书店（每个人的生命中，都有无比艰难的那一年，将人生变得美好而辽阔）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>9</span><a href="" class="sline">白夜行（东野圭吾推理小说无冕之王。全新精装典藏版。）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>10</span><a href="" class="sline" style="border:none">三体：全三册（刘慈欣代表作，亚洲首部“雨果奖”获奖作品！）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
+                        <div id="rightcontent_2" class="rightcontent">
+                            <ul>
+                                <li><span>1</span>
+                                    <a class="sline" href="">微微一笑很倾城（豪华典藏版）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>2</span>
+                                    <a class="sline" href="">解忧杂货店</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="cur"><span>3</span>
+                                    <a href="" class="sline">追风筝的人</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>4</span>
+                                    <a href="" class="sline">天才在左疯子在右（完整版）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>5</span>
+                                    <a href="" class="sline">从你的全世界路过 2014中国好书榜获奖图书</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>6</span>
+                                    <a href="" class="sline">我们仨（新版）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>7</span><a href="" class="sline">摆渡人</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>8</span><a href="" class="sline">岛上书店（每个人的生命中，都有无比艰难的那一年，将人生变得美好而辽阔）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>9</span><a href="" class="sline">白夜行（东野圭吾推理小说无冕之王。全新精装典藏版。）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><span>10</span><a href="" class="sline" style="border:none">三体：全三册（刘慈欣代表作，亚洲首部“雨果奖”获奖作品！）</a>
+                                    <a href="" class="mline">
+                                        <div class="bookinfo">
+                                            <img src="images/index_81.jpg" alt="" width="89" height="132" />
+                                            <div class="bookdetail">
+                                                <h4>追风筝的人</h4>
+                                                <p>
+                                                    （中文版，快乐大本营高圆圆感动推荐，奥巴马送给女儿的新年礼物。为你，千千万万！）
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
                 <div class="childbook">

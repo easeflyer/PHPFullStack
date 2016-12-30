@@ -5,7 +5,7 @@
 
 header("content-type:text/html;charset=utf-8");
 $str = "ab";
-echo serialize($str)."<br />";// 输出：  s:2:"ab";     格式：类型:长度：值
+echo serialize($str)."]]]]]]]]]<br />";// 输出：  s:2:"ab";     格式：类型:长度：值
 $i = 7;
 echo serialize($i)."<br />";  // 输出：i：7         格式：类型:值
 $f = 3.14;

@@ -14,5 +14,9 @@
 	alert("大家都很爱国");
 </script>
 我是调用index页面 
+
+
+<a href="javascript:alert(111111)">弹出 </a>
+<div onclick="alert(333)">div</div>
 </body>
 </html>

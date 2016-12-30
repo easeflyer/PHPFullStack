@@ -37,9 +37,9 @@ wt("<br />------------typeof-------------------------<br />");
 var  userName = "tom";
 var  age = 3.14;
 var  bn5 = true;
-//wt(typeof(bn5));  // 显示 bn5 的数据类型 boolean
-//wt(typeof 3);   // typeof 是运算符
-//wt( typeof(eval) ); // eval 是函数
+wt(typeof(bn5));  // 显示 bn5 的数据类型 boolean
+wt(typeof 3);   // typeof 是运算符
+wt( typeof(eval) ); // eval 是函数
 
 wt("<br />------------大小写-------------------------<br />");
 
@@ -55,6 +55,7 @@ function obj(){
     this.p1 = "p11";
     this.p2 = "p22";
 }
+
 
 // 引用数据类型 存储的是 对象的引用或者说是地址，而不是对象本身。
 var obj1 = new obj(); // 实例化对象 new  关键词

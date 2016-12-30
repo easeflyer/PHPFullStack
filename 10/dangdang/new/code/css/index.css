@@ -224,7 +224,12 @@ m_dangdang{width:78px;border:2px solid #f9f9f9;height:30px;}
 .rightcontent ul li{height: 32px;padding-left: 15px;line-height: 32px;}
 .rightcontent ul li span{display: inline-block;height: 32px;line-height: 32px;width: 26px;float: left;color: #ff2832;}
 .rightcontent ul li  a{display: inline-block;height: 32px;line-height: 32px;width: 216px;float: left;border-bottom:1px solid #e6e6e6;padding-right: 20px;overflow: hidden;}
- .rightcontent ul li.cur a{height: 132px;}
+ /* .rightcontent ul li.cur a{height: 132px;}*/
+ .rightcontent ul li a.mline{display:none;}
+ .rightcontent ul li.cur a.mline{height: 132px;display:block}
+ .rightcontent ul li.cur a.sline{display:none;}
+ 
+ 
 .rightcontent ul li  a .bookinfo{height: 132px;}
 .rightcontent ul li  a .bookinfo img{float: left;}
 .rightcontent ul li  a .bookdetail{width: 127px;height: 132px;float: left;}
