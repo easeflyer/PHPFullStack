@@ -75,6 +75,12 @@ tim=setInterval("openit()",100);
                 <TD style="HEIGHT: 28px">验证码：</TD>
                 <TD style="HEIGHT: 28px">
 				<INPUT id=txtcode style="WIDTH: 60px" name="verify">
+
+
+        <!-- 验证码 
+          verify.php?rand='+Math.random();  后面的随机数 起到了刷新的作用。
+        -->
+
 				<img id="ver" src="verify.php">
 				</TD>
                 <TD style="HEIGHT: 28px"><span onclick="document.getElementById('ver').src='verify.php?rand='+Math.random();">看不清</span></TD></TR>

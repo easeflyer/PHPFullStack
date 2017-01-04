@@ -1,3 +1,5 @@
+
+
 <?php
 $link = @mysql_connect("localhost","root","root") or die("连接失败:".mysql_error());
 mysql_select_db("pro",$link);
@@ -8,6 +10,10 @@ $result = mysql_query($sql);
 $rs = mysql_fetch_assoc($result);
 print_r($rs);
 ?>
+
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -16,6 +22,12 @@ print_r($rs);
 <LINK href="imgs/Style.css" type=text/css rel=stylesheet>
 <LINK href="imgs/Manage.css" type=text/css rel=stylesheet>
 </head>
+
+<!--
+
+	页面中的 js 都不用关注。只需要关注 php 代码和 表单即可。
+
+-->
 <SCRIPT language=javascript src="imgs/FrameDiv.js"></SCRIPT>
 
 <SCRIPT language=javascript src="imgs/Common.js"></SCRIPT>

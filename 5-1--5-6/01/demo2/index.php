@@ -5,6 +5,18 @@
 <title>无标题文档</title>
 </head>
 
+<!--
+
+top:
+menu:
+dmMain
+
+
+
+-->
+
+
+
 <FRAMESET frameSpacing=0 rows=80,* frameBorder=0>
 	<FRAME name=top src="YHTop.php" frameBorder=0 noResize scrolling=no>
 	<FRAMESET frameSpacing=0 frameBorder=0 cols=220,*>

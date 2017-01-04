@@ -1,8 +1,8 @@
 <?php
 $size = 20;
 $angle = 0;
-$fontfile = "simpo.ttf";
-$text = "www.baidu.com";
+$fontfile = "yahei.ttf";
+$text = "我赢职场";
 $filename = "imgs/1.jpg";
 $img = imagecreatefromjpeg($filename);
 $white = imagecolorallocate($img, 255, 255, 255);
