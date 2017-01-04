@@ -3,9 +3,11 @@ document.write("<br />-------最简单的函数1--------<br />");
 function demo() {
     document.write("我很爱国<br />");		 //打印不是返回值
     document.write(3333333333333);
+    return "这是返回值";
 }
 //调用
 var a = demo();  //函数执行时从调用开始的
+document.write(a);
 //alert(a);  //返回 undefined 因为 demo 没有返回值
 
 
@@ -47,7 +49,7 @@ function fun(a, b) {
     document.write("<br /><br />");
     document.write("<br />arguments.callee:<pre>"+arguments.callee); // 函数自身的文本
     document.write("</pre><br />");
-    document.write("<br />arguments[0]:"+arguments[0]); // 第一个参数
+    document.write("<br />arguments[1]:"+arguments[1]); // 第一个参数
 }
 //var obj = new fun(1, 2);  // 这样调用也可以
 fun(9,2);

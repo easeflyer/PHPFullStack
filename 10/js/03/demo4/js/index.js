@@ -10,7 +10,7 @@ document.write(decodeURI(encodeURI(str)));
 
 
 document.write("<br />-------内置函数 eval--------<br />");
-var str1 =  "alert('123')"; //普通字符串 不会弹出
+var str1 =  "alert('1234444')"; //普通字符串 不会弹出
 //document.write(str1);
 window.eval(str1);
 

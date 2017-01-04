@@ -3,19 +3,19 @@ class testProtected{
 	protected $name = "zhangsan";
 	protected $age = 20;
 	protected function demo(){
-		echo "aaaaa";
+		echo "<br />aaaaa";
 	}
 	function demo1(){
-		echo $this->name; //ÀàÄÚ²¿·ÃÎÊ  Õý³£
+		echo $this->name; //ç±»å†…éƒ¨è®¿é—®  æ­£å¸¸
 	} 
 }
 $p = new testProtected();
-//echo $p->demo(); ÀàÍâ²»ÄÜ·ÃÎÊ
+//echo $p->demo(); ç±»å¤–ä¸èƒ½è®¿é—®
 //$p->demo1();
 class testSon extends testProtected{
 	function demo2(){
-		echo $this->name; //×ÓÀà·ÃÎÊÊÜ±£»¤µÄ³ÉÔ±
-		//$this->demo();
+		echo $this->name; //å­ç±»å¯ä»¥è®¿é—®å—ä¿æŠ¤çš„æˆå‘˜
+		$this->demo();
 	}
 }
 

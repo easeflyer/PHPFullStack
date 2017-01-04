@@ -6,18 +6,31 @@ class getSet{
 		echo 1111;
 	}
 	//__set();
-	function __set($n,$v){  //$n ÊôÐÔÃû³Æ    $v ÊôÐÔÖµ¡£ 
+	function __set($n,$v){  //$n å±žæ€§åç§°    $v å±žæ€§å€¼ã€‚ 
 		$this->$n = $v;
 	}
 	//__get();
 	function __get($na){
+            if(!isset( $this->$na )){echo "æœªå®šä¹‰çš„å˜é‡".$na;return;}  // å¯¹æ²¡æœ‰å®šä¹‰çš„å˜é‡ è¿›è¡Œåˆ¤æ–­
 		return $this->$na;
 	}
+        function demo1(){
+            echo $this->name;
+        }
 }
+
+
 $gs = new getSet();
-$gs->name = "jack"; // ×Ô¶¯µ÷ÓÃ__set()   $n = "name"  $v = "jack"
-//$gs->age = 111; 
-echo $gs->name; //×Ô¶¯µ÷ÓÃ__get();   $na = name
+$gs->name = "jack1";     // è‡ªåŠ¨è°ƒç”¨__set()   $n = "name"  $v = "jack"
+$gs->name1 = "lisi";
+$gs->age = 111; 
+echo $gs->name;         //è‡ªåŠ¨è°ƒç”¨__get();   $na = name
+echo $gs->age;
+echo "<br />-------------------------------<br />";
+$gs->demo1();
+echo $gs->name1;
+echo $gs->name2;
+echo $gs->name3;
 
 
 

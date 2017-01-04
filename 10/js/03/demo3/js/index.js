@@ -9,6 +9,7 @@ function func2(n3, n4) {
 //bb(3,4); //人工调用 某种功能需求下调用的。
 function demo(n5, n6, fun) {   //fun是一个回调函数,函数名称
     fun(n5, n6);//-->aa(2,2)  //调用回调函数
+    //fun1(2,3)
 }
 
 
@@ -22,9 +23,6 @@ document.write("<br />------匿名-回调函数--------<br />");
 function demo1(str1, str2, fun) {
     fun(str1, str2);
 }
-
-
-
 
 demo1(3, 5, function (num1, num2) {
     document.write(num1 + num2);

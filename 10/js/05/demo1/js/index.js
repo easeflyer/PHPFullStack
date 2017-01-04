@@ -1,6 +1,6 @@
 // JavaScript Document
 var dt = new Date(); //创建日期对象
-document.write(dt);
+document.write(dt+"<br />");
 document.write('dt.getFullYear():'+dt.getFullYear()+"<br />");
 //dateObject 的月份字段，使用本地时间。返回值是 0（一月） 到 11（十二月） 之间的一个整数。
 document.write('dt.getMonth()+1:'+(dt.getMonth()+1)+"<br />"); 

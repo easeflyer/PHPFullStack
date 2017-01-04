@@ -2,7 +2,7 @@
 class testPublic{
 	public $name = "zhangsan";
 	public $age = 19;
-	function demo(){  //Ä¬ÈÏfunction public
+	function demo(){  //é»˜è®¤function public
 		echo "aaaaa";
 	}
 	function demo2(){

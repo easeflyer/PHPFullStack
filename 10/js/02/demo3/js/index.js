@@ -16,9 +16,6 @@ for (var m = 1; m <= 9; m++) {
         document.write(m + "*" + n + "=" + m * n + "&nbsp;&nbsp;");
     }
 
-
-
-
     document.write("<br />");
 }
 document.write("<br />-----------简单--while--------------<br />");

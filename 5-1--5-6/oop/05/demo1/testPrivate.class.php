@@ -5,26 +5,19 @@ class testPrivate{
 	private function demo(){
 		echo "aaaa";
 	}
-	function demo1(){ //¹²ÓÐ·½·¨ µ÷ÓÃÁËÒ»¸öËÆÓÐ·½·¨¡£
+	protected function demo1(){ //å…±æœ‰æ–¹æ³• è°ƒç”¨äº†ä¸€ä¸ªç§æœ‰æ–¹æ³•ã€‚
 		$this->demo();
 	}
 }
 $pr = new testPrivate();
-//echo $pr->name;
-//$pr->demo1();
+//echo $pr->name;  ä¸å…è®¸è®¿é—®
+//$pr->demo1(); // å…è®¸è®¿é—®
 class testSon extends testPrivate{
 	function demo3(){
-		echo $this->name;  //²»¿ÉÒÔ·ÃÎÊ¡£
+		//echo $this->name;  //ä¸å¯ä»¥è®¿é—®ã€‚
+            $this->demo1();  // å¯ä»¥è®¿é—® demo1 è¢«ç»§æ‰¿äº†
 	}
+        public function demo1(){echo 111;}
 }
 $s = new testSon();
 $s->demo3();
-
-
-
-
-
-
-
-
-

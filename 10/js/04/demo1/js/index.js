@@ -43,8 +43,8 @@ wt(typeof arr);
 document.write("<br />------数组声明的时候赋值---------<br />");
 var  arr = new Array(123,456,789,"bbaaaaa",true,6666);
 
-//alert(arr[1]);
-//alert("元素个数："+arr.length); //返回数组的元素个数。  最后一个元素的下标，元素个数-1****;
+wt(arr[1]);
+wt("元素个数："+arr.length); //返回数组的元素个数。  最后一个元素的下标，元素个数-1****;
 document.write("<br />------数组先声明，在赋值---------<br />");
 var brr = new Array(); //声明了一个空数组。
 brr[0] = 123;

@@ -38,13 +38,15 @@ var str7 = undefined ;
 document.write(String(str7)+"\t(转换成字符串)<br />");
 var str7 = true;
 document.write(String(str7)+"\t(转换成字符串)<br />");
-
+document.write("<br />-------------array.toString--------------<br />");
+var arr1 = [1,2,3,4];
+document.write(arr1.toString()+"abcde");
 
 document.write("<br />-------------隐式转换--------------<br />");
 var n1 = "12";
 var n2 = 7;
 var n3  =  n2%n1;// +只能拼接  其他运算符 ，计算的是结果 先把12 转换成整数 在与7进行运算
-document.write(n3);
+//document.write(n3);
 
 
 document.write(""+1+3);
