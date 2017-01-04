@@ -8,6 +8,8 @@
  	sum() 求和  select sum(btypeid) from books;
 	avg()  求平均值:  select avg(btypeid) from books;
 	count() 统计记录数  select count(*) from books ;  select count(*) from books where btypeid=2  *****
+        注意和 group by 结合使用。
+        
  2 字符串:
  	concat(str1,str2,str3.....); 拼接
 		select concat(bName,bTypeid) as p from books;

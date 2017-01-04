@@ -12,7 +12,7 @@
 	邮箱<input type="text" name="uEmail"><br />
 	手机<input type="text" name="uTel"><br />
 	身份证号<input type="text" name="uCard"><br />
-	<input type="submit" value="提价">
+	<input type="submit" value="提交">
 </form>
 </body>
 </html>

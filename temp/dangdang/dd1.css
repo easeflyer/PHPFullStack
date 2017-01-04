@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-12-12, 13:35:46
+    Author     : Administrator
+*/
+*{margin: 0px;
+  padding: 0px;
+  font-size: 12px
+}
+#tou{border:0px solid #1122ff;
+     height: 38px;
+     background-image: url(bg1.jpg)
+}
+#t{border:0px solid #1122ff;
+     height: 38px;
+     width:1200px;
+     margin: auto
+}
+#z{border:0px solid #1122ff;
+     height: 38px;
+      width:500px;
+      float: left;
+      margin-left: 20px
+}
+#z1{border:0px solid #1122ff;
+     height: 38px;
+      width:10px;
+      float: left;
+      margin-top:10px 
+
+}
+#z2{border:0px solid #1122ff;
+     height: 38px;
+      width:300px;
+      float: right;
+     margin-right: 182px;
+     margin-top:10px 
+         
+
+}
+#y{border:0px solid #1122ff;
+     height: 38px;
+     width:500px;
+     float: right;
+     margin-right: 30px
+}
+#y1{border:0px solid #1122ff;
+     height: 38px;
+      width:15px;
+      float: left;
+       margin-top:8px 
+}
+#y2{border:0px solid #1122ff;
+     height: 38px;
+      width:400px;
+      float: right;
+     margin-right: 76px;
+      margin-top:10px 
+}
+#jing{border:0px solid #1122ff;
+     height: 109px;
+     }
+#j{border:0px solid #1122ff;
+     height:109px;
+      width:1300px;
+      margin: auto
+}
+#j1{border:0px solid #1122ff;
+     height: 109px;
+      width:350px;
+     float: left;
+     margin-left: 75px
+}
+#j2{border:0px solid #1122ff;
+     height: 109px;
+      width:550px;
+      float: left
+}
+#j11{border:0px solid #1122ff;
+     height: 49px;
+      width:300px;
+      float: left;
+      margin-top: 30px
+}
+#j12{border:1px solid #cccccc;
+     height: 38px;
+      width:107px;
+      float: left;
+       margin-top: 30px
+}
+#j13{border:0px solid #1122ff;
+     height: 38px;
+      width:80px;
+      float: right;
+       margin-top: 30px;
+       margin-right:55px
+}
+#j14{border:0px solid #1122ff;
+     height: 25px;
+      width:300px;
+      clear: both;
+      margin-top: 10px   
+}
+
+#j3{border:0px solid #1122ff;
+     height: 109px;
+      width:150px;
+     float: right;
+     margin-right: 80px
+}
+#M{border:0px solid #1122ff;
+     height: 38px;
+     background-color: #ff9999
+      }
+#m{border:0px solid #1122ff;
+     height: 38px;
+      width:1150px;
+     margin: auto
+}
+#m1{border:0px solid #1122ff;
+     height: 38px;
+      width:190px;
+     float: left
+}
+#m2{border:0px solid #1122ff;
+     height: 38px;
+      width:900px;
+     float: right;
+     margin-right: 55px
+}
+#m2 li{border:0px solid #1122ff;
+     height:27px;
+      width:120px;
+      list-style: none;
+      float: left;
+      font-size: 16px;
+      text-align: center;
+      margin-top:9px;
+      color: #FFF
+          
+}
+#m3{border:0px solid #1122ff;
+     height: 20px;
+     background-color: #cccccc
+      }
+#m4{border:0px solid #1122ff;
+     height: 25px;
+      width:1150px;
+     margin-left: 400px
+     
+}
+.m5{border:0px solid #1122ff;
+     height: 20px;
+      width:50px;
+      list-style: none;
+      float: left;
+      margin-top: 3px
+}
+.m6{border:0px solid #1122ff;
+     height: 7px;
+      width:29px;
+      list-style: none;
+      float: left;
+      text-align: center;
+      margin-top: 3px
+}
+

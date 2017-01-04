@@ -15,3 +15,4 @@ $num = rand(10000,99999);
 imagettftext($img, 20, $angle, 30, 40, $white, "simpo.ttf", $num);  // $angle 倾斜角度 参考 笔记
 imagegif($img); //输出到页面 gif 图像
 imagedestroy($img); //销毁内存资源 销毁图像
+

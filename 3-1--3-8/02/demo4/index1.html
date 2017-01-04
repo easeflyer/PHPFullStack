@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <a href="demo1.php?act=demo&str=5555555555555">get 方式获得数据</a>
+        
+        <form action="demo1.php?act=print&str1=get-send-var" method="get">
+            
+            <input type="hidden" name="userId" value="123" />
+            姓名：<input type="text" name="userName" /><br />
+            年龄：<input type="text" name="userAge" /><br />
+            电话：<input type="text" name="userTel" /><br />
+            性别：
+            <input type="radio" name="sex" value="男" />男
+            <input type="radio" name="sex" value="女" />女<br />
+            
+            爱好：
+            <input type="checkbox" name="fav[]" value="看书" />看书
+            <input type="checkbox" name="fav[]" value="上网" />上网
+            <input type="checkbox" name="fav[]" value="旅游" />旅游<br />
+            
+            城市：
+            <select name="city">
+                <option value="01">北京</option>
+                <option value="02">上海</option>
+                <option value="03">广州</option>
+                <option value="04">深圳</option>
+            </select>
+            <hr />
+            <input type="submit" value="提交" />
+        </form>
+        
+    </body>
+</html>

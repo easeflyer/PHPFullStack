@@ -7,7 +7,7 @@ CREATE TABLE `books` (
   `bDate` date default NULL,
   `bStatus` enum('0','1') default NULL,
   PRIMARY KEY  (`bId`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=117 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=117;
 
 -- 
 -- 导出表中的数据 `books`

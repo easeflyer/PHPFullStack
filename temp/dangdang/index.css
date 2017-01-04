@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-11-21, 11:11:25
+    Author     : Administrator
+*/
+
+          *{margin: 0px; padding: 0px;}
+           .top{width:1890px;height:36px; border: 0px solid; margin: auto; background:url(images/bg1.jpg);   }
+           #left{width:900px; height:36px; border: 0px solid; float: left;  text-align: center; line-height: 36px;}
+           #center{width:700px;border:0px solid;float: right;  text-align: center; line-height: 36px;}
+           #right{width:170px; border:0px solid;float: right;line-height: 36px;margin-left: 40px;margin-top: -10px; }
+           #right img{margin: 11px -80px;}
+            #right a{margin-left: 100px;}
+           #center ul{list-style: none; }
+           #center ul li{float:left; margin-left: 5px;background:url(images/index_73.gif) no-repeat -71px;}
+           #center ul  li a{text-decoration:none;}
+           
+           .two{margin:auto;}
+           #two_left{margin-left:400px;float: left;}
+           #two_left img{margin-top:15px;}
+           #two_center{width:580px; height:80px; float:left; border: 0px solid; margin-left: 100px;margin-top: 25px;}
+           #two_center_top input{width:500px; height:50px; float: left; border: 2px solid #ff0000;}
+           #span{background-color: #ccc; font-size:22px;width:100px;height:50px;float:right; margin-right:80px;margin-top: -52px;}
+           #two_center_top img{width:72px;height:53px;float:right;margin-top:-54px;}
+           #two_center_bottom .hot{width: 400px; height: 12px;float: left;clear: both;margin-left:2px;margin-top:1px; color: #969696;font-size:12px;}
+           #two_center_bottom span{width: 100px; height: 12px;float: right;margin-right:-40px;margin-top: 1px;color: #969696;font-size:12px;}
+           #two_right{float:right; width:100px; height: 100px; border: 0px solid;margin-right:300px;}
+           #two_right img{margin-top:15px;}
+           
+           .three{width:1500px; height:40px; border:0px solid; margin-top: 130px;}
+            #three_left{width:200px;height:40px;text-align:center;text-height:40px;border: 0px solid;float:left;margin-left:400px;background-color: #ff0000; font-weight: bold; color:#fff}
+            #three_left_img img{margin-left:166px;line-height:30px; margin-top:0px;position:relative;}
+            #three_left a{display:block;margin-top:11px;margin-left:-52px;position:relative;}
+            #three_right{width:864px; height:40px; border:0px solid; float:right;margin-left:0px;font-weight: bold;}
+            #three_right ul{list-style: none; margin-top: 0px; }
+            #three_right ul li{float:left; padding-left: 5px; margin-right:10px; text-align: center; line-height: 40px;}
+           
+            #hr{width:2000px; border:2px solid #ff0000;}
+            
+            .four{width:1250px; height:500px;border:0px solid;text-align: left;line-height: 36px;margin-left:410px;}
+            #four_left{float:left;width:190px;}
+            .four ul{list-style: none;}
+            #four_center{float:left;width:800px;}
+            #four_center ul li{float:left;border:1px solid #ccc;padding-left:5px;}
+            #four_right{float:left; border:0px solid;margin-left:5px; width:250px;}
+            #four_right img{width:252px;}
+            #four_right ul{list-style:none;margin-top:-12px;}
+            #four_right ul li{padding-left:20px; font-size:12px; border:0px solid;line-height:20px;}
+            #four_right .fd1{width:235px;border:0px solid;height:40px;}
+            #four_right .fd1 span{cursor:pointer;border:0px solid;text-align:center;line-height:40px;float:right;width:115px;position:relative;margin-top:-10px;}
+            #four_right .fd2 span{cursor:pointer;border:0px solid;text-align:center;line-height:40px;float:right;width:81px;position:relative;}
+            #four_right #img1{margin-top: 2px;}
+            
+            .cp{width:100%;height: 30px;border:1px solid ;margin:10px 405px;color: #fa5000;float: left;}
+            #cp cp1{font-size: 30px; }
+            #cp ul{float: right}
+            #cp ul li{float: right;display:inline}
+            
+            .hr{ width:100%;border:2px solid #fa5000;margin:10px 405px;}
+            
+           #five-left{width:100%;height: 490px;margin-left: 405px;border:1px solid}
+           #five-left ul{list-style: none;margin-left:10px;padding: 10px;float:right} 
+           #five-left ul li{float: left;border:1px solid #ccc;}
+           #five-left img{width: 182px;height: 182px;}
+           
+           .sg{width:990px;display:block}
