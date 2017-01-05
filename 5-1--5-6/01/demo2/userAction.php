@@ -1,10 +1,20 @@
 <?php
-//用户数据的处理页面  增 删  改
-$link = @mysql_connect("localhost","root","root") or die("连接失败:".mysql_error());
+/*用户数据的处理页面  增 删  改
+	根据 act 参数 执行不同的过程。
+
+	添加删除修改 都是执行了对应的 sql 语句来完成。
+
+*/
+
+$link = @mysql_connect("localhost","root","") or die("连接失败:".mysql_error());
 mysql_select_db("pro",$link);
 mysql_query("set names utf8");
 
 $act = $_GET["act"];  //路径传值
+
+/**
+ * 用户 添加
+ */
 if($act=="add"){
 	$uName 		= $_POST["uName"];
 	$uPwd			= $_POST["uPwd"];
@@ -19,6 +29,9 @@ if($act=="add"){
 	}else{
 		echo "用户添加失败";
 	}
+/**
+ * 用户 删除
+ */
 }else if($act=="delete"){
 	$uId = $_GET["uId"];
 	$sql = "delete from users where uId={$uId}";
@@ -27,6 +40,9 @@ if($act=="add"){
 	}else{
 		echo "用户删除失败";
 	}
+/**
+ *  用户 修改。
+ */
 }else if($act=="update"){
 	$uId = $_GET["uId"];
 	$uName 		= $_POST["uName"];

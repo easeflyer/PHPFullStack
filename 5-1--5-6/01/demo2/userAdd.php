@@ -6,6 +6,11 @@
 <LINK href="imgs/Style.css" type=text/css rel=stylesheet>
 <LINK href="imgs/Manage.css" type=text/css rel=stylesheet>
 </head>
+
+<!--
+		这个页面中的 所有 js 都不用理会。 只需要关注 表单。 以及 userAction.php 即可。
+
+-->
 <SCRIPT language=javascript src="imgs/FrameDiv.js"></SCRIPT>
 
 <SCRIPT language=javascript src="imgs/Common.js"></SCRIPT>
@@ -77,6 +82,12 @@ function __doPostBack(eventTarget, eventArgument) {
 						  <TD height=2></TD>
 						</TR>
 					</TABLE>
+
+					<!--
+						表单：最重要的就是向 userAction 发送数据 通过 post 方式
+					-->
+
+
 					<form action="userAction.php?act=add" method="post">
 					<table align="center" border="1" cellpadding="0" cellspacing="0" width="80%">
 						<tr height="35">
@@ -107,6 +118,8 @@ function __doPostBack(eventTarget, eventArgument) {
 						</tr>
 					</table>
 					</form>
+
+
 			 </TD>
 			<TD width=15 background=imgs/new_023.jpg><IMG  src="imgs/new_023.jpg" border=0> </TD>
 		</TR>

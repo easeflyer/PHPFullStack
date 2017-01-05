@@ -1,6 +1,6 @@
 <?php
 //mysql.fun.php
-//连接数据库函数
+//连接数据库函数 打包的函数库。
 function conn($dbHost,$user,$pwd,$dbName){
 	$link = mysql_connect($dbHost,$user,$pwd);
 	mysql_select_db($dbName,$link);
@@ -11,13 +11,13 @@ function query($sql){  //mysql_query();  insert delete update select
 }
 function numRows($sql){  //记录总数  select
 	$result = mysql_query($sql);
-	$count = mysql_num_rows($result);
+	$count = mysql_num_rows($result); // 返回记录条数
 	return $count;
 }
 // 得到1条记录的 一维数组
 function  fetchOne($sql){
 	$result = mysql_query($sql);
-	return mysql_fetch_assoc($result);
+	return mysql_fetch_assoc($result);  // 关联数组
 }
 //得到所有记录的二维数组
 function fetch($sql){

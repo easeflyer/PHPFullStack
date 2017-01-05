@@ -1,7 +1,7 @@
 <?php
 $sourcefile = "imgs/1.jpg";
 $dstfile = "imgs/1_small.jpg";
-$arr = getimagesize($sourcefile);
+$arr = getimagesize($sourcefile);   // 获得图片的尺寸。 数组
 $scle = 0.5;
 $dst_w = ceil($arr[0]*0.5);
 $dst_h = ceil($arr[1]*0.5);

@@ -180,10 +180,12 @@ m_dangdang{width:78px;border:2px solid #f9f9f9;height:30px;}
 .fifth{height: 382px;margin-top: 30px;}
 .fifth .sectiontitle{height: 39px;border-bottom:1px solid #e6e6e6;}
 .fifth .sectiontitle .maintitle{width: 187px;height: 39px;float: left;background: url(../images/index_73.gif) no-repeat right center;}
+
 .fifth .sectiontitle .maintitle a{font-size: 20px;line-height: 39px;font-weight: bold;}
 .fifth .sectiontitle .subtitle{height: 39px;line-height: 39px;}
 .fifth .sectiontitle .subtitle li{float: left;height: 39px;padding-left: 15px;padding-right: 25px;background: url(../images/index_75.gif) no-repeat right center;}
 .fifth .sectiontitle .subtitle li .subtitle1{font-size: 16px;font-weight: bold;}
+
 .fifth .sectiontitle .subtitle li .subtitle2{font-size: 14px;font-weight: normal;margin-left: 5px;}
 .fifthcon{border-left:1px solid #e6e6e6;height: 342px;}
 .fifthcon .fifth1{width: 400px;float: left;height: 342px;overflow: hidden;}
@@ -236,7 +238,16 @@ m_dangdang{width:78px;border:2px solid #f9f9f9;height:30px;}
 .rightcontent ul li  a .bookdetail h4{font-weight: normal;}
 .rightcontent ul li  a .bookdetail p{line-height: 1.5rem;color: #969696}
 .childbook{height: 429px;margin-top: 30px;}
-.childbook .sectiontitle .maintitle{width: 60px;}
+
+.childbook .sectiontitle{height: 39px;border-bottom:1px solid #e6e6e6;}
+.childbook .sectiontitle .maintitle{width: 60px;height: 39px;float: left;background: url(../images/index_73.gif) no-repeat right center;}
+
+.childbook .sectiontitle .maintitle a{font-size: 20px;line-height: 39px;font-weight: bold;}
+.childbook .sectiontitle .subtitle{height: 39px;line-height: 39px;}
+.childbook .sectiontitle .subtitle li{float: left;height: 39px;padding-left: 15px;padding-right: 25px;background: url(../images/index_75.gif) no-repeat right center;}
+.childbook .sectiontitle .subtitle li .subtitle1{font-size: 16px;font-weight: bold;}
+
+
 .childbookcon{height: 390px;border-left: 1px solid #e6e6e6;}
 .childbook1{width: 221px;height: 100%;float: left;}
 .childbook1 li{width: 220px;height: 194px;border-right: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;}

@@ -2,7 +2,7 @@
 $path = "aa/bb/cc/dd/ee";
 $arr = explode("/",$path);
 
-/*
+/* 循环 创建 多级 目录。
  * aa/
  * aa/bb/
  * aa/bb/cc

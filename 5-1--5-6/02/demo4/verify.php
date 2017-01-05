@@ -9,6 +9,7 @@ $co = imagecolorallocate($image, rand(0,255),  rand(0,255),  rand(0,255));
 imagefilledrectangle($image, 0, 0, 150, 60, $white);
 //写字
 $str = "0123456789abcdefghijklmn"; //数组
+$checkString = "";
 for($i=0;$i<5;$i++){ //$i 表示验证码的位数
 	$checkString  = $checkString.$str[rand(0,23)];
 }
