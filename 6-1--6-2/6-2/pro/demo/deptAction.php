@@ -13,7 +13,11 @@ if($action=="insert"){
 	$dInfo 			= $_POST["dInfo"];
 	$sql = "insert into dept(dName, dInfo, dMan, dManTel)";
 	$sql.=" values('{$dName}', '{$dInfo}', '{$dMan}', '{$dManTel}')";
-	$db->query($sql);
+        
+	if($db->query($sql)) echo "添加成功";
+        else echo "添加失败";
+            
+            
 }else if($action=="delete"){
 	//删除的参数 数据表中的id
 	$dId = $_GET["dId"];
@@ -30,7 +34,7 @@ if($action=="insert"){
 		echo "修改部门名称";
 	}
 	*/
-	$dMan 		= $_POST["dMan"];
+	$dMan 		= $_POST["dBoss"];
 	$dManTel 	= $_POST["dManTel"];
 	$dInfo 			= $_POST["dInfo"];
 	$sql = "update dept set dName='{$dName}', dInfo='{$dInfo}', dMan='{$dMan}', dManTel='{$dManTel}' where dId={$dId}";

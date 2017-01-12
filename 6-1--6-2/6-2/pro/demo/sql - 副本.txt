@@ -1,0 +1,64 @@
+数据库: `pro`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `admin`
+-- 
+
+CREATE TABLE `admin` (
+  `aId` int(11) NOT NULL auto_increment,序号
+  `aName` varchar(20) NOT NULL,    管理员账户
+  `aPwd` varchar(20) NOT NULL,	   管理员密码
+  PRIMARY KEY  (`aId`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+-- 
+-- 导出表中的数据 `admin`
+-- 
+
+INSERT INTO `admin` VALUES (1, 'admin', '123456');
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `dept`
+-- 
+
+CREATE TABLE `dept` (
+  `dId` int(4) NOT NULL auto_increment,  部门序号
+  `dName` varchar(60) NOT NULL,		 部门名称
+  `dInfo` text NOT NULL,		 部门简介
+  `dMan` varchar(60) NOT NULL,		 部门负责人
+  `dManTel` varchar(20) NOT NULL,	 负责人电话
+  PRIMARY KEY  (`dId`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- 导出表中的数据 `dept`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `emp`
+-- 
+
+CREATE TABLE `emp` (
+  `eId` int(4) NOT NULL auto_increment,  员工序号 （工号）
+  `eName` varchar(20) NOT NULL,		员工姓名
+  `eSex` int(2) NOT NULL,		性别
+  `eEdu` varchar(60) NOT NULL,		受教育程度
+  `eImg` varchar(200) NOT NULL,		照片
+  `eTec` text NOT NULL,			掌握技能
+  `eExp` text NOT NULL,			工作经验
+  `dId` int(4) NOT NULL,		所属部门
+  PRIMARY KEY  (`eId`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- 导出表中的数据 `emp`
+-- 
+

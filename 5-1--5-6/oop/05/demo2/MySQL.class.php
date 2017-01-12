@@ -19,7 +19,7 @@ class MySQL{
      */
     private static function conn(){
         if(self::$link === null){
-            $cfg = require './config.php';
+            $cfg = require './config.php';  // 注意 require 和 return 的搭配使用
             self::$link = new Mysqli($cfg['host'],$cfg['user'],$cfg['pwd'],$cfg['db']);
             self::query("set names ".$cfg['charset']);//设置字符集
         }

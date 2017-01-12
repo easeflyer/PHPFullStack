@@ -6,7 +6,7 @@ session_start();
 
 $aName = trim($_POST["aName"]);
 //正则验证:
-$modeName = "/^[a-zA-Z0-9_]{6,18}$/";
+$modeName = "/^[a-zA-Z0-9_]{5,18}$/";
 if(!preg_match($modeName,$aName,$arr)){
 	echo "用户名输入格式 不对<a href='index.php'>返回</a>";
 	exit; //终止 后边的程序运行
@@ -20,12 +20,12 @@ if($count>0){
 			//创建管理员的session
 			$_SESSION["aId"] = $rs["aId"];
 			$_SESSION["aName"] = $rs["aName"];
-?>
+        ?>
 	<script type="text/javascript">
 		alert("欢迎登陆 ");
 		window.location="main.php";
 	</script>
-<?php 
+        <?php 
 	}else{
 		echo "用户密码错误<a href='index.php'>返回</a>";
 		exit; //终止 后边的程序运行		

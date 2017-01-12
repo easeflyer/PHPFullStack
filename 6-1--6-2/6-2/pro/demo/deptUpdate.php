@@ -1,4 +1,4 @@
-<?php 
+    <?php 
 include 'config/DB.class.php';
 $dId = $_GET["dId"];
 //根据id 找到你修改的 记录的所有信息  找到1条记录

@@ -1,6 +1,11 @@
 <?php
-include("admin/fun/inc.php");
-include("admin/fun/mysql.fun.php");
+
+
+include("admin/fun/inc.php");       // 数据库连接配置
+include("admin/fun/mysql.fun.php"); // mysql 函数库
+
+
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -27,35 +32,67 @@ include("admin/fun/mysql.fun.php");
 		<div class="banner-bot">
 			<div class="d-time left">
 				<script language="JavaScript">
-					<!-- 
-					//以下是年月日星期显示
-					tmpDate=new Date();date=tmpDate.getDate();month=tmpDate.getMonth()+1;year=tmpDate.getFullYear();document.write(year);document.write("年");document.write(month);document.write("月");document.write(date);document.write("日  ");myArray=new Array(6);myArray[0]="星期日 "
+					<!--  
+					//以下是年月日星期显示 格式 2017年1月6日 星期五
+					tmpDate=new Date();
+                                        date=tmpDate.getDate();
+                                        month=tmpDate.getMonth()+1;  // getMonth 0-11
+                                        year=tmpDate.getFullYear();
+                                        document.write(year);
+                                        document.write("年");
+                                        document.write(month);
+                                        document.write("月");
+                                        document.write(date);
+                                        document.write("日  ");
+                                        myArray=new Array(6);
+                                        myArray[0]="星期日 "
 					myArray[1]="星期一 "
 					myArray[2]="星期二 "
 					myArray[3]="星期三 "
 					myArray[4]="星期四 "
 					myArray[5]="星期五 "
 					myArray[6]="星期六 "
-					weekday=tmpDate.getDay();if(weekday==0|weekday==6)
-					{document.write(myArray[weekday])
-					}else
-					{document.write(myArray[weekday])
-					};
+					weekday=tmpDate.getDay(); //getDay   0-6
+                                        document.write(myArray[weekday]);
+                                        /*
+                                        if(weekday==0|weekday==6){
+                                            document.write(myArray[weekday])
+					}else{
+                                            document.write(myArray[weekday])
+					};*/
 					//-->
 				</script>
 			</div>
 			<div class="scroll-news left"><marquee scrollamount="3"><a href="###" target="_blank">吉森火警 (2014)第1期 高森林火险警报</a></marquee></div>
-			<div class="searchbox right"><a class="right" href="###">查询</a><em>站内检索</em><input type="text" onFocus="if (value =='请输入关键字'){value =''}" onBlur="if (value ==''){value='请输入关键字'}" name="tree_name" id="tree_name" value="请输入关键字" autocomplete="off"></div>
+			<div class="searchbox right">
+                            <!--
+                            查询功能 只是一个 前端功能，后台并没有实现。
+                            -->
+                            <a class="right" href="###">查询</a><em>站内检索</em>
+                            <input type="text" 
+                                   onFocus="if (value =='请输入关键字'){value =''}" 
+                                   onBlur="if (value ==''){value='请输入关键字'}" 
+                                   name="tree_name" id="tree_name" value="请输入关键字" autocomplete="off" /></div>
 			<div class="clear"></div>
 		</div>
 	</div>
 	<div class="bodyer w1000">
 		<div class="mod-content1 mt5">
 			<div class="cont1-lt left">
+                                
+                                <!--
+                                左侧菜单部分
+                                
+                                    * 从 category 表中输出所有 cgPid=0 的分类，也就是顶级分类。
+                                    * 用循环 输出每一个分类，建立一个 ul li 列表。
+                                    * 注意当前显示的分类 li 的 class="active"
+                                
+                                -->
+                            
 				<ul class="lt-nav">
 					<li class="active"><a href="###">本站首页</a></li>
 					<?php
-					//读取住类型
+					//读取主类型
 					$sql_0 = "select * from category where cgPid=0";
 					$rs_0 = fetch($sql_0);
 					foreach($rs_0 as $key=>$val){
@@ -66,6 +103,8 @@ include("admin/fun/mysql.fun.php");
 					?>
 					
 				</ul>
+                            
+                            
 				<div class="cont1-lt-box1 mt5">
 					<h2 class="mod-tit1">公示公告</h2>
 					<ul>
@@ -90,6 +129,9 @@ include("admin/fun/mysql.fun.php");
 			<div class="cont1-ct left">
 				<div class="ct-top-box">
 					<div class="ct-top-scroll left">
+                                            
+                                            
+                                                <!-- 图片轮播 开始-->
 						<div class="tab01">
 							<ul class="clearfix imgTab01" id="imgTab01">
 								<li><a href="#"><img src="images/scroll-img1.jpg"/></a></li>
@@ -110,26 +152,47 @@ include("admin/fun/mysql.fun.php");
 								<h4><a href="###">执奉献之笔 绘国土丹青444</a></h4>
 							</div>
 						</div>
+                                                <!-- 图片轮播 结束，下面的js 负责动态效果-->
 						<script type="text/javascript">
+                                                        // tab 由 scroll.js 引入 参考js 代码
+                                                        /** 参考 上面的代码
+                                                         * 
+                                                         * imgTab01     图片列表
+                                                         * li
+                                                         * vTit01       文本列表
+                                                         * btnTab01     数字按钮 1-4
+                                                         * current01    当前显示的数字按钮
+                                                         */
 							tab("imgTab01","li","vTit01","h4","btnTab01","span","current01");
 						</script>
 					</div>
 					<div class="ct-top-txt left">
 						<ul class="top-txt-tab" id="p-tab">
-							<?php
-							$sql_1 = "select * from category where cgId in(6,7,10,11)";
-							$rs_1 = fetch($sql_1);
-							foreach($rs_1 as $k_1  =>$v_1){
-								if($v_1["cgId"]==6){
-									$cs = "class='active'";
-								}else{
-									$cs = "";
-								}
-							?>
-							<li <?php echo $cs;?>><span><?php echo $v_1["cgName"]?></span></li>
-							<?php
-							}
-							?>
+                                                    
+                                                    <?php
+                                                    /**
+                                                     *  循环输出 选项卡 选项卡的标题为 category 表的cgId in(6,7,10,11)
+                                                     *  用li 输出每一个选项卡 ，当前选项卡增加 class='active'
+                                                     *  选项卡的内容见下面的：div id="dCon"
+                                                     *  
+                                                     *  选项卡的动态效果见 Tabp("p-tab","li","dCon","ul","active"); 引自tab.js
+                                                     *  p-tab 是选项卡标题容器
+                                                     *  dCon 是选显卡内容容器
+                                                     *  active 标题的是选中状态
+                                                     */
+                                                    
+                                                    $sql_1 = "select * from category where cgId in(6,7,10,11)";
+                                                    $rs_1 = fetch($sql_1);
+
+                                                    foreach ($rs_1 as $k_1 => $v_1) {
+                                                        if ($v_1["cgId"] == 6) {
+                                                            echo "<li class='active'><span>" . $v_1["cgName"] . "</span></li>";
+                                                        } else {
+                                                            echo "<li><span>" . $v_1["cgName"] . "</span></li>";
+                                                        }
+                                                    }
+                                                    ?>
+
 						</ul>
 						<div class="top-txt-con" id="dCon">
 							<ul style="display:block">
@@ -177,7 +240,10 @@ include("admin/fun/mysql.fun.php");
 				<div class="ct-bot-box mt5">
 					<div class="bot-ad"><a href="###"><img src="images/ad-img1.jpg"/></a></div>
 					<div class="bot-txt-con mt5">
+                                            
+                                            
 						<div class="bot-txt1 left">
+                                                    
 							<ul class="bot-tab1" id="b-tab1">
 								<li class="active"><span>领导专区</span></li>
 								<li><span>重要言论</span></li>
@@ -198,6 +264,11 @@ include("admin/fun/mysql.fun.php");
 									<li><i>·</i><a href="###">吉林省政府领导在第三届全国林业信息化工作会议...</a></li>
 								</ul>
 							</div>
+                                                    
+                                                        <!--
+                                                        
+                                                        -->
+                                                    
 							<script type="text/javascript">
 								Tabp("b-tab1","li","tabcon1","ul","active");
 							</script>
@@ -266,12 +337,15 @@ include("admin/fun/mysql.fun.php");
 			</div>
 			<div class="clear"></div>
 		</div>
-		<div class="mod-content2 mt5">
+		<div class="mod-content2 mt5"> <!-- 这个div的背景图 有 对应的文本  -->
+                    
+                        <!--  吉林林业 通栏 动态效果 html  -->
+                    
 			<ul id="jlly-list">
 				<li>
-					<em>造林绿化</em>
+					<em>造林绿化1</em><!-- 里面的文本不显示以图片形式体现 见 css -->
 					<div class="jlly-details jlly-three ption-lt" id="jlly-item1">
-						<h3><a href="###">造林绿化</a></h3>
+						<h3><a href="###">造林绿化2</a></h3>
 						<span><a href="###">造林动态</a><a href="###">工程管理</a><a href="###">古树名木</a></span>
 					</div>
 				</li>
@@ -466,8 +540,12 @@ include("admin/fun/mysql.fun.php");
 				</li>
 			</ul>
 			<script>
+                            
+                            
+                                //吉林林业通栏 动态效果  参考 <!--  吉林林业 通栏 动态效果 html  -->
+                            
 				window.onload=function(){
-					var oUl=document.getElementById('jlly-list');
+					var oUl=document.getElementById('jlly-list');  // 参考上面的 <!--  吉林林业 通栏 动态效果 html  --> 部分
 					var oLi=oUl.getElementsByTagName('li');
 					for (var i=0;i<oLi.length ;i++ )
 					{
@@ -514,12 +592,24 @@ include("admin/fun/mysql.fun.php");
 				</div>
 			</div>
 			<div class="cont3-ct left">
+                                <!--
+                                
+                                林业综述部分
+                               
+                                    1 从 category 获得 林业综述的记录 cgId=6
+                                    2 输出 分类名称  $rs_2["cgName"]  也就是林业综述
+                                    3 在 头条 部分下面 输出 林业综述 的新闻 $sql_3 = "select * from news where cSid=6";
+                                    4 循环输出 新闻的标题，不需要显示内容
+                                
+                                -->
 				<div class="cont3-box1 left">
 					<?php
+                                        
+                                        
 					$sql_2 = "select * from category where cgId=6";  //类型 cgId;
 					$rs_2 = fetchOne($sql_2);
 					?>
-					<h2 class="mod-tit2"><a class="right" href="###">更多&gt;&gt;</a><em></em><?php echo $rs_2["cgName"]?></h2>
+					<h2 class="mod-tit2"><em></em><?php echo $rs_2["cgName"]?><a class="right" href="###">更多&gt;&gt;</a></h2>
 					<div class="cont3-box1-con">
 						<div class="cont3-box1-top">
 							<a class="ft-img left" href="###"><img src="images/ft-img1.jpg"/></a>
@@ -632,6 +722,9 @@ include("admin/fun/mysql.fun.php");
 			<div class="clear"></div>
 		</div>
 		<div class="mod-content4 mt5">
+                    
+                        <!-- 林业视频 滚动图 -->
+                    
 			<h2 class="left">林业视频</h2>
 			<div class="cont4-box left">
 				<h3><a href="###"> 厅林业视频</a><a href="###">地方林业视频</a><a href="###">自然保护区</a><a href="###">森林公园</a><a href="###">湿地公园</a><a href="###">林业产业</a><a href="###">林业人物</a></h3>

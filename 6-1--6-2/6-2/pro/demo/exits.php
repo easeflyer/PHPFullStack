@@ -1,11 +1,11 @@
 <?php
-//1 Ïú»Ùsession
+//1 é”€æ¯session
 session_start();
-session_destroy(); //Ïú»Ùsession
-//2 ÍË³öµ½µÇÂ½Ò³Ãæ -----
+session_destroy(); //é”€æ¯session
+//2 é€€å‡ºåˆ°ç™»é™†é¡µé¢ -----
 //header("location:index.php");
 ?>
 <script type="text/javascript">
-	alert("ÍË³ö³É¹¦");
+	alert("é€€å‡ºæˆåŠŸ");
 	window.location="index.php";
 </script>

@@ -21,7 +21,7 @@ class getSet{
 
 
 $gs = new getSet();
-$gs->name = "jack1";     // 自动调用__set()   $n = "name"  $v = "jack"
+$gs->name = "jack1,";     // 自动调用__set()   $n = "name"  $v = "jack"
 $gs->name1 = "lisi";
 $gs->age = 111; 
 echo $gs->name;         //自动调用__get();   $na = name

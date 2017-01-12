@@ -19,12 +19,19 @@ include("fun/mysql.fun.php");
 		<td>子类管理</td>
 	<tr>
 	<?php
+        session_start();
+        if(!isset($_SESSION['aId'])){
+            echo "尚未登录！";
+            exit;
+        }
+        echo $_SESSION['aName'];
+        
 	$sql_0 = "select * from category where cgPid=0";
 	$count = numRows($sql_0);
 	$pageSize = 4;
 	$totalPage = ceil($count/$pageSize);
 	
-	if($_GET["page"]){
+	if(isset($_GET["page"]) && $_GET["page"]){
 		$page = $_GET["page"];
 		if($page>$totalPage){$page=$totalPage;}
 	}else{
@@ -34,6 +41,7 @@ include("fun/mysql.fun.php");
 	$start = ($page-1)*$pageSize;
 	$sql = "select * from category where cgPid=0 limit {$start},{$pageSize}"; //查找所有主类型
 	$rs = fetch($sql);
+        //print_r($rs);exit;
 	foreach($rs as $key=>$val){
 	?>
 	<tr height="30" align="center">
@@ -48,6 +56,7 @@ include("fun/mysql.fun.php");
 		<!--需要读取对应主类型下的子类型-->
 		<?php
 		$sql_1 = "select * from  category where cgPid=".$val["cgId"];
+                //echo $sql_1;exit;
 		$rs_1 = fetch($sql_1);
 		if(count($rs_1)==0){
 			echo "<td align='center'>没有子类 </td>";
@@ -59,7 +68,7 @@ include("fun/mysql.fun.php");
 					foreach($rs_1 as $key_1=>$val_1){
 				?>
 				<tr height="25" align="center">
-					<td width="120"><?php echo $val_1["cgName"]?></td>
+					<td width="120">======<?php echo $val_1["cgName"]?></td>
 					<td>
 						<a href="cgActionSon.php?act=delete&cgSid=<?php echo $val_1["cgId"]?>">删除</a>
 						|

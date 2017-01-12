@@ -1,10 +1,16 @@
 <?php
+
 include("admin/fun/inc.php");
 include("admin/fun/mysql.fun.php");
+
+/**
+ *  读取新闻详情
+ */
+
 $nId = $_GET["nId"];  //主类型id
 $sql = "select * from news where nId=".$nId;
 $rs = fetchOne($sql);
-print_r($rs);
+//print_r($rs);
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -71,7 +77,5 @@ print_r($rs);
 		<p class="alC">电子邮箱：lyt@jl.gov.cn 联系电话：0431-88627583 吉icp备084512号</p>
 		<p class="alC">吉大正元信息技术股份有限公司 技术支持</p>
 	</div>
-</body>
-
 </body>
 </html>

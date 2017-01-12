@@ -1,10 +1,17 @@
 <?php
+
+
 include("fun/inc.php");
 include("fun/mysql.fun.php");
+
+
+// 查询出 数据
 $nId = $_GET["nId"];
 $sql = "select * from news where nId={$nId}";
 $rs = fetchOne($sql);  //子id  和 主id 有的
 $str = "cg_".$rs["cFid"]."_".$rs["cSid"]; //从数据库中查出的数据
+
+
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -19,6 +26,9 @@ $str = "cg_".$rs["cFid"]."_".$rs["cSid"]; //从数据库中查出的数据
 }
 </style>
 <body>
+    
+<!-- 填充表单 -->
+    
 <form action="arAction.php?act=update&nId=<?php echo $nId?>" method="post">
 <table align="center" border="1" cellpadding="0" cellspacing="0" width="800">
 	<tr height="40">

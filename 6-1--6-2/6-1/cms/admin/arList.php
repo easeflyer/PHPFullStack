@@ -23,24 +23,32 @@ include("fun/mysql.fun.php");
 		<td>文章管理</td>
 	<tr>
 	<?php
+        /**
+         * 类似 用户增删改 模块，没有太多变化。
+         * 注意 分类 部分 有 cn  cn1 大分类 和 子分类
+         */
+        
 	$sql_0 = "select * from news";
-	$count = numRows($sql_0);
-	$pageSize = 2;
-	$totalPage = ceil($count/$pageSize);
+	$count = numRows($sql_0);               // 总记录数
+	$pageSize = 2;                          // 每页显示几条记录
+	$totalPage = ceil($count/$pageSize);    // 总页数
 	
-	if($_GET["page"]){
+	if(isset($_GET["page"]) && $_GET["page"]){  // 确定当前页，避免超出 totalPage 范围
 		$page = $_GET["page"];
 		if($page>$totalPage){$page=$totalPage;}
 	}else{
 		$page=1;
 	}
 	
-	$start = ($page-1)*$pageSize;
+        // 构造 Sql 查询出 本页的数据，注意链接查询部分。
+	$start = ($page-1)*$pageSize;   // 确定 limit start 的位置   0,1  2,3  4,5      第3页的 start = （3-1）* 2 = 4
 	$sql = "select n.nId,n.nTitle,n.nSourceName,n.nDate,cg.cgName as cn,cg1.cgName as cn1 from news as n ";
-	$sql.=" left join category as cg on n.cFid=cg.cgId ";  //查找主类型
-	$sql.=" left join category as  cg1 on n.cSid=cg1.cgId ";
+	$sql.=" left join category as cg on n.cFid=cg.cgId ";  //查找主类型  都是左连接到 news
+	$sql.=" left join category as  cg1 on n.cSid=cg1.cgId "; // 第二次 链接 category 用 cSid
 	$sql.= " limit {$start},{$pageSize}"; //查找所有主类型
 	$rs = fetch($sql);
+        
+        // 循环输出 本页每条数据到 一个 tr 行
 	foreach($rs as $key=>$val){
 	?>
 	<tr height="30" align="center">
@@ -56,6 +64,11 @@ include("fun/mysql.fun.php");
 	<tr>
 	<?php
 	}
+        
+        /**
+         *  下面 页码的显示 参照 之前的 用户 增删改查模块。
+         */
+        
 	?>
 	<tr height="30">
 		<td colspan="5" align="right">

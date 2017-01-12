@@ -1,39 +1,38 @@
 <?php
-$upImg = $_FILES["upImg"]; //½ÓÊÜÍ¼ÏñÊý×é¡£
-//½ØÈ¡Í¼ÏñµÄÀ©Õ¹Ãû
-//ÅÐ¶ÏÍ¼ÏñµÄ´óÐ¡
-//ÅÐ¶ÏÎÄ¼þµÄÀàÐÍ
-//ÎªÎÄ¼þÖØÃüÃû
-//ÉÏ´«Í¼Æ¬  move_uploaded_file();
+//æˆªå–å›¾åƒçš„æ‰©å±•å
+//åˆ¤æ–­å›¾åƒçš„å¤§å°
+//åˆ¤æ–­æ–‡ä»¶çš„ç±»åž‹
+//ä¸ºæ–‡ä»¶é‡å‘½å
+//ä¸Šä¼ å›¾ç‰‡  move_uploaded_file();
 class Upload{
 	public $arr;
 	function __construct($arrImg){ 
 		$this->arr = $arrImg;
 	}
-	//µÃµ½À©Õ¹Ãû
+	//å¾—åˆ°æ‰©å±•å
 	function getExtName(){
-		//Ö±½ÓÄÃµ½ ÎÄ¼þÃû³Æ $this->arr["name"];  1.jpg     demo.test.jpg
+		//ç›´æŽ¥æ‹¿åˆ° æ–‡ä»¶åç§° $this->arr["name"];  1.jpg     demo.test.jpg
 		$extName = end(explode(".",$this->arr["name"]));
 		return $extName;
 	}
-	//¼ì²éÍ¼Ïñ´óÐ¡
+	//æ£€æŸ¥å›¾åƒå¤§å°
 	function checkSize(){
 		if($this->arr["size"]>2000000){
-			echo "Í¼ÏñÌ«´óÁË£¬Çëµ÷ÕûºóÉÏ´«";
+			echo "å›¾åƒå¤ªå¤§äº†ï¼Œè¯·è°ƒæ•´åŽä¸Šä¼ ";
 			exit;
 		}
 	}
-	//¼ì²éÍ¼ÏñÀàÐÍ  jpg  gif  png 
+	//æ£€æŸ¥å›¾åƒç±»åž‹  jpg  gif  png 
 	function checkType($extName){
 		if($extName!="jpg" && $extName!="gif" && $extName!="png"){
-			echo "Í¼ÏñÀàÐÍ²»ÕýÈ·,Çëµ÷ÕûºóÉÏ´«";
+			echo "å›¾åƒç±»åž‹ä¸æ­£ç¡®,è¯·è°ƒæ•´åŽä¸Šä¼ ";
 			exit;
 		}
 	}
-	//ÎªÎÄ¼þÖØÃüÃû:  //   upload/ÈÕÆÚ/ÎÄ¼þÃû³Æ
+	//ä¸ºæ–‡ä»¶é‡å‘½å:  //   upload/æ—¥æœŸ/æ–‡ä»¶åç§°
 	function getFileName(){
-		$filePathOne = "upload/";  //is_dir(); //ÅÐ¶Ïµ±Ç°Â·¾¶ÊÇ·ñÊÇÄ¿Â¼¡£
-		//echo is_dir($filePathOne);  ÊÇÄ¿Â¼ ·µ»Øtrue   ²»ÊÇÄ¿Â¼·µ»Øfalse
+		$filePathOne = "upload/";  //is_dir(); //åˆ¤æ–­å½“å‰è·¯å¾„æ˜¯å¦æ˜¯ç›®å½•ã€‚
+		//echo is_dir($filePathOne);  æ˜¯ç›®å½• è¿”å›žtrue   ä¸æ˜¯ç›®å½•è¿”å›žfalse
 		if(is_dir($filePathOne)){
 		}else{
 			mkdir($filePathOne);
@@ -46,19 +45,22 @@ class Upload{
 			$fileName = $filePathTwo.date("Ymd").rand(1000,9999).".".$this->getExtName();
 			return $fileName;
 		}
-		//ÎÄ¼þÉÏ´«Ö÷µ÷·Å·¨
-		function main(){  //ËùÓÐµÄÎÄ¼þÉÏ´«Ïà¹ØµÄÄÚÈÝ¶¼¼¯³Éµ½¸Ã·½·¨ÄÚ²¿¡£
-			$extN  = $this->getExtName();//»ñµÃÀ©Õ¹Ãû
-			$this->checkSize();  //¼ì²âÎÄ¼þ´óÐ¡
-			$this->checkType($extN); //¼ì²âÎÄ¼þÀàÐÍ;
+		//æ–‡ä»¶ä¸Šä¼ ä¸»è°ƒæ”¾æ³•
+		function main(){  //æ‰€æœ‰çš„æ–‡ä»¶ä¸Šä¼ ç›¸å…³çš„å†…å®¹éƒ½é›†æˆåˆ°è¯¥æ–¹æ³•å†…éƒ¨ã€‚
+			$extN  = $this->getExtName();//èŽ·å¾—æ‰©å±•å
+			$this->checkSize();  //æ£€æµ‹æ–‡ä»¶å¤§å°
+			$this->checkType($extN); //æ£€æµ‹æ–‡ä»¶ç±»åž‹;
 			$fileName = $this->getFileName();
 			move_uploaded_file($this->arr["tmp_name"], $fileName);			
-			//Â·¾¶ --¡··ÅÈëµ½Êý¾Ý¿â.
+			//è·¯å¾„ --ã€‹æ”¾å…¥åˆ°æ•°æ®åº“.
 			return $fileName;
 		}
 		
 }
-$up = new Upload($upImg);  //°ÑÍ¼ÏñÊý×é ´«µÝµ½ÀàÖÐ.
+
+
+$upImg = $_FILES["upImg"]; //æŽ¥å—å›¾åƒæ•°ç»„ã€‚
+$up = new Upload($upImg);  //æŠŠå›¾åƒæ•°ç»„ ä¼ é€’åˆ°ç±»ä¸­.
 $fileName = $up->main();
 $userName = $_POST["userName"];
 $sql = "insert into users(userName,userImg) values('{$userName}'),'{$fileName}')";

@@ -1,36 +1,34 @@
 <?php
-interface user{
-	function getName();
+/**
+ *  参考手册 设计模式
+ */
+
+class MySQL{
+    function query(){
+        echo "执行mysql 的 query 方法";
+    }
 }
-class  user1 implements user{
-	function getName(){
-		return "zhangsan";
+
+class SQLite{
+    function query(){
+        echo "执行sqlite 的 query 方法";
+    }
+}
+
+
+
+class Fac{ //工厂类 用来创建对象的。
+	// 参数 $cls 是要创建类的名称
+	public static function createObj($cls){
+		return new $cls();
+                
 	}
 }
-/*
- * $u = new user1();
-class  user2 implements user{
-	function getName(){
-		return "lisi";
-	}
-}
-*/
-class Fac{ //创建对象的。
-	//静态成员 类外调用 Fac::createObj();
-	public static function createObj($num){
-		return new user1();
-		/*
-		 * if($num==1){
-		 * 	return new user1();
-		 * }else if($num==2){
-		 * 	return new user2();
-		 * }
-		 * 
-		 * */
-	}
-}
-$u1 = Fac::createObj(1);  //$u1 是user1 的对象。*****
-echo $u1->getName();
+
+$u1 = Fac::createObj("SQLite");  //$u1 是user1 的对象。*****
+$u2 = Fac::createObj("MySQL");  //$u1 是user1 的对象。*****
+
+echo $u1->query();
 
 
 

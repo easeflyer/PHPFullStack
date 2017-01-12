@@ -24,7 +24,10 @@
             width=16></TD>
           <TD align=middle>
             <TABLE cellSpacing=0 cellPadding=0 width=230 border=0>
-              <FORM name=form1 action="loginCheck.php" method=post>
+                
+              <!-- 登录表单  -->
+                
+              <FORM name=fo rm1 action="loginCheck.php" method=post>
               <TR height=5>
                 <TD width=5></TD>
                 <TD width=56></TD>

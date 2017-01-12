@@ -19,7 +19,7 @@ function  fetchOne($sql){
 	$result = mysql_query($sql);
 	return mysql_fetch_assoc($result);  // 关联数组
 }
-//得到所有记录的二维数组
+//得到所有记录的二维数组 每条记录都是一个 关联数组
 function fetch($sql){
 	$result = mysql_query($sql);
 	$rows = array();

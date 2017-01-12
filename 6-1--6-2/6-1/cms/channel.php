@@ -1,10 +1,17 @@
 <?php
+
+
 include("admin/fun/inc.php");
 include("admin/fun/mysql.fun.php");
+
+//1 读取 子频道 分类数据
+
 $cgId = $_GET["cgId"];  //主类型id
 $sql = "select * from category where cgPid=".$cgId;
-$rs = fetch($sql);
-print_r($rs);
+$rs = fetch($sql);  ////得到所有记录的二维数组
+  print_r($rs); // 输出确认 数据
+
+
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -60,8 +67,15 @@ print_r($rs);
 			<div class="cont1-lt left">
 				<ul class="lt-nav">
 					<li class="active"><a href="###">本站首页</a></li>
+
+
+                                        
 					<?php
-					//读取住类型
+					/**
+                                         *  2 左侧菜单
+                                         *      面包屑菜单
+                                         */
+                                        
 					$sql_0 = "select * from category where cgPid=0";
 					$rs_0 = fetch($sql_0);
 					foreach($rs_0 as $key=>$val){
@@ -71,11 +85,16 @@ print_r($rs);
 					}
 					?>
 
+                                        
 				</ul>
 			</div>
 			<div class="channel-ct left">
 				<div class="breadcrumb">当前位置：<a href="###">首页</a>&gt;<a href="###">吉林林情</a></div>
 				<div class="channel-txt mt5">
+                                    
+                                        <!-- 林业综述 -->
+                                        
+                                        
 					<?php echo $rs[0]["cgName"];?>
 					<p>
 						<img src="images/channel-img2.jpg"/>吉林省是全国重点林业省份之一。东部长白山区素有“长白林海”之称，是全国重要的木材生产基地，也是我省松花江、鸭绿江、图们江三大水系的发源地，在整个东北乃至东北亚地区的生态系统中占有重要位置。全省林业用地面积929.9万公顷，有林地面积为828.8万公顷，森林覆盖率为43.8%，活立木总蓄积95613万立方米。全省建有不同类型的自然保护区33个，面积242万公顷，其中国家级自然保护区11个，省级自然保护区14；建有省级以上森林公园52个，经营面积211万公顷，其中国家级森林公园32个；共有湿地面积172.8万公顷，其中天然湿地102.5万公...
@@ -137,7 +156,12 @@ print_r($rs);
 			</div>
 			<div class="chan3-ct left">
 				<div class="chan3-ct-con1">
-					<h2 class="mod-tit2"><a class="right" href="###">更多&gt;&gt;</a><em></em><?php echo $rs[1]["cgName"]?></h2>
+                                    
+                                        <!-- 林业规划 -->
+                                        
+					<h2 class="mod-tit2"><a class="right" href="###">更多&gt;&gt;</a><em></em>
+                                            <?php echo $rs[1]["cgName"]?>
+                                        </h2>
 					<ul>
 						<?php
 						$sql1 = "select * from news where  cSid=".$rs[1]["cgId"];
@@ -154,7 +178,12 @@ print_r($rs);
 				if($rs[2]["cgName"]){
 				?>
 				<div class="chan3-ct-con1 mt5">
-					<h2 class="mod-tit2"><a class="right" href="###">更多&gt;&gt;</a><em></em><?php echo $rs[2]["cgName"]?></h2>
+                                    
+                                        <!-- 林业年报 -->
+                                    
+					<h2 class="mod-tit2"><a class="right" href="###">更多&gt;&gt;</a><em></em>
+                                            <?php echo $rs[2]["cgName"]?>
+                                        </h2>
 					<ul>
 						<li><i>·</i><a href="###">2010年上半年全省林业统计分析</a></li>
 						<li><i>·</i><a href="###">2009年全省林业统计分析</a></li>

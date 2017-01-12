@@ -1,10 +1,13 @@
 <?php
+
 class single{
 	public static $_instance;
-	private function __construct(){}
+        public $pro = "aaaa<br />";
+	private function __construct(){}  // 不允许 直接 new 生成对象;
 	function demo(){
-		echo "aaaa";
+		echo "aaaa<br />";
 	}
+        
 	public static function getInstance(){  //得到本类的对象。
 		//该方法中创建一个本类的对象，放到$_instance属性中
 		//$_instance属性是静态的--》数据段中 被所有对象共享的。
@@ -15,11 +18,20 @@ class single{
 		return self::$_instance ;
 	}
 }
+
+//$s2 = new single();
+
 $s = single::getInstance();
-$s1 = single::getInstance();
+$s1 = single::getInstance();  // 得到的都是相同的对象
 
+echo $s->pro;
+echo $s1->pro;
 
-
+$s->pro = "11111<br />";
+echo "===============================================";
+// 只有一个实例。
+echo $s->pro;
+echo $s1->pro;
 
 
 

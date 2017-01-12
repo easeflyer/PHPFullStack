@@ -33,14 +33,14 @@ include 'config/DB.class.php';
       $pageSize = 2;
       $totalPage = ceil($count/$pageSize);
       
-      if($_GET["page"]){
+      if(isset($_GET["page"]) && $_GET["page"]){
       	$page = $_GET["page"];
       	if($page>$totalPage){$page=$totalPage;}
       }else{
       	$page=1;
       }
       $start = ($page-1)*$pageSize;
-      $sql_1 = "select * from dept limit $start,$pageSize";
+      $sql_1 = "select * from dept  order by did limit $start,$pageSize";
 		$rows= $db->fetchAll($sql_1);
       foreach($rows as $key=>$val){
       	if(strlen($val["dInfo"])>20){

@@ -44,10 +44,8 @@ include("fun/mysql.fun.php");
 					$sql_1 = "select * from category where cgPid=".$val["cgId"];
 					$rs_1 = fetch($sql_1);
 					foreach($rs_1 as $k=>$v){
-						//value="cg_主类id_子类id"
-					?>
-					<option value="cg_<?php echo $val["cgId"]?>_<?php echo $v["cgId"]?>"><?php echo $v["cgName"]?></option>
-					<?php
+                                            //value="cg_主类id_子类id"
+                                            echo "<option value=\"cg_"  .$val["cgId"].  "_"   .$v["cgId"].  "\">"  .$v["cgName"].   "</option>\n";
 					}
 					?>
 				</optgroup>

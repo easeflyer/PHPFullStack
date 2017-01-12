@@ -4,6 +4,7 @@ include("fun/inc.php");
 include("fun/mysql.fun.php");
 $act = $_GET["act"];
 if($act=="insert"){
+    
 	$nTitle = $_POST["nTitle"];
 	$nSource = $_POST["nSource"];
 	$nSourceName = $_POST["nSourceName"];
@@ -18,20 +19,26 @@ if($act=="insert"){
 	echo query($sql);
 	
 }else if($act=="delete"){
+    
 	$nId = $_GET["nId"];
 	$sql = "delete from news where nId={$nId}";
 	query($sql);
+        
 }else if($act=="update"){
 	$nId = $_GET["nId"];
 	$nTitle = $_POST["nTitle"];
 	$nSource = $_POST["nSource"];
 	$nSourceName = $_POST["nSourceName"];
 	$cgId = $_POST["cgId"];
-	$cNum = explode("_",$cgId);
+	$cNum = explode("_",$cgId);  // 字符串 用 _ 拆分成数组
 	$nContent = $_POST["nContent"];
 	$nDate = date("Y-m-d");
 	$sql = "update news set nTitle='{$nTitle}', nSource='{$nSource}', nSourceName='{$nSourceName}', nDate='{$nDate}', nContent='{$nContent}', cFid={$cNum[1]}, cSid={$cNum[2]} where nId={$nId}";
-	query($sql);
+        if(query($sql)){
+            echo "更新成功";
+        }else{
+            echo "更新失败";
+        }
 	
 	
 }

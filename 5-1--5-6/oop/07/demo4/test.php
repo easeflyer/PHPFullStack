@@ -5,11 +5,11 @@ class test{
 	function demo(){
 		echo 11111;	
 	}
-	function __call($val1,$arr){
+	function __call($val1,$arr){  // $val1 方法名称， $arr 参数数组
 		echo $val1."<br />"; //方法名称
 		print_r($arr);  //参数构成的数组
 		echo "<br />";
-		echo "你调用的这个方法，没有";
+		echo "你调用的这个方法 $val1 ，不存在";
 	}
 }
 $t = new test();

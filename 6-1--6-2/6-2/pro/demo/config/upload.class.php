@@ -7,7 +7,8 @@ class upload{
 	}
 	//得到图片的扩展名
 	function getExtName(){
-		$extName = end(explode(".", $this->arr["name"]));
+                $arr = explode(".", $this->arr["name"]);
+		$extName = end($arr);
 		return $extName; 
 	}
 	function checkType($extName){

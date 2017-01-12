@@ -1,14 +1,20 @@
 
 
 <?php
-$link = @mysql_connect("localhost","root","root") or die("连接失败:".mysql_error());
-mysql_select_db("pro",$link);
+/**
+ *  1 读出一条数据 到一个关联数组 $rs
+ *  2 用一个 form 里的input 接收这条数据
+ *  3 提交修改到 userAction.php 修改数据 userAction.php?act=update&id=
+ */
+
+$link = @mysql_connect("localhost","root","") or die("连接失败:".mysql_error());
+mysql_select_db("test",$link);
 mysql_query("set names utf8");
-$uId = $_GET["uId"];
-$sql = "select * from users where uId={$uId }";
+$id = $_GET["id"];
+$sql = "select * from users where id={$id }";
 $result = mysql_query($sql);
 $rs = mysql_fetch_assoc($result);
-print_r($rs);
+//print_r($rs);
 ?>
 
 
@@ -99,7 +105,7 @@ function __doPostBack(eventTarget, eventArgument) {
 						  <TD height=2></TD>
 						</TR>
 					</TABLE>
-					<form action="userAction.php?act=update&uId=<?php echo $rs["uId"];?>" method="post">
+					<form action="userAction.php?act=update&id=<?php echo $rs["id"];?>" method="post">
 					<table align="center" border="1" cellpadding="0" cellspacing="0" width="80%">
 						<tr height="35">
 							<td align="right">用户名</td>

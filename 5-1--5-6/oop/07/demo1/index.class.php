@@ -1,17 +1,17 @@
 <?php
-//final class index{//ÓÃfinal ÐÞÊÎµÄÀà²»ÄÜ±»¼Ì³Ð****
+//final class index{//ç”¨final ä¿®é¥°çš„ç±»ä¸èƒ½è¢«ç»§æ‰¿****
 class index{	
 	public $name;
 	public $age;
 	function __construct(){
 	
 	}
-	final function test(){ //²»ÄÜ¸²¸Ç final ·½·¨¡£*****
+	final function test(){ //ä¸èƒ½è¦†ç›– final æ–¹æ³•ã€‚*****
 		echo "aaaaa";	
 	}
 }
 class indexSon extends index{
-	function test(){ //ÖØÐ´ÁËtest
+	function test(){ //é‡å†™äº†test   Cannot override final method index::test()
 		echo "ccccc";
 	}
 	function test1(){

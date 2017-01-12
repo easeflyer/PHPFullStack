@@ -5,5 +5,5 @@
 
 $db["dbHost"] = "localhost";
 $db["user"] = "root";
-$db["pwd"] = "root";
-$db["dbName"] = "pro";
+$db["pwd"] = "";
+$db["dbName"] = "test";

@@ -1,21 +1,21 @@
-Êı¾İ¿â: `pro`
+æ•°æ®åº“: `pro`
 -- 
 
 -- --------------------------------------------------------
 
 -- 
--- ±íµÄ½á¹¹ `admin`
+-- è¡¨çš„ç»“æ„ `admin`
 -- 
 
 CREATE TABLE `admin` (
-  `aId` int(11) NOT NULL auto_increment,ĞòºÅ
-  `aName` varchar(20) NOT NULL,    ¹ÜÀíÔ±ÕË»§
-  `aPwd` varchar(20) NOT NULL,	   ¹ÜÀíÔ±ÃÜÂë
+  `aId` int(11) NOT NULL auto_increment,åºå·
+  `aName` varchar(20) NOT NULL,    ç®¡ç†å‘˜è´¦æˆ·
+  `aPwd` varchar(20) NOT NULL,	   ç®¡ç†å‘˜å¯†ç 
   PRIMARY KEY  (`aId`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- 
--- µ¼³ö±íÖĞµÄÊı¾İ `admin`
+-- å¯¼å‡ºè¡¨ä¸­çš„æ•°æ® `admin`
 -- 
 
 INSERT INTO `admin` VALUES (1, 'admin', '123456');
@@ -23,42 +23,42 @@ INSERT INTO `admin` VALUES (1, 'admin', '123456');
 -- --------------------------------------------------------
 
 -- 
--- ±íµÄ½á¹¹ `dept`
+-- è¡¨çš„ç»“æ„ `dept`
 -- 
 
 CREATE TABLE `dept` (
-  `dId` int(4) NOT NULL auto_increment,  ²¿ÃÅĞòºÅ
-  `dName` varchar(60) NOT NULL,		 ²¿ÃÅÃû³Æ
-  `dInfo` text NOT NULL,		 ²¿ÃÅ¼ò½é
-  `dMan` varchar(60) NOT NULL,		 ²¿ÃÅ¸ºÔğÈË
-  `dManTel` varchar(20) NOT NULL,	 ¸ºÔğÈËµç»°
+  `dId` int(4) NOT NULL auto_increment,  éƒ¨é—¨åºå·
+  `dName` varchar(60) NOT NULL,		 éƒ¨é—¨åç§°
+  `dInfo` text NOT NULL,		 éƒ¨é—¨ç®€ä»‹
+  `dMan` varchar(60) NOT NULL,		 éƒ¨é—¨è´Ÿè´£äºº
+  `dManTel` varchar(20) NOT NULL,	 è´Ÿè´£äººç”µè¯
   PRIMARY KEY  (`dId`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- 
--- µ¼³ö±íÖĞµÄÊı¾İ `dept`
+-- å¯¼å‡ºè¡¨ä¸­çš„æ•°æ® `dept`
 -- 
 
 
 -- --------------------------------------------------------
 
 -- 
--- ±íµÄ½á¹¹ `emp`
+-- è¡¨çš„ç»“æ„ `emp`
 -- 
 
 CREATE TABLE `emp` (
-  `eId` int(4) NOT NULL auto_increment,  Ô±¹¤ĞòºÅ £¨¹¤ºÅ£©
-  `eName` varchar(20) NOT NULL,		Ô±¹¤ĞÕÃû
-  `eSex` int(2) NOT NULL,		ĞÔ±ğ
-  `eEdu` varchar(60) NOT NULL,		ÊÜ½ÌÓı³Ì¶È
-  `eImg` varchar(200) NOT NULL,		ÕÕÆ¬
-  `eTec` text NOT NULL,			ÕÆÎÕ¼¼ÄÜ
-  `eExp` text NOT NULL,			¹¤×÷¾­Ñé
-  `dId` int(4) NOT NULL,		ËùÊô²¿ÃÅ
+  `eId` int(4) NOT NULL auto_increment,  å‘˜å·¥åºå· ï¼ˆå·¥å·ï¼‰
+  `eName` varchar(20) NOT NULL,		å‘˜å·¥å§“å
+  `eSex` int(2) NOT NULL,		æ€§åˆ«
+  `eEdu` varchar(60) NOT NULL,		å—æ•™è‚²ç¨‹åº¦
+  `eImg` varchar(200) NOT NULL,		ç…§ç‰‡
+  `eTec` text NOT NULL,			æŒæ¡æŠ€èƒ½
+  `eExp` text NOT NULL,			å·¥ä½œç»éªŒ
+  `dId` int(4) NOT NULL,		æ‰€å±éƒ¨é—¨
   PRIMARY KEY  (`eId`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- 
--- µ¼³ö±íÖĞµÄÊı¾İ `emp`
+-- å¯¼å‡ºè¡¨ä¸­çš„æ•°æ® `emp`
 -- 
 

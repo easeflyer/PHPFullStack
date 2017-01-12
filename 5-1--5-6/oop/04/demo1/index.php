@@ -13,7 +13,7 @@ class son extends fa{ //子类  可以继承父类的属性和方法。
 	function demo(){
 		echo "自己盖房子<br />";
 	}
-        function car(){
+        function car1(){
             //parent::car();
             echo "自己开<br />";
         }
@@ -28,7 +28,7 @@ class son extends fa{ //子类  可以继承父类的属性和方法。
 }
 $s = new son();
 //以下属性和方法 是继承父类
-echo $s->money ."<br />";
+echo $s->money ."=======<br />";
 $s->car();
 //子类中拥有。
 $s->house();

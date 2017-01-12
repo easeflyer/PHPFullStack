@@ -13,11 +13,15 @@ background="images/header_bg.jpg" border=0>
     <TD width=260><IMG height=56 src="images/header_left.jpg" 
     width=260></TD>
     <TD style="FONT-WEIGHT: bold; COLOR: #fff; PADDING-TOP: 20px" 
-      align=middle>当前用户：admin &nbsp;&nbsp; <A style="COLOR: #fff" 
+      align=middle>当前用户：
+        <?php
+        session_start();
+        echo $_SESSION['aName'];
+        ?>&nbsp;&nbsp; <A style="COLOR: #fff" 
       href="" 
       target=main>修改口令</A> &nbsp;&nbsp; <A style="COLOR: #fff" 
       onclick="if (confirm('确定要退出吗？')) return true; else return false;" 
-      href="" target=_top>退出系统</A> 
+      href="index.php" target=_top>退出系统</A> 
     </TD>
     <TD align=right width=268><IMG height=56 
       src="images/header_right.jpg" width=268></TD></TR></TABLE>

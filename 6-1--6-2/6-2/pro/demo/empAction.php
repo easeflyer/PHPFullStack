@@ -3,7 +3,7 @@ include 'config/DB.class.php';
 include 'config/upload.class.php';
 $action = $_GET["action"];
 if($action=="insert"){
-	// ½ÓÊÜËùÓÐÔ±¹¤µÄÐÅÏ¢;
+	// æŽ¥å—æ‰€æœ‰å‘˜å·¥çš„ä¿¡æ¯;
 	$eName = $_POST["eName"];
 	$eSex = $_POST["eSex"];
 	$eEdu = $_POST["eEdu"];
@@ -11,7 +11,7 @@ if($action=="insert"){
 	$dId = $_POST["dId"];
 	$eTec = $_POST["eTec"];
 	$eExp = $_POST["eExp"];
-	$eImg = $_FILES["eImg"]; //Í¼Æ¬ÐÅÏ¢×é³ÉµÄÊý×é
+	$eImg = $_FILES["eImg"]; //å›¾ç‰‡ä¿¡æ¯ç»„æˆçš„æ•°ç»„
 	$upImg = new upload($eImg);
 	$filePath = $upImg->main();
 	$sql = "insert into emp(eName, eSex, eEdu, eImg, eTec, eExp, dId)";
@@ -19,7 +19,7 @@ if($action=="insert"){
 	$db->query($sql);
 	
 }else if($action=="update"){
-	//½ÓÊÕËùÓÐÊý¾Ý ÒÔ¼° id
+	//æŽ¥æ”¶æ‰€æœ‰æ•°æ® ä»¥åŠ id
 	$eId = $_GET["eId"];
 	$eName = $_POST["eName"];
 	$eSex = $_POST["eSex"];
@@ -28,42 +28,42 @@ if($action=="insert"){
 	$dId = $_POST["dId"];
 	$eTec = $_POST["eTec"];
 	$eExp = $_POST["eExp"];
-	$eImg = $_FILES["eImg"]; //Í¼Æ¬ÐÅÏ¢×é³ÉµÄÊý×é
+	$eImg = $_FILES["eImg"]; //å›¾ç‰‡ä¿¡æ¯ç»„æˆçš„æ•°ç»„
 	print_r($eImg);
 	
-	//Í¼Æ¬: Éæ¼°µ½Í¼Æ¬ ÉÏ´«µÄ¹ý³Ì ¼ì²âÍ¼Æ¬ÊÇ·ñÒªÐÞ¸Ä 
-	//ÅÐ¶ÏÍ¼Æ¬ÊÇ·ñÐÞ¸Ä
+	//å›¾ç‰‡: æ¶‰åŠåˆ°å›¾ç‰‡ ä¸Šä¼ çš„è¿‡ç¨‹ æ£€æµ‹å›¾ç‰‡æ˜¯å¦è¦ä¿®æ”¹ 
+	//åˆ¤æ–­å›¾ç‰‡æ˜¯å¦ä¿®æ”¹
 	if(strlen($eImg["name"])>0){
-		//ÓÐÐÂÍ¼ÐÞ¸Ä
-		// 1 É¾µôÔ­Í¼:
+		//æœ‰æ–°å›¾ä¿®æ”¹
+		// 1 åˆ æŽ‰åŽŸå›¾:
 			$sql_1 = "select eImg from emp where eId={$eId}";
 			$rs_1 = $db->fetchOne($sql_1);
 			//print_r($rs_1);
-			if(is_file($rs_1["eImg"])){  //ÊÇÎÄ¼þ ÎÄ¼þ´æÔÚ Ö´ÐÐÉ¾³ý
+			if(is_file($rs_1["eImg"])){  //æ˜¯æ–‡ä»¶ æ–‡ä»¶å­˜åœ¨ æ‰§è¡Œåˆ é™¤
 				unlink($rs_1["eImg"]);
 			}
-		//2 ÉÏ´«ÐÂÍ¼
+		//2 ä¸Šä¼ æ–°å›¾
 			$upImg = new upload($eImg);
 			$filePath = $upImg->main();
 	}else{
-		//Ã»ÓÐÍ¼Æ¬ÐÞ¸Ä
+		//æ²¡æœ‰å›¾ç‰‡ä¿®æ”¹
 		$sql_1 = "select eImg from emp where eId={$eId}";
 		$rs_1 = $db->fetchOne($sql_1);
 		$filePath = $rs_1["eImg"];
 	}
 	
-	//ÐÞ¸Ä¼ÍÂ¼
+	//ä¿®æ”¹çºªå½•
 	$sql = "update emp set eName='{$eName}', eSex='{$eSex}',eImg='{$filePath}', eEdu='{$eEdu}', eTec='{$eTec}', eExp='{$eExp}', dId='{$dId}'";
 	$sql.= " where eId={$eId}"; 
 	$db->query($sql);
 }else if($action=="delete"){
 	$eId = $_GET["eId"];
-	//ÐèÒªÏÈÉ¾³ýÔ±¹¤µÄÕÕÆ¬ ÕÒµ½Í¼Æ¬µÄÂ·¾¶ unlink(url)É¾³ýÕÕÆ¬
+	//éœ€è¦å…ˆåˆ é™¤å‘˜å·¥çš„ç…§ç‰‡ æ‰¾åˆ°å›¾ç‰‡çš„è·¯å¾„ unlink(url)åˆ é™¤ç…§ç‰‡
 	$sql_1 = "select eImg from emp where eId={$eId}";
 	$rs = $db->fetchOne($sql_1);
 
 	
-	if(is_file($rs["eImg"])){  //ÊÇÎÄ¼þ ÎÄ¼þ´æÔÚ Ö´ÐÐÉ¾³ý
+	if(is_file($rs["eImg"])){  //æ˜¯æ–‡ä»¶ æ–‡ä»¶å­˜åœ¨ æ‰§è¡Œåˆ é™¤
 		unlink($rs["eImg"]);
 	}
 	

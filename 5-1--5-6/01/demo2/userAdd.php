@@ -7,10 +7,19 @@
 <LINK href="imgs/Manage.css" type=text/css rel=stylesheet>
 </head>
 
+    
+    
+    
+    
 <!--
 		这个页面中的 所有 js 都不用理会。 只需要关注 表单。 以及 userAction.php 即可。
+                注意表单的 name 属性
 
 -->
+
+
+
+
 <SCRIPT language=javascript src="imgs/FrameDiv.js"></SCRIPT>
 
 <SCRIPT language=javascript src="imgs/Common.js"></SCRIPT>
@@ -83,6 +92,8 @@ function __doPostBack(eventTarget, eventArgument) {
 						</TR>
 					</TABLE>
 
+                            
+                            
 					<!--
 						表单：最重要的就是向 userAction 发送数据 通过 post 方式
 					-->
