@@ -51,6 +51,7 @@
                             <td>商品数量</td>
                             <td>删除商品</td>
                         </tr>
+                         <!--  购物车 详情 --------------------------------------------------->
                         <foreach name="rs" item="val">
                             <tr>
                                 <td>{$val.bCode}</td>
@@ -74,8 +75,8 @@
                             </tr>
                         </foreach>
 
-
-                        <tr>
+                        
+                        <tr><!-- pc 总价 -->
                             <td colspan="7" class="align_Right" height="40">重量总计：1.08kg&nbsp;&nbsp;&nbsp;原始金额：￥{$pc}元 - 返现：￥0.00元<br><span style="font-size: 14px;"><b>商品总金额(不含运费)：<span id="cartBottom_price" class="price">￥{$pc}</span>元</b></span></td>
                         </tr>
                     </table>

@@ -20,7 +20,10 @@
 	  <td class="td_bg" width="14%" height="23" align="center">会员地址</td>
 	  <td class="td_bg" width="16%" height="23" align="center">操作</td>
    </tr>
+      
+      
    <foreach name="rs" item="val">
+       
     <tr>
       <td class="td_bg" width="14%" height="23" align="center">{$val["uName"]}</td>
 	  <td class="td_bg" width="14%" height="23" align="center">{$val["uTel"]}</td>
@@ -28,12 +31,16 @@
 	  <td class="td_bg" width="14%" height="23" align="center"><img src="__ROOT__/{$val["uPic"]}" width="80" height="60"></td>
 	  <td class="td_bg" width="14%" height="23" align="center">{$val["uAddress"]}</td>
 	  <td class="td_bg" width="16%" height="23" align="center">
+              
 	  <a href="__URL__/del/uId/{$val["uId"]}">删除</a> 
 	  | 
 	  <a href="__URL__/updateView/uId/{$val["uId"]}">修改</a>
 	  </td>
    </tr>
+       
    </foreach>
+      
+      
   <tr>
       <th class="bg_tr" style="font-size:14px;" align="center" colspan="6" height="25">{$show}</th>
     </tr>

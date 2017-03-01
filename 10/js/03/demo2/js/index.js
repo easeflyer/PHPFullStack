@@ -5,13 +5,13 @@ document.write(a);
 
 document.write("<br />-------函数外定义的变量--------<br />");
 var b = 234;
-
+//var b1 = 333;
 function demo(){
-    var b1 = 3333;
-	alert(b);
+    var b1 = 333344;
+	alert(b1);
 }
-//alert("b1:"+b1);
-//demo();
+alert("b1:"+b1);
+demo();
 document.write("<br />-------没有定义，直接赋值--------<br />");
 
 

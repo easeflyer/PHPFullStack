@@ -7,12 +7,16 @@
 				提高访问效率。
 				cache 目录 存放缓存文件的位置:
 				1》使用步骤
+                                
 				//开启缓存
 				$st->setCaching(Smarty::CACHING_LIFETIME_CURRENT);
+                                
 				//指定缓存的生命期:
 				$st->setCacheLifetime(300);
+                                
 				//禁止 重新生成缓存文件
 				$st->setCompileCheck(false);
+                                
 				//检测文件是否缓存过，如果缓存过 ，就不在缓存
 				if(!$st->isCached("index.html")){
 					$myId = 5; //缓存的所有 数据
@@ -24,6 +28,13 @@
 						$st->clearAllCache();
 				注意： smarty 是以文件形式缓存数据。
 				内存缓存  数据库缓存 文件缓存....
+                                
+                                
+                                
+                                
+                                
+                                
+                                
 		二 smarty 案例
 			员工管理系统:
 				需求分析：老师提供

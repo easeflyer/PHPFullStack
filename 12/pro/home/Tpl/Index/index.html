@@ -67,6 +67,8 @@
             <div id="hot_words">
                 <div id="left_corner"></div>
                 <div id="words">
+                    
+                    <!-- 搜索下面的横向菜单 -->
                     <foreach name="rs" item="val">
                         <a href="__URL__/booksList/cId/{$val.cId}">{$val.cName}</a>&nbsp;|&nbsp;
                     </foreach>
@@ -268,6 +270,9 @@
                                                         </div>
                                                         <div class='book_content'>
                                                             <ul class="pic_list">	
+                                                                
+                                                                <!---- 新书速递 -->
+                                                                
                                                                 <foreach name="rs_3" item="v3">	
                                                                     <li>
                                                                         <div class="pic_name"><a href="#" target="_blank">{$v3.cName}</a></div>

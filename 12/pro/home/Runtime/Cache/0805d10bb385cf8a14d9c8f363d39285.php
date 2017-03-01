@@ -51,6 +51,7 @@
                             <td>商品数量</td>
                             <td>删除商品</td>
                         </tr>
+                         <!--  购物车 详情 --------------------------------------------------->
                         <?php if(is_array($rs)): foreach($rs as $key=>$val): ?><tr>
                                 <td><?php echo ($val["bCode"]); ?></td>
                                 <td id="align_Left">
@@ -72,8 +73,8 @@
                                 <td>删除</td>
                             </tr><?php endforeach; endif; ?>
 
-
-                        <tr>
+                        
+                        <tr><!-- pc 总价 -->
                             <td colspan="7" class="align_Right" height="40">重量总计：1.08kg&nbsp;&nbsp;&nbsp;原始金额：￥<?php echo ($pc); ?>元 - 返现：￥0.00元<br><span style="font-size: 14px;"><b>商品总金额(不含运费)：<span id="cartBottom_price" class="price">￥<?php echo ($pc); ?></span>元</b></span></td>
                         </tr>
                     </table>

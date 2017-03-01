@@ -6,16 +6,24 @@
 </head>
 
 <body>
+    <br />-----------函数------------------<br />
+    
+    
 	<{function name="demo"}>
 			我很爱国
 	<{/function}>
-	<{demo}>
+        
+	调用demo:<{demo}>
+        
+        
 	<br />-----------带参数的函数------------------<br />
 	<{function name="demo1" uName="zhangsan" uAge="18"}>
 			姓名是:<{$uName}><br />
 			年龄: <{$uAge}><br />
 			测试代码:<{$test}>--<{$db}>
 	<{/function}>
-	<{demo1 test="aaaaa" db="bbbbb"}>
+        
+	<{demo1 test="aaaaa" db="bbbbb" uName="lisi"}>
+        <!-- 注意 test db 在参数中并没有定义，在函数体中可以引用。 通常需要默认值才会定义在参数中 -->
 </body>
 </html>

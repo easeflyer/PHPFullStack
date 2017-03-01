@@ -2,15 +2,15 @@
 -- version 2.10.3
 -- http://www.phpmyadmin.net
 -- 
--- Ö÷»ú: localhost
--- Éú³ÉÈÕÆÚ: 2014 Äê 05 ÔÂ 19 ÈÕ 09:17
--- ·þÎñÆ÷°æ±¾: 5.0.51
--- PHP °æ±¾: 5.2.6
+-- ä¸»æœº: localhost
+-- ç”Ÿæˆæ—¥æœŸ: 2014 å¹´ 05 æœˆ 19 æ—¥ 09:17
+-- æœåŠ¡å™¨ç‰ˆæœ¬: 5.0.51
+-- PHP ç‰ˆæœ¬: 5.2.6
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 -- 
--- Êý¾Ý¿â: `com`
+-- æ•°æ®åº“: `com`
 -- 
 CREATE DATABASE `com` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `com`;
@@ -18,7 +18,7 @@ USE `com`;
 -- --------------------------------------------------------
 
 -- 
--- ±íµÄ½á¹¹ `com_admin`
+-- è¡¨çš„ç»“æž„ `com_admin`
 -- 
 
 CREATE TABLE `com_admin` (
@@ -29,16 +29,16 @@ CREATE TABLE `com_admin` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 -- 
--- µ¼³ö±íÖÐµÄÊý¾Ý `com_admin`
+-- å¯¼å‡ºè¡¨ä¸­çš„æ•°æ® `com_admin`
 -- 
 
 INSERT INTO `com_admin` VALUES (1, 'admin', '123456');
-INSERT INTO `com_admin` VALUES (3, '·Å´óÊ¦¸µÈö', '11111');
+INSERT INTO `com_admin` VALUES (3, 'æ”¾å¤§å¸ˆå‚…æ’’', '11111');
 
 -- --------------------------------------------------------
 
 -- 
--- ±íµÄ½á¹¹ `com_dept`
+-- è¡¨çš„ç»“æž„ `com_dept`
 -- 
 
 CREATE TABLE `com_dept` (
@@ -50,19 +50,19 @@ CREATE TABLE `com_dept` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 -- 
--- µ¼³ö±íÖÐµÄÊý¾Ý `com_dept`
+-- å¯¼å‡ºè¡¨ä¸­çš„æ•°æ® `com_dept`
 -- 
 
-INSERT INTO `com_dept` VALUES (1, '²ÆÎñ²¿', '±¨Ïú·¢Æ±\r\n·¢·Å¹¤×Ê', 2);
-INSERT INTO `com_dept` VALUES (2, 'it²¿ÃÅ', '¹«Ë¾µÄ·þÎñÆ÷\r\n¹«Ë¾µÄµçÄÔÉè±¸', 3);
-INSERT INTO `com_dept` VALUES (3, 'ÊÐ³¡²¿', 'Ñ°ÕÒÄ¿±ê¿Í»§\r\nÎª¿Í»§½â¾öÎÊÌâ', 4);
-INSERT INTO `com_dept` VALUES (4, '½ÌÑ§²¿2222', '½â¾öÑ§ÉúÎÊÌâ ÖÆ×÷¿Î¼þ ½²¿Î33333', 108);
-INSERT INTO `com_dept` VALUES (5, 'ÊÐ³¡²¿1111', 'Ñ°ÕÒÄ¿±ê¿Í»§\r\nÎª¿Í»§½â¾öÎÊÌâ2222', 108);
+INSERT INTO `com_dept` VALUES (1, 'è´¢åŠ¡éƒ¨', 'æŠ¥é”€å‘ç¥¨\r\nå‘æ”¾å·¥èµ„', 2);
+INSERT INTO `com_dept` VALUES (2, 'itéƒ¨é—¨', 'å…¬å¸çš„æœåŠ¡å™¨\r\nå…¬å¸çš„ç”µè„‘è®¾å¤‡', 3);
+INSERT INTO `com_dept` VALUES (3, 'å¸‚åœºéƒ¨', 'å¯»æ‰¾ç›®æ ‡å®¢æˆ·\r\nä¸ºå®¢æˆ·è§£å†³é—®é¢˜', 4);
+INSERT INTO `com_dept` VALUES (4, 'æ•™å­¦éƒ¨2222', 'è§£å†³å­¦ç”Ÿé—®é¢˜ åˆ¶ä½œè¯¾ä»¶ è®²è¯¾33333', 108);
+INSERT INTO `com_dept` VALUES (5, 'å¸‚åœºéƒ¨1111', 'å¯»æ‰¾ç›®æ ‡å®¢æˆ·\r\nä¸ºå®¢æˆ·è§£å†³é—®é¢˜2222', 108);
 
 -- --------------------------------------------------------
 
 -- 
--- ±íµÄ½á¹¹ `com_emp`
+-- è¡¨çš„ç»“æž„ `com_emp`
 -- 
 
 CREATE TABLE `com_emp` (
@@ -77,15 +77,15 @@ CREATE TABLE `com_emp` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 -- 
--- µ¼³ö±íÖÐµÄÊý¾Ý `com_emp`
+-- å¯¼å‡ºè¡¨ä¸­çš„æ•°æ® `com_emp`
 -- 
 
-INSERT INTO `com_emp` VALUES (8, 'Íõ´óÎå', 3, 3, '13444444444', 'uu@uu.com', 'public/upload/13944217206292.jpg');
+INSERT INTO `com_emp` VALUES (8, 'çŽ‹å¤§äº”', 3, 3, '13444444444', 'uu@uu.com', 'public/upload/13944217206292.jpg');
 
 -- --------------------------------------------------------
 
 -- 
--- ±íµÄ½á¹¹ `com_leader`
+-- è¡¨çš„ç»“æž„ `com_leader`
 -- 
 
 CREATE TABLE `com_leader` (
@@ -98,11 +98,11 @@ CREATE TABLE `com_leader` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=109 ;
 
 -- 
--- µ¼³ö±íÖÐµÄÊý¾Ý `com_leader`
+-- å¯¼å‡ºè¡¨ä¸­çš„æ•°æ® `com_leader`
 -- 
 
-INSERT INTO `com_leader` VALUES (2, 'ÕÅÈý', '13111111111', 'zhangsan@sina.com', '¹ÜÀíÈËÁ¦×ÊÔ´²¿ÃÅµÄÈÕ³£¹¤×÷\r\nÕÐÆ¸ÐÅÈÎ\r\n¶ÔÔ±¹¤¼¨Ð§¿¼ºË');
-INSERT INTO `com_leader` VALUES (3, 'ÀîËÄ5', '132222222225', 'lisi@sina.com5', '¸ºÔð²ÆÎñ¼à¹Ü ·¢·Å¹¤×Ê5555');
-INSERT INTO `com_leader` VALUES (4, 'ÍõÎå', '133333333333', 'aa@aa.com', '¸ºÔðÐÐÕþ²¿ÃÅµÄ¹ÜÀí');
-INSERT INTO `com_leader` VALUES (5, 'ÕÔÁù', '1322222222', 'qq@qq.comm', '¸ºÔð¹«Ë¾ÊÐ³¡²¿ÔËÐÐ');
-INSERT INTO `com_leader` VALUES (108, 'Ð¡Ã÷', '134555555555', 'cc@cc.com', '¹ÜÀíÉú²ú²¿ÃÅ');
+INSERT INTO `com_leader` VALUES (2, 'å¼ ä¸‰', '13111111111', 'zhangsan@sina.com', 'ç®¡ç†äººåŠ›èµ„æºéƒ¨é—¨çš„æ—¥å¸¸å·¥ä½œ\r\næ‹›è˜ä¿¡ä»»\r\nå¯¹å‘˜å·¥ç»©æ•ˆè€ƒæ ¸');
+INSERT INTO `com_leader` VALUES (3, 'æŽå››5', '132222222225', 'lisi@sina.com5', 'è´Ÿè´£è´¢åŠ¡ç›‘ç®¡ å‘æ”¾å·¥èµ„5555');
+INSERT INTO `com_leader` VALUES (4, 'çŽ‹äº”', '133333333333', 'aa@aa.com', 'è´Ÿè´£è¡Œæ”¿éƒ¨é—¨çš„ç®¡ç†');
+INSERT INTO `com_leader` VALUES (5, 'èµµå…­', '1322222222', 'qq@qq.comm', 'è´Ÿè´£å…¬å¸å¸‚åœºéƒ¨è¿è¡Œ');
+INSERT INTO `com_leader` VALUES (108, 'å°æ˜Ž', '134555555555', 'cc@cc.com', 'ç®¡ç†ç”Ÿäº§éƒ¨é—¨');

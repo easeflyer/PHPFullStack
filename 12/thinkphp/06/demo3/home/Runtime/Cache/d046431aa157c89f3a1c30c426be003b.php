@@ -10,4 +10,4 @@
                 })
             })
         })
-    </script><body><input type="button" id="btn" value="点击获取ajax值"><div id="dv1">测试内容</div></body></html>
+    </script><body><input type="button" id="btn" value="点击获取ajax值"><div id="dv1">测试内容，这个内容将会被替换</div></body></html>

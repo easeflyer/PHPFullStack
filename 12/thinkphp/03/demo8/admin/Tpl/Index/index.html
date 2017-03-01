@@ -6,6 +6,16 @@
 </head>
 
 <body>
+$c:{$c}    <br />
+<if condition="$c gt 5">
+    c 大于 5
+        <elseif condition="$c lt 5" />
+        c 小于 5
+         <else />
+         c 等于 5
+    </if>
+<br />
+
 <foreach name="arr" item="val">
 	{$val}<br />
 </foreach>

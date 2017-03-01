@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2017-01-12 16:42:25
+<?php /* Smarty version Smarty-3.1.15, created on 2017-02-08 14:02:54
          compiled from ".\templates\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:62685311891c729e40-51116446%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '06f2fd8d9a960ed1fa3c26ccfad67689d23fc229' => 
     array (
       0 => '.\\templates\\index.html',
-      1 => 1484210544,
+      1 => 1486368448,
       2 => 'file',
     ),
   ),
@@ -35,8 +35,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <body>
 <br />-----------cat-----------<br />
-<?php echo ($_smarty_tpl->tpl_vars['str']->value).(" 你也很爱国过");?>
+<?php echo ($_smarty_tpl->tpl_vars['str']->value).(" 你也很爱国");?>
+ <br />
 
+<!--cat 链接 $str  $dt  逗号  $td-->
 <?php echo ((($_smarty_tpl->tpl_vars['str']->value).($_smarty_tpl->tpl_vars['dt']->value)).(",")).($_smarty_tpl->tpl_vars['dt']->value);?>
 
 <br />-----------data_format-----------<br />

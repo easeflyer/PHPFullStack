@@ -67,6 +67,8 @@
             <div id="hot_words">
                 <div id="left_corner"></div>
                 <div id="words">
+                    
+                    <!-- 搜索下面的横向菜单 -->
                     <?php if(is_array($rs)): foreach($rs as $key=>$val): ?><a href="__URL__/booksList/cId/<?php echo ($val["cId"]); ?>"><?php echo ($val["cName"]); ?></a>&nbsp;|&nbsp;<?php endforeach; endif; ?>
                     所有图书分类
                 </div>
@@ -260,6 +262,9 @@
                                                         </div>
                                                         <div class='book_content'>
                                                             <ul class="pic_list">	
+                                                                
+                                                                <!---- 新书速递 -->
+                                                                
                                                                 <?php if(is_array($rs_3)): foreach($rs_3 as $key=>$v3): ?><li>
                                                                         <div class="pic_name"><a href="#" target="_blank"><?php echo ($v3["cName"]); ?></a></div>
                                                                         <div class="pic_book">

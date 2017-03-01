@@ -1,6 +1,8 @@
 <?php
-// 本类由系统自动生成，仅供测试用途
 class IndexAction extends Action {
+    /*
+     * 注意配置文件中，修改了定界符
+     */
     public function index(){
     	$name = "zhangsan";
     	$this->assign("name",$name);

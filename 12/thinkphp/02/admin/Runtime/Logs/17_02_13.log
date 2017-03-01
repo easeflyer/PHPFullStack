@@ -1,0 +1,46 @@
+[ 2017-02-13T14:47:00+08:00 ] 0.0.0.0 /12/thinkphp/02/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T14:47:14+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2017-02-13T14:47:57+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2017-02-13T14:48:02+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2017-02-13T14:48:03+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2017-02-13T14:48:58+08:00 ] 0.0.0.0 /12/thinkphp/02/admin.php/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:49:04+08:00 ] 0.0.0.0 /12/thinkphp/02/admin.php/Index/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T14:50:58+08:00 ] 0.0.0.0 /12/thinkphp/02/admin.php/Index/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-13T14:51:32+08:00 ] 0.0.0.0 /12/thinkphp/02/admin.php/Users
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-13T14:52:59+08:00 ] 0.0.0.0 /12/thinkphp/02/admin.php?m=Index&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

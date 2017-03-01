@@ -14,6 +14,8 @@ if(!preg_match($modeName,$aName,$arr)){
 $aPwd = trim($_POST["aPwd"]);
 $sql = "select * from admin where aName='{$aName}'"; //根据用户名查找记录
 $count = numRows($sql);
+
+
 if($count>0){
 	$rs = fetchOne($sql);
 	if($rs["aPwd"]==$aPwd){

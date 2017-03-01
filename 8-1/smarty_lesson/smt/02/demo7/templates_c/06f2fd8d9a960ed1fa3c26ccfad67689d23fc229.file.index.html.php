@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-06 02:10:21
+<?php /* Smarty version Smarty-3.1.15, created on 2017-02-09 11:31:43
          compiled from ".\templates\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:215485317d6b1ae5c06-28355350%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '06f2fd8d9a960ed1fa3c26ccfad67689d23fc229' => 
     array (
       0 => '.\\templates\\index.html',
-      1 => 1394071818,
+      1 => 1486611102,
       2 => 'file',
     ),
   ),
@@ -50,6 +50,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </head>
 
 <body>
+    <br />-----------函数------------------<br />
+    
+    
 	<?php if (!function_exists('smarty_template_function_demo')) {
     function smarty_template_function_demo($_smarty_tpl,$params) {
     $saved_tpl_vars = $_smarty_tpl->tpl_vars;
@@ -59,8 +62,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<?php $_smarty_tpl->tpl_vars = $saved_tpl_vars;
 foreach (Smarty::$global_tpl_vars as $key => $value) if(!isset($_smarty_tpl->tpl_vars[$key])) $_smarty_tpl->tpl_vars[$key] = $value;}}?>
 
-	<?php smarty_template_function_demo($_smarty_tpl,array());?>
+        
+	调用demo:<?php smarty_template_function_demo($_smarty_tpl,array());?>
 
+        
+        
 	<br />-----------带参数的函数------------------<br />
 	<?php if (!function_exists('smarty_template_function_demo1')) {
     function smarty_template_function_demo1($_smarty_tpl,$params) {
@@ -77,8 +83,10 @@ foreach (Smarty::$global_tpl_vars as $key => $value) if(!isset($_smarty_tpl->tpl
 	<?php $_smarty_tpl->tpl_vars = $saved_tpl_vars;
 foreach (Smarty::$global_tpl_vars as $key => $value) if(!isset($_smarty_tpl->tpl_vars[$key])) $_smarty_tpl->tpl_vars[$key] = $value;}}?>
 
-	<?php smarty_template_function_demo1($_smarty_tpl,array('test'=>"aaaaa",'db'=>"bbbbb"));?>
+        
+	<?php smarty_template_function_demo1($_smarty_tpl,array('test'=>"aaaaa",'db'=>"bbbbb",'uName'=>"lisi"));?>
 
+        <!-- 注意 test db 在参数中并没有定义，在函数体中可以引用。 通常需要默认值才会定义在参数中 -->
 </body>
 </html>
 <?php }} ?>

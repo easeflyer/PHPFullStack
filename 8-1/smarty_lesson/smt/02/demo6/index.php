@@ -5,7 +5,7 @@ $st = new Smarty();
 $st->left_delimiter = "<{";
 $st->right_delimiter="}>";
 
-$arr = array("aaaa","bbbb","ccccc");
+$arr = array("aaaa","bbbb","ccccc","dddd");
 $st->assign("arr",$arr);
 
 

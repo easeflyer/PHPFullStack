@@ -2,7 +2,7 @@
 return array(
 	//'配置项'=>'配置值'		
 	 //数据库配置信息
-        'DB_TYPE'   => 'mysql', // 数据库类型
+        'DB_TYPE'   => 'mysqli', // 数据库类型
         'DB_HOST'   => 'localhost', // 服务器地址
         'DB_NAME'   => 'think',
         'DB_USER'   => 'root', // 用户名

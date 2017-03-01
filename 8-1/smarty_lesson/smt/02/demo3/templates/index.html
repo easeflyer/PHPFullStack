@@ -7,9 +7,11 @@
 
 <body>
 <br />-----------cat-----------<br />
-<{$str|cat:" 你也很爱国过"}>
+<{$str|cat:" 你也很爱国"}> <br />
+
+<!--cat 链接 $str  $dt  逗号  $td-->
 <{$str|cat:$dt|cat:","|cat:$dt}>
-<br />-----------data_format-----------<br />
+<br />-----------date_format-----------<br />
 <{$dt|date_format:"%Y-%m-%d %H:%M:%S"}>
 </body>
 </html>

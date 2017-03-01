@@ -12,7 +12,7 @@ class IndexAction extends Action {
         //验证码:
         $ckNum = $_POST["ckNum"];
         // 验证码错误则 返回 index
-        if (md5($ckNum) !== session("verify")) {
+        if (md5($ckNum) !== session("verify")) {   // tp 内部做了 md5 加密 因此这里要进行 md5
             //$this->error("验证码不正确"); 一句即可. 页面可定制 见手册.
             ?>
             <script type="text/javascript">
@@ -28,28 +28,15 @@ class IndexAction extends Action {
         $aName = $_POST["aName"];
         $aPwd = $_POST["aPwd"];
         $rs = $ad->where("aName='{$aName}'")->find();
-        if (count($rs) > 0) {
+        if (count($rs) > 0) {  // 如果用户存在
             //比较密码
             if ($aPwd == $rs["aPwd"]) {
                 session("aName", $rs["aName"]);
                 session("aId", $rs["aId"]);
-                //$this->success("登陆成功","main"); 即可. 可以定制本页面.
-                ?>
-                <script type="text/javascript">
-                    alert("登陆成功");
-                    window.location = 'main';
-                </script>
-                <?php
-
+                $this->success("登陆成功","main"); //即可. 可以定制本页面.
                 exit;
             } else {
-                ?>
-                <script type="text/javascript">
-                    alert("密码不正确");
-                    window.location = 'index';
-                </script>
-                <?php
-
+                $this->error("密码不正确","index");
                 exit;
             }
         } else {
@@ -59,14 +46,13 @@ class IndexAction extends Action {
                 window.location = 'index';
             </script>
             <?php
-
             exit;
         }
     }
 
     function exitLogin() {
         header("content-type:text/html;charset=utf-8");
-        session(null);//清除session 见手册
+        session(null); //清除session 见手册
         ?>
         <script type="text/javascript">
             alert("退出成功");

@@ -1,17 +1,21 @@
 // JavaScript Document
+// 函数是什么？
 function wt(str){
     document.write(str);
 }
 
 var  name = "zhangsan";  //第一次声明
-var  name = "lisi";	//第二次声明 覆盖前一次的声明。
+var  name1 = "lisi";	//第二次声明 覆盖前一次的声明。
 //var name;              // 如果第二次声明没有赋值 不影响之前的结果
-document.write(name);
+//document.write(name);
+wt("wt:" + name1);
 //name = n1/0;
 //document.write(name);
 wt("<br />-------------------3------------------<br />");
-var demo;
+var demo,demo1,demo2,demo3;
 demo = "我很1111<br />爱国";
+demo1 = 1;
+demo2 = 2;
 wt(demo);
 
 wt("<br />------------undefined-------------------------<br />");
@@ -37,16 +41,21 @@ wt("<br />------------typeof-------------------------<br />");
 var  userName = "tom";
 var  age = 3.14;
 var  bn5 = true;
-wt(typeof(bn5));  // 显示 bn5 的数据类型 boolean
-wt(typeof 3);   // typeof 是运算符
+wt("bn5的数据类型是："+ typeof(bn5) + "<br />");  // 显示 bn5 的数据类型 boolean
+wt("这里：" + typeof 3);   // typeof 是运算符
+wt("<br />");
 wt( typeof(eval) ); // eval 是函数
+wt("<br />");
+wt("这里1：" + typeof("abc") );
 
 wt("<br />------------大小写-------------------------<br />");
 
-var a = 111;
-var A = 222;
-//wt(a+A);
-wt(""+a+A); // 类型自动转换
+var userNameAge = "zhangsan";
+
+var _a = "111";
+var A = "222";
+wt(_a+A);
+//wt(""+a+A); // 类型自动转换
 
 
 wt("<br />------------引用类型-------------------------<br />");

@@ -22,7 +22,7 @@ class BooksAction extends Action {
     	
     	$str.="<option value='-1'>请选择子类型</option>";
     	foreach($rs as $key=>$val){
-    		$str.="<option value='".$val["cId"]."'>".$val["cName"]."</option>";
+    		$str .="<option value='".$val["cId"]."'>".$val["cName"]."</option>";
     	}
     	echo $str;
     }
@@ -74,10 +74,10 @@ class BooksAction extends Action {
 		$sql.="'{$bJDprice}', '{$filePath}', '{$bEditor}', '{$bCon}', '{$bTree}', {$bState})";
 		$bo->execute($sql);
 
-		
 	}
     function booksList(){
     	$bo = new Model("books");
+        // 为什么要左连接？ 应为 books 是主表，其他是从表，数据可以有，可以没有。  cat 被使用了2次，就当两个表处理即可。
     	$sql = "select tb.bId, tb.bName,tb.bAuth,tb.bImg,tb.bMprice,tb.bJDprice,tb.bState,tp.pName,tc.cName as cn,tc1.cName as cn1 from think_books as tb";
     	$sql.=" left join think_pub as tp on tb.pId=tp.pId";
     	$sql.=" left join think_cat as tc on tb.bFid=tc.cId";
@@ -86,24 +86,17 @@ class BooksAction extends Action {
     	$this->assign("rs",$rs);    	
     	$this->display();
     }
-   function newBooksConf(){  //新书速递 修改 stat字段的值  1==》2    2==》1
-   		$bo = new Model("books");
-   		$bId  = $_GET["bId"];//3
-   		//查找bId =3 书  state  == 1   更新成2     ==2 更新1
-   		$bState = $_GET["bState"];
-   		if($bState==1){
-   			$sql = "update think_books set bState=2 where bId={$bId}";
-   		}else{
-   			$sql = "update think_books set bState=1 where bId={$bId}";
-   		}
-   		$bo->execute($sql);
-   		
-   }
-   
-   
-   
-   
-   
-   
-   
+   function newBooksConf() {  //新书速递 修改 stat字段的值  1==》2    2==》1
+        $bo = new Model("books");
+        $bId = $_GET["bId"]; //3
+        //查找bId =3 书  state  == 1   更新成2     ==2 更新1
+        $bState = $_GET["bState"];
+        if ($bState == 1) {
+            $sql = "update think_books set bState=2 where bId={$bId}";
+        } else {
+            $sql = "update think_books set bState=1 where bId={$bId}";
+        }
+        $bo->execute($sql);
+    }
+
 }

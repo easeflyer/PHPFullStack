@@ -98,6 +98,8 @@
                     <div class="book_tit" style="width:209px;"><h2>浏览同级分类<br /><span>Browse other categories</span></h2></div>
                     <div class="book_content">
                         <ul>
+                            <!-- 子类型显示 左侧菜单 -->
+                            
                             <?php if(is_array($rs)): foreach($rs as $key=>$val): ?><li><a href='#'><?php echo ($val["cName"]); ?></a></li><?php endforeach; endif; ?>
                         </ul>
                         <div class="clear"></div>
@@ -168,7 +170,9 @@
                 <div class="clear"></div>
 
                 <div class="product_list">
-                    <!------------------------------------->
+                    
+                    <!-------------- 书籍列表----------------------->
+                    
                     <?php if(is_array($rs_1)): foreach($rs_1 as $key=>$v1): ?><div class="pro_item">
                             <div class="pro_picture"><a href="__URL__/bookDetail/bId/<?php echo ($v1["bId"]); ?>"><img src="__ROOT__/<?php echo ($v1["bImg"]); ?>" /></a></div>
                             <div class="pro_info">

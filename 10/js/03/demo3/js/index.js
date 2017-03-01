@@ -1,20 +1,25 @@
 // JavaScript Document
 document.write("<br />-------回调函数--------<br />");
+
 function func1(n1, n2) {
     document.write(n1 + n2);
 }
+
 function func2(n3, n4) {
     document.write(n3 * n4);
 }
 //bb(3,4); //人工调用 某种功能需求下调用的。
 function demo(n5, n6, fun) {   //fun是一个回调函数,函数名称
+    // 写其他的语句。
+    n5++;
+    n6++;
     fun(n5, n6);//-->aa(2,2)  //调用回调函数
-    //fun1(2,3)
+   // func1(2,3)
 }
 
 
 demo(2, 3, func1);  // 调用回调函数func1  函数作为参数传入
-document.write("<br />");
+document.write("<br />---分割线-----<br />");
 demo(2, 3, func2);  // 调用回调函数func2  函数作为参数传入
 
 
@@ -33,7 +38,9 @@ demo1(3, 5, function (num1, num2) {
  document.write("<br />------递归：  阶乘：n! = n * (n-1) * (n-2) * ...* 1(n>0)  --------<br />");
 
 var k = 1;
-
+// k=10
+// n=10,9,8
+// 10*9*8*7*....1=结果
 function rec2(n){
     // 函数处理逻辑
     k = k * n;
@@ -46,6 +53,7 @@ function rec2(n){
 }
 
 rec2(10);
+
 document.write("="+k);
 document.write("<br />=================<br />");
 //5*4*3*2*1
@@ -54,6 +62,14 @@ document.write("<br />=================<br />");
 
 document.write("<br />------  递归：递减数字三角形  --------<br />");
 
+/*
+n = 20,19
+m = 19
+
+20 19 18 17 .......1
+
+
+ */
 
 function rec1(n){
     // 函数处理逻辑

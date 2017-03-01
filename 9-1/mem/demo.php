@@ -1,24 +1,24 @@
 <?php
-//php²Ù×÷memcache
+//phpæ“ä½œmemcache
 $mem = new Memcache;
 //print_r($mem);
  $mem->connect("localhost",11211);
- //Ìí¼Ó×Ö·û´®
+ //æ·»åŠ å­—ç¬¦ä¸²
  $mem->set("key1","zhangsan",MEMCACHE_COMPRESSED,3600);
  echo $mem->get("key1") ."<br />";
- //Ìí¼ÓÊý×é:
+ //æ·»åŠ æ•°ç»„:
  $arr = array("lisi","wangwu","zhaoliu");
  $mem->set("key2",$arr,MEMCACHE_COMPRESSED,3600);
  print_r($mem->get("key2"));
  echo "<br />";
- //¶ÔÏóÐ´Èëmemcache
+ //å¯¹è±¡å†™å…¥memcache
  class mem{
  	public $name = "zh";
  	function at(){
- 		echo "ÎÒÓ®Ö°³¡";
+ 		echo "æˆ‘èµ¢èŒåœº";
  	}
  }
- $me = new mem(); //??¶ÔÏóÄÜ·ñ·Åµ½memcache
+ $me = new mem(); //??å¯¹è±¡èƒ½å¦æ”¾åˆ°memcache
  $mem->set("mObj",$me,MEMCACHE_COMPRESSED,3600);
  
  

@@ -1,1 +1,0 @@
-<?php	return array ( 0 => 'aId', 1 => 'aName', 2 => 'aPwd', '_autoinc' => true, '_pk' => 'aId', '_type' => array ( 'aId' => 'int(4)', 'aName' => 'varchar(20)', 'aPwd' => 'varchar(20)', ), );?>

@@ -39,7 +39,7 @@
 		  <LI class=user_main_input>
 			  <span><INPUT  id=TxtPassword type=test name="ckNum" style="width:80px;"></span>
 		  </LI>
-		  <li><img src="__APP__/common/verify" onclick="this.src='__APP__/Common/verify/random/'+Math.random();"></li>
+		  <li><img src="__APP__/Common/verify" onclick="this.src='__APP__/Common/verify/random/'+Math.random();"></li>
 	  </UL>
 	  </DIV>
 	  </LI>

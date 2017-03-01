@@ -1,5 +1,6 @@
 <?php
 return array(
-	//'配置项'=>'配置值'
+	"DATA_CACHE_TYPE"=>"file",
+        "DATA_CACHE_TIME"=>"30" //缓存时间 30 秒
 );
 ?>

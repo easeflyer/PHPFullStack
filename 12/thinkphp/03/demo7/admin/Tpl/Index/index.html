@@ -8,11 +8,16 @@
 <body>
 <a href="__URL__/demo/uName/zhangsan">baidu</a>
 <br />-------------------------------------<br />
-{$a+$b}
+{$a+$b} <br />
+{$a|md5} <br />
+{$a|md5|substr=0,4}<br />
+c:{$c}
 <br />-------------------------------------<br />
-在模板中使用循环<br />
+在模板中使用循环<br /><!-- comparison 加，减 默认情况下 t 每次增加 step;  lt 小于 gt 大于-->
+
 <for start="0" end="10" comparison="lt" step="1" name="t">
 	{$t}<br />
 </for>
+
 </body>
 </html>

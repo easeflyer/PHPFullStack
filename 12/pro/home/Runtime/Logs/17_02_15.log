@@ -1,0 +1,38 @@
+[ 2017-02-15T14:14:07+08:00 ] 0.0.0.0 /12/pro/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of IndexAction::success() should be compatible with that of Action::success() F:\ease\php_lesson\12\pro\home\Lib\Action\IndexAction.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `think_cat` WHERE ( cPid=0 )  [ RunTime:0.028002s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `think_pub` LIMIT 0,4   [ RunTime:0.038002s ]
+SQL: SELECT * FROM `think_pub` LIMIT 4,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.011001s ]
+SQL: select tb.bName,tb.bImg,tb.bMprice,tb.bJDprice,tc.cName from think_books as tb  left join think_cat as tc on tb.bFid=tc.cId and tb.bState=2 [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 70 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 70 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 70 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 70 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 70 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 88 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 88 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 88 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 88 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 88 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.136008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136008s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+

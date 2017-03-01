@@ -19,7 +19,7 @@ class UsersAction extends Action {
         $uTel = $_POST["uTel"];
         $uEmail = $_POST["uEmail"];
         $uAddress = $_POST["uAddress"];
-        
+
         $upload = new UploadFile(); // 实例化上传类
         $upload->maxSize = 3145728; // 设置附件上传大小,避免过大附件
         $upload->allowExts = array('jpg', 'gif', 'png', 'jpeg'); // 设置附件上传类型,安全
@@ -55,6 +55,8 @@ class UsersAction extends Action {
         }
         $users = new Model("users");
         $users->create(); // 获得所有表单数据
+
+        
         $users->uPic = $filePath;
         $users->add();
     }
@@ -66,6 +68,7 @@ class UsersAction extends Action {
         import('ORG.Util.Page');// 分页工具类
 
         $users = new Model("users");
+
         $count = $users->count();  //求记录数
         $Page = new Page($count, 2); // 实例化分页类 传入总记录数和每页显示的记录数 接收p参数
         $show = $Page->show(); //页码 上一页 下一页
@@ -78,6 +81,7 @@ class UsersAction extends Action {
         $this->display();
     }
 
+    
     function del() {
         header("content-type:text/html;charset=utf-8");
 
@@ -93,6 +97,7 @@ class UsersAction extends Action {
         }
         $sql_1 = "delete from think_users where uId={$uId}";
         $users->execute($sql_1);
+        
     }
 
     function updateView() {

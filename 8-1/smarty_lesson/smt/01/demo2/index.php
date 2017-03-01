@@ -2,6 +2,9 @@
 header("content-type:text/html;charset=utf-8");
 require("libs/Smarty.class.php");
 $st = new Smarty();
+
+
+
 $str = "我很爱国";
 $st->assign("demo",$str);
 

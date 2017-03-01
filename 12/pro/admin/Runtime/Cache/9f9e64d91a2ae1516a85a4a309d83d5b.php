@@ -6,20 +6,20 @@
 <link href="__PUBLIC__/Images/css1/css.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
 </head>
-<script type="text/javascript">
-		$(function(){
-			$("#bFid").change(function(){
-					$.ajax({
-						type:"get",
-						url:"__URL__/selSon/random/"+Math.random()+"/bFid/"+$("#bFid option:selected").val(),
-						dataType:"html",
-						success:function(data){
-							$("#bSid").html(data);
-						}
-					})
-			})
-		})
-	</script>
+    <script type="text/javascript">
+    $(function(){
+            $("#bFid").change(function(){
+                $.ajax({
+                    type:"get",
+                    url:"__URL__/selSon/random/"+Math.random()+"/bFid/"+$("#bFid option:selected").val(), // 选中的 option 的 value
+                    dataType: "html",
+                    success: function (data) {
+                        $("#bSid").html(data);
+                    }
+                })
+            })
+        })
+    </script>
 <body>
 <form action="__URL__/addAction" method="post" enctype="multipart/form-data">
 <table class="table" cellspacing="1" cellpadding="2" width="99%" align="center" border="0">
@@ -71,7 +71,7 @@
 			<?php if(is_array($rs_1)): foreach($rs_1 as $key=>$val_1): ?><option value="<?php echo ($val_1["cId"]); ?>"><?php echo ($val_1["cName"]); ?></option><?php endforeach; endif; ?>
 		</select>
 	  	<select name="bSid" id="bSid">
-			<option value="-1">请选择子类型</option>
+			<option value="-1">请1111选择子类型</option>
 		</select>
 	  </td>
     </tr>

@@ -12,7 +12,7 @@ class CommonAction extends Action {
         //explode(',',C('NOT_AUTH_MODULE') 把 逗号分隔的字符串转换成数组
         //MODULE_NAME 是当前模块的名称 也就是 类文件的名称
         if (C('USER_AUTH_ON') && !in_array('MODULE_NAME', explode(',', C('NOT_AUTH_MODULE')))) {
-            import('Org.Util.RBAC');
+            import('ORG.Util.RBAC');
             // RBAC::AccessDecision('adminmenu')
             // 验证 adminmenu根节点的 “当前模块” ；当前用户是否具备访问权限。
             // AccessDecision 内部取出当前模块

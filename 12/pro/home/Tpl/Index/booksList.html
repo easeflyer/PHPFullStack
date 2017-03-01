@@ -98,6 +98,8 @@
                     <div class="book_tit" style="width:209px;"><h2>浏览同级分类<br /><span>Browse other categories</span></h2></div>
                     <div class="book_content">
                         <ul>
+                            <!-- 子类型显示 左侧菜单 -->
+                            
                             <foreach name="rs" item="val">
                                 <li><a href='#'>{$val.cName}</a></li>
                             </foreach>
@@ -170,7 +172,9 @@
                 <div class="clear"></div>
 
                 <div class="product_list">
-                    <!------------------------------------->
+                    
+                    <!-------------- 书籍列表----------------------->
+                    
                     <foreach name="rs_1" item="v1">
                         <div class="pro_item">
                             <div class="pro_picture"><a href="__URL__/bookDetail/bId/{$v1.bId}"><img src="__ROOT__/{$v1.bImg}" /></a></div>

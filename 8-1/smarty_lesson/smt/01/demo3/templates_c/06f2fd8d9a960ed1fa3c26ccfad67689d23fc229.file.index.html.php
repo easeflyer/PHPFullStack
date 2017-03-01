@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-01 03:53:57
+<?php /* Smarty version Smarty-3.1.15, created on 2017-02-08 09:53:00
          compiled from ".\templates\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:9275531159ba762393-88648114%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '06f2fd8d9a960ed1fa3c26ccfad67689d23fc229' => 
     array (
       0 => '.\\templates\\index.html',
-      1 => 1393646035,
+      1 => 1486364494,
       2 => 'file',
     ),
   ),
@@ -28,6 +28,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
+<!-- 注意下面的 css 路径是相对于 index.php 而言的-->
 <link href="public/css/index.css" rel="stylesheet" type="text/css" />
 </head>
 <style type="text/css">

@@ -1,5 +1,12 @@
 // JavaScript Document
 document.write("<br />-------最简单的函数1--------<br />");
+function test1(){
+    document.write("2222<br />");
+    return 1;
+}
+document.write(  test1()   );
+
+
 function demo() {
     document.write("我很爱国<br />");		 //打印不是返回值
     document.write(3333333333333);
@@ -14,12 +21,15 @@ document.write(a);
 
 
 document.write("<br />-------带参数的函数2--------<br />");
+
 function demo1(a,b) {
     document.write(a+b);
     document.write("<br />");
     document.write(""+a+b);
 }
-demo1(2,3);
+
+//demo1(2,3);
+demo1(5,15);
 
 
 
@@ -30,7 +40,7 @@ function  demo2(str2) {
     return num; //返回值
 }
 var b = demo2(3);
-//document.write(b);
+document.write(b);
 
 
 
@@ -49,7 +59,7 @@ function fun(a, b) {
     document.write("<br /><br />");
     document.write("<br />arguments.callee:<pre>"+arguments.callee); // 函数自身的文本
     document.write("</pre><br />");
-    document.write("<br />arguments[1]:"+arguments[1]); // 第一个参数
+    document.write("<br />arguments[1]:"+arguments[0]); // 第一个参数
 }
 //var obj = new fun(1, 2);  // 这样调用也可以
 fun(9,2);

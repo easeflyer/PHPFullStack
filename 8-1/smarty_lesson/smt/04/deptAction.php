@@ -1,8 +1,12 @@
 <?php
+//  引入配置
 include 'config.php';
+
+//  获得操作参数
 $action = $_GET["action"];
-if($action=="insert"){
-	
+
+//  根据操作参数执行不同的流程
+if($action=="insert"){	
 	$cdName 	= $_POST["cdName"];
 	$clId 			= $_POST["clId"];
 	$cdInfo 		= $_POST["cdInfo"];
@@ -12,8 +16,8 @@ if($action=="insert"){
 }elseif($action=="update"){
 	$cdId = $_GET["cdId"];
 	$cdName 	= $_POST["cdName"];
-	$clId 			= $_POST["clId"];
-	$cdInfo 		= $_POST["cdInfo"];
+	$clId 		= $_POST["clId"];
+	$cdInfo 	= $_POST["cdInfo"];
 	$sql = "update com_dept set cdName='{$cdName}',clId= {$clId},cdInfo= '{$cdInfo}' where cdId={$cdId}";
 	echo $sql;
 }elseif($action=="delete"){

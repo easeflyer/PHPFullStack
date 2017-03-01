@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="../demo.css">
         <script type="text/javascript" src="../../jquery.min.js"></script>
         <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+
     </head>
     <body>
         <h2>Basic Panel</h2>
@@ -19,24 +20,27 @@
             <div class="demo-tip icon-tip"></div>
             <div>The panel is a container for other components or elements.</div>
         </div>
-        <div style="margin:10px 0;">
-            <a href="#" class="easyui-linkbutton" onclick="javascript:$('#p').panel('open')">Open</a>
-            <a href="#" class="easyui-linkbutton" onclick="javascript:$('#p').panel('close')">Close</a>
-            <a href="#" class="easyui-linkbutton" data-options="plain:true" onclick="javascript:loading()">load</a>
-        </div>
+
         <!--
         div 增加 class="easyui-panel" title="Basic Panel" 基本实现. 其他属性见手册
         根据实际尺寸 显示滚动条 不需要自己设置.
         -->
         从标记创建panel非常简单,仅仅只需要添加"easyui-panel"样式给div标记
-
+        <!-------面板 panel-------------------------------------------------------------------------->
         <div id="p" class="easyui-panel" title="My Panel"   
              style="width:500px;height:150px;padding:10px;background:#fafafa;"  
-             data-options="iconCls:'icon-add',closable:true,  
-             collapsible:true,minimizable:true,maximizable:true">  
+             data-options="iconCls:'icon-add',closable:true,collapsible:true,minimizable:true,maximizable:true">  
             <p>panel content.</p>  
             <p>panel content.</p>  
         </div>
+
+        <!-------按钮 linkbutton--------------------------------------------------------------------->
+        <div style="margin:10px 0;">
+            <a href="#" class="easyui-linkbutton" onclick="javascript:$('#p').panel('open')">Open</a>
+            <a href="#" class="easyui-linkbutton" onclick="javascript:$('#p').panel('close')">Close</a>
+            <a href="#" class="easyui-linkbutton" data-options="plain:true" onclick="javascript:loading()">load</a>
+        </div>
+
         <script>
             // 点击load按钮,加载另外一个页面。并执行回调函数
             function loading() {
@@ -48,6 +52,33 @@
                 });
             }
             //loading();
+        </script>
+
+        <!------- 通过 JQuery 创建 panel --------------------------------------------------------------------->
+        <div id="p1" style="padding:10px;">  
+            <p>panel1 content.</p>  
+            <p>panel1 content.</p>  
+        </div>  
+        <script>
+            
+            $(function () {
+                $('#p1').panel({
+                    width: 500,
+                    height: 150,
+                    title: 'My Panel 通过 jquery 创建',
+                    tools: [{
+                            iconCls: 'icon-add',
+                            handler: function () {
+                                alert('new')
+                            }
+                        }, {
+                            iconCls: 'icon-save',
+                            handler: function () {
+                                alert('save')
+                            }
+                        }]
+                });
+            });
         </script>
     </body>
 </html>

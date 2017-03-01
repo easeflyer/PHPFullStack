@@ -1,0 +1,96 @@
+/**  reset 复位 重置部分暂时忽略
+****************************************************************************/
+
+
+
+
+/**  整体背景色   用于辅助布局，项目完成后可以注释掉，或者删掉。
+****************************************************************************/
+div#top{background-color:#cccccc}
+div#top .top_main{background-color:#dddddd}
+div#top .top_main div {background-color:#eeeeee}
+
+div#header{background-color:#eeeeee}
+div#header .headertop{background-color:#ffffff}
+div#header .headertop div{background-color:#ffffcc}
+div#header .nav{background-color:#dddddd}
+div#header .nav .menu{background-color:#aaaaaa}
+
+div#wrap{background-color:#eeeeee}
+div#section1{background-color:#cccccc}
+div#section1 .catelist{background-color: #ffffcc}
+div#section1 .firstmain .pic{background-color:#aaaaaa }
+div#section1 .firstmain .pics{background-color:#aaaacc}
+div#section1 .firstright{background-color: #ffffcc}
+
+div#section2{background-color:#cccccc}
+div#section3{background-color:#cccccc}
+div#section4{background-color:#cccccc}
+div#section5{background-color:#cccccc}
+
+div#footer{background-color:#cccccc}
+div#footertop{background-color:#aaaaaa}
+div#footermain{background-color:#cccccc}
+
+div#copyright{background-color:#eeeeee}
+
+
+
+
+
+
+
+
+
+/**  内容开始   以下是定义了网站的整体结构
+****************************************************************************/
+
+
+/**  top 部分详细实现
+----------------------*/
+#top{height: 34px;background: #f9f9f9;border-bottom: 1px solid #f2f2f2;}
+#top .top_main{height: 34px;width: 1200px;line-height:34px;margin: 0 auto;}
+#top .tm1{width: 90px; float: left;margin-left: 5px;}
+#top .tm2{width: 180px;float: left;margin-left: 240px;}
+#top .tm3{width: 535px;float: left;margin-left: 10px;}
+#top .tm4{width: 115px;float: left;margin-left: 10px;}
+
+/**  header 部分结构布局
+----------------------*/
+#header{height: 140px;border-bottom: 3px solid #ff2832;}
+#header .headermain{width: 1200px;margin: 0 auto;height: 100%;}
+#header .headermain .headertop{height: 100px;}
+#header .headermain .headertop .logo{width: 200px;height: 100px;float: left;}
+#header .headermain .headertop .search{height:100px;width: 565px;float: left;margin-left: 162px;}
+#header .headermain .headertop .shopcar{height: 100px;width: 200px;float: left;margin-left: 73px;}
+
+#header .headermain .nav {height: 40px;}
+#header .headermain .nav .cate{height: 40px;height: 40px;width: 200px;background: #ff2832;float: left;}
+#header .headermain .nav .menu {width:975px;height: 40px;margin-left: 25px;float: left;}
+
+#wrap       {height: auto;  width:1200px;   margin: 0 auto;}
+/** section1 部分结构布局
+----------------------*/
+#section1   {height:458px;}
+#section1 .catelist{width: 200px;height: 454px;padding-top: 4px;float: left;}
+#section1 .firstmain{width: 800px;height: 458px;float: left;}
+#section1 .firstmain .pic{width: 800px;height: 295px;}
+#section1 .firstmain .pics{width: 800px;height: 160px;}
+#section1 .firstright{width: 200px;height: 457px;float: left;}
+
+
+
+
+
+
+
+#section2   {height:497px;  margin-top: 30px;}
+#section3   {height:500px;  margin-top: 30px;}
+#section4   {height:600px;  margin-top: 30px;}
+#section5   {height:382px;  margin-top: 30px;}
+
+#footer     {height:auto;   margin-top: 35px;   border-top: 2px solid #ff2832;}
+#footertop  {height:78px;                       border-bottom:  1px solid #e6e6e6;background: #fafafa}
+#footermain {height:170px;                      border-bottom:  1px solid #e6e6e6;}
+
+#copyright  {height:173px}

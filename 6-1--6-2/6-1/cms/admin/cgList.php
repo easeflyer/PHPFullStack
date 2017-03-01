@@ -1,6 +1,17 @@
 <?php
 include("fun/inc.php");
 include("fun/mysql.fun.php");
+
+
+session_start();
+if(!isset($_SESSION['aId'])){
+    echo "尚未登录！";
+    exit;
+}
+
+
+
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -19,11 +30,6 @@ include("fun/mysql.fun.php");
 		<td>子类管理</td>
 	<tr>
 	<?php
-        session_start();
-        if(!isset($_SESSION['aId'])){
-            echo "尚未登录！";
-            exit;
-        }
         echo $_SESSION['aName'];
         
 	$sql_0 = "select * from category where cgPid=0";

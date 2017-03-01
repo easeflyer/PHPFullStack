@@ -1,0 +1,44 @@
+/**  reset 复位 重置部分暂时忽略
+****************************************************************************/
+
+
+
+
+/**  整体背景色 布局用途，项目完成后可以注释掉
+****************************************************************************/
+div#top{background-color:#cccccc}
+div#header{background-color:#eeeeee}
+
+div#wrap{background-color:#eeeeee}
+div#section1{background-color:#cccccc}
+div#section2{background-color:#cccccc}
+div#section3{background-color:#cccccc}
+div#section4{background-color:#cccccc}
+div#section5{background-color:#cccccc}
+
+div#footer{background-color:#cccccc}
+div#footertop{background-color:#aaaaaa}
+div#footermain{background-color:#cccccc}
+
+div#copyright{background-color:#eeeeee}
+
+/**  内容开始   以下是定义了网站的整体结构
+****************************************************************************/
+
+
+#top{height: 34px;background: #f9f9f9;border-bottom: 1px solid #f2f2f2;}
+#header{height: 140px;border-bottom: 3px solid #ff2832;}
+
+
+#wrap       {height: auto;  width:1200px;   margin: 0 auto;}
+#section1   {height:458px;}
+#section2   {height:497px;  margin-top: 30px;}
+#section3   {height:500px;  margin-top: 30px;}
+#section4   {height:600px;  margin-top: 30px;}
+#section5   {height:382px;  margin-top: 30px;}
+
+#footer     {height:auto;   margin-top: 35px;   border-top: 2px solid #ff2832;}
+#footertop  {height:78px;                       border-bottom:  1px solid #e6e6e6;background: #fafafa}
+#footermain {height:170px;                      border-bottom:  1px solid #e6e6e6;}
+
+#copyright  {height:173px}

@@ -1,6 +1,13 @@
 // JavaScript Document
 document.write("<br />-------------if else--------------<br />");
-var wea = "雪天";
+var wea = "雾天";
+
+if(wea == "晴天"){
+    document.write(wea + ":");
+}else{
+    document.write("其他天气:");  
+}
+
 if (wea == "阴天") {   //晴天 == 阴天  false 
     document.write("游泳");
 } else if (wea == "雪天") {//晴天 == 雪天  false 

@@ -1,9 +1,11 @@
 // JavaScript Document  循环的课程，适当多留一些时间 练习
 document.write("<br />----------最简单的---for--------------<br />");
+
 for (var i = 0; i <= 10; i++) {
     document.write(i);
     document.write("重复这条语句<br />");
 }
+
 document.write("最后i的值是：" + i);
 
 
@@ -13,11 +15,14 @@ for (var m = 1; m <= 9; m++) {
     // m = 2
 
     for (var n = 1; n <= m; n++) {
+        
         document.write(m + "*" + n + "=" + m * n + "&nbsp;&nbsp;");
     }
 
     document.write("<br />");
 }
+
+
 document.write("<br />-----------简单--while--------------<br />");
 
 var y = 0;
@@ -57,11 +62,12 @@ do {
 document.write("<br />-------------break--------------<br />");
 for (var k = 1; k <= 8; k++) {
     if (k == 4) {
-        break;	 //终止当前的语句块。作用：跳出且终止循环，继续 执行后边的代码
-        //continue; //终止当前循环，后边的循环  继续执行
+        //break;	 //终止当前的语句块。作用：跳出且终止循环，继续 执行后边的代码
+        continue;        //终止当前循环，后边的循环  继续执行
     }
     document.write(k + "<br />");
 }
+
 document.write("循环后的语句");
 
 document.write("<br />-------------with--------------<br />");

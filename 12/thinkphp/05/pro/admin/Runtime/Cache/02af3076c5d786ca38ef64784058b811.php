@@ -20,6 +20,8 @@
 	  <td class="td_bg" width="14%" height="23" align="center">会员地址</td>
 	  <td class="td_bg" width="16%" height="23" align="center">操作</td>
    </tr>
+      
+      
    <?php if(is_array($rs)): foreach($rs as $key=>$val): ?><tr>
       <td class="td_bg" width="14%" height="23" align="center"><?php echo ($val["uName"]); ?></td>
 	  <td class="td_bg" width="14%" height="23" align="center"><?php echo ($val["uTel"]); ?></td>
@@ -27,11 +29,14 @@
 	  <td class="td_bg" width="14%" height="23" align="center"><img src="__ROOT__/<?php echo ($val["uPic"]); ?>" width="80" height="60"></td>
 	  <td class="td_bg" width="14%" height="23" align="center"><?php echo ($val["uAddress"]); ?></td>
 	  <td class="td_bg" width="16%" height="23" align="center">
+              
 	  <a href="__URL__/del/uId/<?php echo ($val["uId"]); ?>">删除</a> 
 	  | 
 	  <a href="__URL__/updateView/uId/<?php echo ($val["uId"]); ?>">修改</a>
 	  </td>
    </tr><?php endforeach; endif; ?>
+      
+      
   <tr>
       <th class="bg_tr" style="font-size:14px;" align="center" colspan="6" height="25"><?php echo ($show); ?></th>
     </tr>
