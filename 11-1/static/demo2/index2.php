@@ -1,5 +1,5 @@
 <?php
-//ob_end_flush();³åË¢³ö£¨ËÍ³ö£©Êä³ö»º³åÇøÄÚÈÝ²¢¹Ø±Õ»º³å
+//ob_end_flush();å†²åˆ·å‡ºï¼ˆé€å‡ºï¼‰è¾“å‡ºç¼“å†²åŒºå†…å®¹å¹¶å…³é—­ç¼“å†²
 ob_start();
 echo "ccccc";
 header("content-type:text/html;charset=utf-8");
