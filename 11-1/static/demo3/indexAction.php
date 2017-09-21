@@ -13,6 +13,7 @@ if($action=="insert"){
 
 }elseif($action=="update"){
 
+// 静态化
 }elseif($action=="statics"){
 	$aId = $_GET["aId"];
 	$sql = "select * from article where aId={$aId}";
