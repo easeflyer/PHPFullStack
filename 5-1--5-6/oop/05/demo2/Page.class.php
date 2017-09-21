@@ -47,6 +47,7 @@ class Page {
             }
             $_GET['page'] = $i;
             $this->pageIndex[$index] = http_build_query($_GET);
+            
         }
     }
 

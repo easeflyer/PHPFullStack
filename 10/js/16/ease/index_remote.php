@@ -3,6 +3,9 @@
     <body>
 
         <script>
+            // 这个代码是 调用远程 json 数据的案例 要求 远程的 getJsonDiv.php 释放权限才能获取到数据
+            
+            
             //alert(33333333);
             window.onload = function () {
                 //alert(3333);

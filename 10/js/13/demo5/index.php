@@ -27,20 +27,22 @@ span{
 <script type="text/javascript">
 	window.onload = function(){
 		var a = document.createElement("a");
+                //var outdiv = document.getElementById("outdiv");
 		a.href="http://www.baidu.com";
 		a.innerHTML = "百度";
 		a.style.color = "#ff0000";           // 设置属性  注意有个行内属性的问题。
-		a.setAttribute("style","color:#00ff11"); // setAttribute 设置属性
+		a.setAttribute("style","color:#00ff11"); // setAttribute 设置属性 覆盖了上面的设置
 		document.body.appendChild(a);  // 追加一个节点
+                //outdiv.appendChild(a);
 
 		// 创建一个图片 并追加到 body
-		/*
+		
 		var img = document.createElement("img");
 		img.src = "https://www.baidu.com/img/baidu_jgylogo3.gif";
 		img.width ="300";  // 注意尺寸不要加 px 否则出错。这里默认就是 px
 		img.height ="300";
 		document.body.appendChild(img);
-		*/
+		
 	}
 </script>
 
@@ -54,6 +56,5 @@ span{
 		</div>
 		<h4 class="two">我是标题h4标记</h4>
 	</div>
-	
 </body>
 </html>

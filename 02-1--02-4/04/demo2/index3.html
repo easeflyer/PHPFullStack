@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{border:1px solid #ff0000}
+            .right
+            {   /* 使用绝对定位进行 水平左右对齐 并且不影响其他元素的位置。*/
+                position:absolute; /* 不占用文档流 */
+                right:0px;
+                width:300px;
+                background-color:#b0e0e6;
+            }
+            /* 水平居中 margin:0 auto; 代表 左右 auto 就是自动分配空间因此起到了居中的作用。 */
+            .center{
+                width:200px;
+                background-color:#aaaaaa;
+                margin:auto;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="right">
+            <p>1111这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。</p>
+            <p>1111这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。</p>
+        </div>
+
+        <div class="center">
+            <p>这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。</p>
+            <p>这是一个段落。这是一个段落。这是一个段落。这是一个段落。这是一个段落。</p>
+        </div>
+
+    </body>
+</html>

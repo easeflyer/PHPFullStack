@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title><?php echo ($catedata[catname]); ?>-我赢商城</title>
+    <title><?php echo ($catedata[catname]); ?>-3C商城</title>
     <link rel="stylesheet" type="text/css" href="__SKIN__css/show.css" />
     <link rel="stylesheet" type="text/css" href="__SKIN__css/left.css" />
    <style>

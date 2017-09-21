@@ -9,7 +9,8 @@
 
 
             function createop(_v, _r) {
-                return "<a href='index.php?g=admin&m=rbac&a=roleedit&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-group_edit\"'>编辑</a>\n\
+                return "\
+        <a href='index.php?g=admin&m=rbac&a=roleedit&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-group_edit\"'>编辑</a>\n\
                                                 <a href='javascript:void(0)'  onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton'   data-options='iconCls:\"icon-group_delete\"'>删除</a>\n\
                                                 <a href='index.php?g=admin&m=rbac&a=manageroleuser&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-group_edit\"'>管理成员</a>\n\
                                                 <a href='index.php?g=admin&m=rbac&a=access&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-key\"'>配置权限</a>";

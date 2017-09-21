@@ -81,9 +81,9 @@ class GoodsAction extends CommonAction {
                     if (is_array($value)) {
                         $value = json_encode($value);
                     }
-                    $attrdata[val] = $value;
-                    $attrdata[goods_id] = $goodsid;
-                    $attrdata[attrlist_id] = $key;
+                    $attrdata[val] = $value;    // 属性值 如果是 多选框就是一个 json 字符串
+                    $attrdata[goods_id] = $goodsid; //对应产品
+                    $attrdata[attrlist_id] = $key;  // 对应属性的名字 attrlist[n] 的下标，这个下标就是 attrlist 表的 id  参见 AttrlistAction 的 getlist
                     $attrval->add($attrdata);
                 }
                 $mysavedata[thumb] = $this->addthumb($goodsid);

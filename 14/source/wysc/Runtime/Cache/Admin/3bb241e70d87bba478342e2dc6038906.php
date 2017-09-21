@@ -14,6 +14,7 @@
 a{text-decoration:none; color:#000}
 
 </style>
+
         <script type="text/javascript">
             function createop(_v, _r) {
                 return "<a href='index.php?g=admin&m=Orders&a=detail&orderid=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-cart_go\"'>查看订单详情</a>\n\

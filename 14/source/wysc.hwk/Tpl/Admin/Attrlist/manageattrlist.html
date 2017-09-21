@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <include file='Common:miniheader' />
+        <script>
+            function getshow(_v, _r) {
+                return _v == 0 ? '否' : '是';
+            }
+            function createop(_v, _r) {
+                return "<a href='index.php?g=admin&m=Attrlist&a=edit&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-drive_edit\"'>编辑</a><a href='Javascript:void(0)' onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton' data-options='iconCls:\"icon-cancel\"'>删除</a>";
+            }
+            function renderbutton() {
+                $('a.easyui-linkbutton').linkbutton({plain: true});
+            }
+            function gotopage(_page, _pagesize) {
+                window.location.href = 'index.php?g=admin&m=Brand&a=managebrand&page=' + _page;
+            }
+            function confirmdel(_id) {
+                $.messager.confirm('确认删除', '是否确认删除该属性', function (r) {
+                    if (r) {
+                        window.location.href = 'index.php?g=admin&m=Attrlist&a=del&id=' + _id;
+                    }
+                });
+            }
+        </script>
+        <title>管理属性列表</title>
+    </head>
+    <body>
+        <div class="easyui-panel" data-options="title:'管理商品属性列表',
+             border:false,
+             iconCls:'icon-chart_organisation'
+             ">
+            <table class="easyui-datagrid" data-options="border:false,
+                   fitColumns:true,
+                   toolbar:'#toolbar',
+                   onLoadSuccess:renderbutton
+                   ">
+                <thead>   
+                    <th data-options="field:'id',align:'center',width:20">id</th>    
+                    <th data-options="field:'name',width:50">属性名称</th>   
+                    <th data-options="field:'inputname',width:50">控件名称</th> 
+                    <th data-options="field:'inputtype',width:50">输入类型</th>   
+                    <th data-options="field:'attrname',align:'center',width:50">所属类型</th>
+                    <th data-options="field:'preview',align:'center',width:150">预览</th>
+                    <th data-options="field:'opration',
+                        width:100,
+                        formatter:createop
+                        ">操作</th>
+                </thead>
+                <tbody>
+                    <volist name="attrlist" id="val">
+                        <tr>
+                            <td>{$val['id']}</td>
+                            <td>
+                                {$val['name']}
+                            </td>
+                            <td>
+                                {$val['inputname']}
+                            </td>
+                            <td>
+                                <if condition="$val['inputtype'] eq 1">
+                                    文本框
+                                    <elseif condition="$val['inputtype'] eq 2"/>
+                                    单选框
+                                    <elseif condition="$val['inputtype'] eq 3"/>
+                                    多选框
+                                </if>
+                            </td>
+                            <td>{$attrname}</td>
+                            <td>{$val[preview]}</td>
+                            <td></td>
+                        </tr>
+                    </volist>
+                </tbody>
+            </table>
+            <div id="toolbar">
+                <a href="{:U('Attrlist/addattrlist',array(attrid=>$attrid))}" class="easyui-linkbutton"data-options="plain:true,
+                   iconCls:'icon-chart_organisation_add'
+                   ">添加商品属性</a>
+                <a href="{:U('Goodsattr/managegoodsattr')}" class="easyui-linkbutton"data-options="plain:true,
+                   iconCls:'icon-page_white_go'
+                   ">返回模型列表</a>
+            </div>
+        </div>
+    </body>
+</html>

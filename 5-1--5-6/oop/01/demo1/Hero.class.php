@@ -15,6 +15,7 @@ class Hero{  //类名称 与 文件名称相同
 
 $zhangfei  = new Hero(); // 实例化英雄泪
 $zhangfei->userName = "张飞";
+$zhangfei->userSex = "男";
 print_r($zhangfei);
 /*
  * echo $zhangfei;
@@ -23,6 +24,7 @@ to string in F:\AppServ\www\oop\01\demo1\Hero.class.php on line 17
 var_dump()
 print_r();
 */
+
 
 
 

@@ -6,13 +6,14 @@
 </head>
 <script type="text/javascript">
 window.onload = function(){
+                //alert(   typeof(  new Array()   )   );
 		// 这里需要注意， json 最外层一定是 {} 如果是 [] 则代表的是数组。
 		//var str = '{"name":"zhangsan","age":18,"sex":true}';
 		//var dt = {name:"zhangsan",age:100}; //json对象  ==>{"name":"zhangsan","age":100}
-		var dt1 = {"name":"zhangsan","age":100};
+		var dt1 = {"name":"zhangsan1","age":100};
 		alert("dt1[name]:"+dt1["name"]);
 		alert("dt1.name:"+dt1.name);
-		var arr = [100,"lisi","nan",{"name":"zhangsan1"}];
+		var arr = [100,"lisi","nan",{"name":"zhangsan12"}];
 		alert(arr[3].name); // 数组的第4个成员是一个对象。
 		//数组序列化
 		var arr = new Array();
@@ -33,10 +34,13 @@ window.onload = function(){
 		alert(brr[2]);
                 
                 brr[2] = "wangwu2";
-                alert(arr[2]);
+                alert("arr[2]"+arr[2]);
 		
 }
 </script>
+    
+    
 <body>
 </body>
+    
 </html>

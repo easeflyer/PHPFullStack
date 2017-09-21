@@ -8,6 +8,8 @@
 window.onload = function(){
 }
 </script>
+    
+    
 <frameset rows="20%,*">
 	<frame src="top.php" name="top" />
 	<frameset cols="20%,*">
@@ -15,4 +17,6 @@ window.onload = function(){
 		<frame src="right.php"  name="right" />
 	</frameset>
 </frameset>
+    
+    
 </html>

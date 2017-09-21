@@ -42,9 +42,6 @@
 	 tree.openAll() 打开所有子菜单
 	 tree.closeAll()关闭所有子菜单
 
-alixixi.com
-
-
 
 
 

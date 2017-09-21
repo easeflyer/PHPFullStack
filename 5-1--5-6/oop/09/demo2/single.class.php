@@ -1,7 +1,7 @@
 <?php
 
 class single{
-	public static $_instance;
+	public static $_instance; // 静态的，只有一个
         public $pro = "aaaa<br />";
 	private function __construct(){}  // 不允许 直接 new 生成对象;
 	function demo(){
@@ -23,12 +23,11 @@ class single{
 
 $s = single::getInstance();
 $s1 = single::getInstance();  // 得到的都是相同的对象
-
 echo $s->pro;
 echo $s1->pro;
 
 $s->pro = "11111<br />";
-echo "===============================================";
+echo "===============================================<br />";
 // 只有一个实例。
 echo $s->pro;
 echo $s1->pro;

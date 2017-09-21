@@ -1,4 +1,11 @@
 <?php
+/**
+ *  1 实例化 smarty
+ *  2 修改默认目录
+ *  3 调用模板
+ */
+
+
 //导入入口文件
 include("libs/Smarty.class.php");
 //实例化 smarty对象

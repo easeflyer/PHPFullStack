@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
+    http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>个人信息管理-用户中心-3C商城</title>
+        <include file="Admin/Common/miniheader" />
+        <link href="__SKIN__css/ucentermenu.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/ucenter.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/header.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/reset.css" rel="stylesheet" type="text/css" />
+        <script src="__SKIN__js/jq.js" type="text/javascript"></script>
+        <script>
+            function changeaddressvalue(obj, _addid) {
+                $.get("index.php?g=home&m=User&a=ucenter&option=editaddressjson", {id: _addid, fieldname: obj.name, val: obj.value}, function () {
+                })
+            }
+        </script>
+        <style>
+            .table-form tr th {
+                text-align: center;
+                height: 24px;
+                line-height: 24px
+            }
+        </style>
+    </head>
+    <body>
+        <include file="Common:header"/>
+        <div class="position">
+            <h6>当前位置：</h6><a href="__APPURL__">首页 </a><span>&gt;</span><a href="{:U('User/ucenter')}"> 用户中心 </a><span>&gt;</span><a href="{:U('User/ucenter',array('option'=>'selffavor'))}"> 个人收藏</a>
+        </div>
+        <div class="main">
+            <include file="User:ucentermenu" />
+            <div class="right">
+                <form name="f1" action="" method="post" enctype="multipart/form-data">   
+                    <table class="table-form" border="0" width="100%">
+                        <tr>
+                            <th style="width:70px;">缩略图</th>
+                            <th>名称</th>
+                            <th>价格</th>
+                            <th>商标</th>
+                            <th>操作</th>
+                        </tr>
+                        <volist name="favorgoods" id="item">
+                            <tr>
+                                <td align="center"><a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="
+                                         <if condition="$item[thumb]">
+                                         __APPURL__/Public/Uploads/{$item[thumb]}
+                                         <else/>
+                                         __SKIN__images/nopic.png
+                                         </if>
+                                         " width="64" height="64" /></a></td> 
+                                <td><a href="{:U('Index/show',array('goodid'=>$item[id]))}">{$item[goodsname]}</a></td>
+                                <td><span style="color:red">￥</span>{$item[price]}</td>
+                                <td>{$item[brandname]}</td>
+                                <td align="center"><a href="{:U('User/ucenter',array(option=>'delfavor','favorid'=>$item[favorid]))}"><span style="color:red">删除收藏</span></a></td>
+                            </tr>
+                        </volist>
+                    </table> 
+                </form>  
+            </div>
+        </div>
+        <include file="Common:footer"/>
+    </body>
+</html>

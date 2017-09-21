@@ -36,16 +36,17 @@ function wt(str){
                      brr[1] = 456;
                      brr[2] = 789;
 */
-
 var arr = new Array();
 
-wt(typeof arr);
+wt("arr的类型是："+ typeof arr);
 document.write("<br />------数组声明的时候赋值---------<br />");
-var  arr = new Array(123,456,789,"bbaaaaa",true,6666);
+var  arr = new Array(456,789,"bbaaaaa",true,6666);
 
 wt(arr[1]);
 wt("元素个数："+arr.length); //返回数组的元素个数。  最后一个元素的下标，元素个数-1****;
 document.write("<br />------数组先声明，在赋值---------<br />");
+
+
 var brr = new Array(); //声明了一个空数组。
 brr[0] = 123;
 brr[1] = 456;
@@ -72,6 +73,7 @@ wt(brr.length);  // 数组元素的个数
 
 document.write("<br />------用【】来声明数组---------<br />");
 var crr = [];
+
 wt(typeof crr);
 var crr = [123,"aaa",true];
 //alert(crr[2]);
@@ -98,15 +100,20 @@ wt(drr[2]);
 
 
 document.write("<br />------for遍历数组---------<br />");
-var frr  = ["zhangsan","nan","电话不祥",170];
-for(var i=0;i<=frr.length-1;i++){
+
+var frr  = ["zhangsan","nan","电话不祥",170,"最后一个元素"];
+
+for(var i=0;i<frr.length;i++){
+    
+        if(i==2)document.write("某人的：");
 	document.write(frr[i]+"<br />");	
 }
 
 
 document.write("<br />------for....in遍历数组---------<br />");
+
 var grr = ["aaaa","bbbbb","cccc","ddddd","eeee"];
-for(var i in grr){
+for(var i in grr){   // i 就是数组下标。
 	//document.write(i+"<br />");	//array[i]
 	document.write(grr[i]+"<br />");
 }
@@ -142,22 +149,34 @@ for(var i in grr){
 
  */
 document.write("<br />------字符串作为下标---------<br />");
-var hrr = new Array();
+// 关联数组的 .length 无实际意义   .length 仅仅是最大下标+1
+var hrr = new Array(1,2,3);
 hrr["one"] = "aaa";
 hrr["demo"] = "bbbb";
 hrr["test"] = "cccc";
-wt(hrr.length);
+hrr[13] = "dddd";
+wt("length:"+hrr.length);
+
 for (var j in hrr) {
     //document.write(j+"<br />");	
     document.write(hrr[j] + "<br />");
 }
+
 document.write("<br />------二维数组---------<br />");
+
+var brr = [
+    [1,2,3],
+    [11,22,33],
+    [111,222,333],
+];
+
 
 var krr = new Array(
         new Array(111, 222, 333),
         new Array(444, 555, 666),
         new Array(7777, 888, 9999)
         );
+
 
 //alert(krr[1][1]);
 for (var m in krr) {
@@ -166,9 +185,6 @@ for (var m in krr) {
         wt(krr[m][n]);
     }
 }
-
-
-
 
 
 

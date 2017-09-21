@@ -9,7 +9,7 @@
     <?php echo ($branddata[0][brandname]); ?>
     <?php elseif($keyword): ?>
     搜索“<?php echo ($keyword); ?>”<?php endif; ?>
-    -我赢商城</title>
+    -3C商城</title>
 </head>
 <body>
     <link type="text/css" rel="stylesheet" href="__SKIN__css/reset.css" />

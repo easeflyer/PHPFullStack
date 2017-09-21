@@ -20,7 +20,7 @@ class PublicAction extends Action {
             }
             import("ORG.Util.RBAC");
             $where = "username='$username'";
-            // 这里就是实例化了 当前登陆的用户。
+            // 这里就是实例化了 当前登陆的用户。 返回用户的信息。不管是否存在。
             $userinfo = RBAC::authenticate($where, 'Adminuser');
             if (!$userinfo) {
                 $this->error('帐号不存在');

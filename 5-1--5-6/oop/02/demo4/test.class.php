@@ -14,7 +14,7 @@ class test{
 		echo $this->name;
 	}
 }
-/*
+
 $t1 = new test();
 $t1->name = "小燕子";
 echo $t1->name;
@@ -22,7 +22,9 @@ echo $t1->name;
 $t2 = new test();
 $t2->name = "小张";
 echo $t2->name;
-*/
+
+
+/*
 $t3 = new test();
 $t3->name = "小刘";
 $t3->demo();
@@ -30,7 +32,7 @@ $t3->demo();
 $t4 = new test();
 $t4->name = "小王";
 $t4->demo();
-
+*/
 
 
 

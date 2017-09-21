@@ -13,20 +13,22 @@
 			if($dv.is(":visible")){
 				//$dv.hide(2000);
 				$dv.fadeOut(2000);
-				//$dv.slideDown(2000);
+				//$dv.slideUp("slow"); 
 			}else{
 				//$dv.show(2000);
-				$dv.fadeIn(2000);
-				//$dv.slideUp(2000);
+				//$dv.fadeIn(2000);
+				$dv.slideDown("slow");
 			}
 			
 		})
 	})
 </script>
 <body>
+    
     <div class="dv" style="border:1px solid #ff0000; font-size:36px;"><img src="1.jpg" /></div>
     <div class="dv" style="border:1px solid #ff0000; font-size:36px;"><img src="1.jpg" /></div>
     <div class="dv" style="border:1px solid #ff0000; font-size:36px;"><img src="1.jpg" /></div>
+    
 <input type="button" id="bt" value="隐藏">
 </body>
 </html>

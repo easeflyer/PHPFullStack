@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
+    http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>首页-3C商城</title>
+        <link rel="stylesheet" type="text/css" href="__SKIN__css/index.css"/>
+        <link href="__SKIN__css/header.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/reset.css" rel="stylesheet" type="text/css" />
+        <script src="__SKIN__js/jq.js" type="text/javascript"></script>
+    </head>
+    <script>
+        var _url = '{$url}';
+        function goto() {
+            if (_url) {
+                window.location.href = _url;
+            } else {
+                window.history.go(-1);
+            }
+        }
+    </script>
+    <body>
+        <include file="Common:header"/>
+        <div style=" text-align:center; 
+             font-size:14px; 
+             margin:0 auto; 
+             margin-top:70px; 
+             margin-bottom:20px; 
+             width:300px; height:100px; 
+             background:#f1f1f1; 
+             font-weight:bold; 
+             padding-top:10px; 
+             line-height:1.5em; 
+             border:1px solid #dddddd">
+            <p>{$msg}!点击&nbsp;<a href="javascript:void(0);" onclick="goto()" style="color:#ff0000">这里返回</a></p>
+        </div>
+        <include file='Common:footer'/>
+        </div>
+        <script>
+            setTimeout(goto, 5000);
+        </script>
+    </body>
+</html>

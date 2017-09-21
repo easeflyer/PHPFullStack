@@ -4,6 +4,7 @@
  */
 class MySQL{
 
+    //public $l = 111;
     private static $link = null;//数据库连接
 
     /**

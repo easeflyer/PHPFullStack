@@ -1,9 +1,10 @@
 // JavaScript Document  循环的课程，适当多留一些时间 练习
 document.write("<br />----------最简单的---for--------------<br />");
 
+// var i = 0;
 for (var i = 0; i <= 10; i++) {
-    document.write(i);
-    document.write("重复这条语句<br />");
+    document.write(i+"   重复这条语句<br />");
+    // i++;
 }
 
 document.write("最后i的值是：" + i);
@@ -12,11 +13,15 @@ document.write("最后i的值是：" + i);
 document.write("<br />-------------for 9*9--------------<br />");
 
 for (var m = 1; m <= 9; m++) {
-    // m = 2
+    // m = 1,2,3
 
     for (var n = 1; n <= m; n++) {
-        
+        // n = 1,2;
+
         document.write(m + "*" + n + "=" + m * n + "&nbsp;&nbsp;");
+        // 1*1=1 
+        // 2*1=2  2*2=4 
+        // 3*1=3
     }
 
     document.write("<br />");
@@ -30,7 +35,7 @@ while (y <= 15) {
     document.write(y + "<br />");
     y++; //不加步长 死循环 
 }
-
+document.write("最后y的值:" + y);
 document.write("<br />-------------while--9*9------------<br />");
 var s = 1;
 while (s <= 9) {
@@ -62,10 +67,17 @@ do {
 document.write("<br />-------------break--------------<br />");
 for (var k = 1; k <= 8; k++) {
     if (k == 4) {
-        //break;	 //终止当前的语句块。作用：跳出且终止循环，继续 执行后边的代码
-        continue;        //终止当前循环，后边的循环  继续执行
+        break;	 //终止当前的语句块。作用：跳出且终止循环，继续 执行后边的代码
+        //continue;        //终止当前循环，后边的循环  继续执行
     }
     document.write(k + "<br />");
+
+    //document.write("aaaaa");
+    //1
+    //2
+    //3
+    //5
+    //6
 }
 
 document.write("循环后的语句");
@@ -104,6 +116,35 @@ do {
     } while (n <= m);
     document.write("<br />");
     m--;
-} while (m >=1);
-
+} while (m >= 1);
+document.write("<br />====求素数===================================================<br />");
 //document.write(m + "*" + n + "=" + m * n + "&nbsp;&nbsp;");
+/*求素数*/
+var max = 10000;
+var i = 3,s=0;  // i 尝试的数字        16   
+while (i < max) {
+    s = 0;
+    for (var m = 2; m <= i / 2; m++) {  // m 尝试的因数
+        if ((i % m) == 0) {
+            s=1;
+            break;
+        }
+    }
+    if(s==0) document.write("["+i+"]　");
+    i++;
+}
+
+document.write("<br />====输出 星星===================================================<br />");
+
+
+for(var i = 1;i<10;i++){
+    // 输出空格
+    for(j = 50-i*1;j>0;j--){
+        document.write("　");
+    }
+    // 输出星星
+    for(k = 1;k<=i;k++){
+        document.write("　*");
+    }
+    document.write("<br />");
+}

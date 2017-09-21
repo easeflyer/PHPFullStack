@@ -6,17 +6,21 @@
 </head>
 <script type="text/javascript" src="js/index.js"></script>
 <body>
+    
 <form action="#" method="post" id="frm1">
 	<input type="text" id="un" value="请输入用户名">
-	<input type="radio" name="us" id="us" checked="checked"> 男
+	<input type="radio" name="us" id="us" checked="checked" /> 男
 	<input type="radio" name="us" id="us1" /> 女
+        
 	<input type="checkbox" id="cks" onclick="checkAll();">全选
 	<input type="checkbox" name="ck[]">北京
-	<input type="checkbox" name="ck[]">上海
+            <input type="checkbox" name="ck[]" checked="checked" />上海
 	<input type="checkbox" name="ck[]">天津
+            
 	<input type="submit" value="提交" >
 
 	<input type="button" id="bt1" value="bt1" />
 </form>
+    
 </body>
 </html>

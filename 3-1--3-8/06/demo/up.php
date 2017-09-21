@@ -8,9 +8,10 @@
 
 
 header("content-type:text/html;charset=utf-8");
+
 $uName = $_POST["uName"];   // 用户名 字段
 echo $uName."<br />";
-$uImg = $_FILES["uImg"];    // 查看下 $_FILES[] 的组成。
+$uImg = $_FILES["uImg1"];    // 查看下 $_FILES[] 的组成。
 print_r($uImg);
 
 

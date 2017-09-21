@@ -1,4 +1,5 @@
 <?php
+
 header("Content-Type: text/html; charset=UTF-8");
 // 直接返回的响应结果
 
@@ -14,7 +15,7 @@ if (  isset($_GET['msg'])  &&  $_GET['msg'] == "你好吗"  ){
 
 
 ?>
-
+<h1>这是 html 内容</h1>
 
 <!--
 这部分内容位于 php 标记范围以外。不会被 php 解析器执行。

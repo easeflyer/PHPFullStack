@@ -20,7 +20,9 @@
         })
     </script>
     <body>
-        <input type="button" id="test" value="ajax">
-            <div id="testVal">异步请求的内容</div>
+        
+        <input type="button" id="test" value="ajax" />
+        <div id="testVal">异步请求的内容</div>
+        
     </body>
 </html>

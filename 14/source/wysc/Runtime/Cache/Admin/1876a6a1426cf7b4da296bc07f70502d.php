@@ -14,6 +14,7 @@
 a{text-decoration:none; color:#000}
 
 </style>
+
         <script type="text/javascript">
             function createop1(_v, _r) { // 原来的函数，管理该级别用户 链接错误
                 return "<a href='index.php?g=admin&m=attrlist&a=manageattrlist&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-chart_organisation\"'>管理该级别用户</a>\n\

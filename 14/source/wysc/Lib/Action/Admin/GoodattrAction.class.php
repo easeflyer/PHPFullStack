@@ -22,10 +22,10 @@ class GoodattrAction extends CommonAction {
     public function addgoodattr() {
         if ($_POST) {
             $model = new GoodattrModel();
-            print_r($_POST);exit;
+            //print_r($_POST);exit;
             if (!$model->create()) {
-                $message = $model->getDbError();
-                echo $message;exit;
+                //$message = $model->getDbError();
+                //echo $message;exit;
                 $this->error($message);
             } else {
                 if ($model->add()) {

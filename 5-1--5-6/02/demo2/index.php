@@ -7,10 +7,10 @@ $white = imagecolorallocate($image, 5, 255, 255);
 $co = imagecolorallocate($image, rand(0,255),  rand(0,255),  rand(0,255));
 imagefilledrectangle($image, 0, 0, 150, 60, $white);
 //写字
-$str = "0123456789abcdefghijklmn"; //数组
+$str = "0123456789abcdefghijklmn"; //数组   字符串可以通过数组的方式访问。
 $checkString = "";
 for($i=0;$i<5;$i++){ //$i 表示验证码的位数
-	$checkString  = $checkString.$str[rand(0,23)];
+	$checkString  = $checkString . $str[rand(0,23)];  // rand(0,23)   0-23 随机数； 拼接出一个随机码
 }
 imagettftext($image, 25, rand(-5,5), 20,30, $co, "simpo.ttf", $checkString);
 

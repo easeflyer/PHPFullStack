@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2017-02-09 11:05:55
+<?php /* Smarty version Smarty-3.1.15, created on 2017-08-31 14:57:07
          compiled from ".\templates\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:19655317dad81203b9-78523335%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '06f2fd8d9a960ed1fa3c26ccfad67689d23fc229' => 
     array (
       0 => '.\\templates\\index.html',
-      1 => 1486609446,
+      1 => 1504059000,
       2 => 'file',
     ),
   ),
@@ -23,6 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'val' => 0,
     'brr' => 0,
     'val1' => 0,
+    'key' => 0,
     'crr' => 0,
     'drr' => 0,
   ),
@@ -38,7 +39,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <body>
 	<?php echo $_smarty_tpl->tpl_vars['arr']->value;?>
 
-	<br />---------foreach遍历数组----------<br />
+	<br />---------foreach遍历数组 arr----------<br />
 	<?php  $_smarty_tpl->tpl_vars['val'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['val']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['arr']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['val']->key => $_smarty_tpl->tpl_vars['val']->value) {
@@ -49,7 +50,8 @@ $_smarty_tpl->tpl_vars['val']->_loop = true;
 	<?php } ?>
         
         
-	<br />---------foreach遍历二维数组 ----------<br />
+	<br />---------foreach遍历二维数组 brr----------<br />
+        
 	<?php echo $_smarty_tpl->tpl_vars['brr']->value;?>
 <br />
 	<?php  $_smarty_tpl->tpl_vars['val1'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['val1']->_loop = false;
@@ -63,7 +65,24 @@ $_smarty_tpl->tpl_vars['val1']->_loop = true;
 <br />
 	<?php } ?>
         
-	<br />---------section----------<br />
+	<br />---------foreach遍历二维数组 brr $key=>$val----------<br />
+	<?php echo $_smarty_tpl->tpl_vars['brr']->value;?>
+<br />
+	<?php  $_smarty_tpl->tpl_vars['val1'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['val1']->_loop = false;
+ $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['brr']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['val1']->key => $_smarty_tpl->tpl_vars['val1']->value) {
+$_smarty_tpl->tpl_vars['val1']->_loop = true;
+ $_smarty_tpl->tpl_vars['key']->value = $_smarty_tpl->tpl_vars['val1']->key;
+?>
+		<?php echo $_smarty_tpl->tpl_vars['key']->value;?>
+ ： <?php echo $_smarty_tpl->tpl_vars['val1']->value["uName"];?>
+---<?php echo $_smarty_tpl->tpl_vars['val1']->value["uAge"];?>
+---<?php echo $_smarty_tpl->tpl_vars['val1']->value["uTel"];?>
+<br />
+	<?php } ?>
+        
+	<br />---------section-crr---------<br />
 	<?php echo $_smarty_tpl->tpl_vars['crr']->value;?>
 <br />
         <!-- loop=数组名称 -->
@@ -97,7 +116,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['key']['last']       = ($_sma
         
         
         
-	<br />---------section遍历二维数组 ----------<br />
+	<br />---------section遍历二维数组 -drr---------<br />
 	<?php echo $_smarty_tpl->tpl_vars['drr']->value;?>
 <br />
 	<?php if (isset($_smarty_tpl->tpl_vars['smarty']->value['section']['key1'])) unset($_smarty_tpl->tpl_vars['smarty']->value['section']['key1']);

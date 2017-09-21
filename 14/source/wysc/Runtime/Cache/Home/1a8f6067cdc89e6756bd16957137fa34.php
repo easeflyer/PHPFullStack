@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>订单管理-用户中心-我赢商城</title>
+    <title>订单管理-用户中心-3C商城</title>
     <link rel="stylesheet" type="text/css" href="__SKIN__plugin/ui/themes/__THEME__/easyui.css" />
 <link rel="stylesheet" type="text/css" href="__SKIN__plugin/ui/themes/icon.css" />
 <script type="text/javascript" src="__SKIN__plugin/ui/jquery-1.7.2.min.js"></script>

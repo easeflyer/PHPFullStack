@@ -31,7 +31,7 @@
 	  <td class="td_bg" width="16%" height="23" align="center">
 	  删除 
 	  | 
-	  修改
+	  <a href="__URL__/updateView/bId/<?php echo ($val["bId"]); ?>">修改</a>
 	  |
 	  <?php if($val["bState"] == 1): ?><a href="__URL__/newBooksConf/bId/<?php echo ($val["bId"]); ?>/bState/<?php echo ($val["bState"]); ?>">新书速递</a>
 	  <?php else: ?> 

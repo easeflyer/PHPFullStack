@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>首页-我赢商城</title>
+<title>首页-3C商城</title>
 <link rel="stylesheet" type="text/css" href="__SKIN__css/index.css"/>
 </head>
 <script type="text/javascript">

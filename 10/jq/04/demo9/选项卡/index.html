@@ -1,11 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<script type="text/javascript" src="jquery.js"></script>
-</head>
-<style type="text/css">  
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+        <script type="text/javascript" src="jquery.js"></script>
+    </head>
+    <style type="text/css">  
+        /*
+        最初
+        */
+
         .tab { background-color: mintcream;   width: 200px;    height: 200px;   margin-left: 200px;    }   
         .header {    height: 20px;    width: 100%;    }   
         .content {    border: 1px solid #CCCCFF;    border-top: none;   height: 180px;     }   
@@ -16,54 +20,63 @@
         .ulShow {    display: block;   }   
         ul {   list-style: none outside none; }   /* outside none 解决 ie 6,7,8 兼容性问题 */
         * {   margin: 0;   padding: 0;   }   
+        
     </style>  
-<script type="text/javascript">  
+    <script type="text/javascript">
         $(function () {
-			//当单击标题 li 的时候            
-            $(".tab > ul.header > li").click(function () {   
-				//为显示的li 添加 hide 删除show
-                $(this).parent().find("li.show").addClass("hide").removeClass("show");   
-				//当前li 添加show ，删除hide
-                $(this).addClass("show").removeClass("hide");   
-				//获取 当前li的父对象
-                var parentsEl = $(this).parents(".tab");   
-				//获取内容中的ulShow，添加 ulHide 删除ulShow
-                parentsEl.find("div > ul.ulShow").addClass("ulHide").removeClass("ulShow");   
-                /*找到对应当前 点击li的编号 的 内容中的ul，为其添加ulShow 删除ulHide*/  
-				//$.inArray 确定第一个参数在数组中的位置(如果没有找到则返回 -1 )。 
-                var ary = parentsEl.find("ul.header > li");   
-                parentsEl.find("div > ul:eq(" + $.inArray(this, ary) + ")").addClass("ulShow").removeClass("ulHide");       
-            })   
-        });   
+            //当单击标题 li 的时候            
+            $(".tab > ul.header > li").click(function () {
+                //为显示的li 添加 hide 删除show 
+                // parent() 匹配元素的父元素集合。因为匹配元素可能不唯一，因此是集合。 
+                // find()          找出某个后代元素
+                $(this).parent().find("li.show").addClass("hide").removeClass("show");
+                //$("li.show").addClass("hide").removeClass("show");  // 简化版
+                //当前li 添加show ，删除hide
+                $(this).addClass("show").removeClass("hide");
+                //获取 当前li的父对象
+                // parents()  获得匹配元素的所有祖先元素集合 括号里是筛选条件
+                var parentsEl = $(this).parents(".tab");
+                //var parentsEl = $(".tab");  // 简化版本
+                //获取内容中的ulShow，添加 ulHide 删除ulShow
+                parentsEl.find("div > ul.ulShow").addClass("ulHide").removeClass("ulShow");
+                /*找到对应当前 点击li的编号 的 内容中的ul，为其添加ulShow 删除ulHide*/
+                //$.inArray 确定第一个参数在第二个参数数组中的位置(如果没有找到则返回 -1 )。  从0开始计数
+                var ary = parentsEl.find("ul.header > li");
+                parentsEl.find(    "div > ul:eq(" + $.inArray(this, ary) + ")"    ).addClass("ulShow").removeClass("ulHide");
+            })
+        });
     </script>  
 
-<body>  
-   <div class="tab">  
-        <ul class="header">  
-            <li class="liStyle show">Java</li>  
-            <li class="liStyle hide">Spring</li>  
-            <li class="liStyle hide">Hibernate</li>  
-        </ul>  
-        <div class="content">  
-            <ul class="ulShow">  
-                Java   
-                <li>java javaSE</li>  
-                <li>java javaME</li>  
-                <li>java javaEE</li>  
+    <body>  
+        <div class="tab">
+
+            <ul class="header">  
+                <li class="liStyle show">Java</li>  
+                <li class="liStyle hide">Spring</li>  1
+                <li class="liStyle hide">Hibernate</li>  
             </ul>  
-            <ul class="ulHide">  
-                Spring   
-                <li>java springMVC</li>  
-                <li>java spring aop</li>  
-                <li>java spring Ioc DI</li>  
-            </ul>  
-            <ul class="ulHide">  
-                Hibernate   
-                <li>java Hibernate Configuration Transaction</li>  
-                <li>java Hibernate Query Criteria</li>  
-                <li>java Hibernate Session SessionFactory</li>  
-            </ul>  
+            
+            <div class="content">  
+                <ul class="ulShow">  
+                    Java   
+                    <li>java javaSE</li>  
+                    <li>java javaME</li>  
+                    <li>java javaEE</li>  
+                </ul>  
+                <ul class="ulHide">  
+                    Spring   
+                    <li>java springMVC</li>  
+                    <li>java spring aop</li>  
+                    <li>java spring Ioc DI</li>  
+                </ul>  
+                <ul class="ulHide">  
+                    Hibernate   
+                    <li>java Hibernate Configuration Transaction</li>  
+                    <li>java Hibernate Query Criteria</li>  
+                    <li>java Hibernate Session SessionFactory</li>  
+                </ul>  
+            </div>  
+
         </div>  
-    </div>  
-  </body>  
+    </body>  
 </html>

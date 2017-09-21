@@ -13,11 +13,14 @@ window.onload = function(){
 </script>
 </head>
 <body>
+    
 <form name="frm1" id="frm1" action="#" method="post">
 	<input type="text" name="un" />
 </form>
+    
 <form name="frm2" id="frm2" action="#" method="post">
 	<input type="text" name="uc" />
 </form>
+    
 </body>
 </html>

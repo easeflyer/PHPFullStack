@@ -29,6 +29,7 @@
 	})
 </script>
 <body>
+    
 <form>
 	你喜欢的体育运动<br />
 	<input type="checkbox" name="items" value="1">足球<br />
@@ -41,5 +42,6 @@
 	<input type="button" id="uncheckAll" value="取消全选">
 	<input  type="button" id="checkRev" value="反选">
 </form>
+    
 </body>
 </html>

@@ -13,6 +13,7 @@
 a{text-decoration:none; color:#000}
 
 </style>
+
         <link rel="stylesheet" type="text/css" href="__SKIN__css/tableform.css" />
         <link rel="stylesheet" type="text/css" href="__SKIN__plugin/editor/themes/default/default.css" />
         <!-- 注意在下面的 js 中 K.create('#goodsinfo,#goodpra'); 使用了这个插件-->
@@ -37,10 +38,14 @@ a{text-decoration:none; color:#000}
                     $.messager.alert('提示', '必须保留一个上传项', 'info');
                 }
             }
+            
+            
             var editor;
             KindEditor.ready(function (K) {
                 K.create('#goodsinfo,#goodpra');
             });
+            
+            
             // 用于构建 属性录入组件
             function getattrlist(_r) {
                 // 下面的代码用于测试之用，可以输出 _r 对象
@@ -53,6 +58,8 @@ a{text-decoration:none; color:#000}
                 $.get('index.php?g=admin&m=Attrlist&a=getlist&attr_id=' + _r.value, function (data) {
                     $('#selectmodel tr:not(:first)').remove();
                     // ele 是 data 的下标
+                    //data = JSON.parse(data);  因为 $.get 最后一个参数 已经声明了返回数据类型是 json 因此不需要这个步骤。
+                    //alert(typeof data);
                     for (ele in data) {
                         
                         // 注意 _str 字符串 首字母 不能是空格 否则可能造成错误。

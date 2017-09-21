@@ -10,7 +10,7 @@ class testToString{
 	}
 	
 	function __toString(){
-		return "该类的222字符串对象";
+		return "该对象的字符串表现形式";
 	}
 	
 }

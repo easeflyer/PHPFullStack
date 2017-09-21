@@ -9,25 +9,28 @@ function func2(n3, n4) {
     document.write(n3 * n4);
 }
 //bb(3,4); //人工调用 某种功能需求下调用的。
+
 function demo(n5, n6, fun) {   //fun是一个回调函数,函数名称
     // 写其他的语句。
-    n5++;
-    n6++;
+    n5++;  //3
+    n6++;  //4
     fun(n5, n6);//-->aa(2,2)  //调用回调函数
    // func1(2,3)
 }
 
 
 demo(2, 3, func1);  // 调用回调函数func1  函数作为参数传入
+
 document.write("<br />---分割线-----<br />");
 demo(2, 3, func2);  // 调用回调函数func2  函数作为参数传入
-
 
 document.write("<br />------匿名-回调函数--------<br />");
 
 function demo1(str1, str2, fun) {
     fun(str1, str2);
 }
+
+//demo1(3,5,function(){});
 
 demo1(3, 5, function (num1, num2) {
     document.write(num1 + num2);
@@ -38,9 +41,10 @@ demo1(3, 5, function (num1, num2) {
  document.write("<br />------递归：  阶乘：n! = n * (n-1) * (n-2) * ...* 1(n>0)  --------<br />");
 
 var k = 1;
-// k=10
-// n=10,9,8
-// 10*9*8*7*....1=结果
+//运算结果   k=10*9*8 *7...2
+//           n=10，9，8，7
+//屏幕输出： 10*9*8* 7*...2*1=k
+
 function rec2(n){
     // 函数处理逻辑
     k = k * n;
@@ -66,7 +70,9 @@ document.write("<br />------  递归：递减数字三角形  --------<br />");
 n = 20,19
 m = 19
 
-20 19 18 17 .......1
+20 19 ......1 
+19 18 ....1
+
 
 
  */
@@ -74,7 +80,7 @@ m = 19
 function rec1(n){
     // 函数处理逻辑
     for(m=n;m>=1;m--){
-        document.write(m+"\t");
+        document.write(m+"\t");  //TAB
     }
     document.write("<br />");
     // 退出条件

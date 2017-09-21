@@ -10,10 +10,11 @@
 // $() 选择器的方式 : js方式：document.getElement
 //document 对象
 //  .ready ===> onload 文档加载完毕 .ready 会等待加载 div css html   onload 必须等 div css html img flash 元素 一起完毕
+ 
 $(document).ready(function(){
 	alert("我很爱国");
 })
-$(document).ready(function(){})
+
 </script>
 <body>
 

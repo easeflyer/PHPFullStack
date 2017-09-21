@@ -11,7 +11,7 @@ window.onload = function(){
 		window.top.frames[2].history.forward(); //没加() 
 		//window 当前窗口   window.top   top.php父对象 --》index---》frames【2】 right
 	}
-		var two = document.getElementById("two");
+	var two = document.getElementById("two");
 	two.onclick = function(){
 		window.top.frames[2].history.back(); //没加() 
 		//window 当前窗口   window.top   top.php父对象 --》index---》frames【2】 right
@@ -19,9 +19,12 @@ window.onload = function(){
 
 }
 </script>
+    
 <body>
+    
 <input type="button" value="前进" id="one" />
 <input type="button" value="后退" id="two" />
+
 top 包含js 代码<br />
 <script>
 function wt(str){
@@ -33,6 +36,5 @@ wt("[1]:"+window.top.frames[1].name); //left
 wt("[2]:"+window.top.frames[2].name); // right
 wt("[3]:"+window.top.frames[3].name); // 没有。
 </script>
-
 </body>
 </html>

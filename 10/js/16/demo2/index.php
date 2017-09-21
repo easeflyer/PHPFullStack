@@ -21,12 +21,13 @@ window.onload = function(){
 		//用post传值
 		oAjax.open("POST","a.php?random="+Math.random(),true);//连接a页面
 		//setRequestHeader();
-		oAjax.setRequestHeader("Content-Type","application/x-www-form-urlencoded;charset=UTF-8");
-		oAjax.send("id="+3+"&name=zhangsanfeng");            //发送请求了 post 方式这样传递变量。
+		oAjax.setRequestHeader("Content-Type","application/x-www-form-urlencoded;charset=UTF-8"); // post 提交的数据类型以及编码方式
+		oAjax.send("id=3&name=zhangsanfeng");            //发送请求了 post 方式这样传递变量。
 		oAjax.onreadystatechange = function(){  
 			 if(oAjax.readyState==4){
 			 	 if(oAjax.status==200){
-				 	//alert(oAjax.responseText);
+				 	alert(oAjax.responseText);
+                                        
 				 	document.getElementById("dv1").innerHTML  = oAjax.responseText;
 				 }
 			 }

@@ -12,14 +12,15 @@
 		 //$("#one div:last").css("background","#00ff00");
 		 //id=one  不是第一个的div元素
 		 //$("#one div:not(:first)").css("background","#00ff00");
-		$("#one div:even").css("background","#ff0000");
-		$("#one div:odd").css("background","#00ff00");
+		//$("#one div:even").css("background","#ff0000");
+		//$("#one div:odd").css("background","#00ff00");
 		//$("#one div:eq(3)").css("background","#ff0000");
 		//$("#one div:gt(2)").css("background","#ff0000");
 		//$("#one div:lt(2)").css("background","#00ff00");
 	})
 </script>
 <body>
+    
 <div id="one">
 	<div id="two">Aaaaaaa</div>
 	<div id="th">aaaaaa</div>
@@ -27,5 +28,6 @@
 	<div id="fv">aaaaaa</div>
 	<div id="sx">aaaaaaA</div>
 </div>
+    
 </body>
 </html>

@@ -13,8 +13,8 @@ $result = mysql_query($sql); //执行查询语句  返回资源（结果集的�
 */
 
 
-$rs = mysql_fetch_array($result);
-print_r($rs);
+$rs = mysql_fetch_array($result);  //从结果集中 返回 一条记录
+print_r($rs);  // 注意返回混合数组，关联数组和索引数组 混合在一起。
 echo "<br />=========================1===========================<br />";
 echo $rs["id"]."-->".$rs["uName"]."-->".$rs["uTel"]."<br />";
 $rs = mysql_fetch_array($result);
@@ -31,6 +31,7 @@ echo "<br />=========================2===========================<br />";
 修改 mysql_fetch_array 第二个参数 可以返回 不同类型的数组。
  * MYSQL_NUM  数字下标
  * MYSQL_ASSOC   关联数组 字段下标
+ * 不给参数： 混合数组
 */
 ?>
 <table border="1">
@@ -57,7 +58,7 @@ while($rs = mysql_fetch_row($result)){ // 数字下标
 }
 */
 $count = mysql_num_rows($result);  // 返回查询出来的记录条数。 和  mysql_affected_rows 不同。后者是影响的记录条数。
-echo $count;
+echo "记录条数：".$count;
 
 mysql_close($link);
 

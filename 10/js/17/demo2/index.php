@@ -53,7 +53,7 @@
             title.align = "right";
             title.style.margin = "0";
             title.style.background = "#ffffff";
-            title.innerHTML = str + "关闭";
+            title.innerHTML = str + "|关闭";
             title.style.border = "1px solid #00ff00";
             // 添加 onclick 事件处理
             title.onclick = function () {
@@ -71,7 +71,7 @@
     </script>
     <body>
         <a href="http://www.baidu.com">baidu</a>
-        <input type="button" value="点击" onclick="sAlert('测试弹出层并且加上锁屏效果')">
+        <input type="button" value="点击" onclick="sAlert('请输入：')">
             22222222222<br />
             22222222222<br />
             22222222222<br />

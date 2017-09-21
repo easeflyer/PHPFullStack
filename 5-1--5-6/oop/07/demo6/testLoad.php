@@ -3,7 +3,8 @@
 //自动执行 include "one.php";
 header("content-type:text/html;charset=utf-8");
 function __autoload($className){
-
+        //$path = "classpath/";
+    
 	include $className.".php";
         
 }

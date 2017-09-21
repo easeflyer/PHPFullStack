@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Windows-Target" content="_top">
-    <title>我赢商城后台登录</title>
+    <title>3C商城后台登录</title>
     <script>
         //  解决 登录页面有时 在框架窗口显示，再次登录则框架被加载两次的问题。
         if (self != top) { top.location = self.location; } 
@@ -85,7 +85,7 @@
 
 <body>
 	<div class="login">
-		<h3>我赢职场后台管理系统</h3>
+		<h3>3C职场后台管理系统</h3>
 		<form action="" name="f1" method="post" style="margin-top: 20px;">
 			<dl>
 				<dt>用户名：</dt>

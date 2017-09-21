@@ -15,8 +15,8 @@ class son extends fa{
 	function demo(){
 		//$this->car(); //子类的car
 		//可以用父类名称::调用被重写的方法
-		//fa::car();
-		parent::car();		
+		fa::car();
+		//parent::car();		
 	}
 }
 $s = new son();
@@ -24,6 +24,7 @@ $s = new son();
 //$s->car();
 $s->demo();
 
+fa::car();  // static
 
 
 

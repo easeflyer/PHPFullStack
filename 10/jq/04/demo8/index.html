@@ -6,16 +6,26 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <style type="text/css">
+        /*
+        问题讨论：
+            1）当放大镜移动200像素后。右侧大图移动了 400像素，达到最大可移动位置。因此造成 放大镜和大图不匹配的问题。
+            2）因为大图像素 800 小图 400 因此：放大镜在左上角时，大图显示了四分之一的面积，也和放大镜不匹配。
+        
+        参见改进：
+        
+        */
+    
+    
 	*{margin:0px;padding:0px;}
-	.box{ width:900px;height:500px;border:1px solid #ff0000;margin:50px auto;}
+	.box{ width:900px;height:500px;border:5px solid #ff0000;margin:50px auto;}
 	.small{
 		width:400px;
 		height:400px;
 		border:1px  solid #000000;
 		float:left;
-		position:relative;
+		position:relative;  /* 这里有定位，因此子对象 b 相对于 .small 定位 */
 	}
-	.small b{
+	.small b{ /* 红色半透明 的放大镜部分*/
 		width:100px;
 		height:100px;
 		background:#ff0000;
@@ -26,10 +36,10 @@
 		top:0px;
 		display:none;
 	}
-	.big{
+	.big{   /* 放大图 默认情况下 并不现实出来 display:none; */
 		width:400px;
 		height:400px;
-		border:10px solid #00FF00;
+		border:2px solid #00FF00;
 		overflow:hidden;
 		float:left;
 		margin-left:15px;
@@ -41,32 +51,32 @@
 </style>
 <script type="text/javascript">
 	$(function(){
-		$(".small").mousemove(function(e){
+		$(".small").mousemove(function(e){    // e 事件对象
                         //alert(event.clientX);
-				$("b").show();
-				$(".big").show();
+				$("b").show();      // 红色 放大镜 显示出来
+				$(".big").show();   // 大图显示出来
 				//鼠标的位置  ,一下代码 计算小图的移动位置。 -50--351  e.pageX 鼠标的x坐标
-				//var  L = e.pageX;
-                                var  L = event.clientX;
+				var  L = e.pageX;           // pageX jquery 提供的 鼠标相对于浏览器的水平坐标
+                                //var  L = event.clientX;   // clientX js 鼠标相对于浏览器的水平坐标
 				//计算方块中心到左边的边距
-				var l = $(this).offset().left;
-				var left = L - l - 50;
-				//var T = e.pageY;
-                                var T = e.clientY;
-				var t =  $(this).offset().top;
-				var top = T-t-50;
+				var l = $(this).offset().left;  // 小写l .small 距离窗口的 x 坐标
+				var left = L - l - 50;          // b 距离 .small 的 x 坐标
+				var T = e.pageY;            // 鼠标相对于 窗口顶部 y 坐标
+                                //var T = e.clientY;
+				var t =  $(this).offset().top;  // 小图距离窗口顶部 坐标。
+				var top = T-t-50;           // b 距离 .small 的 y 坐标
 				
 				//计算小图层超出左边界
 				left  = left<0 ? 0 : left;
 				top = top<0?0:top;
 				//极端小图右边界
-				left = left>300?300:left;
+				left = left>300?300:left;   // 因为 b 的大小是 100 因此 定位 最大值 300
 				top = top>300?300:top;
 				$("b").css({left:left,top:top});
-				//大图的移动
+				//大图的移动 大图比小图 大一倍 小图400   大图800
 				var imgLeft = -left*2;
 				var imgTop = -top*2;
-				imgLeft = imgLeft<-400?-400:imgLeft;
+				imgLeft = imgLeft<-400?-400:imgLeft;      // 因为大图的外边框 是 400 因此大图的位置极限是
 				imgTop = imgTop<-400?-400:imgTop;
 				$(".big img").css({left:imgLeft,top:imgTop});
 		}).mouseout(function(){
@@ -77,8 +87,11 @@
 </script>
 <body>
     
+<!-- box 是最外层的红色边框  -->
 <div class="box">
-	<div class="small"><img src="imgs/small.jpg" /><b>22</b></div>
+        <!-- small 是静态小图  -->
+	<div class="small"><img src="imgs/small.jpg" /><b>33</b></div>
+        <!-- big 是 放大图的绿色外边框，注意放大图默认并不显示出来 display:none; -->
 	<div class="big"><img src="imgs/big.jpg"></div>
 </div>
     

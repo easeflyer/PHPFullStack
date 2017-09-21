@@ -23,6 +23,7 @@ class CategoryAction extends CommonAction {
                 $this->error($message);
             } else {
                 $catemodel->add();
+                //echo $catemodel->getLastSql();exit;
                 $this->success('添加成功', U('Category/managecat'));
             }
         } else {

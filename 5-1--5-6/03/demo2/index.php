@@ -2,9 +2,10 @@
 $sourcefile = "imgs/1.jpg";
 $dstfile = "imgs/1_small.jpg";
 $arr = getimagesize($sourcefile);   // 获得图片的尺寸。 数组
+print_r($arr);
 $scle = 0.5;
-$dst_w = ceil($arr[0]*0.5);
-$dst_h = ceil($arr[1]*0.5);
+$dst_w = ceil($arr[0]*0.5);   // 宽度
+$dst_h = ceil($arr[1]*0.5);   // 高度
 
 $dst_img = imagecreatetruecolor($dst_w, $dst_h);
 $src_img = imagecreatefromjpeg($sourcefile);

@@ -23,6 +23,9 @@ class demoSon extends demo{ //抽象类必须被继承 才能实例化
 	}
         
 }
+
+
+
 $ds = new demoSon();
 $ds->test1();
 $ds->test2();

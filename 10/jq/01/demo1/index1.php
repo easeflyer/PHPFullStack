@@ -8,9 +8,9 @@
     <script type="text/javascript">
         $(document).ready(function () {
             //$("div span").css("background","#ff0000");  //包含孙子元素。
-            //$("div>span").css("background","#ff0000");  //不包含孙子。
-            //$("#one+div").css("background","#ffccdd");  // #one 后面的 div dddd
-            $("#two~div").css("background", "#00ff00");  //选取#two 后的所有div元素fffff。
+            //$("div > span").css("background","#ff0000");  //不包含孙子。
+            //$("#one + div").css("background","#ffccdd");  // #one 后面的 div dddd
+            //$("#two~div").css("background", "#00ff00");  //选取#two 后的所有div元素fffff。
         })
     </script>
     <body>
@@ -22,9 +22,10 @@
             <br />
             <span>cccccccc</span>
         </div>
+        
         <div id="one">
             <p>
-                <span>aaaaaaaa</span>
+                <span>2aaaaaaaa</span>
             </p>
             <span>bbbbbbb</span>
             <br />

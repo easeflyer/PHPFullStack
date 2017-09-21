@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style type="text/css">
+            div{
+                width:100px;
+                height:100px;
+                border:1px solid #ff0000;
+            }
+            /* 选中 包含 name 属性的div*/
+            div[name]{
+                background-color: #0000ff;
+            }
+            /* 选中包含 name 属性 且name属性值等于dv2 */
+            div[name=dv2]{
+                background-color: #00ff00;
+            }
+            /* 选中包含 class 属性的div 且 class 属性包含一个 a 值*/
+            div[class~="a"]{
+                background-color: #aaaaaa;
+            }
+            .a{
+                width:200px;
+            }
+            .c{
+                height:200px;
+            }
+        </style>
+        
+        
+        
+        <div name="dv1">dv1</div>
+        <div name="dv2">dv2</div>
+        <div name="dv3">dv3</div>
+        
+        <div class="a">dv4</div>
+        <div class="b c">dv5</div>
+        <div class="c a">dv6</div>
+        
+    </body>
+</html>

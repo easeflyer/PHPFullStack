@@ -11,10 +11,10 @@ Object.prototype.hello = function () {
 }
 
 var str = "aaaaaaa";
-wt(str.hello());
+wt("str:"+str.hello());
 
 var n = true;
-wt(n.hello());
+wt("boolean:"+n.hello());
 
 
 var n = 1;
@@ -25,6 +25,44 @@ wt("----------- instanceof--判断某个对象是否是某个类的对象。----
 var arr  = new Array();
 wt(typeof arr);
 wt(arr instanceof Array); // true
-wt(arr instanceof wt);  // false
+wt(arr instanceof Number);  // false
 
 
+function cls1(){
+    this.name = "cls111";
+}
+
+
+function cls2(){
+    this.name = "cls222";
+}
+
+function com(n){
+    
+   if(n>0.5){
+       return new cls1();
+   }else{
+       return new cls2();
+   }
+}
+
+var n = Math.random();
+var obj1 = com(n);
+
+wt(n + "  ：  "+ (obj1 instanceof cls2));
+
+
+
+wt("----------- 封装案例  ------------");
+
+
+
+
+function func1(r){
+    var pi = "3.14";
+    var c = 2*pi*r;
+    return c;
+}
+//wt(2222);
+var r = 6;
+wt("半径为"+r+"的圆周长为："+func1(r,3.14));

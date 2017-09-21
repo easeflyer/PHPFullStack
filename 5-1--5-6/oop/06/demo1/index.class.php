@@ -20,6 +20,8 @@ class demo1 {
 
 }
 
+
+
 $d = new demo1("lisi");
 if (isset($d->name)) {  //自动 调用了__isset() 方法 检测 $d->name 是否是似有属性
     echo "ok";

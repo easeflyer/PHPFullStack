@@ -32,6 +32,6 @@ window.onload = function(){
 }
 </script>
 <body>
-<input type="button" id="bt" value="登陆">
+<input type="button" id="bt" value="登陆" />
 </body>
 </html>

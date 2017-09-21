@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
+    http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>角色管理</title>
+        <include file="Common:miniheader" />
+        <script>
+            function createop(_v, _r) {
+                return "<a href='index.php?g=admin&m=Rbac&a=roleedit&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-group_edit\"'>编辑</a><a href='javascript:void(0)'  onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton'   data-options='iconCls:\"icon-group_delete\"'>删除</a><a href='index.php?g=admin&m=Rbac&a=manageroleuser&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-group\"'>管理组成员</a><a href='index.php?g=admin&m=Rbac&a=access&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-key\"'>配置权限</a>";
+            }
+            function renderbutton() {
+                $(' a.easyui-linkbutton').linkbutton({plain: true});
+            }
+            function confirmdel(_id) {
+                $.messager.confirm('确认删除', '是否确认删除该角色', function (r) {
+                    if (r) {
+                        window.location.href = 'index.php?g=admin&m=Rbac&a=roledel&id=' + _id;
+                    }
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <div class="easyui-panel"  data-options="
+             title:'角色管理',
+             border:false,
+             iconCls:'icon-group'
+             ">
+            <form name="f1" method="post" action="{:U('Goods/listorder')}" id="f1">
+                <table id="datagrid" class="easyui-datagrid"  data-options="
+                       border:false,
+                       fitColumns:true,
+                       toolbar:'#toolbar',
+                       onLoadSuccess:renderbutton,
+                       striped:true,
+                       rownumbers:true,
+                       singleSelect:false,
+                       checkOnSelect:true,
+                       selectOnCheck:true
+                       " style="display:none">
+                    <thead>
+                        <th data-options="
+                            field:'id',
+                            align:'center',
+                            width:20">id</th>
+                        <th data-options="
+                            field:'name',
+                            width:50">角色名称</th>
+                        <th data-options="
+                            field:'status',
+                            align:'center',
+                            width:20">是否禁用</th>
+                        <th data-options="field:'remark',
+                            align:'center', 
+                            width:150">说明</th>
+                        <th data-options="
+                            field:'opration',
+                            width:100,
+                            formatter:createop
+                            ">操作</th>
+                    </thead>
+                    <tbody>
+                        <volist name="data" id="val">
+                            <tr>
+                                <td>{$val[id]}</td>
+                                <td>{$val[name]}</td>
+                                <td>\
+                                    <if condition="$val[status] eq 0">
+                                        是
+                                        <else/>
+                                        否
+                                    </if> 
+                                </td>
+                                <td>{$val[remark]}</td>
+                            </tr>
+                        </volist>
+                    </tbody>
+                </table>
+                <div id="toolbar">
+                    <a href="{:U('Rbac/roleadd')}"  class="easyui-linkbutton"  data-options="plain:true,iconCls:'icon-group_add'">添加角色</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

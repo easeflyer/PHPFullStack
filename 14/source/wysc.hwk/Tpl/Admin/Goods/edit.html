@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <include file='Common:miniheader' />
+        <title>编辑商品</title>
+        <link href="__SKIN__css/tableform.css" rel="stylesheet" type="text/css"/>
+        <link href="__SKIN__plugin/editor/themes/default/default.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="__SKIN__plugin/editor/kindeditor-min.js"></script>
+        <script type="text/javascript" src="__SKIN__plugin/editor/lang/zh_CN.js"></script>
+        <style>
+            .tabcontent{padding:10px 20px;}
+            .imagelist{ list-style: none; 
+                        padding-left: 10px;
+
+            }
+            .imagelist li{ float:left; 
+                           margin:10px 5px;
+                           position:relative;
+            }
+            .imagelist li .delicon{ position: absolute; left:0; top:0;}
+        </style>
+        <script type="text/javascript">
+            function additem() {
+                $('#picthumb tr:last').clone().appendTo($('#picthumb'));
+            }
+            function removeitem(obj) {
+                var _len = $('#picthumb tr').length;
+                if (_len > 1) {
+                    $(obj).parents('tr').remove();
+                } else {
+                    $.messager.alert('提示', '必须保留一个上传项', 'info');
+                }
+            }
+            var editor;
+            KindEditor.ready(function (K) {
+                K.create('#goodsinfo,#goodpra');
+            })
+            function getattrlist(_r) {
+                //alert(_r.value);
+                if (_r.value == 0) {
+                    $.messager.alert('提示', '请选择模型', 'info');
+                    return false;
+                }
+                $.get('index.php?g=Admin&m=Attrlist&a=getlist&attr_id=' + _r.value, function (data) {
+                    //alert(data.length);
+                    $('#selectmodel tr:not(:first)').remove();
+                    for (ele in data) {
+                        var _str = '<tr><th>' + data[ele][1].name + '</th><td>' + data[ele][0] + '</td></tr>';
+                        $(_str).appendTo($('#selectmodel'));
+                    }
+                }, 'json');
+            }
+            function delimage(imgid, obj) {
+                $.get('index.php?g=admin&m=goods&a=delthumb&picid=' + imgid, function (data) {
+                    console.log(data);
+                })
+                $(obj).parent().remove();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="easyui-panel" data-options="title:'编辑商品',border:false,iconCls:'icon-application_form_add'"> 
+            <form name="f1" action="" method="POST" enctype="multipart/form-data">
+                <div class="easyui-tabs" data-options="border:false">
+                    <div class="tabcontent" data-options="iconCls:'icon-application_view_list'" title="基本信息">
+                        <table class="table-form" border="1" width="100%">
+                            <tr>
+                                <th>商品名称</th>
+                                <td>
+                                    <input type="hidden" name="id" class="ipt" value="{$goodsdata[id]}" />
+                                    <input type="text" name="goodsname" class="ipt" value="{$goodsdata[goodsname]}" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>所属分类</th>
+                                <td>
+                                    <select id="cc" name="category_id" class="easyui-combotree" 
+                                            data-options="
+                                            url:'{:U('Category/combotreejson')}',
+                                            value:'{$goodsdata[category_id]}'
+                                            "></select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>所属类型</th>
+                                <td>
+                                    <select id="cc" name="goodtype_id" class="easyui-combobox">
+                                        <option value="0">请选择类型</option>
+                                        <volist name="typedata" id="item">
+                                            <if condition="$item[id] eq $goodsdata[goodtype_id]">
+                                                <option value="{$item[id]}" selected>{$item[typename]}</option>
+                                                <else/>
+                                                <option value="{$item[id]}">{$item[typename]}</option>
+                                            </if>
+                                        </volist>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>缩略图</th>
+                                <td>
+                                    <if condition="$goodsdata[thumb]">
+                                        <img src="__APPURL__Public/Uploads/{$goodsdata[thumb]}" height="100" style="float:left;"/>
+                                    </if>
+                                    <input type="file" name="thumb" 
+                                           <if condition="$goodsdata[thumb]">
+                                            style="margin-top:40px; margin-left:10px;"/>
+                                        </if>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>商场价格</th>
+                                <td>
+                                    <input type="text" name="price" class="ipt" style="width:65px; margin-right:10px;" value="{$goodsdata[price]}" /><span>￥</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>市场价格</th>
+                                <td>
+                                    <input type="text" name="mprice" class="ipt" style="width:65px; margin-right:10px;" value="{$goodsdata[mprice]}" /><span>￥</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>商标</th><td>
+                                    <select class="easyui-combobox" 
+                                            data-options="
+                                            url:'{:U('Brand/getcombojson')}',
+                                            valueField:'id',
+                                            textField:'text',
+                                            value:'{$goodsdata[brand_id]}'
+                                            " name="brand_id"
+                                            ></select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>库存</th>
+                                <td>
+                                    <input type="text" name="storenum" class="ipt" style=" width:65px; margin-right:10px;" value="{$goodsdata[storenum]}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>是否显示</th><td>
+                                    <if condition="$goodsdata[is_show]">
+                                        <input type="radio" name="is_show" value="1" checked/>是<input type="radio" name="is_show" value="0" />否
+                                        <else/>
+                                        <input type="radio" name="is_show" value="1"/>是<input type="radio" name="is_show" value="0" checked />否
+                                    </if>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tabcontent" data-options="iconCls:'icon-application_view_tile'" title="相册信息">
+                        <div class="easyui-panel" data-options="
+                             title:'相册图片',
+                             iconCls:'icon-application_view_gallery'
+                             ">   
+                            <ul class="imagelist">
+                                <volist name="pics" id="pics">
+                                    <li><img src="__APPURL__Public/Uploads/{$pics[picurl]}" alt="" height="100" />
+                                        <a href="javascript:void(0)" onclick="delimage({$pics[id]}, this)" class="easyui-linkbutton delicon" data-options="
+                                           iconCls:'icon-cancel',
+                                           plain:true 
+                                           "></a>
+                                    </li>
+                                </volist>
+                            </ul>
+                        </div>
+                        <table class="table-form" border="1" width="100%" id="picthumb">
+                            <tr>
+                                <th>图片</th>
+                                <td>
+                                    <input type="file" name="pics[]">
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)" class="easyui-linkbutton" data-options="
+                                       iconCls:'icon-cancel',
+                                       plain:true
+                                       " onclick="removeitem(this)"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片</th>
+                                <td>
+                                    <input type="file" name="pics[]">
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)" class="easyui-linkbutton" data-options="
+                                       iconCls:'icon-cancel',
+                                       plain:true
+                                       " onclick="removeitem(this)"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片</th>
+                                <td>
+                                    <input type="file" name="pics[]">
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)" class="easyui-linkbutton" data-options="
+                                       iconCls:'icon-cancel',
+                                       plain:true
+                                       " onclick="removeitem(this)"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片</th>
+                                <td>
+                                    <input type="file" name="pics[]">
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)" class="easyui-linkbutton" data-options="
+                                       iconCls:'icon-cancel',
+                                       plain:true
+                                       " onclick="removeitem(this)"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>图片</th>
+                                <td>
+                                    <input type="file" name="pics[]">
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)" class="easyui-linkbutton" data-options="
+                                       iconCls:'icon-cancel',
+                                       plain:true
+                                       " onclick="removeitem(this)"></a>
+                                </td>
+                            </tr>
+                        </table>
+                        <a href="javascript:void(0)" onclick="additem()" class="easyui-linkbutton" data-options="
+                           iconCls:'icon-add'
+                           " style="margin-top:10px;">增加图片</a> 
+                    </div>
+                    <div class="tabcontent" data-options="iconCls:'icon-application_form'" title="模型信息">
+                        <table class="table-form" border="1" width="100%" id="selectmodel">
+                            <tr>
+                                <th>选择模型</th>
+                                <td>
+                                    <select name="goodsattr_id" class="easyui-combobox" data-options="onSelect:getattrlist,disabled:true">
+                                        <option value="请选择模型">请选择模型</option>
+                                        <volist name="goodsmodellist" id="val">
+                                            <option value="{$val[id]}"
+                                                    <if condition="$val[id] eq $goodsdata[goodsattr_id]">
+                                                    selected
+                                                </if>
+                                                >{$val[attrname]}</option>
+                                        </volist>
+                                    </select>
+                                </td>
+                            </tr>
+                            <volist name="itemlist" id="val">
+                                <tr>
+                                    <th>{$val[name]}</th>
+                                    <td>
+                                        {$val[val]}
+                                    </td>
+                            </volist>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tabcontent" data-options="iconCls:'icon-application_xp'" title="商品参数">
+                        <textarea name="goodpra" id="goodpra" style="width:80%; height:300px">{$goodsdata[goodpra]}</textarea>
+                    </div>
+                    <div class="tabcontent" data-options="iconCls:'icon-application_xp'" title="详细信息">
+                        <textarea name="goodsinfo" id="goodsinfo" style="width:80%; height:300px;">{$goodsdata[goodsinfo]}</textarea>
+                    </div>
+                </div>
+                <table class="table-form" border="1" width="100%">
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input name="s1" type="submit" value="提交" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input name="r1" type="reset" value="清除" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

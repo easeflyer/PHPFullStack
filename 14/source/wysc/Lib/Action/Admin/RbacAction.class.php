@@ -2,14 +2,14 @@
 
 class RbacAction extends Action {
 
-    function testRbac(){
+    function testRbac() {
         import('Org.Util.RBAC');
-       // RBAC::authenticate();
-        
+        // RBAC::authenticate();
         // 下面用于测试 getAccessList 的功能
         $acc = RBAC::getAccessList(13);
         print_r($acc);
     }
+
     function manageadmin() {
         $page = (int) $_GET[page];
         $page = max(1, $page);
@@ -91,7 +91,6 @@ class RbacAction extends Action {
      *  如果取消这个管理员所有角色 编辑失败。
      *   可以考虑 删除管理员同时，删除管理员的角色分配，也就是roleuser 表
      */
-    
     function adminedit() {
         $model = new AdminuserModel();
         if ($_POST) {
@@ -149,6 +148,7 @@ class RbacAction extends Action {
             $this->display();
         }
     }
+
     /**
      *  注意这里没有考虑 roleuser 表，应该在删除管理员的同时 删除 roleuser表的对应数据。设置 ondelete 外键操作
      */
@@ -294,13 +294,16 @@ class RbacAction extends Action {
         }
     }
 
-    function testHasChild(){
+    function testHasChild() {
         //echo 1111111;exit;
-       $model = new NodeModel();
-       $re = $model->haschild(1,0);
-       if($re) echo "true";
-       else echo "false";
+        $model = new NodeModel();
+        $re = $model->haschild(1, 0);
+        if ($re)
+            echo "true";
+        else
+            echo "false";
     }
+
     function combotreejson() {
         $level = (int) $_GET['level'];
         if (!$level)  // 注意此处如果 $level = 0 则 会用 999  替代
@@ -309,6 +312,7 @@ class RbacAction extends Action {
         $model->getjsonforcombotree(0, &$data, $level);
         echo json_encode($data);
     }
+
     // access.html 模板 调用的他 url:'{:U('Rbac/combotreejson1',array('roleid'=>$roledata[id]))}',
     //
     function combotreejson1() {
@@ -322,7 +326,7 @@ class RbacAction extends Action {
         // $data 是要构建的 树形 数组
         // $roledid 当前角色 id
         // $level 是等级？？
-        
+
         $model->getjsonforcombotree1(0, &$data, $roleid, $level);
         echo json_encode($data);
     }
@@ -434,6 +438,7 @@ class RbacAction extends Action {
             echo "1";
         }
     }
+
     /**
      *   由 access.html  通过 ajax 进行调用。 用来保存 配置的权限
      *  注意这里 只要一个 子权限被勾选，则它的父权限也被勾选 保存到 access 表中。
@@ -464,7 +469,7 @@ class RbacAction extends Action {
         } else {
             echo "1";
         }
-    }    
+    }
 
     /**
      * 获取所有可用图标

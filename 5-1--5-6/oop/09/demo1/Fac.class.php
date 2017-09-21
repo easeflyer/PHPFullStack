@@ -21,6 +21,8 @@ class Fac{ //工厂类 用来创建对象的。
 	// 参数 $cls 是要创建类的名称
 	public static function createObj($cls){
 		return new $cls();
+                // new MySql();
+                // new SQLite();
                 
 	}
 }

@@ -16,29 +16,35 @@ and open the template in the editor.
              * 获取或者设置匹配元素的滚动条，距离最顶端的位置。
              * 注意是 匹配元素的滚动条。  而不是匹配元素 距离 上层元素的位置。
              */
-            
+
             $(function () {
-                var p = $("p:first");
-                $("p:last").text("scrollTop:" + p.scrollTop());
+                var pf = $("p:first");
+                $("p:last").text("scrollTop:" + pf.scrollTop());
                 // 当 p的滚动条 滚动的时候。
-                p.scroll(function(){
-                    $("p:last").text("scrollTop:" + p.scrollTop());
+                pf.scroll(function () {
+                    $("p:last").text("scrollTop:" + pf.scrollTop());
                 });
-                
+
             });
         </script>
         <style>
+            /* overflow: scroll; 显示滚动条 */
             p{height:500px;overflow: scroll;}
-            </style>
+        </style>
     </head>
     <body>
+        
         <p>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        222222222Hello
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        </p><p>scrollTop: ???</p>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            222222222Hello
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </p>
+
+        <p>scrollTop: ???</p>
+        
+        
     </body>
 </html>

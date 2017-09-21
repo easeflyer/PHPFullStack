@@ -14,6 +14,7 @@
 a{text-decoration:none; color:#000}
 
 </style>
+
         <script type="text/javascript">
             function createop(_v, _r) {
                 return "<a href='index.php?g=admin&m=attrlist&a=manageattrlist&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-chart_organisation_add\"'>管理属性列表</a><a href='index.php?g=admin&m=Goodattr&a=editattr&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-drive_edit\"'>编辑</a><a href='javascript:void(0)'  onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton'   data-options='iconCls:\"icon-cancel\"'>删除</a>";

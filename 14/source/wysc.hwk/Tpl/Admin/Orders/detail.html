@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
+    http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>订单管理</title>
+        <include file="Common:miniheader" />
+        <link href="__SKIN__css/tableform.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">
+            function changeaddressvalue(obj, _addid) {
+                $.get("index.php?g=admin&m=address&a=editjson", {id: _addid, fieldname: obj.name, val: obj.value}, function () {
+                })
+            }
+        </script>
+        <style>
+            .table-form caption{
+                height: 3em;
+                line-height: 3em;
+                background-color: #f1f1f1
+            }
+            .basicth{ text-align: center!important}
+        </style>
+    </head>
+    <body>
+        <div  class="easyui-panel" data-options="
+              title:'订单详情',
+              border:false,
+              iconCls:'icon-application_view_detail'
+              ">
+
+            <form name="f1" action="" method="post" enctype="multipart/form-data">   
+                <table class="table-form" border="0" width="100%">
+                    <caption>订单商品</caption>
+                    <tr>
+                        <th class="basicth" style="width:20px">id</th>
+                        <th class="basicth">缩略图</th>
+                        <th class="basicth">商品名称</th>
+                        <th class="basicth">数量</th>
+                        <th class="basicth">价格小计</th>
+                    </tr>
+                    <volist name="goodsdata" id="item">
+                        <tr>
+                            <td align="center">{$item[goods_id]}</td>
+                            <td class="basicth"><img src="<if condition="$item[goods_thumb]">
+                                    __APPURL__/Public/Uploads/{$item[goods_thumb]}
+                                    <else/>
+                                    __SKIN__/images/nopic.png
+                                </if>" width="64" height="64"></td>
+                            <td class="basicth">{$item[goods_name]}</td>
+                            <td class="basicth">{$item[num]}</td>
+                            <td align="center"><span style="color:red">￥</span>{$item[totalprice]}</td>
+                        </tr>
+                    </volist>
+                </table>
+                <table class="table-form" border="0" width="100%">
+                    <caption>收货地址</caption>
+                    <tr>
+                        <th>收货人</th><td colspan="3">{$addressdata[contact]}</td>
+                    </tr>
+                    <tr>
+                        <th>详细地址</th><td colspan="3">{$addressdata[address]}</td>
+                    </tr>
+                    <tr>
+                        <th>电话</th><td style="width:270px">{$addressdata[tel]}</td>
+                        <th>手机</th><td>{$addressdata[phone]}</td>
+                    </tr>
+                    <tr>
+                        <th>标志建筑</th><td style="width:270px">{$addressdata[signbuild]}</td>
+                        <th>最佳送货时间</th><td>{$addressdata[besttime]}</td>
+                    </tr>
+                </table>
+                <table class="table-form" border="0" width="100%">
+                    <caption>配送方式</caption>
+                    <tr>
+                        <th class="basicth">名称</th>
+                        <th class="basicth">说明</th>
+                        <th class="basicth">加收费用</th>
+                    </tr>
+                    <tr>
+                        <td class="basicth">{$basicorderdata[shipname]}</td>
+                        <td class="basicth">{$basicorderdata[shipdesc]}</td>
+                        <th class="basicth">{$basicorderdata[extramoney]}</th>
+                    </tr>
+                </table>
+                <table class="table-form" border="0" width="100%">
+                    <caption>订单信息汇总</caption>
+                    <tr>
+                        <th class="basicth">订单状态</th>
+                        <th class="basicth">费用结算</th>
+                    </tr>
+                    <tr>
+                        <td align="center" class="basicth">{$basicorderdata[state]}</td>
+                        <th class="basicth"><h3 style="font-size:14px;color:#ff0000">{$basicorderdata[totalprice]} + {$basicorderdata[extramoney]}={$basicorderdata[totalprice] + $basicorderdata[extramoney]}</h3></th>
+                    </tr>
+                </table>
+            </form>  
+        </div>
+    </body>
+</html>

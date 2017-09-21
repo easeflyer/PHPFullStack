@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <include file='Common:miniheader' />
+        <script>
+            function getshow(_v, _r) {
+                return _v == 0 ? '否' : '是';
+            }
+            function createop(_v, _r) {
+                return "<a href='index.php?g=admin&m=attrlist&a=manageattrlist&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-chart_organisation_add\"'>管理属性列表</a><a href='index.php?g=admin&m=Goodsattr&a=editattr&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-drive_edit\"'>编辑</a><a href='Javascript:void(0)' onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton' data-options='iconCls:\"icon-cancel\"'>删除</a>";
+            }
+            function renderbutton() {
+                $('a.easyui-linkbutton').linkbutton({plain: true});
+            }
+            function gotopage(_page, _pagesize) {
+                window.location.href = 'index.php?g=admin&m=Goodsattr&a=managegoodsattr&page='+_page;
+            }
+            function confirmdel(_id) {
+                $.messager.confirm('确认删除','是否确认删除该模型',function(r){
+                    if(r){
+                        window.location.href='index.php?g=admin&m=Goodsattr&a=del&id='+_id;
+                    }
+                });
+            }
+        </script>
+        <title>商品属性管理</title>
+    </head>
+    <body>
+        <div class="easyui-panel" data-options="title:'模型管理',
+             border:false,
+             iconCls:'icon-application_view_list'
+             ">
+            <table class="easyui-datagrid" data-options="border:false,
+                   fitColumns:true,
+                   toolbar:'#toolbar',
+                   onLoadSuccess:renderbutton
+                   ">
+                <thead>   
+                    <th data-options="field:'id',align:'center',width:20">id</th>  
+                    <th data-options="field:'attrname',width:100">模型名称</th>   
+                    <th data-options="field:'opration',
+                        width:150,
+                        formatter:createop
+                        ">操作</th>
+                </thead>
+                <tbody>
+                    <volist name="data" id="val">
+                        <tr>
+                            <td>{$val['id']}</td>
+                            <td>{$val['attrname']}</td>
+                            <td></td>
+                        </tr>
+                    </volist>
+                </tbody>
+            </table>
+            <div class="easyui-pagination" data-options="
+                 border:true,
+                 total:'{$total}',
+                 pageSize:'{:C('PAGE_SIZE')}',
+                 pageNumber:{$page},
+                 pageList:[{:C('PAGE_SIZE')}],
+                 onSelectPage:gotopage
+                 "></div>
+            <div id="toolbar">
+                <a href="{:U('Goodsattr/addgoodsattr')}" class="easyui-linkbutton"data-options="plain:true,
+                   iconCls:'icon-application_form_add'
+                   ">添加模型</a>
+            </div>
+        </div>
+    </body>
+</html>

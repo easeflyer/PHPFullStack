@@ -24,6 +24,7 @@ class testSon extends testPublic{
 $ts = new testSon();
 $ts->demo3();
 $ts->demo2();
+$ts->demo();
 
 
 

@@ -99,4 +99,96 @@ class BooksAction extends Action {
         $bo->execute($sql);
     }
 
+    
+    // 2017.9.19 补充
+    
+    function updateView(){
+        //接收前面的信息  就是接收前面的Id
+        $bId=$_GET["bId"];
+        $books=M("books");
+        $sql="select * from think_books where bId={$bId}";
+        $rs=$books->query($sql);
+        //print_r($rs);exit;//获取当前要修改的所有信息，是一个二维数组
+        $this->assign("rs",$rs);//放到模板中
+
+        // 所有类型
+        $cat=M("cat");
+        $sql_1 = "select * from think_cat where cPid=0";
+        $rs_1 = $cat->query($sql_1);
+         $this->assign("rs_1",$rs_1);
+        
+        // 子类型
+        $sql_3 = "select * from think_cat where cPid=".$rs[0][bFid];
+        $rs_3 = $cat->query($sql_3);
+        $this->assign("rs_3",$rs_3);
+         
+         
+         
+        $pub=M("pub");
+        $sql_2="select * from think_pub";
+        $rs_2=$pub->query($sql_2);
+        $this->assign("rs_2",$rs_2);
+        //需要一个模板
+        $this->display();
+        //接收前面的信息  就是接收前面的Id
+         
+        
+    }
+    function updateAction(){
+        //实例化   //接收所有值
+       $books=M("books");//接收id
+       $bId=$_GET["bId"];
+       $bCode=$_POST["bCode"];
+        $bName=$_POST["bName"];
+        $bAuth=$_POST["bAuth"];
+        $bTrabs=$_POST["bTrabs"];
+        $pId=$_POST["pId"];
+        $bISBN=$_POST["bISBN"];
+        $bPcount=$_POST["bPcount"];
+        $bPages=$_POST["bPages"];
+        $bStyle=$_POST["bStyle"];
+        $bSize=$_POST["bSize"];
+        $bFid=$_POST["bFid"];
+        $bSid=$_POST["bSid"];
+        
+        $bMprice=$_POST["bMprice"];
+        $bJDprice=$_POST["bJDprice"];
+        $bEditor=$_POST["bEditor"];
+        $bCon=$_POST["bCon"];
+        $bTree=$_POST["bTree"];
+        $bDate=date("Y-m-d");
+        $bState=1;
+        //接收图片，判断有没有图片去修改
+        $bImg = $_FILES["bImg"];
+        //echo strlen($uPic["name"]);//strlen:长度   如果图片名字的长度为0 就是没有图片
+        if (strlen($bImg["name"]) > 0) {  //有图片修改
+            import('ORG.Net.UploadFile'); //导入文件上传类包
+            $upload = new UploadFile(); // 实例化上传类
+            $upload->maxSize = 3145728; // 设置附件上传大小
+            $upload->allowExts = array('jpg', 'gif', 'png', 'jpeg'); // 设置附件上传类型
+            $upload->savePath = './Public/Uploads/books/'; // 设置附件上传目录*****
+            if (!$upload->upload()) {// 上传错误提示错误信息
+                $this->error($upload->getErrorMsg());
+            } else { // 上传成功 获取上传文件信息
+                $info = $upload->getUploadFileInfo();
+                //print_r($info);
+                $filePath = $upload->savePath . $info[0]["savename"];
+            }
+        }else{//没有图片修改要把老图的路径拿过来
+            $sql = "select bImg from think_books where bId={$bId}";
+            $rs = $books->query($sql);
+            $filePath = $rs[0]["bImg"];   //$filePath放的是新老图的路径
+    }//echo $filePath;
+         $sql = "update think_books set ";
+         $sql.="bCode='{$bCode}', bName='{$bName}', bAuth='{$bAuth}', bTrabs='{$bTrabs}', pId={$pId}, bISBN='{$bISBN}', bDate='{$bDate}', bPcount={$bPcount}, bPages={$bPages}, bStyle='{$bStyle}', "
+        . "bSize={$bSize}, bFid={$bFid},bSid={$bSid}, bMprice='{$bMprice}', bJDprice='{$bJDprice}', bImg='{$filePath}', bEditor='{$bEditor}', bCon='{$bCon}', bTree='{$bTree}', bState={$bState} where bId={$bId} ";
+        
+    
+   $books->execute($sql);
+   
+}
+    
+    
+    
+    
 }

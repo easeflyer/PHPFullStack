@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            div{
+                border:1px solid #ff0000;   
+            }
+            /* ~ 兄弟选择器  + 相邻兄弟选择器*/
+            #dv1~div{
+                width:200px;
+                height:100px;
+            }
+            
+            /* 作为第一个孩子的li */
+            #ul1 > li:first-child{
+                color:#ff0000;
+            }
+            /* 作为最后一个孩子的li */
+            #ul1 > li:last-child{
+                color:#0000ff;
+            }
+            /* 第三个孩子 */
+            #ul1 > li:nth-child(3){
+                color:#00ff00;
+            }
+            /*  排除最后一个孩子 */
+            #ul2 > li:not(:last-child){
+                color:#ff0000;
+            }
+            span{
+                border:1px solid #ff0000;
+                background-color: #00ff00;                
+            }
+            form > input:not(:checked) + span{
+                border:1px solid #ff0000;
+                background-color: #ff0000;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="dv1">333333
+        </div>
+        <div>相邻的兄弟元素</div>
+        <div>兄弟元素</div>
+        
+        <ul id="ul1">
+            <li>1aaaa</li>
+            <li>1bbbb</li>
+            <li>1cccc</li>
+            <li>1dddd</li>
+        </ul>
+
+        <ul id="ul2">
+            <li>aaaa</li>
+            <li>bbbb</li>
+            <li>cccc</li>
+            <li>dddd</li>
+        </ul>
+        
+        <form>
+            
+            选项1：<input type="checkbox" name="fr[]" /><span>1</span>
+            选项2：<input type="checkbox" name="fr[]" checked="checked" /><span>1</span>
+            选项3：<input type="checkbox" name="fr[]" /><span>1</span>
+            选项4：<input type="checkbox" name="fr[]" /><span>1</span>
+        </form>
+        
+    </body>
+</html>

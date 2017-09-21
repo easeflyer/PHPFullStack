@@ -7,8 +7,11 @@
 <script type="text/javascript">
 window.onload = function(){
 	var one = document.getElementById("one");
+        var two = document.getElementById("two");
+        
 	one.onclick = function(){
-		window.location = "http://www.baidu.com";
+		//window.location.href = "http://www.baidu.com";
+                window.location = two.value;
 	}
 }
 </script>
@@ -30,6 +33,6 @@ wt("screen.width"+screen.width);
 wt("screen.availheight"+screen.availHeight);
 wt("screen.availwidth"+screen.availWidth);
 </script>
-        
+
 </body>
 </html>

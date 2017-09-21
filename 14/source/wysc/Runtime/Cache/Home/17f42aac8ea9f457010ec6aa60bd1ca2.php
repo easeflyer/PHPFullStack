@@ -3,7 +3,7 @@
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>用户登录注册-我赢商城</title>
+        <title>用户登录注册-3C商城</title>
         <link rel="stylesheet" type="text/css" href="__SKIN__plugin/ui/themes/__THEME__/easyui.css" />
 <link rel="stylesheet" type="text/css" href="__SKIN__plugin/ui/themes/icon.css" />
 <script type="text/javascript" src="__SKIN__plugin/ui/jquery-1.7.2.min.js"></script>
@@ -14,6 +14,7 @@
 a{text-decoration:none; color:#000}
 
 </style>
+
         <link rel="stylesheet" type="text/css" href="__SKIN__css/register.css" />
         <script type="text/javascript">
             // 做登录 验证，在相邻的 td span 标签内，提示输入问题。

@@ -6,6 +6,10 @@
         <script type="text/javascript" src="js/jquery.js"></script>
     </head>
     <style type="text/css">
+        /*
+        此案例 和 index.html 一致。暂未修改。
+        */
+        
         *{margin:0px;padding:0px;}
         ul{ list-style:none;}
         .tab{
@@ -50,6 +54,7 @@
             $(".tab>ul.header>li").click(function () {
                 $(this).parent().find("li.show").addClass("hide").removeClass("show");
                 $(this).addClass("show").removeClass("hide");
+                
                 var parentsEl = $(this).parents(".tab"); //获取当前 元素的父元素 tab;
                 // 添加 ulHide  删除 ulShow
                 parentsEl.find("div>ul.ulShow").addClass("ulHide").removeClass("ulShow");
@@ -68,6 +73,7 @@
                 <li class="liStyle hide">国内</li>
                 <li class="liStyle hide">体育</li>
             </ul>
+            
             <div class="content">
                 <ul class="ulShow">
                     <li>国际上最近发生事很多1</li>

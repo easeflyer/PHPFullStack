@@ -1,0 +1,28 @@
+[ 2017-09-12T14:34:34+08:00 ] 0.0.0.0 /12/pro/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [2048] Declaration of IndexAction::success() should be compatible with that of Action::success() F:\ease\php_lesson\12\pro\home\Lib\Action\IndexAction.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.019537s ]
+SQL: SELECT * FROM `think_cat` WHERE ( cPid=0 )  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.017174s ]
+SQL: SELECT * FROM `think_pub` LIMIT 0,4   [ RunTime:0.000445s ]
+SQL: SELECT * FROM `think_pub` LIMIT 4,10   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.024539s ]
+SQL: select tb.bName,tb.bImg,tb.bMprice,tb.bJDprice,tc.cName from think_books as tb  left join think_cat as tc on tb.bFid=tc.cId and tb.bState=2 [ RunTime:0.010019s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001873s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001955s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.052286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052354s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001288s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000704s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000517s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003341s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000819s ]
+

@@ -14,7 +14,7 @@
 		border:1px solid #ff0000;
 		width:200px;
 		height:100px;
-		margin:20px 20px;
+		margin:25px 30px;
 	}
 </style>
 <script type="text/javascript">

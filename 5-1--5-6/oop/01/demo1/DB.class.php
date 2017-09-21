@@ -1,6 +1,6 @@
 <?php
 class DB{
-	public $userName;
+	public $userName;  // public  公共的 private 私有的
 	public $userPwd;
 	public $dbName;  //选择使用的数据库
 	public $char;   //字符集

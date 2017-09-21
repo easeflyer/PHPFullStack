@@ -9,6 +9,9 @@
 </head>
 
 <BODY id=userlogin_body>
+    
+    __PUBLIC__
+    __ROOT__
 <DIV></DIV>
 
 <DIV id=user_login>

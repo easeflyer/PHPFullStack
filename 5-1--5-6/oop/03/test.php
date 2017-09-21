@@ -1,7 +1,7 @@
 <?php
 //获得数据库中的记录，循环把记录组装成一个二维数组；
 
-$link = mysql_connect("localhost","root","root");
+$link = mysql_connect("localhost","root","");
 mysql_query("set names utf8");
 mysql_select_db("news");
 $sql = "select * from article";

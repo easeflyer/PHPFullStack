@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <link href="__SKIN__css/left.css" rel="stylesheet" type="text/css"/>
+        <link href="__SKIN__css/show.css" rel="stylesheet" type="text/css"/>
+        <link href="__SKIN__css/header.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/reset.css" rel="stylesheet" type="text/css" />
+        <script src="__SKIN__js/jq.js" type="text/javascript"></script>
+        <script src="__SKIN__js/left.js" type="text/javascript"></script>
+        <script src="__SKIN__js/show.js" type="text/javascript"></script>
+        <title>{$gooddata[goodsname]}-{$CATEGORY[catename]}-3C商城</title>
+        <script>
+            function myminus() {
+                var _googsnum = parseInt($('#goodsnum').val()) - 1;
+                if (_googsnum > 0) {
+                    $('#goodsnum').val(_googsnum);
+                }
+            }
+            function myadd() {
+                var _googsnum = parseInt($('#goodsnum').val()) + 1;
+                if (_googsnum > 0) {
+                    $('#goodsnum').val(_googsnum);
+                }
+            }
+            function gotoshopcar() {
+                var _form = document.getElementById('myform');
+                _form.submit();
+            }
+        </script>
+    </head>
+    <body>
+        <include file='Common:header' />
+        <!--当前位置开始-->
+        <div class="position">
+            <h6>当前位置：</h6><a href="__APPURL__">首页</a>
+            <volist name="pos" id="item">
+                <span> &gt; </span><a href="{:U('Index/lists',array('catid'=>$item[id]))}">{$item[catename]}</a>
+            </volist>
+        </div>
+        <!--当前位置结束-->
+        <!--页面主要区域开始-->
+        <div class="main">
+            <!--右侧区域开始-->
+            <include file="Common:left" />
+            <div class="right">
+                <div class="picshow">
+                    <div id="demo">
+                        <div class="mainpic">
+                            <img src="__APPURL__Public/Uploads/{$pics[0][picdir]}thumb_350_350_{$pics[0][picname]}" width="350" height="350"/>
+                            <div id="mask"></div>
+                            <div id="bigmask"></div>
+                        </div>
+                        <div id="bigpic">
+                            <img src="__APPURL__Public/Uploads/{$pics[0][picdir]}thumb_800_800_{$pics[0][picname]}"  width="800" height="800"/>
+                        </div>
+                    </div>
+                    <div class="picnav">
+                        <a href="javascript:void(0)" class="arrow1"></a>
+                        <div class="scrollpic">
+                            <ul style="left:0">
+                                <volist name="pics" id="item">
+                                    <li><img src="__APPURL__Public/Uploads/{$item[picdir]}thumb_64_64_{$item[picname]}" width="64" height="64" id="{$item[picname]}" name="{$item[picdir]}" /></li>
+                                </volist>
+                            </ul>
+                        </div>
+                        <a href="javascript:void(0)"  class="arrow2"></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>{$gooddata[brandname]}：{$gooddata[goodsname]}</h3>
+                    <div class="info1">
+                        <ul>
+                            <li>商品编号：{$gooddata[id]}</li>
+                            <li>市场价格：￥{$gooddata[mprice]}</li>
+                            <li>商城价格：<span class="red">￥{$gooddata[price]}</span>为您节省<span class="red">￥{$gooddata[mprice]-$gooddata[price]}</span></li>
+                        </ul>
+                    </div>
+                    <div class="info2">
+                        <ul>
+                            <li>库存：<span class="red">{$gooddata[storenum]}</span></li>
+                            <volist name="attrlist" id="item">
+                                <li>{$item[name]}： {$item[val]}</li>
+                            </volist>
+                        </ul>
+                    </div>
+                    <form name="f1" id="myform" action="{:U('shopcar/addshopcar')}" method="post">
+                        <input type="hidden" name="goods_id" value="{$gooddata[id]}"/>
+                        <div class="info3">
+                            <span class="red">购买数量</span>
+                            <a href="javascript:void(0)" class="minus" onclick="myminus()"><img src="__SKIN__/images/show_13.jpg" width="15" height="15" /></a>
+                            <input type="text" name="num" id="goodsnum" value="1" style="width:50px;"/>
+                            <a href="javascript:void(0)" class="add" onclick="myadd()"><img src="__SKIN__/images/show_15.jpg" width="15" height="15" /></a>
+                        </div>
+                    <a href="javascript:void(0)" onclick="gotoshopcar()" class="buy"><img src="__SKIN__/images/show_20.jpg" /></a>
+                    </form> 
+                </div>
+                <div class="clear"></div>
+                <div class="detail">
+                    <div class="detail1">
+                        <ul>
+                            <li><img src="__SKIN__images/show_31.jpg" height="34" alt="" /></li>
+                            <li><img src="__SKIN__images/show_33.jpg" height="34" alt="" /></li>
+                        </ul>
+                        <div class="content">
+                            <div class="tabcontent">
+                                {$gooddata[goodpra]}
+                            </div>
+                            <div class="tabcontent">
+                                {$gooddata[goodsinfo]}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a name="comments"></a>
+                <div class="comments">
+                    <h3>评论列表</h3>
+                    <ul>
+                        <volist name="commentdata" id="commentitem">
+                            <li>
+                                <div class="commentitem">
+                                    <h4>用户：{$commentitem[username]}</h4>
+                                    <div class="commentcontent">
+                                        {$commentitem[content]}  
+                                    </div>
+                                </div>
+                            </li>
+                        </volist>
+                    </ul>
+                    <div id="page" style="margin-top:10px">{$pageshow}</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="comment">
+                    <form action="{:U('User/addcomment')}" method="post">
+                        <h3>我要评论</h3>
+                        <input type="hidden" name="goodid" value="{$gooddata[id]}" />
+                        <textarea name="content" id="" cols="90" rows="7"></textarea>
+                        <div style="text-align:left; padding:10px">
+                            <input type="submit" name="s1" value="提交">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--右侧区域结束-->
+        <!--页面主要区域结束-->
+        <include file='Common:footer' />
+        </div>
+    </body>
+</html>

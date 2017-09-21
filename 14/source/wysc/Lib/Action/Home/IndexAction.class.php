@@ -27,7 +27,7 @@ class IndexAction extends Action {
         //返回热卖商品数据集 第三个参数为1, 7条记录
         $rmsp = R("Home/Common/getgoodsbycatid", array($catid, 7, 1));
         $this->assign('rmsp', $rmsp);
-        $viewhitory = R("Home/Common/getviewhistory", array(4)); //获得用户浏览过的商品数据集
+        $viewhitory = R("Home/Common/getviewhistory", array(4)); //获得用户浏览过的商品数据集 传递了一个参数 4
         $this->assign('viewhistory', $viewhitory);
         $this->assign('childs', $childs);
     }
@@ -82,7 +82,9 @@ class IndexAction extends Action {
         $this->assign('ad3', $ad3);
         $ad4 = $newsmodel->find(18);
         $this->assign('ad4', $ad4);
+        //echo "ROOT:".__APP__;
         $this->display();
+        
     }
 
     /**
@@ -215,6 +217,7 @@ class IndexAction extends Action {
         $topcat = array_shift($parents);
         $CAT = $catmodel->getself($catid);
         $topid = $topcat[id];
+        // 包含get viewhistory 的浏览历史 变量的渲染和赋值
         $this->getleft($topid);// 完成很多 assign赋值 用于构造页面左侧栏目 topid 是最上级分类id
         $this->assign('gooddata', $gooddata);
         // 根据 attrval 表调取 attlist 表的对应 属性细节。构造一个视图

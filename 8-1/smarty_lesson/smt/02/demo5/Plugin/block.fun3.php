@@ -6,6 +6,8 @@
 function smarty_block_fun3($arr,$content,$smarty,&$repeat){
 	//reapeat  true==》!true  false 
 	if(!$repeat){ //没到用过 调用if中代码。
+                $smarty->assign("a1","smarty_a1"); // $smarty 就是 smarty 对象
+            
 		$html = "<div style='color:".$arr["color"].";font-size:".$arr["size"]."px'>".$content."</div>";
 		return $html;
 	}

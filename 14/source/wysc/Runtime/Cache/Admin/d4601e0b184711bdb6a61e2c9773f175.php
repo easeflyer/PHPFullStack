@@ -14,6 +14,7 @@
 a{text-decoration:none; color:#000}
 
 </style>
+
         <script type="text/javascript">
             function createop(_v, _r) {
                 return "<a href='index.php?g=admin&m=Goodtype&a=edit&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-image_edit\"'>编辑</a><a href='javascript:void(0)'  onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton'   data-options='iconCls:\"icon-image_delete\"'>删除</a>";

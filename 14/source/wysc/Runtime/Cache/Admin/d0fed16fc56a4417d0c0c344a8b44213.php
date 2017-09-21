@@ -2,7 +2,7 @@
 <html >
 <head>
 	<meta charset="UTF-8">
-	<title>欢迎访问我赢商城后台管理系统</title>
+	<title>欢迎访问3C商城后台管理系统</title>
 	<style>
 		*{
 			margin:0;
@@ -18,6 +18,6 @@
 	</style>
 </head>
 <body>
-	<h3>欢迎访问我赢商城后台管理系统</h3>
+	<h3>欢迎访问3C商城后台管理系统</h3>
 </body>
 </html>

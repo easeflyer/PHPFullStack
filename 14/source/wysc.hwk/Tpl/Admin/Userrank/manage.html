@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <include file='Common:miniheader' />
+        <script>
+            function getshow(_v, _r) {
+                return _v == 0 ? '否' : '是';
+            }
+            function createop(_v, _r) {
+                return "<a href='index.php?g=admin&m=attrlist&a=manageattrlist&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-chart_organisation\"'>管理该级别用户</a><a href='index.php?g=admin&m=Userrank&a=edit&id=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-vcard_edit\"'>编辑</a><a href='Javascript:void(0)' onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton' data-options='iconCls:\"icon-vcard_edit\"'>删除</a>";
+            }
+            function renderbutton() {
+                $('a.easyui-linkbutton').linkbutton({plain: true});
+            }
+            function confirmdel(_id) {
+                $.messager.confirm('确认删除', '是否确认删除该级别', function (r) {
+                    if (r) {
+                        window.location.href = 'index.php?g=admin&m=Userrank&a=del&id=' + _id;
+                    }
+                });
+            }
+        </script>
+        <title>用户级别管理</title>
+    </head>
+    <body>
+        <div class="easyui-panel" data-options="title:'用户级别管理',
+             border:false,
+             iconCls:'icon-vcard'
+             ">
+            <table class="easyui-datagrid" data-options="border:false,
+                   fitColumns:true,
+                   toolbar:'#toolbar',
+                   onLoadSuccess:renderbutton
+                   ">
+                <thead>   
+                    <th data-options="field:'id',align:'center',width:20">id</th>  
+                    <th data-options="field:'rankname',width:100">模型名称</th>
+                    <th data-options="field:'minpoint',width:100">最小积分</th>
+                    <th data-options="field:'maxpoint',width:100">最大积分</th>
+                    <th data-options="field:'discount',width:100">折扣</th>
+                    <th data-options="field:'opration',
+                        width:150,
+                        formatter:createop
+                        ">操作</th>
+                </thead>
+                <tbody>
+                    <volist name="data" id="val">
+                        <tr>
+                            <td>{$val['id']}</td>
+
+                            <td>{$val['rankname']}</td>
+
+                            <td>{$val['minpoint']}</td>
+                            <td>{$val['maxpoint']}</td>
+                            <td>{$val['discount']}%</td>
+                        </tr>
+                    </volist>
+                </tbody>
+            </table>
+            <div id="toolbar">
+                <a href="{:U('Userrank/add')}" class="easyui-linkbutton"data-options="plain:true,
+                   iconCls:'icon-vcard_add'
+                   ">添加用户级别</a>
+            </div>
+        </div>
+    </body>
+</html>

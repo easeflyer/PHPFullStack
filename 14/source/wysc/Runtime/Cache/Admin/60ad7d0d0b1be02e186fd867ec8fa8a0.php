@@ -14,6 +14,7 @@
 a{text-decoration:none; color:#000}
 
 </style>
+
         <script type="text/javascript">
             function getstatus(_v, _r) {
                 return _v == 0 ? '是' : '否';

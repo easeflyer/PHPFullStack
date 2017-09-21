@@ -76,8 +76,12 @@ class UserAction extends Action {
                 R("Home/Common/error", array("登录失败"));
                 return;
             } 
+            //echo md5("demo1474852908");
             $salt = $data[salt];
+            //echo $pwd . $salt; //demodemo1474852908
+            
             $pwd = md5($pwd . $salt);
+            //echo $pwd;
             if ($pwd == $data[pwd]) {   // 登录成功
                 $_SESSION[user] = $data;
                 // 登陆成功 刷新购物车 把未登录时 session 中添加的产品加入购物车表
@@ -88,6 +92,7 @@ class UserAction extends Action {
                 return;
             }
         } else {
+            //echo md5("demodemo1474852908");
             $this->display('register'); // 注意这里调用的模板是 指定的 register 而不是默认的。
         }
     }
@@ -441,7 +446,7 @@ class UserAction extends Action {
         $code = rand(1000, 9999);
         $phone = $_GET[phone];
         $_SESSION['code'] = $code;
-        $msg = "尊敬的我赢商城客户您好，你的短信验证码为：$code,如果不是本人发送请忽略[我赢商城]。";
+        $msg = "尊敬的3C商城客户您好，你的短信验证码为：$code,如果不是本人发送请忽略[3C商城]。";
         echo $this->sendmsg($phone, $msg);
     }
 

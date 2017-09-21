@@ -66,9 +66,9 @@ $rs = fetchOne($sql);
 			<h2><?php echo $rs["nTitle"]?></h2>
 			<h3><span>吉林省林业厅处室子站群 <?php echo $rs["nSource"]?></span>	<span>日期：  <?php echo $rs["nDate"]?></span>	<span>来源：  <?php echo $rs["nSourceName"]?></span></h3>
 		</div>
-		<div class="article-con">
-				 <?php echo $rs["nContent"]?>
-		</div>
+            <div class="article-con">
+				 <?php echo str_replace("\n","<br /><br />",$rs["nContent"]) ?>
+                </div>
 	</div>
 	<div class="footer mt5 w1000">
 		<div class="ft-top alC"><a href="###">网站地图</a>&nbsp;|&nbsp;<a href="###">关于我们</a>&nbsp;|&nbsp;<a href="###">网站通告</a>&nbsp;|&nbsp;<a href="###">联系我们</a></div>

@@ -1,11 +1,21 @@
 ﻿/* CSS Document */
-div{
+#dv1{
+    border:1px solid #ff0000;
+    width:40px;
+    height:40px;
+    /*background-color:#00ff00;*/
+    background-image:url(../imgs/2.jpg); /*背景图的路径 是从 样式文件算起的。 图片 只有 79*92 大小 */
+    background-repeat:no-repeat;   /* 仅 横向平铺 */
+    background-position: -20px  -20px; /* 背景图定位 */
+}
+
+#dv2{
     border:1px solid #ff0000;
     width:1400px;
     height:1400px;
     /*background-color:#00ff00;*/
-    background-image:url(../imgs/2.jpg); /*背景图的路径 是从 样式文件算起的。*/
-    background-repeat:repeat-x;   /* 仅 横向平铺 */
-    background-position: -180px  0px; /* 背景图定位 */
+    background-image:url(../imgs/2.jpg); /*背景图的路径 是从 样式文件算起的。 图片 只有 79*92 大小 */
+    /* background-repeat:no-repeat;   /* 仅 横向平铺 */
+    background-attachment:fixed;   /* 固定不动的 */
+    background-position: -18px  -10px; /* 背景图定位 */
 }
-

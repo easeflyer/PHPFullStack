@@ -13,11 +13,17 @@ class Hero{  //类名称 与 文件名称相同
 	function eat($f){  // 方法可以有参数，也可以有返回值
 		echo "在吃饭，吃$f";
 	}
+        
+        
 }
 
 $zhangfei  = new Hero(); // 实例化英雄类
+$zhangfei->userName = "张飞";
 $zhangfei->dazhang();
 $zhangfei->eat("米饭");
+echo "<br />";
+echo $zhangfei->userAge;
+echo $zhangfei->userName;
 print_r($zhangfei);
 
 

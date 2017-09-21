@@ -57,32 +57,47 @@ tim=setInterval("openit()",100);
         <TR>
           <TD width=360></TD>
           <TD>
-		  	<form action="loginCheck.php" method="post">
+		  	
+              
+           
+              
+            
+            <!--
+                    form 部分需要后台程序员来写  提交到 loginCheck.php
+            -->  
+            
+            
+            
+            <form action="loginCheck.php" method="post">
             <TABLE cellSpacing=0 cellPadding=2 border=0>
               <TBODY>
               <TR>
                 <TD style="HEIGHT: 28px" width=80>登 录 名：</TD>
-                <TD style="HEIGHT: 28px" width=150><INPUT id=txtName style="WIDTH: 130px" name="aName"></TD>
-                <TD style="HEIGHT: 28px" width=370><SPAN 
-                  id=RequiredFieldValidator3 
-                  style="FONT-WEIGHT: bold; VISIBILITY: hidden; COLOR: white">请输入登录名</SPAN></TD></TR>
+                <TD style="HEIGHT: 28px" width=150>
+                    <!--  用户名  -->
+                    <INPUT id=txtName style="WIDTH: 130px" name="aName" />
+                </TD>
+                <TD style="HEIGHT: 28px" width=370>
+                    <SPAN id=RequiredFieldValidator3 style="FONT-WEIGHT: bold; VISIBILITY: hidden; COLOR: white">请输入登录名</SPAN></TD></TR>
               <TR>
                 <TD style="HEIGHT: 28px">登录密码：</TD>
-                <TD style="HEIGHT: 28px"><INPUT id=txtPwd style="WIDTH: 130px" type=password name="aPwd"></TD>
-                <TD style="HEIGHT: 28px"><SPAN id=RequiredFieldValidator4 
-                  style="FONT-WEIGHT: bold; VISIBILITY: hidden; COLOR: white">请输入密码</SPAN></TD></TR>
+                <TD style="HEIGHT: 28px">
+                    <!--  密码  -->
+                    <INPUT id=txtPwd style="WIDTH: 130px" type=password name="aPwd" />
+                </TD>
+                <TD style="HEIGHT: 28px"><SPAN id=RequiredFieldValidator4 style="FONT-WEIGHT: bold; VISIBILITY: hidden; COLOR: white">请输入密码</SPAN></TD></TR>
               <TR>
                 <TD style="HEIGHT: 28px">验证码：</TD>
                 <TD style="HEIGHT: 28px">
-				<INPUT id=txtcode style="WIDTH: 60px" name="verify">
+                    <INPUT id=txtcode style="WIDTH: 60px" name="verify" />
+                    <img id="ver" src="verify.php" />
+		</TD>
+
+                <!-- 验证码 
+                  verify.php?rand='+Math.random();  后面的随机数 起到了刷新的作用。
+                -->
 
 
-        <!-- 验证码 
-          verify.php?rand='+Math.random();  后面的随机数 起到了刷新的作用。
-        -->
-
-				<img id="ver" src="verify.php">
-				</TD>
                 <TD style="HEIGHT: 28px"><span onclick="document.getElementById('ver').src='verify.php?rand='+Math.random();">看不清</span></TD></TR>
               <TR>
                 <TD style="HEIGHT: 18px"></TD>

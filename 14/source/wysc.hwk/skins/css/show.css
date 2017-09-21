@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.main .right{width:780px; float:left; margin-left:19px;}
+.right .picshow{width:353px; height:460px; float:left;}
+.right .picshow .mainpic{width:350px; height:350px; border:1px solid #c8c7c7; position:relative;}
+#demo{width:350px; height:350px; position:relative;}
+#mask{width:149px; height:149px; background:#ffffff; opacity:0.5; filter:alpha(opacity=50); position:absolute; left:0; top:0; border:1px solid #999; cursor:move; display:none;}
+#bigmask{width:350px; height:350px; background:#000; position:absolute; left:0; top:0; opacity:0; filter:alpha(opacity=0);}
+#bigpic{position:relative; top:-325px; left:360px; width:300px; height:300px; overflow:hidden; display:none;}
+#bigpic img{position:absolute;}
+.right .picshow .picnav{height:90px; background:#c8c7c7; margin-top:18px;}
+.right .picshow .picnav .arrow1,.right .picshow .picnav .arrow2{display:block; width:7px; height:90px; cursor:pointer;}
+.right .picshow .picnav .arrow1{background:url(../images/show_03.gif) no-repeat center; float:left; margin-left:4px;}
+.right .picshow .picnav .arrow2{background:url(../images/show_05.gif) no-repeat center; float:right;  margin-right:4px;}
+.right .picshow .picnav .scrollpic{width:312px; float:left; margin-left:7px; overflow:hidden;}
+.right .picshow .picnav .scrollpic ul{white-space:nowrap; font-size:0px; position:relative;}
+.right .picshow .picnav li{display:inline-block; margin-top:12px; border:1px solid #bd616c; margin-left:6px; margin-right:6px;}
+.right .picshow .picnav li img{cursor:pointer;}
+.right .info{width:410px; height:460px; float:right;}
+.right .info h3{height:auto; color:#b90503; line-height:2em; padding-left:20px;}
+.right .info .info1,.right .info .info3{height:90px; background:url(../images/show_03.jpg) repeat-x; padding-left:20px; padding-top:10px;}
+.right .info .info1 li{height:25px; line-height:25px; font-size:12px;}
+.right .info .info1 li span.red{font-weight:bolder; color:#b90503; }
+.right .info .info2{height:auto; background:url(../images/show_06.jpg) repeat-x; padding-left:20px; padding-top:20px; padding-bottom:10px;}
+.right .info .info2 li{height:25px; line-height:25px; font-size:12px;}
+.right .info .info2 li span.red{font-weight:bolder; color:#b90503; }
+.right .info .info3{padding-top:20px; height:80px;}
+.right .info .info3 span.red{font-weight:bolder; color:#b90503; float:left; margin-right:20px; margin-top:7px;}
+.right .info .info3 .minus,.right .info .info3 .add,.right .info .info3 #goodsnum{float:left;}
+.right .info .info3 #goodsnum{width:58px; height:28px; border:1px solid #c3c2c2; line-height:28px; text-align:center;}
+.right .info .info3 .minus{margin-right:5px; margin-top:7px;}
+.right .info .info3 .add{margin-left:5px; margin-top:7px;}
+.info .buy{margin-left:20px; margin-top:20px; clear:both; display:block;}
+.detail{margin-top:20px;}
+.detail .detail1 ul{border-bottom:2px solid #b30507; height:34px;}
+.detail .detail1 ul li{float:left; margin-left:23px; cursor:pointer;}
+.detail .detail1 ul li img {opacity: 0.6;}
+.detail .detail1 ul li img.current {border: 1px solid #00ff00;border-bottom: none;border-top-left-radius: 5px;border-top-right-radius: 5px;opacity: 1;}
+.tabcontent {padding: 20px;font-size: 12px;display: none;}
+.right .comments {margin-left: 20px;}
+.right .comment,.right .comments{margin-left: 20px;margin-bottom: 10px;background: url(../images/show_06.jpg) repeat-x;}
+.right .comment h3,.right .comments h3{padding: 10px;}
+.right .comments ul{padding-left: 20px;}
+.right .comments ul li{padding: 10px 0;}
+.right .comments ul li h4{border-bottom: 1px solid #f1f1f1;line-height: 2em;}
+.right .comments ul li .commentcontent{padding: 10px 0;padding-left: 2em;border-bottom: 1px dashed #cccccc;}

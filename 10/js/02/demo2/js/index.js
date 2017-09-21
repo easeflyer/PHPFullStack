@@ -2,11 +2,16 @@
 document.write("<br />-------------if else--------------<br />");
 var wea = "雾天";
 
-if(wea == "晴天"){
+if (wea == "晴天")  {
     document.write(wea + ":");
+    document.write("::::::");
+    // 若干条语句
 }else{
     document.write("其他天气:");  
 }
+// 晴天：跑步
+
+
 
 if (wea == "阴天") {   //晴天 == 阴天  false 
     document.write("游泳");
@@ -15,11 +20,17 @@ if (wea == "阴天") {   //晴天 == 阴天  false
 } else if (wea == "雾天") {//晴天 == 雾天  false 
     document.write("户外活动");
 } else {  ///晴天 和以上条件都比较   false 
-    document.write("跑步");
+    document.write("跑步1111");
 }
+
+
+
+
 document.write("<br />-------------if else--end------------<br />");
 
 if (wea != "白天") {
+    document.write("<br />睡觉");
+    document.write("<br />睡觉");
     document.write("<br />睡觉");
 }
 
@@ -32,6 +43,8 @@ var wea1 = "雪天";
 switch (wea1) {
     case "阴天":
         document.write("游泳");
+        document.write("游泳");
+        document.write("游泳");
         break;
     case "雪天":
         document.write("兜风");
@@ -43,6 +56,9 @@ switch (wea1) {
         document.write("睡觉");
         break;
 }
+
+
+
 
 
 

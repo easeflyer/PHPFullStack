@@ -1,0 +1,41 @@
+<div class="left">
+    <!--当前分类开始-->
+    <div class="currencat">
+        <h3><span>用户菜单</span></h3>
+        <ul class="cat">
+            <li class="item"><h4
+                    <if condition="$Think.get.option eq 'selfinfo'">
+                    class="current"
+                    </if>
+                    ><a href="{:U('User/ucenter',array('option'=>'selfinfo'))}">个人信息</a></h4></li>
+            <li class="item"><h4
+                    <if condition="$Think.get.option eq 'modifypwd'">
+                    class="current"
+                    </if>
+                    ><a href="{:U('User/ucenter',array('option'=>'modifypwd'))}">修改密码</a></h4></li>
+            <li class="item"><h4><a href="{:U('Shoppingflow/step',array('step'=>'shoppingcar'))}">购物车</a></h4></li>
+            <li class="item"><h4
+                    <if condition="$Think.get.option eq 'selforder'">
+                    class="current"
+                    </if>
+                    ><a href="{:U('User/ucenter',array('option'=>'selforder'))}">订单</a></h4></li>
+            <li class="item"><h4
+                    <if condition="($Think.get.option eq 'selfaddress') OR ($Think.get.option eq 'addaddress')">
+		    class="current"
+		    </if>
+                    ><a href="{:U('User/ucenter',array('option'=>'selfaddress'))}">收货地址</a></h4></li>
+            <li class="item"><h4
+                    <if condition="$Think.get.option eq 'selffavor'">
+                    class="current"
+                    </if>
+                    ><a href="{:U('User/ucenter',array('option'=>'selffavor'))}">我的收藏</a></h4></li>
+            <li class="item"><h4
+                    <if condition="$Think.get.option eq 'selfcomment'">
+                    class="current"
+                    </if>
+                    ><a href="{:U('User/ucenter',array('option'=>'selfcomment'))}">我的评论</a></h4></li>                                                        
+        </ul>
+        <div class="curcatbt">
+        </div>
+    </div>
+</div>

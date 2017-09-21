@@ -11,7 +11,7 @@ return array(
 'DB_PORT'               => '3306',        // 端口
 'DB_PREFIX'             => '',    // 数据库表前缀
 'DB_FIELDTYPE_CHECK'    => false,       // 是否进行字段类型检查  数据库通常会自动处理必要的转换 参见手册14.2
-'DB_FIELDS_CACHE'       => true,        // 启用字段缓存，缓存数据表的 字段信息。表结构信息 参考手册 6.3
+'DB_FIELDS_CACHE'       => true,        // 启用字段缓存，缓存数据表的 字段信息。表结构信息 参考手册 6.3  开发的时候可以考虑关闭。否则可能修改数据库后造成问题
 'DB_CHARSET'            => 'utf8',      // 数据库编码默认采用utf8,
 
 /* URL设置 */
@@ -22,7 +22,7 @@ return array(
 
 'APP_GROUP_LIST'        => 'Home,Admin',      // 项目分组设定,多个组之间用逗号分隔,例如'Home,Admin'
 'DEFAULT_GROUP'         => 'Home',  // 默认分组
-'TMPL_PARSE_STRING'  =>array(       // 模板替换 常量定义 或者修改 见手册 7.4
+'TMPL_PARSE_STRING'  =>array(       // 模板替换 常量定义的 增加或者修改 见手册 7.4 
 //'__APPURL__'=>'HTTP://127.0.0.1/wysc/',
 '__APPURL__'=>'/wysc/',    
 '__SKIN__'=>'/wysc/skins/',  //
@@ -30,7 +30,7 @@ return array(
 ),
 'PAGE_SIZE'=>15,                // 默认分页 数据条数
 //商品存储预警阀值，当商品数量小于该值时，系统应当预警
-'LOW_STORENUM'=>10,           // 商品库存量 预警值
+'LOW_STORENUM'=>10,           // 商品库存量 预警值  一个自定义的变量而已
 'PAYMENT'=>array(
 '1'=>'余额支付',
 '2'=>'支付宝支付'
@@ -48,7 +48,7 @@ return array(
 'USER_AUTH_GATEWAY'=>'index.php?g=admin&m=Public&a=login',//认证网关 登录验证的地址，当用户处于未登录状态，则跳到认证网关进行登录
 //RBAC_DB_DSN  //数据库连接DSN,如果rbac的数据与当前不太相同，使用该配置项进行单独配置
 'RBAC_ROLE_TABLE'=>'role', //角色表名称
-'RBAC_USER_TABLE'=>'roleuser', //用户表名称
+'RBAC_USER_TABLE'=>'roleuser', //角色用户表名称
 'RBAC_ACCESS_TABLE'=>'access', //权限表名称
 'RBAC_NODE_TABLE'=>'node', //节点表名称
 //

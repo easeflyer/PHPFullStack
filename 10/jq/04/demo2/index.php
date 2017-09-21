@@ -15,12 +15,13 @@
                 $("tbody>tr").removeClass("selected"); // 此句 和下面一句 有一个即可。
                 $(this).addClass("selected");
             }, function () {
-                //$("tbody>tr").removeClass("selected");  // 这句可以不要
+                //alert(3333);
+               //$("tbody>tr").removeClass("selected");  // 这句可以不要
             })
         })
     </script>
     <style type="text/css">
-        .odd { background-color:#D7FBF8;}
+        .odd { background-color:#00ff33;}
         .selected{ background-color:#FF0000;}
     </style>
     <body>

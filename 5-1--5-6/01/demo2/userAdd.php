@@ -130,6 +130,13 @@ function __doPostBack(eventTarget, eventArgument) {
 					</table>
 					</form>
 
+                                        
+                                        <!--
+                                                    结束：其他代码部分可以不用关注。
+                                        -->
+                                        
+                                        
+                                        
 
 			 </TD>
 			<TD width=15 background=imgs/new_023.jpg><IMG  src="imgs/new_023.jpg" border=0> </TD>

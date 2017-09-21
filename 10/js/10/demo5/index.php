@@ -2,8 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>index.php</title>
+<title>index.php11111</title>
 </head>
+    
 <script type="text/javascript">
 // 因为要给 bt1 添加事件，因此使用 window.onload 目的是 等所有 html 加载完毕，才能绑定事件。
 window.onload = function(){
@@ -12,9 +13,13 @@ window.onload = function(){
 		history.forward();
 	}
 }
+
 </script>
+    
 <body>
-<a href="test.php">链接跳转到test</a>
+
+<a href="test.php">首先点击链接跳转到test111111</a>
 <input type="button" value="前进" id="bt1" />
+
 </body>
 </html>

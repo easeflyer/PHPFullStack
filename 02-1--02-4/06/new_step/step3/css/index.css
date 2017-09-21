@@ -1,0 +1,121 @@
+/**  reset 复位 重置部分暂时忽略
+****************************************************************************/
+
+
+
+
+/**  整体背景色   用于辅助布局，项目完成后可以注释掉，或者删掉。
+****************************************************************************/
+/* 这部分注释掉的时候，整个头部 立即显现出来。 当完成了 top 部分的详细 css 后，就可以注释掉这部分了。*/
+/*
+div#top{background-color:#cccccc}
+div#top .top_main{background-color:#dddddd}
+div#top .top_main div {background-color:#eeeeee}
+
+div#header{background-color:#eeeeee}
+div#header .headertop{background-color:#ffffff}
+div#header .headertop div{background-color:#ffffcc}
+div#header .nav{background-color:#dddddd}
+div#header .nav .menu{background-color:#aaaaaa}
+*/
+div#wrap{background-color:#eeeeee}
+div#section1{background-color:#cccccc}
+div#section1 .catelist{background-color: #ffffcc}
+div#section1 .firstmain .pic{background-color:#aaaaaa }
+div#section1 .firstmain .pics{background-color:#aaaacc}
+div#section1 .firstright{background-color: #ffffcc}
+
+div#section2{background-color:#cccccc}
+div#section3{background-color:#cccccc}
+div#section4{background-color:#cccccc}
+div#section5{background-color:#cccccc}
+
+div#footer{background-color:#cccccc}
+div#footertop{background-color:#aaaaaa}
+div#footermain{background-color:#cccccc}
+
+div#copyright{background-color:#eeeeee}
+
+
+
+
+
+
+
+
+
+/**  内容开始   以下是定义了网站的整体结构
+****************************************************************************/
+
+
+
+/** 1） top 部分详细实现
+1 添加 所有的详细实现。注意避免影响到整体布局。
+2 注释掉上面的 为了定位而添加的背景色。因为上面的背景色设定的
+----------------------*/
+
+#top{height: 34px;border-bottom: 1px solid #f2f2f2;    background: #f9f9f9;border-bottom: 1px solid #f2f2f2;}
+#top .top_main{height: 34px;width: 1200px;line-height:34px;margin: 0 auto;}
+#top .tm1{width: 90px; float: left;margin-left: 5px;background:url(../images/index_02.png) no-repeat 60px 0px } /* 增加北京后面的箭头 */
+#top .tm2{width: 180px;float: left;margin-left: 240px;}
+#top .tm3{width: 535px;float: left;margin-left: 10px;}
+#top .tm3 li{float:left;width:75px;text-align: center}  /*增加对所有文字的宽度和对齐设置*/
+#top .tm3 li:first-child{background: url(../images/index_004.gif) no-repeat} /* 增加购物车 红色标志 */
+#top .tm3 li:nth-child(6){background: url(../images/index_08.gif) no-repeat} /* 增加手机标志 */
+#top .tm3 li span{color:red;font-weight:bold}
+#top .tm3 li.fg{background: url(../images/index_04.gif);width:1px;height:35px}  /* .fg 分割线 添加分割线 */
+#top .tm3 li.xl{background:url(../images/index_02.png) no-repeat 60px 0px}      /* 添加向下的箭头 */ 
+#top .tm4{width: 115px;float: left;margin-left: 10px;background: url(../images/index_10.gif) no-repeat;text-align: right;color:red}
+
+
+/**  header 部分结构布局
+----------------------*/
+#header{height: 140px;border-bottom: 3px solid #ff2832;}
+#header .headermain{width: 1200px;margin: 0 auto;height: 100%;}
+#header .headermain .headertop{height: 100px;}
+#header .headermain .headertop .logo{width: 200px;height: 100px;float: left;}
+#header .headermain .headertop .search{height:100px;width: 565px;float: left;margin-left: 162px;}
+#header .headermain .headertop .search .search_box{height:34px;width:559px;border:3px solid #ff0000;margin-top:20px}
+#header .headermain .headertop .search .search_box div{float:left}
+#header .headermain .headertop .search .search_box input[type=text]{height:33px;width:417px;border:0px}
+#header .headermain .headertop .search .search_box div:nth-child(2){height:34px;width:100px;background-color: #eeeeee;color:#333333;font-size:16px;line-height: 30px;text-align: center;background-image: url(../images/index_19.gif);background-repeat: no-repeat;background-position: 80px 10px}
+#header .headermain .headertop .search .search_box input[type=image]{height:34px;position: relative;left:1px}  /*  去掉相对定位 造成右侧空出一点空间*/
+#header .headermain .headertop .search .hotsearch{margin-top:8px}
+#header .headermain .headertop .search .hotsearch~a{float:right}
+#header .headermain .headertop .search .hotsearch li{margin-right:15px;float:left}
+#header .headermain .headertop .shopcar{height: 100px;width: 200px;float: left;margin-left: 73px;}
+#header .headermain .headertop .shopcar li{width:100px;height:40px;float:left;font-size:14px;font-weight: bold;line-height: 40px;margin-top: 20px}
+#header .headermain .headertop .shopcar li:first-child{background:url(../images/index_21.gif) no-repeat #ff0000;color:#ffffff}
+#header .headermain .headertop .shopcar li:last-child{border:2px solid #cccccc;width:96px;height:36px;background-color: #eeeeee;text-align: center;line-height: 36px}
+#header .headermain .nav {height: 40px;}
+#header .headermain .nav .cate{height: 40px;height: 40px;width: 200px;background: #ff2832;float: left;}
+#header .headermain .nav .menu {width:975px;height: 40px;margin-left: 25px;float: left;}
+
+
+
+#wrap       {height: auto;  width:1200px;   margin: 0 auto;}
+/** section1 部分结构布局
+----------------------*/
+#section1   {height:458px;}
+#section1 .catelist{width: 200px;height: 454px;padding-top: 4px;float: left;}
+#section1 .firstmain{width: 800px;height: 458px;float: left;}
+#section1 .firstmain .pic{width: 800px;height: 295px;}
+#section1 .firstmain .pics{width: 800px;height: 160px;}
+#section1 .firstright{width: 200px;height: 457px;float: left;}
+
+
+
+
+
+
+
+#section2   {height:497px;  margin-top: 30px;}
+#section3   {height:500px;  margin-top: 30px;}
+#section4   {height:600px;  margin-top: 30px;}
+#section5   {height:382px;  margin-top: 30px;}
+
+#footer     {height:auto;   margin-top: 35px;   border-top: 2px solid #ff2832;}
+#footertop  {height:78px;                       border-bottom:  1px solid #e6e6e6;background: #fafafa}
+#footermain {height:170px;                      border-bottom:  1px solid #e6e6e6;}
+
+#copyright  {height:173px}

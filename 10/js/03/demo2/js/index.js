@@ -1,16 +1,18 @@
 // JavaScript Document
 document.write("<br />-------全局变量--------<br />");
 var a = 123;
+
 document.write(a);
 
 document.write("<br />-------函数外定义的变量--------<br />");
 var b = 234;
 //var b1 = 333;
 function demo(){
-    var b1 = 333344;
+    var b1 = 3333443;
 	alert(b1);
 }
-alert("b1:"+b1);
+
+//alert("b1111:"+b1);
 demo();
 document.write("<br />-------没有定义，直接赋值--------<br />");
 
@@ -43,7 +45,7 @@ document.write("<br />-------作用域链--- 内部可以访问外部-----<br />
 var color = "blue";
 function changeColor() {
     var anotherColor = "red";
-
+    
     function swapColors() {
         var tempColor = anotherColor;
         anotherColor = color;
@@ -52,7 +54,7 @@ function changeColor() {
 
         // 这里可以访问color、anotherColor和tempColor
     }
-
+    //document.write(tempColor);
     // 这里可以访问color、anotherColor，不能访问tempColor
     swapColors();
 } 

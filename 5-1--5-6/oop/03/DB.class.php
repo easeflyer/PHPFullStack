@@ -67,7 +67,7 @@ class DB {
 
 }
 
-$db = new DB("localhost", "root", "root", "utf8", "news");
+$db = new DB("localhost", "root", "", "utf8", "news");
 //$sql = "insert into article(aTitle,aDate) values('aaaaa','2014-01-01')";
 //$sql = "update article set aTitle='wwww' where aId=2";
 //$db->query($sql);

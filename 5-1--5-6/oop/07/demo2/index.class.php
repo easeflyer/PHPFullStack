@@ -2,8 +2,8 @@
 class index{
 	public $name;
 	public $age;
-	static $sex="男";
-	static $num = 1;
+	//static $sex="男";
+	static $num = 10;  // 人数
 	function test(){
 		echo "aaaa";
                 self::$num++;
@@ -16,6 +16,8 @@ class index{
 		return self::$num;
 	}
 }
+
+
 $ine = new index();
 index::$num = 1+1;
 $ine->name = "zhangsan";  // 对象属性 是相互独立的。

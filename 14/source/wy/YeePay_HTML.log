@@ -68,3 +68,8 @@
 2016-10-21 09:55:24|orderid[dd0023]|str[Buy10001126856dd00230.01CNYproductnameproducttypeproductdeschttp://localhost/wy/callback.php0userId or otherICBC-NET-B2C7day1]|hmac[1ac1412fecb24d9ad79bb838c2c9925c]
 2016-10-21 09:55:34|orderid[dd001]|str[Buy10001126856dd0010.01CNYproductnameproducttypeproductdeschttp://localhost/wy/callback.php0userId or otherICBC-NET-B2C7day1]|hmac[878a6595a7055857ca5358f4a036840c]
 2016-10-21 09:56:45|orderid[]|str[10001126856]|hmac[47a6891789251493b71af24aeff205e9]
+2017-04-20 14:43:49|orderid[dd001]|str[Buy10001126856dd0010.01CNYproductnameproducttypeproductdeschttp://localhost/wy/callback.php0userId or otherICBC-NET-B2C7day1]|hmac[878a6595a7055857ca5358f4a036840c]
+2017-04-20 14:44:28|orderid[easedd001]|str[Buy10001126856easedd0010.01CNYproductnameproducttypeproductdeschttp://localhost/wy/callback.php0userId or otherICBC-NET-B2C7day1]|hmac[88ffd379099ea7a43fa1c57d588b2008]
+2017-04-20 15:24:45|orderid[wysc001234]|str[Buy10001126856wysc0012340.01CNYproductnameproducttypeproductdeschttp://localhost/wy/callback.php0userId or otherICBC-NET-B2C7day1]|hmac[c097d4463f09820f419d01866b8ce9c0]
+2017-04-20 15:25:14|orderid[wysc00123456]|str[Buy10001126856wysc001234560.01CNYproductnameproducttypeproductdeschttp://localhost/wy/callback.php0userId or otherICBC-NET-B2C7day1]|hmac[7402fc5863b97b442549bdae96010f21]
+2017-04-20 15:52:43|orderid[wysc001234561]|str[Buy10001126856wysc0012345610.01CNYproductnameproducttypeproductdeschttp://localhost/wy/callback.php0userId or otherICBC-NET-B2C7day1]|hmac[65552ac37f4da2f03afa1c16ad26ecc4]

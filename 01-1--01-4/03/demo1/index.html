@@ -8,10 +8,9 @@
     <body>
 
         <form action="" method="get">
-            <input type="button" value="button" /><br />
-
-            <input type="hidden" name="id" value="3" />
-            用户名：<input name="name" type="text" value="" /><br />
+            <input type="button" value="按钮" /><br />
+            
+            用户名：<input name="name" type="text" value="请输入中文名字" /><br />
             密码：<input name="pwd" type="password" value="" /><br />
             性别：
             <input type="radio" name="gender" value="男" />男
@@ -29,15 +28,22 @@
             
             城市：
             <select name="city">
-                <option>北京</option>  选项
+                <option>北京</option>
                 <option>上海</option>
-                <option>天津</option>
-                <option selected="selected">河北</option>
-            </select><br />
+                <option selected="selected">天津</option>
+                <option>河北</option>
+            </select>
+            
+            <br />
             
             
             个人简介：<br />
-            <textarea name="memo" cols="50" rows="15">3234234234</textarea><br />
+            <textarea name="memo" cols="50" rows="15">
+                3234234234
+            </textarea>
+            
+            
+            <br />
 
             <input type="reset" value="重填" />
             <input type="submit" value="提交" />

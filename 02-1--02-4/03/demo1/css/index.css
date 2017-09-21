@@ -13,7 +13,7 @@ div{
 #dv3{
 	/*float:left;*/
 	clear:both; 
-	display:block;
+	/*display:none;*/
 }
 /* 因为上面 有 clear:both 因此下面的div 会另占一行*/
 #dv4{

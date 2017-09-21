@@ -1,5 +1,5 @@
 <?php
-$link = @mysql_connect("localhost","root","root") or die("连接失败:".mysql_error());
+$link = @mysql_connect("localhost","root","") or die("连接失败:".mysql_error());
 mysql_select_db("pro",$link);
 mysql_query("set names utf8");
 

@@ -10,10 +10,11 @@ class testProtected{
 	} 
 }
 $p = new testProtected();
-//echo $p->demo(); 类外不能访问
-//$p->demo1();
+//echo $p->demo(); //类外不能访问
+$p->demo1();
+echo "<hr />";
 class testSon extends testProtected{
-        public $name;
+        //public $name = "lisi";
 	function demo2(){
 		echo $this->name; //子类可以访问受保护的成员
 		$this->demo();
@@ -23,7 +24,7 @@ class testSon extends testProtected{
 $ts = new testSon();
 $ts -> demo2();
 
-echo "name:".$ts->name;
+//echo "name:".$ts->name;
 
 
 

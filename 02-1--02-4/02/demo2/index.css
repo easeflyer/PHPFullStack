@@ -1,33 +1,46 @@
 /* CSS Document */
 
-/*
+/* 增加案例 调整明确
 选择器{ }
 */
 
 *{
-	border:1px solid #ff0000;
+	border:1px solid #00ff00;
 }
 
 div{
 	border:1px  solid #ff0000;
 }
 
+
 .one{
-	border:1px  solid #ff0000;
+	border:1px  solid #00ff00;
 }
+
+
 #dv{
 	border:1px  solid #00ff00;
 }
 
 .one,#dv,a{
-	border:1px solid #66CCFF;
+        width:200px;
+	border:1px solid #ff0000;
 }
+
+
 
 #us{
 	border:5px solid #66CCFF;
 }
 #us li{
 	border:1px solid #ff0000;
+}
+
+#main div{
+    padding:5px;
+    background-color: #999999;
+    border:1px solid #00ff00;
+        
 }
 
 

@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="__SKIN__css/index.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/header.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/reset.css" rel="stylesheet" type="text/css" />
+        <script src="__SKIN__js/jq.js" type="text/javascript"></script>
+        <script src="__SKIN__js/index.js" type="text/javascript"></script>
+        <title>首页-3C商城</title>
+    </head>
+    <body>
+        <include file='Common:header' />
+        <!--第一屏开始-->
+        <div class="sec1">
+            <div class="left">
+                <ul class="menu">
+                    <volist name="catdata" id="item">
+                        <li class="menuitem"><a href="{:U('Index/lists',array('catid'=>$item[id]))}">{$item[catename]}<span class="mask"></span></a>
+                            <div class="submenu">
+                                <volist name="item[children]" id="subitem">
+                                    <dl>
+                                        <dt><a href="{:U('Index/lists',array('catid'=>$subitem[id]))}">{$subitem[catename]}</a></dt>
+                                        <volist name="subitem[children]" id="subsubitem">
+                                            <dd><a href="{:U('Index/lists',array('catid'=>$subsubitem[id]))}">{$subsubitem[catename]}</a></dd>
+                                        </volist>
+                                        <div class="clear"></div>
+                                    </dl>
+                                </volist>
+                            </div>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="main-top">
+                    <div class="pic">
+                        <volist name="pics" id="item">
+                        <img src="__APPURL__Public/Uploads/{$item[thumb]}" width="590" height="220" alt=""/>
+                        </volist>
+                    </div>
+                    <ul class="imagenav">
+                        <volist name="pics" id="item">
+			    <li><a href="{:U('News/show',array('newsid'=>$item[id]))}"><span>{$item[title]}</span></a></li>
+			</volist>
+                    </ul>
+                </div>
+                <div class="main-bottom">
+                    <div class="btn-right">
+                    </div>
+                    <div class="btn-left">
+                    </div>
+                    <div class="scrollpic">
+                        <ul class="piclist" style="left:0px">
+                            <volist name="rxsp" id="item">
+                                <li><a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__APPURL__Public/Uploads/{$item[thumb]}" width="125" height="160" alt=""/></a></li>
+                            </volist>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="ad1">
+                    <a href="{:U('News/show',array('newsid'=>$ad1[id]))}"><img src="__APPURL__/Public/Uploads/{$ad1[thumb]}" width="190" height="123" alt=""/></a>
+                </div>
+                <div class="login">
+                    <a href="{:U('User/login')}"><img src="__SKIN__images/index_39.jpg" /></a>
+                    <a href="{:U('User/register')}"><img src="__SKIN__images/index_41.gif" /></a>
+                </div>
+                <div class="ad2">
+                    <a href="{:U('News/show',array('newsid'=>$ad2[id]))}"><img src="__APPURL__/Public/Uploads/{$ad2[thumb]}" width="190" height="195" alt=""/></a>
+                </div>
+            </div>
+        </div>
+        <!--第一屏结束-->
+        <!--广告开始-->
+        <div class="ad3">
+            <a href="{:U('News/show',array('newsid'=>$ad3[id]))}"><img src="__APPURL__/Public/Uploads/{$ad3[thumb]}" width="1000" height="90" alt=""/></a>
+        </div>
+        <!--广告结束-->
+        <!--商品列表开始-->
+        <div class="goodlist">
+            <div class="goodtitle">
+                <span class="more"><a href="{:U('Index/lists',array('typeid'=>5))}">更多</a></span>
+                <h3>
+                    <a href="">最新上架</a>
+                </h3>
+            </div>
+            <div class="ad4">
+                <div class="adpic">
+                    <a href="{:U('News/show',array('newsid'=>$ad4[id]))}"><img src="__APPURL__/Public/Uploads/{$ad4[thumb]}" width="200" height="220" alt="" /></a>
+                </div>
+            </div>
+            <ul class="goods">
+                <volist name="zxsj" id="item">
+                    <li>
+                        <div class="goodpic">
+                            <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__APPURL__Public/Uploads/{$item[thumb]}" width="120" height="140" alt=""/></a>
+                        </div>
+                        <h4><a href="{:U('Index/show',array('goodid'=>$item[id]))}">{$item[goodsname]}</a></h4>
+                        <p class="pprice">￥{$item[mprice]}</p>
+                        <p class="price">￥{$item[price]}</p>
+                    </li>
+                </volist>
+            </ul>
+        </div>
+        <div class="goodlist">
+            <div class="goodtitle">
+                <span class="more"><a href="{:U('Index/lists',array('type'=>3))}">更多</a></span>
+                <h3>
+                    <a href="">新品推荐</a>
+                </h3>
+            </div>
+            <div class="ad4">
+                <div class="adpic">
+                    <a href="{:U('News/show',array('newsid'=>$ad4[id]))}"><img src="__APPURL__/Public/Uploads/{$ad4[thumb]}" width="200" height="220" alt="" /></a>
+                </div>
+            </div>
+            <ul class="goods">
+                <volist name="xptj" id="item">
+                    <li>
+                        <div class="goodpic">
+                            <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__APPURL__Public/Uploads/{$item[thumb]}" width="120" height="140" alt=""/></a>
+                        </div>
+                        <h4><a href="{:U('Index/show',array('goodid'=>$item[id]))}">{$item[goodsname]}</a></h4>
+                        <p class="pprice">￥{$item[mprice]}</p>
+                        <p class="price">￥{$item[price]}</p>
+                    </li>
+                </volist>
+            </ul>
+        </div>
+        <div class="goodlist">
+            <div class="goodtitle">
+                <span class="more"><a href="{:U('Index/lists',array('catid'=>13))}">更多</a></span>
+                <h3>
+                    <a href="">大家电</a>
+                </h3>
+            </div>
+            <div class="ad4">
+                <div class="adpic">
+                    <a href="{:U('News/show',array('newsid'=>$ad4[id]))}"><img src="__APPURL__/Public/Uploads/{$ad4[thumb]}" width="200" height="220" alt="" /></a>
+                </div>
+            </div>
+            <ul class="goods">
+                <volist name="djd" id="item">
+                    <li>
+                        <div class="goodpic">
+                            <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__APPURL__Public/Uploads/{$item[thumb]}" width="120" height="140" alt=""/></a>
+                        </div>
+                        <h4><a href="{:U('Index/show',array('goodid'=>$item[id]))}">{$item[goodsname]}</a></h4>
+                        <p class="pprice">￥{$item[mprice]}</p>
+                        <p class="price">￥{$item[price]}</p>
+                    </li>
+                </volist>
+            </ul>
+        </div>
+        <div class="goodlist">
+            <div class="goodtitle">
+                <span class="more"><a href="{:U('Index/lists',array('catid'=>16))}">更多</a></span>
+                <h3>
+                    <a href="">图书</a>
+                </h3>
+            </div>
+            <div class="ad4">
+                <div class="adpic">
+                    <a href="{:U('News/show',array('newsid'=>$ad4[id]))}"><img src="__APPURL__/Public/Uploads/{$ad4[thumb]}" width="200" height="220" alt="" /></a>
+                </div>
+            </div>
+            <ul class="goods">
+                <volist name="book" id="item">
+                    <li>
+                        <div class="goodpic">
+                            <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__APPURL__Public/Uploads/{$item[thumb]}" width="120" height="140" alt=""/></a>
+                        </div>
+                        <h4><a href="{:U('Index/show',array('goodid'=>$item[id]))}">{$item[goodsname]}</a></h4>
+                        <p class="pprice">￥{$item[mprice]}</p>
+                        <p class="price">￥{$item[price]}</p>
+                    </li>
+                </volist>
+            </ul>
+        </div>
+        <div class="brand">
+            <ul>
+                <volist name="branddata" id="item">
+                    <li>
+                        <a href="{:U('Index/brandlist',array('brandid'=>$item[id]))}"><img src="__APPURL__Public/Uploads/{$item[image]}" alt="" /></a>
+                    </li>
+                </volist>
+            </ul>
+            <div class="clear"></div>
+            <div class="morebrand">
+                <span><a href="{:U('Index/allbrand')}">更多品牌</a></span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--商品列表结束-->
+        <include file='Common:footer' />
+        </div> 
+    </body>
+</html>

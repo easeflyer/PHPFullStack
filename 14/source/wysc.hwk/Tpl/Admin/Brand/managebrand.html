@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <include file='Common:miniheader' />
+        <script>
+            function getshow(_v, _r) {
+                return _v == 0 ? '否' : '是';
+            }
+            function createop(_v, _r) {
+                return "<a href='' class='easyui-linkbutton' data-options='iconCls:\"icon-zoom\"'>查看商品</a><a href='index.php?g=admin&m=Brand&a=editbrand&brandid=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-drive_edit\"'>编辑</a><a href='Javascript:void(0)' onclick='confirmdel(" + _r.id + ")' class='easyui-linkbutton' data-options='iconCls:\"icon-cancel\"'>删除</a>";
+            }
+            function renderbutton() {
+                $('a.easyui-linkbutton').linkbutton({plain: true});
+            }
+            function gotopage(_page, _pagesize) {
+                window.location.href = 'index.php?g=admin&m=Brand&a=managebrand&page='+_page;
+            }
+            function confirmdel(_brandid) {
+                $.messager.confirm('确认删除','是否确认删除该商标',function(r){
+                    if(r){
+                        window.location.href='index.php?g=admin&m=Brand&a=delbrand&brandid='+_brandid;
+                    }
+                });
+            }
+        </script>
+        <title>商标管理</title>
+    </head>
+    <body>
+        <div class="easyui-panel" data-options="title:'商标管理',
+             border:false,
+             iconCls:'icon-application_view_gallery'
+             ">
+            <table class="easyui-datagrid" data-options="border:false,
+                   fitColumns:true,
+                   toolbar:'#toolbar',
+                   onLoadSuccess:renderbutton
+                   ">
+                <thead>   
+                    <th data-options="field:'id',align:'center',width:20">id</th>   
+                    <th data-options="field:'image',align:'center',width:70">图片</th>   
+                    <th data-options="field:'brandname',width:20">商标名称</th>   
+                    <th data-options="field:'url',width:20">url</th>   
+                    <th data-options="field:'is_show',align:'center',width:20,formatter:getshow">显示</th>
+                    <th data-options="field:'opration',
+                        width:150,
+                        formatter:createop
+                        ">操作</th>
+                </thead>
+                <tbody>
+                    <volist name="data" id="val">
+                        <tr>
+                            <td>{$val['id']}</td>
+                            <td>
+                                <if condition="$val['image'] eq ''">
+                                    <img  style="margin:5px;" src="__SKIN__images/nopic.png" width="70" height="70" alt="" />
+                                    <else/>
+                                    <img  style="margin:5px;" src="__APPURL__Public/Uploads/{$val['image']}" width="70" height="70" alt="" />
+                                </if>
+                            </td>
+                            <td>{$val['brandname']}</td>
+                            <td>{$val['url']}</td>
+                            <td>{$val['is_show']}</td>
+                            <td></td>
+                        </tr>
+                    </volist>
+                </tbody>
+            </table>
+            <div class="easyui-pagination" data-options="
+                 border:true,
+                 total:'{$total}',
+                 pageSize:'{:C('PAGE_SIZE')}',
+                 pageNumber:{$page},
+                 pageList:[{:C('PAGE_SIZE')}],
+                 onSelectPage:gotopage
+                 "></div>
+            <div id="toolbar">
+                <a href="{:U('Brand/addbrand')}" class="easyui-linkbutton"data-options="plain:true,
+                   iconCls:'icon-application_add'
+                   ">添加商标</a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+[ 2017-03-23T18:54:17+08:00 ] 0.0.0.0 /wysc/index.php/admin-brand-getcombojson.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`brandname` FROM `brand`  [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Action\Admin\BrandAction.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Action\Admin\BrandAction.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Action\Admin\BrandAction.class.php 第 86 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Lib\Action\Admin\BrandAction.class.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Action\Admin\BrandAction.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Action\Admin\BrandAction.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Action\Admin\BrandAction.class.php 第 86 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Lib\Action\Admin\BrandAction.class.php 第 86 行.
+
+[ 2017-03-23T18:54:19+08:00 ] 0.0.0.0 /wysc/index.php/admin-category-combotreejson.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\CategoryAction.class.php 第 73 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\CategoryAction.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='0' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' )  [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 85 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+

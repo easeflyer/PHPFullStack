@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.wrap{width:1000px; margin:0 auto; height:auto;}
+/*顶部导航开始*/
+.mini-nav{height:31px; background:url(../images/index_02.jpg) repeat-x;}
+.mini-main{width:1000px; margin:auto; height:31px;}
+.mini-main .date{font-size:12px; line-height:31px; margin-left:50px;}
+.mini-main .fast-nav{float:right; font-size:12px; line-height:31px;}
+.mini-main .fast-nav a{font-size:12px;}
+.mini-main .fast-nav a:hover{font-weight:bold; }
+/*顶部导航结束*/
+/*头部开始*/
+.header{height:auto;}
+.header .header-top{height:100px;}
+.header .header-top h1{width:260px; float:left;}
+.header .header-top .searchform{width:740px; height:100px; float:left; background:url(../images/index_07.jpg); background-position:right center; }
+.header .header-top .searchform .form{width:499px; height:55px; background:url(../images/index_09.jpg) no-repeat center; margin-top:34px; margin-left:40px;}
+.keyword{width:384px; height:41px; margin-top:7px; margin-left:6px; border:none; line-height:41px; padding-left:10px;color:#555555; float:left;}
+.searchbtn{width:93px; height:41px; background:url(../images/index_11.jpg) no-repeat center; border:none; float:left; margin-top:7px;}
+.header .nav{height:30px; border:1px solid #f1cbcf; margin-top:10px;background:url(../images/index_17.jpg) repeat-x;}
+.header .nav .allcate{width:200px; height:30px;background:url(../images/index_16.jpg) no-repeat; float:left;}
+.header .nav .navigator{float:left; height:30px; line-height:30px; margin-left:40px; }
+.header .nav .navigator .item{float:left; color:#fff; padding-left:10px; padding-right:10px;}
+.header .nav .navigator .item a{color:#dddddd;}
+.header .nav .navigator .item a:hover{color:#ffffff;}
+/*头部结束*/
+#page{float:right; margin-right:47px; margin-bottom:20px;}
+#page span,#page a{border:1px solid #cccccc; padding:5px; margin:3px;}
+span.usericon{background:url('../images/user_female.png') no-repeat left; font-size:12px; display:inline-block; height:16px; line-height:16px; padding-left:20px;}
+span.usericon1{background:url('../images/user_gray.png') no-repeat left; font-size:12px; display:inline-block; height:16px; line-height:16px; padding-left:20px;}
+
+
+

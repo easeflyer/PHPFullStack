@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>商标列表-我赢商城</title>
+    <title>商标列表-3C商城</title>
 </head>
 <body>
     <link type="text/css" rel="stylesheet" href="__SKIN__css/reset.css" />

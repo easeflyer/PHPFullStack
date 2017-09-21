@@ -6,13 +6,17 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <script type="text/javascript">
+   
 	$(function(){
 		$("#bt").bind("click",function(){
 			alert("我是用bind方法绑定的事件");
 		});
 	})
+        $(function(){
+            alert(333);
+        });
 </script>
 <body>
-<input type="button" id="bt" value="点点看">
+<input type="button" id="bt" value="点点看" />
 </body>
 </html>

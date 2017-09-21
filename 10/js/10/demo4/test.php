@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
+<title>test页面</title>
 </head>
 
 <body>
@@ -12,6 +12,7 @@
 function wt(str){
     document.write("<br />"+str+"<br />");
 }
+// 注意 opener 就是 index.php 所在窗口。
 wt("我是opener的 title:"+opener.document.title);
 </script>
 

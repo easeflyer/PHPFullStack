@@ -13,25 +13,27 @@ window.onload = function(){
 		 var divs = document.createElement("div");
 		 divs.style.width="500px";
 		 divs.style.height="350px";
-		 divs.style.border = "1px solid #ff0000";
+		 divs.style.border = "2px solid #ff0000";
 		 divs.style.position = "absolute";
 		 divs.style.top = "100px";
 		 divs.style.left = "300px";
 		 // 模拟右上角的 关闭按钮
-		 divs.innerHTML = "<div style='width:50px;border:1px solid #00ff00;float:right' id='dv'>X</div>";
+		 divs.innerHTML = "<div style='width:50px;border:1px solid #00ff00;float:left' id='dv'>X</div>";
 		 
 		 //3 div添加 到body
 		document.body.appendChild(divs);	   // 在 bt 按钮之后；body的最后插入对象。
-		//document.body.insertBefore(divs,bt);          // 在 bt 按钮之前插入对象	 
+		//document.body.insertBefore(divs,bt);     // 在 bt 按钮之前插入对象	 
 		var dv = document.getElementById("dv");
 		dv.onclick = function(){
-			document.body.removeChild(divs); // 删除子对象。
-			divs = null;	// 内存中销毁子对象
+			document.body.removeChild(divs);    // 删除子对象。
+			divs = null;                        // 内存中销毁子对象
 		}
 	}
 }
 </script>
 <body>
-<input type="button" value="登录" id="bt">
+    
+    <input type="button" value="登录" id="bt" />
+        
 </body>
 </html>

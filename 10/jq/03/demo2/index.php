@@ -8,7 +8,8 @@
     <script type="text/javascript">
         $(function () {
             // 注意语法
-            $("#bt").bind("click", fun1 = function (e) {
+            
+            $("#bt").bind("click", fun1 = function (e) {   // 这里注意 jq 内部吧 fun1 注册保存到了一个对象里。因此下面可以去 unbind ; e 就是事件对象
                 $("#text").append("<ul><li>aaaa</li><li>bbbb</li></ul>");
                 $("#text").append("<div>e.type:" + e.type + "</div>");
                 $("#text").append("<div>e.pageX:" + e.pageX + "</div>");
@@ -22,10 +23,12 @@
         })
     </script>
     <body>
-        <input type="button" id="bt" value="添加事件"><br />
-            <div id="text">
+        
+        <input type="button" id="bt" value="添加事件" /><br />
+        <div id="text">
 
-            </div>
-            <input type="button" id="del_one" value="删除一个事件"><br />
-                </body>
-                </html>
+        </div>
+        <input type="button" id="del_one" value="删除一个事件" /><br />
+        
+    </body>
+</html>

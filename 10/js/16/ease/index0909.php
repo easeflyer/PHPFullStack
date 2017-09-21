@@ -21,6 +21,7 @@
                             //alert(data);
                             json = JSON.parse(data);
                             dv1.innerHTML = "<" + json.tag + " style='" + json.style + "'>" + json.text + "</" + json.tag + ">";
+                            // <div style='style'>我是arr1</div>
                         }
                     });
                 };
@@ -35,6 +36,8 @@
         <div id="dv1">渲染这里</div>
         
         <p>
+            
+            
         <pre>
             案例要求：
                 1 在输入框输入数字 1 / 2 / 3  输入框下面 插入 不同风格的 div 。

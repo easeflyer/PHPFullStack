@@ -1,6 +1,7 @@
 <?php
 header("Content-Type: text/html; charset=UTF-8");
 // 这是一个注释，用来写程序的说明，不会被执行。 <br /> 标签是一个换行符
+
 echo "<br />-------------------分隔符：echo 语句--------------------------<br /><br />";
 
 echo "我的第一个php程序！偶也<br /><br />";
@@ -19,7 +20,9 @@ $a = 5;
 $b = 15;
 $c = $a + $b + $a * 2;
 
-echo "运算结果c=" . $c . "<br />";
+echo "a:" . $a . "<br />";
+echo "b:" . $b;
+echo "  运算结果c=" . $c . "<br />";
 
 
 

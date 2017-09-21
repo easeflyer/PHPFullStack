@@ -10,4 +10,5 @@ while($rs=mysql_fetch_assoc($result)){
 	print_r($rs);
 	echo "<br />";
 }
+
 ?>

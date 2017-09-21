@@ -1,17 +1,18 @@
 <?php
+
 header("content-type:text/html;charset=utf-8");
 echo "<br />-----字符串---------------<br />";
 $str = 'abcdefg13';
 echo $str;
 echo "<br />-----单 双引号---------------<br />";
-$a = "abcdefg";
+$a = "abc $str defg";
 $b = '$a';
-echo $b;
+echo $a;
 echo "<br />-----转义字符--------------<br />";
-$c = "abcde\nfghijklmn";
+$c = "ab\ncde\nfghijklmn";
 echo $c;
 echo "<br />-----转义字符2--------------<br />";
-$d  = "小明说:\"今天天气不错\"";
+$d = "小明说:\"今天天气不错\"";
 echo $d;
 echo "<br />-----整数--------------<br />";
 $nu = -100;
@@ -24,10 +25,11 @@ $bl = false;
 echo $bl;
 echo "<br />-----null--------------<br />";
 $m = null;
-$t ="";
+$t = "";
 
-echo $m==$t; // 声明变量 空    unset($m)释放变量
-
+if (!($m === $t)) {
+    echo '$m===$t比较结果是：' . ($m === $t); // 声明变量 空    unset($m)释放变量
+}
 echo "<br />-----var_dump--------------<br />";
 $q = "aaaaaaaaaa";
 // 此函数显示变量的结构信息，包括类型与值。数组将递归展开值，通过缩进显示其结构。 

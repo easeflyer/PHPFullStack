@@ -16,7 +16,7 @@ echo "<br />--------有参数 无返回值--------------<br />";
 
 function echoNum1($n, $m) {  //sin(30)
     for ($i = 1; $i <= $n; $i++) {
-        echo $i . "<br />";
+        echo $i ." m:" . $m . "<br />";
     }
 }
 
@@ -35,7 +35,7 @@ function sumNum($n) {
 $nu = sumNum(5);
 echo $nu;
 
-echo "<br />--------递归函数  1+++5--------------<br />";
+echo "<br />--------递归函数  从1加到5--------------<br />";
 
 function sum($n) {
     if ($n == 1) {
@@ -44,7 +44,7 @@ function sum($n) {
         return $n + sum($n - 1);// 函数过程 + 调用自己
     }
 }
-
+// 5 + 4 + 3 + 2 + 1
 echo sum(5);
 /*
  *  程序推演：
@@ -55,3 +55,32 @@ echo sum(5);
  *              return 2+sum(1);
  *                  return 1;
  * */
+
+
+echo "<br />-------- 回调函数 --------------<br />";
+
+error_reporting(E_ALL);
+function increment(&$var)
+{
+    $var++;
+}
+
+$a = 0;
+call_user_func('increment', $a);  // 5.3 之前
+echo "a:" . $a."\n";
+$a = 0;
+call_user_func_array('increment', array(&$a)); // You can use this instead before PHP 5.3
+echo "a:".$a."\n";
+
+echo "<br />-------- 回调函数1  5.3之后支持。--------------<br />";
+
+$func1 = function($n){
+  echo $n;  
+};
+
+function func($a,$fun){
+    $fun($a);
+}
+
+
+func(3333,$func1);

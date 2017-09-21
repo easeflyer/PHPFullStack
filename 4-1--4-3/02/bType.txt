@@ -1,17 +1,17 @@
 create table bType(
-bTypeId int(10) not null primary key auto_increment,
-bTypeName varchar(60)
+    bTypeId int(10) not null primary key auto_increment,
+    bTypeName varchar(60)
 );
-insert into bType(bTypeName) values("windowsÓ¦ÓÃ");
-insert into bType(bTypeName) values("ÍøÕ¾");
-insert into bType(bTypeName) values("3D¶¯»­");
-insert into bType(bTypeName) values("linuxÑ§Ï°");
-insert into bType(bTypeName) values("DelphiÑ§Ï°");
-insert into bType(bTypeName) values("ºÚ¿Í");
-insert into bType(bTypeName) values("ÍøÂç¼¼Êõ");
-insert into bType(bTypeName) values("°²È«");
-insert into bType(bTypeName) values("Æ½Ãæ");
-insert into bType(bTypeName) values("AutoCAD¼¼Êõ");
+insert into bType(bTypeName) values("windowsåº”ç”¨");
+insert into bType(bTypeName) values("ç½‘ç«™");
+insert into bType(bTypeName) values("3DåŠ¨ç”»");
+insert into bType(bTypeName) values("linuxå­¦ä¹ ");
+insert into bType(bTypeName) values("Delphiå­¦ä¹ ");
+insert into bType(bTypeName) values("é»‘å®¢");
+insert into bType(bTypeName) values("ç½‘ç»œæŠ€æœ¯");
+insert into bType(bTypeName) values("å®‰å…¨");
+insert into bType(bTypeName) values("å¹³é¢");
+insert into bType(bTypeName) values("AutoCADæŠ€æœ¯");
 
 
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
+    http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>订单状态修改明细</title>
+        <include file="Common:miniheader" />
+    </head>
+    <body>
+        <div class="easyui-panel"  data-options="
+             title:'订单状态修改明细',
+             border:false,
+             iconCls:'icon-cart_error'
+             ">  
+            <table class="easyui-datagrid"  data-options="
+                   border:false,
+                   fitColumns:true,
+
+                   ">
+                <thead>
+                    <th data-options="
+                        field:'id',
+                        align:'center',
+                        width:20">id</th>
+                    <th data-options="
+                        field:'orders_id',
+                        width:50, align:'left', ">订单id</th>
+                    <th data-options="
+                        field:'fromstate',
+                        width:70, align:'center'">原状态</th>
+                    <th data-options="
+                        field:'tostate',
+                        width:100, align:'center'" >修改状态</th>
+                    <th data-options="
+                        field:'changetime',
+                        width:100, align:'center'">修改时间</th>
+                    <th data-options="
+                        field:'info',
+                        width:300, align:'center'" >修改原因</th>
+                </thead>
+                <tbody>
+                    <volist name="data" id="val">
+                        <tr>
+                            <td>{$val['id']}</td>
+                            <td>{$val['orders_id']}</td>
+                            <td>{$val['fstate']}</td>
+                            <td>{$val['tstate']}</td>
+                            <td>{$val[changetime]|date='Y-m-d H:i:s',###}</td>
+                            <td>{$val['info']}</td>
+                        </tr>
+                    </volist>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

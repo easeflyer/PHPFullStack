@@ -6,7 +6,21 @@ $height = 60;
 $img = imagecreatetruecolor($width, $height);  //创建真色彩的图像
 $white = imagecolorallocate($img, 255,255,255); // 分配颜色 白色
 $wColor = imagecolorallocate($img, 255,0,0); // 红色
-$wColor1 = imagecolorallocate($img, 5,5,5); // 白色
+$wColor1 = imagecolorallocate($img, 5,5,5); // 黑色
+
+/*
+        imagefilledrectangle  画一矩形并填充
+        bool imagefilledrectangle ( resource $image , int $x1 , int $y1 , int $x2 , int $y2 , int $color )
+
+        imagesetpixel() 绘制单独的像素点的。 在$image 图像上
+        bool imagesetpixel ( resource $image , int $x , int $y , int $color )
+
+        imageline() 绘制一个线段
+        bool imageline ( resource $image , int $x1 , int $y1 , int $x2 , int $y2 , int $color )
+
+ */
+
+
 imagefilledrectangle($img, 0,0,150,60,$white); // 画一个矩形 并填充颜色 参数 参考笔记
 
 $angle=rand(-5,5);

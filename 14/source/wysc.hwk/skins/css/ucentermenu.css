@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*列表页与内容页左侧区域样式*/
+.position{height:27px; line-height:27px;}
+.position h6{display:inline; margin-right:10px; font-weight:normal; margin-left:20px;}
+.position spam{margin-left:5px; margin-right:5px;}
+.position *{font-size:12px;}
+
+.main .left{width:201px; float:left;}
+.main .left .currencat h3{height:31px; background:url(../images/list_03.gif) no-repeat center;}
+.main .left .currencat h3 span{font-weight:normal; height:30px; line-height:30px; padding-left:30px; color:#fff; font-size:12px;}
+.main .left .currencat .curcatbt{height:5px; background:url(../images/list_07.gif) no-repeat center;}
+.main .left .currencat .cat{background:url(../images/list_06.gif) repeat-y center; padding:1px 0;}
+.main .left .currencat .cat li.item{width:199px; margin:0 auto; margin-bottom:2px;}
+.main .left .currencat .cat li.item h4{height:22px; background:url(../images/list_071.gif) repeat-x; border:1px solid #c8c7c7; font-size:12px; line-height:22px; font-weight:normal; padding-left:20px;}
+.main .left .currencat .cat li.item h4 a{font-size:12px;}
+.main .left .currencat .cat li.item h4.current a{color: #ff0000;font-weight:bold;}

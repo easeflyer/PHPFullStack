@@ -12,35 +12,39 @@
         </style>
     </head>
     <body>
-
+        
         <script type="text/javascript">
-            document.write("<font size=7>font标签</font>");
-            document.write(3333);
+
+            
+            document.write("<font size=7>font标签111234234</font>");
             document.write("<br />");
+            document.write(3333);
+            document.write("<hr />");
             
             
             for (var i = 0; i <= 5; i++) {
-                document.write(i + "<br />");
+                document.write("[" + i + "]<br />");
             }
             
             // 这是单行注释
             /*
              多行注释
              这里都是注释 
+             这里写的都是注释
              */
 
             
     </script>   
-
-        <div class="dv" onclick="alert(111222333)">onclick</div>
-        
-        <br />
-        <div class="dv" ondblclick="alert(222)">ondblclick</div>
-        <br />
-        <div class="dv" onmousemove="alert(3333)">onmouseover</div>
+        <!--  html 的注释内容  -->
+        <div class="dv" onclick="alert('这是弹出的内容')">onclick111</div>
 
         <br />
-        <div class="dv" onclick="window.alert(3333)">window.alert</div>
+        <div class="dv" ondblclick="alert(222)">ondblclick111</div>
+        <br />
+        <div class="dv" onmousemove="alert(3333)">onmouseover111</div>
+
+        <br />
+        <div style="" class="dv" onclick="window.alert(3333)">window.alert111</div>
 
         <br />
         <a href="javascript:alert(334333)"> 直接在a标签上写 js</a>

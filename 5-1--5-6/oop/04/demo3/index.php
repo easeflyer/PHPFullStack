@@ -1,4 +1,5 @@
 <?php
+
 class fa{
 	public $money = 100;
 	public  $name;

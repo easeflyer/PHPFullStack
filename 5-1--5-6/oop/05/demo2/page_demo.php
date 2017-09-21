@@ -14,6 +14,8 @@ $db = new DB("localhost", "root", "", "utf8", "test");
 $sql = "select * from users";
 $count = $db->num($sql);   // 得到总记录数
 
+//echo $count;exit;
+
 // 注意 page 类里面 对 $_GET 进行了修改。因此如果要使用 $_GET 要提前取出。
 $page = new Page($count,2);
 
@@ -23,6 +25,7 @@ echo "$sql";
 
 // 显示数据
 $rs = $db->fetchAll($sql);
+
 echo "<table border=1>";
 foreach($rs as $row){
     echo "<tr><td>{$row['id']}</td><td>{$row['uName']}</td><td>{$row['uSex']}</td><td>{$row['uTel']}</td><td>{$row['uEmail']}</td></tr>";

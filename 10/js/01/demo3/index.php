@@ -3,9 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
-<script type="text/javascript" src="js/index.js"></script>
+
 </head>
 
 <body>
+    <script>
+        document.write("<h1>大标题</h1>");
+    </script>
+    
+    
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

@@ -25,10 +25,10 @@ span{
 <script type="text/javascript">
 	window.onload = function(){
 		var outdiv = document.getElementById("outdiv");
-		//父节点:
-		//alert(outdiv.parentNode.nodeName);
-		//第一个子节点
-		//alert(outdiv.firstChild.nodeName);
+		//父节点: body
+		alert(outdiv.parentNode.nodeName);
+		//第一个子节点 #text 参考笔记nodename #text 代表的是文本
+		alert(outdiv.firstChild.nodeName);
 		//下一个兄弟节点  这里注意为什么使用了 两个nextSibling 因为 div 和 a 之间有空格和空行 也算作一个节点
 		alert(outdiv.nextSibling.nextSibling.nodeName+" : "+outdiv.nextSibling.nextSibling.innerHTML)
 	}

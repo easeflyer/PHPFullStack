@@ -14,6 +14,7 @@
 a{text-decoration:none; color:#000}
 
 </style>
+
     <link rel="stylesheet" type="text/css" href="__SKIN__css/tableform.css" />
     <script type="text/javascript">
     $(function() {
@@ -47,7 +48,7 @@ a{text-decoration:none; color:#000}
                     </td>
                 </tr>
                 <tr>
-                    <th>属性名称</th>
+                    <th>控件名称</th>
                     <td>
                         <input type="text" name="inputname" class="ipt">
                     </td>

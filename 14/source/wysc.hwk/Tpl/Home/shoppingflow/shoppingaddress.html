@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="__SKIN__/css/shopflow.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/header.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/reset.css" rel="stylesheet" type="text/css" />
+        <include file='Admin/Common:miniheader' />
+        <script src="__SKIN__js/jq.js" type="text/javascript"></script>
+        <script>
+            $(function () {
+                $('#{$Think.get.step}').css('backgroundColor', '#ff0000').css('color', '#ffffff').css('fontWeight', 'bold');
+            })
+            function submitaddress() {
+                var _form = document.getElementById('addressform');
+                _form.submit();
+            }
+        </script>
+        <title>选择收货地址-3C商城</title>
+    </head>
+    <body>
+        <include file='Common:header' />
+        <div class="clear"></div>
+        <div class="main">
+            <div class="shopflow">
+                <ul>
+                    <li id="shoppingcar">购物车</li>
+                    <li id="shoppingaddress">选择收货地址</li>
+                    <li>选择配送方式</li>
+                    <li>选择付款方式</li>
+                    <li>付款</li>
+                    <li class="ll">确认订单</li>
+                </ul>
+                <div class="clear"></div>
+                <div class="shopcar">
+                    <form name="f1" action="{:U('shoppingflow/step',array('step'=>'shoppingaddress'))}" id="addressform" method="post" enctype="multipart/form-data">   
+                        <table class="table-form" border="0" width="100%">
+                            <volist name="addressdata" id="val">
+                                <tr>
+                                    <td colspan="4" style="padding: 10px 10px; text-align:left !important; font-weight:bold; color:red;">选择该地址 <input type="radio" name="addressid" value="{$val.id}" /></td>
+                                </tr>
+                                <tr>
+                                    <th>收货人</th><td colspan="3" style="text-align:left !important"><input type="text" name="contact" class="ipt" style="width: 336px;" value="{$val.contact}" /></td>
+                                </tr>
+                                <tr>
+                                    <th>详细地址</th><td colspan="3" style="text-align:left !important"><input type="text" name="address" class="ipt" style="width: 500px;" value="{$val.address}" /></td>
+                                </tr>
+                                <tr>
+                                    <th>电话</th><td style="width: 270px; text-align:left !important;"><input type="text" name="tel" class="ipt" style="width: 200px;" value="{$val.tel}" /></td>
+                                    <th>手机</th><td style="text-align:left !important"><input type="text" name="phone" class="ipt" style="width: 200px;" value="{$val.phone}" /></td>
+                                </tr>
+                                <tr>
+                                    <th>标志性建筑</th><td style="width: 270px; text-align:left !important;"><input type="text" name="signbuild" class="ipt" style="width: 200px;" value="{$val.signbuild}" /></td>
+                                    <th>最佳送货时间</th><td style="text-align:left !important"><input type="text" name="besttime" class="ipt" style="width: 200px;" value="{$val.besttime}" /></td>
+                                </tr>
+                            </volist>
+                        </table> 
+                    </form>  
+                </div>    
+                <hr style="color:dddddd; margin-top:10px">
+                    <div class="nextbtn">
+                        <a onclick="submitaddress()" href="javascript:void(0)">
+                            <image src="__SKIN__/images/nextbtn.png" width="150"/>
+                        </a>
+                    </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <include file='Common:footer' />
+    </body>
+</html>

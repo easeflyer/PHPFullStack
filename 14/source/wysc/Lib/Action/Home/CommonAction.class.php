@@ -246,16 +246,22 @@ class CommonAction extends Action {
         return $branddata;
     }
     // 添加产品浏览历史。只有查看详情页后才会 记录李兰历史 见 indexAction show 方法
+    /**
+     * 首先从数组中找到 goodid 
+     * 如果有则删除。
+     * 不管有没有重新添加 goodid 到数组的第一位置。起到更新历史的作用
+     * @param type $goodid
+     */
     function addviewhistory($goodid) {
         $favor = json_decode($_COOKIE[myfavor]); // 首先读取浏览历史为数组
         if (!$favor)
             $favor = array();
         if (in_array($goodid, $favor)) {
-            $key = array_search($goodid, $favor); // 返回 $goodid 对应的 key
+            $key = array_search($goodid, $favor); // 返回 $goodid 对应的 key   在数组中搜索给定的值，如果成功则返回相应的键名 
             unset($favor[$key]); // 销毁对应的数组元素
         }
         array_unshift($favor, $goodid); // 重新插入元素 起到了浏览历史的更新作用。删掉以前的历史,重新记录当前产品
-        setcookie('myfavor', json_encode($favor), strtotime('+30 days'));
+        setcookie('myfavor', json_encode($favor), strtotime('+30 days'));  // 参考 strtotime 手册
     }
     // 获得用户浏览过的商品数据集
     function getviewhistory($count) {
@@ -264,7 +270,7 @@ class CommonAction extends Action {
         $ret = array();
         $i = 0;
         foreach ($favor as $goodid) {
-            if ($i >= $count)
+            if ($i >= $count) // i 控制4个浏览历史
                 break;
             $item = $goodsmodel->find($goodid);
             $ret[] = $item;

@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
+    http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>订单管理</title>
+        <include file="Common:miniheader" />
+        <script type="text/javascript">
+            function createop(_v, _r) {
+                return "<a href='index.php?g=admin&m=Orders&a=detail&orderid=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-cart_go\"'>查看订单详情</a><a href='index.php?g=admin&m=Orders&a=editorderstate&orderid=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-cart_edit\"'>修改订单状态</a><a href='index.php?g=admin&m=Orders&a=statechangedetail&orderid=" + _r.id + "' class='easyui-linkbutton' data-options='iconCls:\"icon-cart_error\"'>状态修改明细</a>";
+            }
+            function renderbutton() {
+                $('a.easyui-linkbutton').linkbutton({
+                    plain: true
+                });
+            }
+            function confirmdel(_id) {
+                $.messager.confirm('确认删除', '是否确认删除该用户', function (r) {
+                    if (r) {
+                        window.location.href = 'index.php?g=admin&m=Users&a=del&id=' + _id;
+                    }
+                });
+            }
+            function gotopage(_page, _pagesize) {
+                window.location.href = 'index.php?g=admin&m=Orders&a=manage&page=' + _page;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="easyui-panel"  data-options="
+             title:'订单管理',
+             border:false,
+             iconCls:'icon-cart_put'
+             ">  
+            <table class="easyui-datagrid"  data-options="
+                   border:false,
+                   fitColumns:true,
+                   toolbar:'#toolbar',
+                   onLoadSuccess:renderbutton,
+                   ">
+                <thead>
+                    <th data-options="
+                        field:'id',
+                        align:'center',
+                        width:20">id</th>
+                    <th data-options="
+                        field:'username',
+                        width:100, align:'left', ">用户名</th>
+                    <th data-options="
+                        field:'rankname',
+                        width:70, align:'center'">订单金额</th>
+                    <th data-options="
+                        field:'email',
+                        width:100, align:'center'" >下单时间</th>
+                    <th data-options="
+                        field:'sex',
+                        width:40, align:'center'">配送方式</th>
+                    <th data-options="
+                        field:'usermoney',
+                        width:100, align:'center'" >配送费用</th>
+                    <th data-options="
+                        field:'points',
+                        width:40, align:'center'" >订单状态</th>
+                    <th data-options="
+                        field:'opration',
+                        width:200, align:'center', formatter:createop">操作</th>
+                </thead>
+                <tbody>
+                    <volist name="data" id="val">
+                        <tr>
+                            <td>{$val['id']}</td>
+                            <td>{$val['username']}</td>
+                            <td>{$val['totalprice']}</td>
+                            <td>{$val['ordertime']|date="Y-m-d H:i:s",###}</td>
+                            <td>{$val['shipname']}</td>
+                            <td>{$val[extramoney]}</td>
+                            <td>{$val[state]}</td>
+                        </tr>
+                    </volist>
+                </tbody>
+            </table>
+            <div class="easyui-pagination" data-options="
+                 border:true,
+                 total:'{$total}',
+                 pageSize:'{:C('PAGE_SIZE')}',
+                 pageNumber:{$page},
+                 pageList:[{:C('PAGE_SIZE')}],
+                 onSelectPage:gotopage
+                 "></div>
+            <!--<div id="toolbar">
+                <a href=""  class="easyui-linkbutton"  data-options="plain:true,iconCls:'icon-cart_go'"></a>
+            </div>-->
+        </div>
+    </body>
+</html>

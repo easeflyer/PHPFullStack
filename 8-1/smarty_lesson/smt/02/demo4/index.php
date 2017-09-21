@@ -6,7 +6,7 @@ $st = new Smarty();
 $st->left_delimiter = "<{";
 $st->right_delimiter = "}>";
 
-$str = "abcdefghijk";
+$str = "abcdefghijk3333";
 $st->assign("str", $str);
 
 //定义修饰符
@@ -33,7 +33,7 @@ function fun2($arr) {
     return $html;
 }
 
-$st->registerPlugin("function", "demo", "fun2");
+$st->registerPlugin("function", "demo", "fun2");  // 单标记 demo
 
 //定义双标记 注意两个参数的使用
 // $arr 仍然是 标记的属性数组，参考但标记
@@ -41,18 +41,19 @@ $st->registerPlugin("function", "demo", "fun2");
 // 比如 <{test color="red"}>你也很爱国<{/test}>  你也很爱国 文字最终会赋值给 $con
 // 注意双标记的 回调函数 func31 会被调用两次。 第一次是处理 开始标记时，这时$con 没有值。
 //     第二次是 处理结束标记时，这时$con 有值。 第一次调用时 $repeat 的值为 true 第二次调用时 为 false
+// $smarty 就是被传入的 smarty 对象，块嵌套的时候使用。
 
 function fun31($arr, $con, $smarty, &$repeat) {
     //$html = "<div style='color:".$arr["color"]."'>".$con."</div>";
     //$html = "";
     if($repeat){
-        $html = "标签开始渲染这个内容。";
+        $html = "标签开始渲染这个内容con:".$con."<div style='color:".$arr['color']."'>";
     }else{
-        $html = "<div>" . $con . "</div>";
+        $html = "" .$con . "</div>";
     }
     return $html;
 }
 
-$st->registerPlugin("block", "test12", "fun31");
+$st->registerPlugin("block", "test12", "fun31");  // 双标记 test12
 
 $st->display("index.html");

@@ -11,7 +11,7 @@ $link = @mysql_connect("localhost", "root", "") or die("连接失败:" . mysql_e
 mysql_select_db("test", $link);
 mysql_query("set names utf8");
 
-$act = $_GET["act"];  //路径传值
+$act = $_POST["act"];  //路径传值
 
 /**
  * 用户 添加
@@ -27,7 +27,8 @@ if ($act == "add") {
     //变量写入字符串     整形  {$a}  字符串'{$a}'  日期 '{$a}'
     $sql = "insert into users(uName, uPwd, uSex, uTel, uEmail) values('{$uName}', '{$uPwd}', '{$uSex}', '{$uTel}', '{$uEmail}')";
     
-    if (mysql_query($sql)) {
+    
+    if (mysql_query($sql)) {  //mysql_query 如果成功返回 资源引用 true 出错返回false;
         echo "用户添加成功";
     } else {
         echo "用户添加失败";

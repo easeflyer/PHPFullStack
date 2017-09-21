@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="__SKIN__css/shopflow.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/header.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/reset.css" rel="stylesheet" type="text/css" />
+        <include file='Admin/Common:miniheader' />
+        <script src="__SKIN__js/jq.js" type="text/javascript"></script>
+        <script>
+            $(function () {
+                $('#{$Think.get.step}').css('backgroundColor', '#ff0000').css('color', '#ffffff').css('fontWeight', 'bold');
+            })
+            function submitform() {
+                var _form = document.getElementById('myform');
+                _form.submit();
+            }
+        </script>
+        <title>选择配送方式-3C商城</title>
+    </head>
+    <body>
+        <include file='Common:header' />
+        <div class="clear"></div>
+        <div class="main">
+            <div class="shopflow">
+                <ul>
+                    <li id="shoppingcar">购物车</li>
+                    <li>选择收货地址</li>
+                    <li id="shoppingtype">选择配送方式</li>
+                    <li>选择付款方式</li>
+                    <li>付款</li>
+                    <li class="ll">确认订单</li>
+                </ul>
+                <div class="clear"></div>
+                <form id="myform" name="f1" action="" method="POST" enctype="multipart/form-data">
+                    <div class="shopcar">
+                        <table class="table-form" border="1" width="100%">
+                            <tr>
+                                <th style="width:70px">选择</th>
+                                <th>名称</th>
+                                <th>描述</th>
+                                <th>加收费用</th>
+                            </tr>
+                            <volist name="data" id="item" key="k">
+                                <tr>
+                                    <td align="center"><input type="radio" name="shippingtype_id" value="{$item[id]}"
+                                            <if condition="$k eq 1">
+                                                checked
+                                            </if>></td>
+                                    <td>{$item[shipname]}</td>
+                                    <td>{$item[shipdesc]}</td>
+                                    <th>{$item[extramoney]}</th>
+                                </tr>
+                            </volist>
+                            <tr>
+                                <td></td>
+                                <td colspan="4" style="text-align:right; height:30px; line-height:30px; font-size:14px; " align="right"><span style="color:red;font-weight:bold" id="sumprice"></span></td>
+                            </tr>
+                        </table>
+                    </div>    
+                    <hr style="color:dddddd; margin-top:10px">
+                        <div class="nextbtn">
+                            <a onclick="submitform()" href="javascript:void(0)">
+                                <image src="__SKIN__/images/nextbtn.png" width="150"/>
+                            </a>
+                        </div>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <include file='Common:footer' />
+    </body>
+</html>

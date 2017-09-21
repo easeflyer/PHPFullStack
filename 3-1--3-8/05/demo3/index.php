@@ -9,16 +9,22 @@ $arr[2] = $tmp;
 print_r($arr);
 
 echo "<br />-----------冒泡排序---------------------<br />";
+//方法：用第一个数字和后面所有的数字比较，冒出一个最大值
 $brr = array(3, 6, 14, 7, 2, 20, 35);
-
+print_r($brr);echo "<hr />";
 for ($i = 0; $i < count($brr); $i++) {              //遍历 $brr
+    //i = 0,1
+    //j = 1,2
     for ($j = $i + 1; $j < count($brr); $j++) {     // 遍历比较 从当前数字后面开始比较。
+        
         if ($brr[$i] < $brr[$j]) {                  // 判断 & 换位
             
             $tmps = $brr[$i];
             $brr[$i] = $brr[$j];
             $brr[$j] = $tmps;
         }
+        print_r($brr); //可看到处理结果。  外层循环每循环1此，获得冒出一个最大值。
+        echo "<br />";
     }
 }
 /*  过程推演：（i,j值及数组变化）
@@ -40,32 +46,40 @@ for ($i = 0; $i < count($brr); $i++) {              //遍历 $brr
  */
 
 
-
+echo "<br />最后结果<br />";
 print_r($brr);
 
 
 echo "<br />-----------冒泡排序-1--------------------<br />";
+// 方法：前后两数进行比较交换，每轮交换，最后一个数为最大值。
 
 
 function bubbleSort($numbers) {
-    $cnt = count($numbers);
+    $cnt = count($numbers);  // cnt = 10
+    // 第一次:i=0;i<9
+    for ($i = 0; $i < $cnt-1; $i++) {    // 注意：最大下标为9；i最大值8    ，多了一次  $i<$cnt-1 是正确的。  和下面的排序方法一样。
 
-    for ($i = 0; $i < $cnt-1; $i++) {    // 多了一次  $i<$cnt-1 是正确的。  和下面的排序方法一样。
+        // 第一次：i=0;  j=0;j<9;     // 也就是遍历所有的数字  每次减去一个数。  最后 10-8
+        for ($j = 0; $j < $cnt - $i - 1; $j++) {   
+            
 
-        for ($j = 0; $j < $cnt - $i - 1; $j++) {
-
+            // 交换：经过一次循环交换，最大的数字冒到了最后。
             if ($numbers[$j] > $numbers[$j + 1]) {
                 $temp = $numbers[$j];
                 $numbers[$j] = $numbers[$j + 1];
                 $numbers[$j + 1] = $temp;
             }
+            // 显示推演过程
+            //print_r($numbers);echo "<br />";
+            
         }
     }
  
     return $numbers;
 }
- 
+
 $num = array(20, 40, 60, 80, 30, 70, 90, 10, 50, 0);
+print_r($num);echo "<hr />";
 print_r(bubbleSort($num));	
 
 
@@ -77,15 +91,16 @@ print_r(bubbleSort($num));
 
 echo "<br />------------------冒泡排序2---正序--冒大泡-------------------<br />";
 echo "<br />";
-$brr = array(49,17,52,22,9,36);
+$brr = array(49,17,52,22,9,36); // 6个数
 $tmp = 0;
 for($m = 1; $m < count($brr);$m++){            //一共要比较几轮 5轮，。 为什么是5轮，因为2个数的时候，需要比较。每次去掉一个数。6，5，4，3，2 合计5次
 
     for($n = 0; $n < (count($brr)-$m);$n++){   //比较一次要比较几个数。每轮都是从第一个数开始往后比较。直到不需要比较的书为止
 
+        
         if($brr[$n]>$brr[$n+1]){               //如果第一个数比第二个数大
 
-            $tmp = $brr[$n];                   //则交换两个数的位置
+            $tmp = $brr[$n];                   //则交换两个数的位置   第一次循环交换到了
             $brr[$n] = $brr[$n+1];
             $brr[$n+1] = $tmp;
         }

@@ -2,6 +2,7 @@
 $path = "aa/bb/cc/dd/ee";
 $arr = explode("/",$path);
 
+//print_r($arr);
 /* 循环 创建 多级 目录。
  * aa/
  * aa/bb/
@@ -15,6 +16,7 @@ foreach($arr as $key=>$val){
 	}else{
 		$str = $str."/".$val;
 	}
+        
 	if(!file_exists($str)){
 		mkdir($str);
 	}

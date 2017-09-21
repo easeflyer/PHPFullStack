@@ -9,7 +9,7 @@ class AdminAction extends CommonAction {
             $menustr = $this->adminmenu();
         }
 
-
+        //print_r($menustr);exit;
         $this->assign('menustr', $menustr);
         $this->display();
     }
@@ -74,6 +74,34 @@ class AdminAction extends CommonAction {
             $str . "</li>";
         }
         return $str;
+    }
+
+    private function menu() {
+        import("@.Org.Util.RBAC");
+        $retstr = '';
+        $list = RBAC::getAccesslist($_SESSION[C('USER_AUTH_KEY')]);
+        $ret = array();
+        $nodemodel = M('Node');
+        foreach ($list['ADMINMENU'] as $key => $mod) {
+            $retstr.="<li>";
+            $item = array();
+            $key = strtolower($key);
+            $data = $nodemodel->where("lower(name)='$key'")->find();
+            $retstr.="<span>$data[title]</span>\n";  // 这个地方如果把 span 写错。会造成菜单重复的问题。
+            if (is_array($mod)) {
+                $retstr.="<ul>";
+                foreach ($mod as $subkey => $subvalue) {
+                    $data1 = $nodemodel->find($subvalue);
+                    if ($data1[is_show] == 0 || $data1[status] == 0)
+                        continue;
+
+                    $retstr.="<li data-options=\"iconCls:'$data1[iconCls]'\"><sapn><a href=\"index.php?g=Admin&m=$key&a=$subkey\" target=\"main\">" . $data1[title] . "</a></sapn></li>\n";
+                }
+                $retstr.="</ul>\n";
+            }
+            $retstr.="</li>\n";
+        }
+        return $retstr;
     }
 
 }

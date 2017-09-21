@@ -1,0 +1,577 @@
+[ 2017-06-08T10:08:37+08:00 ] 0.0.0.0 /wysc/admin-category-combotreejson.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='0' ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' )  [ RunTime:0.000210s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='1' ) LIMIT 1   [ RunTime:0.000176s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 104 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='1' ) LIMIT 1   [ RunTime:0.000169s ]
+SQL: SELECT * FROM `category` WHERE ( pid='1' )  [ RunTime:0.000182s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='8' ) LIMIT 1   [ RunTime:0.000156s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 104 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='8' ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: SELECT * FROM `category` WHERE ( pid='8' )  [ RunTime:0.000155s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='15' ) LIMIT 1   [ RunTime:0.000147s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='9' ) LIMIT 1   [ RunTime:0.000174s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='10' ) LIMIT 1   [ RunTime:0.000152s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='11' ) LIMIT 1   [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000191s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='2' ) LIMIT 1   [ RunTime:0.000167s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='3' ) LIMIT 1   [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='4' ) LIMIT 1   [ RunTime:0.000166s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.000154s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='6' ) LIMIT 1   [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='7' ) LIMIT 1   [ RunTime:0.000125s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000120s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='19' ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='20' ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='21' ) LIMIT 1   [ RunTime:0.000135s ]
+
+[ 2017-06-08T10:08:37+08:00 ] 0.0.0.0 /wysc/admin-category-combotreejson.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005941s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='0' ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' )  [ RunTime:0.000176s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='1' ) LIMIT 1   [ RunTime:0.000160s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 104 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='1' ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: SELECT * FROM `category` WHERE ( pid='1' )  [ RunTime:0.000165s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='8' ) LIMIT 1   [ RunTime:0.000154s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 104 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='8' ) LIMIT 1   [ RunTime:0.000470s ]
+SQL: SELECT * FROM `category` WHERE ( pid='8' )  [ RunTime:0.000184s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000201s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='15' ) LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='9' ) LIMIT 1   [ RunTime:0.000781s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='10' ) LIMIT 1   [ RunTime:0.000201s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='11' ) LIMIT 1   [ RunTime:0.000189s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000177s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='2' ) LIMIT 1   [ RunTime:0.000443s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='3' ) LIMIT 1   [ RunTime:0.000203s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='4' ) LIMIT 1   [ RunTime:0.000313s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.000153s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='6' ) LIMIT 1   [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='7' ) LIMIT 1   [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000177s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000177s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000167s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='19' ) LIMIT 1   [ RunTime:0.000167s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='20' ) LIMIT 1   [ RunTime:0.000155s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='21' ) LIMIT 1   [ RunTime:0.000160s ]
+
+[ 2017-06-08T10:08:41+08:00 ] 0.0.0.0 /wysc/admin-brand-getcombojson.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.004976s ]
+SQL: SELECT `id`,`brandname` FROM `brand`  [ RunTime:0.000232s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+
+[ 2017-06-08T10:08:41+08:00 ] 0.0.0.0 /wysc/admin-category-combotreejson.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='0' ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' )  [ RunTime:0.000176s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='1' ) LIMIT 1   [ RunTime:0.000168s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 104 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='1' ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `category` WHERE ( pid='1' )  [ RunTime:0.000156s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='8' ) LIMIT 1   [ RunTime:0.000202s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 104 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='8' ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT * FROM `category` WHERE ( pid='8' )  [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='15' ) LIMIT 1   [ RunTime:0.000189s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='9' ) LIMIT 1   [ RunTime:0.000128s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='10' ) LIMIT 1   [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='11' ) LIMIT 1   [ RunTime:0.000128s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='2' ) LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='3' ) LIMIT 1   [ RunTime:0.000159s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='4' ) LIMIT 1   [ RunTime:0.000135s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='6' ) LIMIT 1   [ RunTime:0.000138s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='7' ) LIMIT 1   [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000134s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='19' ) LIMIT 1   [ RunTime:0.000159s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='20' ) LIMIT 1   [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='21' ) LIMIT 1   [ RunTime:0.000143s ]
+
+[ 2017-06-08T10:10:14+08:00 ] 0.0.0.0 /wysc/admin-brand-getcombojson.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.005189s ]
+SQL: SELECT `id`,`brandname` FROM `brand`  [ RunTime:0.000225s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\ease\php_lesson\14\source\wysc\Lib\Action\Admin\BrandAction.class.php 第 100 行.
+
+[ 2017-06-08T10:10:14+08:00 ] 0.0.0.0 /wysc/admin-category-combotreejson.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004784s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='0' ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' )  [ RunTime:0.000156s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='1' ) LIMIT 1   [ RunTime:0.000143s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 104 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='1' ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `category` WHERE ( pid='1' )  [ RunTime:0.000133s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='8' ) LIMIT 1   [ RunTime:0.000122s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 104 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='8' ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT * FROM `category` WHERE ( pid='8' )  [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000120s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='15' ) LIMIT 1   [ RunTime:0.000119s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='9' ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='10' ) LIMIT 1   [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='11' ) LIMIT 1   [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000119s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='2' ) LIMIT 1   [ RunTime:0.000119s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='3' ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='4' ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='6' ) LIMIT 1   [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='7' ) LIMIT 1   [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='19' ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='20' ) LIMIT 1   [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\ease\php_lesson\14\source\wysc\Lib\Model\CategoryModel.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='21' ) LIMIT 1   [ RunTime:0.000126s ]
+
+[ 2017-06-08T10:11:49+08:00 ] 0.0.0.0 /wysc/admin-userrank-rankjson.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `userrank` [ RunTime:0.029992s ]
+SQL: SELECT `id`,`rankname` FROM `userrank`  [ RunTime:0.000191s ]
+
+[ 2017-06-08T10:12:37+08:00 ] 0.0.0.0 /wysc/admin-news-treegridjson.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.036765s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='0' ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `newscate` WHERE ( pid='0' )  [ RunTime:0.000172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='2' ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='3' ) LIMIT 1   [ RunTime:0.000125s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\NewscateModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='3' ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT * FROM `newscate` WHERE ( pid='3' )  [ RunTime:0.000123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='4' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='5' ) LIMIT 1   [ RunTime:0.000117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='6' ) LIMIT 1   [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\NewscateModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='6' ) LIMIT 1   [ RunTime:0.000117s ]
+SQL: SELECT * FROM `newscate` WHERE ( pid='6' )  [ RunTime:0.000119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='7' ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='8' ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='9' ) LIMIT 1   [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\ease\php_lesson\14\source\wysc\Lib\Model\NewscateModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='9' ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT * FROM `newscate` WHERE ( pid='9' )  [ RunTime:0.000120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='10' ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='11' ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `newscate` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000114s ]
+

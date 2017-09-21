@@ -1,0 +1,1934 @@
+[ 2017-04-12T18:14:39+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 267 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 277 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:14:50+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 267 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 277 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `adminuser` WHERE ( `username` = 'huohuo1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\f59a5dfb3c9d1e902ac0fae0d4edea4e.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:14:53+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 267 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 277 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:15:00+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 267 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 277 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:15:10+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 267 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 277 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adminuser` WHERE ( `username` = 'huohuo1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `adminuser` (`username`,`pwd`,`lastlogin`) VALUES ('huohuo1','1bbd886460827015e5d605ed44252251',1491992110) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `roleuser` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: role_id F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+
+[ 2017-04-12T18:16:48+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 267 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 277 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:17:54+08:00 ] 0.0.0.0 /wysc/admin-rbac-manageadmin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 267 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 277 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 283 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 6 行.
+NOTIC: [8] Undefined index: page F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `adminuser` LIMIT 0,15   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `roleuser` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.003001s ]
+SQL: SELECT Roleuser.id AS id,Roleuser.user_id AS user_id,Roleuser.role_id AS role_id,Adminuser.username AS username,Role.name AS name FROM roleuser Roleuser  JOIN adminuser Adminuser ON Roleuser.user_id=Adminuser.id  JOIN role Role ON Role.id=Roleuser.role_id WHERE ( user_id='10' )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 16 行.
+SQL: SELECT Roleuser.id AS id,Roleuser.user_id AS user_id,Roleuser.role_id AS role_id,Adminuser.username AS username,Role.name AS name FROM roleuser Roleuser  JOIN adminuser Adminuser ON Roleuser.user_id=Adminuser.id  JOIN role Role ON Role.id=Roleuser.role_id WHERE ( user_id='13' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 85 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 86 行.
+NOTIC: [8] Use of undefined constant role - assumed 'role' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 87 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 88 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 85 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 86 行.
+NOTIC: [8] Use of undefined constant role - assumed 'role' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 87 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 88 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:17:57+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 267 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 277 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:18:10+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 267 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 277 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adminuser` WHERE ( `username` = '123456789' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `adminuser` (`username`,`pwd`,`lastlogin`) VALUES ('123456789','25f9e794323b453885f5181f1b624d0b',1491992290) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `roleuser` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: role_id F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+
+[ 2017-04-12T18:19:08+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:19:11+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:19:21+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `adminuser` WHERE ( `username` = '123456789' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `adminuser` (`username`,`pwd`,`lastlogin`) VALUES ('123456789','25f9e794323b453885f5181f1b624d0b',1491992361) [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `roleuser` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: role_id F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+
+[ 2017-04-12T18:20:07+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `adminuser` WHERE ( `username` = '123456789' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\f59a5dfb3c9d1e902ac0fae0d4edea4e.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:20:10+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:20:18+08:00 ] 0.0.0.0 /wysc/admin-admin-index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:20:21+08:00 ] 0.0.0.0 /wysc/admin-rbac-manageadmin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 6 行.
+NOTIC: [8] Undefined index: page F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `adminuser` LIMIT 0,15   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `roleuser` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.002000s ]
+SQL: SELECT Roleuser.id AS id,Roleuser.user_id AS user_id,Roleuser.role_id AS role_id,Adminuser.username AS username,Role.name AS name FROM roleuser Roleuser  JOIN adminuser Adminuser ON Roleuser.user_id=Adminuser.id  JOIN role Role ON Role.id=Roleuser.role_id WHERE ( user_id='10' )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 16 行.
+SQL: SELECT Roleuser.id AS id,Roleuser.user_id AS user_id,Roleuser.role_id AS role_id,Adminuser.username AS username,Role.name AS name FROM roleuser Roleuser  JOIN adminuser Adminuser ON Roleuser.user_id=Adminuser.id  JOIN role Role ON Role.id=Roleuser.role_id WHERE ( user_id='13' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 16 行.
+SQL: SELECT Roleuser.id AS id,Roleuser.user_id AS user_id,Roleuser.role_id AS role_id,Adminuser.username AS username,Role.name AS name FROM roleuser Roleuser  JOIN adminuser Adminuser ON Roleuser.user_id=Adminuser.id  JOIN role Role ON Role.id=Roleuser.role_id WHERE ( user_id='15' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 85 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 86 行.
+NOTIC: [8] Use of undefined constant role - assumed 'role' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 87 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 88 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 85 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 86 行.
+NOTIC: [8] Use of undefined constant role - assumed 'role' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 87 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 85 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 86 行.
+NOTIC: [8] Use of undefined constant role - assumed 'role' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 87 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\30d22f183f6972b52592fe5a00869d06.php 第 88 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:20:24+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:20:38+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `adminuser` WHERE ( `username` = '123456799' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `adminuser` (`username`,`pwd`,`lastlogin`) VALUES ('123456799','169372a77a72e23e095aa257a5bffcb5',1491992438) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `roleuser` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: role_id F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+
+[ 2017-04-12T18:21:28+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `adminuser` WHERE ( `username` = '123456799' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\f59a5dfb3c9d1e902ac0fae0d4edea4e.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:21:30+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:21:42+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 268 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 278 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `adminuser` WHERE ( `username` = '1234567' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `adminuser` (`username`,`pwd`,`lastlogin`) VALUES ('1234567','6de54cc8c5070245d1003e136f311159',1491992502) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `roleuser` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: role_id F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 48 行.
+
+[ 2017-04-12T18:22:01+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:22:06+08:00 ] 0.0.0.0 /wysc/admin-rbac-adminadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:22:08+08:00 ] 0.0.0.0 /wysc/admin-admin-index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:22:09+08:00 ] 0.0.0.0 /wysc/admin-rbac-manageadmin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:27:35+08:00 ] 0.0.0.0 /wysc/admin-shippingtype-manage.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shippingtype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `shippingtype`  [ RunTime:0.009001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: extramoeny F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\ae21db1fcda9580a67157aa73f89e2f7.php 第 73 行.
+NOTIC: [8] Undefined index: extramoeny F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\ae21db1fcda9580a67157aa73f89e2f7.php 第 73 行.
+NOTIC: [8] Undefined index: extramoeny F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\ae21db1fcda9580a67157aa73f89e2f7.php 第 73 行.
+NOTIC: [8] Undefined variable: total F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\ae21db1fcda9580a67157aa73f89e2f7.php 第 79 行.
+NOTIC: [8] Undefined variable: page F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\ae21db1fcda9580a67157aa73f89e2f7.php 第 81 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:27:37+08:00 ] 0.0.0.0 /wysc/admin-news-newsmanage.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 32 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 81 行.
+NOTIC: [8] Undefined index: page F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT News.id AS id,News.title AS title,News.thumb AS thumb,News.content AS content,News.newscate_id AS newscate_id,News.jumpurl AS jumpurl,News.addtime AS addtime,News.isjump AS isjump,Newscate.catname AS catname FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 0,15   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: goodname F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 18 行.
+NOTIC: [8] Undefined variable: catid F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 19 行.
+NOTIC: [8] Undefined variable: brand F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 20 行.
+NOTIC: [8] Undefined variable: module F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 21 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:27:41+08:00 ] 0.0.0.0 /wysc/index.php?g=admin&m=News&a=newsmanage&&page=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 32 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT News.id AS id,News.title AS title,News.thumb AS thumb,News.content AS content,News.newscate_id AS newscate_id,News.jumpurl AS jumpurl,News.addtime AS addtime,News.isjump AS isjump,Newscate.catname AS catname FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 0,15   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: goodname F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 18 行.
+NOTIC: [8] Undefined variable: catid F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 19 行.
+NOTIC: [8] Undefined variable: brand F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 20 行.
+NOTIC: [8] Undefined variable: module F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 21 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:27:45+08:00 ] 0.0.0.0 /wysc/admin-news-newsmanage.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 32 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 81 行.
+NOTIC: [8] Undefined index: page F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT News.id AS id,News.title AS title,News.thumb AS thumb,News.content AS content,News.newscate_id AS newscate_id,News.jumpurl AS jumpurl,News.addtime AS addtime,News.isjump AS isjump,Newscate.catname AS catname FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 0,15   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: goodname F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 18 行.
+NOTIC: [8] Undefined variable: catid F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 19 行.
+NOTIC: [8] Undefined variable: brand F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 20 行.
+NOTIC: [8] Undefined variable: module F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 21 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:27:48+08:00 ] 0.0.0.0 /wysc/index.php?g=admin&m=News&a=newsmanage&&page=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 32 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT News.id AS id,News.title AS title,News.thumb AS thumb,News.content AS content,News.newscate_id AS newscate_id,News.jumpurl AS jumpurl,News.addtime AS addtime,News.isjump AS isjump,Newscate.catname AS catname FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 0,15   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: goodname F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 18 行.
+NOTIC: [8] Undefined variable: catid F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 19 行.
+NOTIC: [8] Undefined variable: brand F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 20 行.
+NOTIC: [8] Undefined variable: module F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 21 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:28:24+08:00 ] 0.0.0.0 /wysc/index.php?g=admin&m=News&a=newsmanage&&page=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 32 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 1   [ RunTime:0.058003s ]
+SQL: SELECT News.id AS id,News.title AS title,News.thumb AS thumb,News.content AS content,News.newscate_id AS newscate_id,News.jumpurl AS jumpurl,News.addtime AS addtime,News.isjump AS isjump,Newscate.catname AS catname FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 0,15   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: goodname F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 18 行.
+NOTIC: [8] Undefined variable: catid F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 19 行.
+NOTIC: [8] Undefined variable: brand F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 20 行.
+NOTIC: [8] Undefined variable: module F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 21 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:28:25+08:00 ] 0.0.0.0 /wysc/index.php?g=admin&m=Goods&a=newsmanage&&page=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:newsmanage
+
+[ 2017-04-12T18:28:37+08:00 ] 0.0.0.0 /wysc/index.php?g=admin&m=Goods&a=newsmanage&&page=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:newsmanage
+
+[ 2017-04-12T18:28:44+08:00 ] 0.0.0.0 /wysc/index.php?g=admin&m=News&a=newsmanage&&page=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 32 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\NewsAction.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT News.id AS id,News.title AS title,News.thumb AS thumb,News.content AS content,News.newscate_id AS newscate_id,News.jumpurl AS jumpurl,News.addtime AS addtime,News.isjump AS isjump,Newscate.catname AS catname FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id LIMIT 0,15   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: goodname F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 18 行.
+NOTIC: [8] Undefined variable: catid F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 19 行.
+NOTIC: [8] Undefined variable: brand F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 20 行.
+NOTIC: [8] Undefined variable: module F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 21 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 87 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 88 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 89 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\380fbd091c3888dd8480c7d00fd57956.php 第 91 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:28:46+08:00 ] 0.0.0.0 /wysc/index.php?g=admin&m=Goods&a=manage&&page=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: goodsname F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 10 行.
+NOTIC: [8] Undefined index: cateid F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 10 行.
+NOTIC: [8] Use of undefined constant brand - assumed 'brand' F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: brand F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant module - assumed 'module' F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 14 行.
+NOTIC: [8] Undefined index: module F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 14 行.
+NOTIC: [8] Undefined variable: goodname F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 18 行.
+NOTIC: [8] Undefined variable: catid F:\phpstudy\WWW\wysc\Lib\Action\Admin\GoodsAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goodsattr` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `goodtype` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM goods Goods  JOIN brand Brand ON Brand.id=Goods.brand_id  JOIN category Category ON Category.id=Goods.category_id  JOIN goodsattr Goodsattr ON Goodsattr.id=Goods.goodsattr_id LEFT JOIN goodtype Goodtype ON Goods.goodtype_id=Goodtype.id WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.304017s ]
+SQL: SELECT Goods.id AS id,Goods.goodsname AS goodsname,Goods.price AS price,Goods.mprice AS mprice,Goods.thumb AS thumb,Goods.category_id AS category_id,Goods.brand_id AS brand_id,Goods.goodsinfo AS goodsinfo,Goods.is_show AS is_show,Goods.goodsattr_id AS goodsattr_id,Goods.listorder AS listorder,Goods.goodtype_id AS goodtype_id,Goods.storenum AS storenum,Goods.goodpra AS goodpra,Brand.brandname AS brandname,Category.catename AS catename,Goodsattr.attrname AS attrname,Goodtype.typename AS typename FROM goods Goods  JOIN brand Brand ON Brand.id=Goods.brand_id  JOIN category Category ON Category.id=Goods.category_id  JOIN goodsattr Goodsattr ON Goodsattr.id=Goods.goodsattr_id LEFT JOIN goodtype Goodtype ON Goods.goodtype_id=Goodtype.id WHERE ( 1=1 ) ORDER BY Goods.listorder asc,Goods.id desc LIMIT 0,15   [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goodsattr` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `goodsattr`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 127 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 131 行.
+NOTIC: [8] Use of undefined constant attrname - assumed 'attrname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 131 行.
+NOTIC: [8] Use of undefined constant attrname - assumed 'attrname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant listorder - assumed 'listorder' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 169 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 170 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 171 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 173 行.
+NOTIC: [8] Use of undefined constant mprice - assumed 'mprice' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 174 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 175 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 176 行.
+NOTIC: [8] Use of undefined constant attrname - assumed 'attrname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 177 行.
+NOTIC: [8] Use of undefined constant typename - assumed 'typename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 178 行.
+NOTIC: [8] Use of undefined constant typename - assumed 'typename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 178 行.
+NOTIC: [8] Use of undefined constant storenum - assumed 'storenum' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 179 行.
+NOTIC: [8] Use of undefined constant storenum - assumed 'storenum' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 180 行.
+NOTIC: [8] Use of undefined constant is_show - assumed 'is_show' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 183 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant listorder - assumed 'listorder' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 169 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 170 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 171 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 173 行.
+NOTIC: [8] Use of undefined constant mprice - assumed 'mprice' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 174 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 175 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 176 行.
+NOTIC: [8] Use of undefined constant attrname - assumed 'attrname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 177 行.
+NOTIC: [8] Use of undefined constant typename - assumed 'typename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 178 行.
+NOTIC: [8] Use of undefined constant typename - assumed 'typename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 178 行.
+NOTIC: [8] Use of undefined constant storenum - assumed 'storenum' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 179 行.
+NOTIC: [8] Use of undefined constant storenum - assumed 'storenum' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 180 行.
+NOTIC: [8] Use of undefined constant is_show - assumed 'is_show' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 183 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant listorder - assumed 'listorder' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 169 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 170 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 171 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 173 行.
+NOTIC: [8] Use of undefined constant mprice - assumed 'mprice' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 174 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 175 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 176 行.
+NOTIC: [8] Use of undefined constant attrname - assumed 'attrname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 177 行.
+NOTIC: [8] Use of undefined constant typename - assumed 'typename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 178 行.
+NOTIC: [8] Use of undefined constant typename - assumed 'typename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 178 行.
+NOTIC: [8] Use of undefined constant storenum - assumed 'storenum' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 179 行.
+NOTIC: [8] Use of undefined constant storenum - assumed 'storenum' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 180 行.
+NOTIC: [8] Use of undefined constant is_show - assumed 'is_show' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 183 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant listorder - assumed 'listorder' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 168 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 169 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 170 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 171 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 173 行.
+NOTIC: [8] Use of undefined constant mprice - assumed 'mprice' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 174 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 175 行.
+NOTIC: [8] Use of undefined constant brandname - assumed 'brandname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 176 行.
+NOTIC: [8] Use of undefined constant attrname - assumed 'attrname' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 177 行.
+NOTIC: [8] Use of undefined constant typename - assumed 'typename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 178 行.
+NOTIC: [8] Use of undefined constant typename - assumed 'typename' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 178 行.
+NOTIC: [8] Use of undefined constant storenum - assumed 'storenum' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 179 行.
+NOTIC: [8] Use of undefined constant storenum - assumed 'storenum' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 180 行.
+NOTIC: [8] Use of undefined constant is_show - assumed 'is_show' F:\phpstudy\WWW\wysc\Runtime\Cache\Admin\43b1d32c8bc993eebfa707674119e8d6.php 第 183 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.157009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:28:48+08:00 ] 0.0.0.0 /wysc/admin-category-combotreejson.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\CategoryAction.class.php 第 73 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\CategoryAction.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='0' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' )  [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:28:49+08:00 ] 0.0.0.0 /wysc/admin-category-combotreejson.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\CategoryAction.class.php 第 73 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\CategoryAction.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='0' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' )  [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Lib\Model\CategoryModel.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:29:31+08:00 ] 0.0.0.0 /wysc/admin-rbac-manageadmin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 266 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 276 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 282 行.
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 6 行.
+NOTIC: [8] Undefined index: page F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `adminuser` LIMIT 0,15   [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T18:34:40+08:00 ] 0.0.0.0 /wysc/news-lists-catid-1-p-2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of NewsAction::show() should be compatible with that of Action::show() F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 58 行.
+NOTIC: [2048] Declaration of CommonAction::error() should be compatible with that of Action::error() F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 232 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' and is_show=1  )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='topid=0' ) LIMIT 1   [ RunTime:0.021001s ]
+SQL: SELECT * FROM `category` WHERE ( pid='topid=0' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='topid=0' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='topid=0' )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( category_id in('topid=0','12','17','13','18','14','16') and thumb!=' ' ) ORDER BY listorder asc, id desc LIMIT 7   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant myfavor - assumed 'myfavor' F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 25 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: page F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `newscate` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id WHERE ( newscate_id=1 ) LIMIT 1   [ RunTime:0.027001s ]
+SQL: SELECT News.id AS id,News.title AS title,News.addtime AS addtime FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id WHERE ( newscate_id=1 ) ORDER BY News.id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 6 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 26 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 27 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 28 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 31 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant newscate_id - assumed 'newscate_id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Undefined index: newscate_id F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 76 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Undefined index: children F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Undefined index: children F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 94 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 94 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 95 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 95 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 97 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 103 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 136 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T18:37:42+08:00 ] 0.0.0.0 /wysc/news-lists-catid-1-p-2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.107006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.107006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016000s ]
+NOTIC: [2048] Declaration of NewsAction::show() should be compatible with that of Action::show() F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 58 行.
+NOTIC: [2048] Declaration of CommonAction::error() should be compatible with that of Action::error() F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 232 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.446025s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' and is_show=1  )  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='topid=0' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='topid=0' )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.683039s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='topid=0' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='topid=0' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( category_id in('topid=0','12','17','13','18','14','16') and thumb!=' ' ) ORDER BY listorder asc, id desc LIMIT 7   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant myfavor - assumed 'myfavor' F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 25 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: page F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.045003s ]
+SQL: SELECT * FROM `newscate` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.109006s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id WHERE ( newscate_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT News.id AS id,News.title AS title,News.addtime AS addtime FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id WHERE ( newscate_id=1 ) ORDER BY News.id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 6 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant newscate_id - assumed 'newscate_id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Undefined index: newscate_id F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 76 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Undefined index: children F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Undefined index: children F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 94 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 94 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 95 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 95 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 97 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 103 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 136 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.162009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T19:08:57+08:00 ] 0.0.0.0 /wysc/admin-admin-index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T19:08:59+08:00 ] 0.0.0.0 /wysc/admin-rbac-managerole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 266 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 276 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.001000s ]
+ERR: 模板不存在[F:/phpstudy/WWW/wysc/Tpl/Admin/Rbac/managerole.html]
+
+[ 2017-04-12T19:09:22+08:00 ] 0.0.0.0 /wysc/admin-rbac-managerole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 266 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 276 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T19:12:31+08:00 ] 0.0.0.0 /wysc/admin-rbac-managerole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 266 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 276 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-12T19:33:02+08:00 ] 0.0.0.0 /wysc/admin-admin-index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T19:33:11+08:00 ] 0.0.0.0 /wysc/admin-rbac-managerole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 266 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 276 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 282 行.
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T19:33:13+08:00 ] 0.0.0.0 /wysc/admin-rbac-roleadd.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 266 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 276 行.
+NOTIC: [8192] Call-time pass-by-reference has been deprecated F:\phpstudy\WWW\wysc\Lib\Action\Admin\RbacAction.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T19:43:07+08:00 ] 0.0.0.0 /wysc/admin-admin-index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-12T19:43:08+08:00 ] 0.0.0.0 /wysc/news-lists-catid-1-p-2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of NewsAction::show() should be compatible with that of Action::show() F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 58 行.
+NOTIC: [2048] Declaration of CommonAction::error() should be compatible with that of Action::error() F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 232 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' and is_show=1  )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='topid=0' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='topid=0' )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='topid=0' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='topid=0' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( category_id in('topid=0','12','17','13','18','14','16') and thumb!=' ' ) ORDER BY listorder asc, id desc LIMIT 7   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant myfavor - assumed 'myfavor' F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 25 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: page F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `newscate` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id WHERE ( newscate_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT News.id AS id,News.title AS title,News.addtime AS addtime FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id WHERE ( newscate_id=1 ) ORDER BY News.id desc LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 6 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant newscate_id - assumed 'newscate_id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Undefined index: newscate_id F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 76 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Undefined index: children F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Undefined index: children F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 94 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 94 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 95 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 95 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 97 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 103 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 136 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-12T19:43:08+08:00 ] 0.0.0.0 /wysc/news-lists-catid-1-p-2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of NewsAction::show() should be compatible with that of Action::show() F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 58 行.
+NOTIC: [2048] Declaration of CommonAction::error() should be compatible with that of Action::error() F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 232 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 8 行.
+NOTIC: [8] Undefined index: user F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='0' and is_show=1  )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='topid=0' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='topid=0' )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='topid=0' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='topid=0' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='12' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='14' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='14' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `category` WHERE ( pid='13' )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='17' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='18' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( pid='16' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( category_id in('topid=0','12','17','13','18','14','16') and thumb!=' ' ) ORDER BY listorder asc, id desc LIMIT 7   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant myfavor - assumed 'myfavor' F:\phpstudy\WWW\wysc\Lib\Action\Home\CommonAction.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `goods` WHERE ( `id` = 25 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Use of undefined constant page - assumed 'page' F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: page F:\phpstudy\WWW\wysc\Lib\Action\Home\NewsAction.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `newscate` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id WHERE ( newscate_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT News.id AS id,News.title AS title,News.addtime AS addtime FROM news News  JOIN newscate Newscate ON News.newscate_id=Newscate.id WHERE ( newscate_id=1 ) ORDER BY News.id desc LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 6 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 60 行.
+NOTIC: [8] Use of undefined constant newscate_id - assumed 'newscate_id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Undefined index: newscate_id F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 68 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 76 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Undefined index: children F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 78 行.
+NOTIC: [8] Use of undefined constant children - assumed 'children' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Undefined index: children F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 80 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 94 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 94 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 95 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 95 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 97 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 103 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 115 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant thumb - assumed 'thumb' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 116 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant goodsname - assumed 'goodsname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 122 行.
+NOTIC: [8] Use of undefined constant catname - assumed 'catname' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 136 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\phpstudy\WWW\wysc\Runtime\Cache\Home\2e7e773f2858c23325bb7d3d7e6a803e.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

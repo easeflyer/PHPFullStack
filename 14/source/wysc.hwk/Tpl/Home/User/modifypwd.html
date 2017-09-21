@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
+    http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>个人信息管理-用户中心-3C商城</title>
+        <include file="Admin/Common/miniheader" />
+        <link href="__SKIN__css/header.css" rel="stylesheet" type="text/css" />
+        <link href="__SKIN__css/reset.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="__SKIN__/css/ucentermenu.css" />
+        <link rel="stylesheet" type="text/css" href="__SKIN__/css/ucenter.css" />
+        <script src="__SKIN__js/jq.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            function checkvalue(_obj, _regex, _message) {
+                if (_regex == 'require') {
+                    if (_obj.value == '') {
+                        console.log($(_obj).parent().next('td'));
+                        $(_obj).parent().next('td').find('span').html(_message).css('display', 'block');
+                        return false;
+                    } else {
+                        $(_obj).parent().next('td').find('span').html('').css('display', 'none');
+                        return true;
+                    }
+                } else {
+                    if (!_regex.test(_obj.value)) {
+                        $(_obj).parent().next('td').find('span').html(_message).css('display', 'block');
+                        return false;
+                    } else {
+                        $(_obj).parent().next('td').find('span').html('').css('display', 'none');
+                        return true;
+                    }
+                }
+            }
+            function checklogin() {
+                var _username = document.getElementById('username');
+                var _pwd = document.getElementById('pwd');
+                if (checkvalue(_username, 'require', '用户名不能为空') && checkvalue(_pwd, /^.{8,}$/, '密码错误')) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            function checkrepwd(_obj1, _obj2id, _message) {
+                var _obj2 = document.getElementById(_obj2id);
+                console.log(_obj1.value);
+                console.log(_obj2.value);
+                if (_obj1.value != _obj2.value) {
+                    $(_obj1).parent().next('td').find('span').html(_message).css('display', 'block');
+                    return false;
+                } else {
+
+                    $(_obj1).parent().next('td').find('span').html('').css('display', 'none');
+                    return true;
+                }
+            }
+            function checknull(_obj, _regex, _message) {
+                if (_obj.value == '') {
+                    return true;
+                }
+                return checkvalue(_obj, _regex, _message);
+            }
+            function checkallpwd() {
+                var _oldpwd = document.getElementById('oldpwd');
+                var _pwd = document.getElementById('pwd');
+                var _confirmpwd = document.getElementById('confirmpwd');
+                if (checkvalue(_oldpwd, /^.{8,}$/, '密码至少8位') && checkvalue(_pwd, /^.{8,}$/, '密码至少8位') && checkrepwd(_confirmpwd, 'pwd', '密码与确认密码必须一致')) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+        </script>
+    </head>
+    <body>
+        <include file="Common:header"/>
+        <div class="position">
+            <h6>当前位置：</h6><a href="__APPURL__">首页 </a><span>&gt;</span><a href="{:U('User/ucenter')}"> 用户中心 </a><span>&gt;</span><a href="{:U('User/ucenter',array('option'=>'selfinfo'))}"> 修改密码</a>
+        </div>
+        <div class="main">
+            <include file="User:ucentermenu" />
+            <div class="right">
+                <form name="f2" action="" method="post" onsubmit="return checkallpwd()">
+                    <table class="table-form" border="0" width="100%">
+                        <caption><h3>个人信息修改</h3></caption>
+                        <tr>
+                            <th>用户名</th>
+                            <td>
+                                <h4>{$userdata[username]} <input type="hidden" name="id" value="{$userid}" /></h4>
+                            </td>
+                            <td><span class="msg"></span></td>
+                        </tr>
+                        <tr>
+                            <th>原密码</th>
+                            <td>
+                                <input type="password" name="oldpwd" id="oldpwd" class="ipt" style="font-size:12px" onblur="checkvalue(this, /^.{8,}$/, '密码至少8位')" />
+                            </td>
+                            <td><span class="msg"></span></td>
+                        </tr>
+                        <tr>
+                            <th>新密码</th>
+                            <td>
+                                <input type="password" name="pwd" id="pwd" class="ipt"style="font-size:12px" onblur="checkvalue(this, /^.{8,}$/, '密码至少8位')" />
+                            </td>
+                            <td><span class="msg"></span></td>
+                        </tr>
+                        <tr>
+                            <th>确认密码</th>
+                            <td>
+                                <input type="password" name="confirmpwd" id="confirmpwd" class="ipt"style="font-size:12px" onblur="checkrepwd(this, 'pwd', '密码与确认密码必须一致')" />
+                            </td>
+                            <td><span class="msg"></span></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input type="submit" name="s1" value="提交">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="reset" name="r1" value="清除">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <include file="Common:footer"/>
+    </body>
+</html>

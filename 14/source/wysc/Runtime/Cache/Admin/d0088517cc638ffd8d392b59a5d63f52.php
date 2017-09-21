@@ -14,6 +14,7 @@
 a{text-decoration:none; color:#000}
 
 </style>
+
         <link rel="stylesheet" type="text/css" href="__SKIN__css/tableform.css" />
         <link rel="stylesheet" type="text/css" href="__SKIN__plugin/editor/themes/default/default.css" />
         <script type="text/javascript" src="__SKIN__plugin/editor/kindeditor-min.js">

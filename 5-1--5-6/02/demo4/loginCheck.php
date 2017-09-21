@@ -1,13 +1,13 @@
-<?php 
+<?php
 header("content-type:text/html;charset=utf-8");
 session_start();
 include("fun/inc.php");
 include("fun/mysql.fun.php");
 conn($db["dbHost"] ,$db["user"],$db["pwd"],$db["dbName"]);
 
-
+// 提交的验证码。
 $verify = $_POST["verify"];
-
+// 提交的验证码 和 session 中的进行比较
 if($_SESSION["cs"]!=$verify ){
 	echo "验证码错误<a href='index.php'>返回</a>";
 	exit;

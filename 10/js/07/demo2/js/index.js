@@ -6,10 +6,11 @@ function fun1() {
     //定义时候添加属性
     this.name = "zhangsan"; //为该类添加属性 name ,this当前对象
     this.play = function () {
-        wt("斗地主");
+         wt("斗地主");
     }
 }
 var obj = new fun1();
+
 wt("obj.name:"+obj.name);
 wt("obj.play:");
 obj.play();
@@ -29,9 +30,12 @@ wt("obj2.name:"+obj2.name);
 obj2.play();
 
 wt("----------- json--------------");
-var obj3 = {name: "王五", play: function () {
-        wt("篮球 ")
-    }};
+var obj3 = {
+                name: "王五", 
+                play: function () {
+                    wt("篮球 ")
+                }
+            };
 wt(obj3.name);
 obj3.play();
 delete obj3.name; //delete obj3.say;
@@ -46,13 +50,13 @@ obj3 = null; //回收对象资源。
 
 wt("----------- prototype - 为已有类添加新方法--------------");
 
-String.prototype.fc = function () {
+String.prototype.fc1 = function () {
 
-    return "新方法返回值";
+    return "新方法22222返回值";
 
 }
 var str = "一个字符串对象";
-wt("str.fc:" + str.fc());
+wt("str.fc:" + str.fc1());
 
 
 
@@ -67,11 +71,12 @@ Object.prototype.hello = function () {
 }
 
 var str = "aaaaaaa";
-wt(str.hello());
+wt("String:"+str.hello());
 
 var n = true;
-wt(n.hello());
+wt("Boolean:"+n.hello());
 
 
 var n = 1;
-wt(n.constructor == Number);  // Number 就是 n 实例的 构造器 也就是类
+wt("Number:"+n.hello());
+wt("Number:"+n.constructor == Number);  // Number 就是 n 实例的 构造器 也就是类

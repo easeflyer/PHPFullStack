@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2017-02-09 11:25:40
+<?php /* Smarty version Smarty-3.1.15, created on 2017-08-31 14:49:11
          compiled from ".\templates\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:2077853153b66c1dd74-31923646%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '06f2fd8d9a960ed1fa3c26ccfad67689d23fc229' => 
     array (
       0 => '.\\templates\\index.html',
-      1 => 1486610739,
+      1 => 1504162148,
       2 => 'file',
     ),
   ),
@@ -43,18 +43,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 ---<?php echo $_smarty_tpl->tpl_vars['arr']->value[1];?>
 ----<?php echo $_smarty_tpl->tpl_vars['arr']->value[2];?>
 ----<?php echo $_smarty_tpl->tpl_vars['arr']->value[3];?>
+----<?php echo $_smarty_tpl->tpl_vars['arr']->value[4];?>
 <br />
 <?php $_smarty_tpl->createLocalArrayVariable("arr", null, 0);
 $_smarty_tpl->tpl_vars["arr"]->value[] = "zhangsan";?> <!-- 增加了张三 -->
 <?php echo $_smarty_tpl->tpl_vars['arr']->value[0];?>
 ---<?php echo $_smarty_tpl->tpl_vars['arr']->value[1];?>
 ----<?php echo $_smarty_tpl->tpl_vars['arr']->value[2];?>
+----<?php echo $_smarty_tpl->tpl_vars['arr']->value[3];?>
 ----<?php echo $_smarty_tpl->tpl_vars['arr']->value[4];?>
 <br />
 
 
 <br />----------assign---------------<br />
-<?php $_smarty_tpl->tpl_vars["str"] = new Smarty_variable("我很爱国1", null, 0);?>
+<?php $_smarty_tpl->tpl_vars["str"] = new Smarty_variable("我很爱国", null, 0);?>
 <?php echo $_smarty_tpl->tpl_vars['str']->value;?>
 
 

@@ -92,6 +92,7 @@ mysql_query("set names utf8");
 			
 			//查找所有会员 组成列表limit m,n m 是起始记录的 index, n 是记录条数。
 			$sql = "select * from users limit {$start},{$pageSize}";
+                        //$sql = "select * from users limit 2,3";
 			$result = mysql_query($sql);
 
 
@@ -107,26 +108,26 @@ mysql_query("set names utf8");
 			?>
 
 
-              <TR style="text-align:center;line-height:30px;FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: white; TEXT-DECORATION: none">
+                            <TR style="text-align:center;line-height:30px;FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: white; TEXT-DECORATION: none">
 
-                <TD><?php echo $rs["uName"]?>--<?php echo $rs["id"]?></TD>
-                <TD><?php echo $rs["uPwd"]?></TD>
-                <TD><?php echo $uSex?></TD>
-                <TD><?php echo $rs["uTel"]?></TD>
-                <TD><?php echo $rs["uEmail"]?></TD>
-                
-                <TD>
-				<a href="userAction.php?act=delete&id=<?php echo $rs["id"]?>">删除</a> 
-				| 
-				<a href="userUpdateView.php?id=<?php echo $rs["id"]?>">修改 </a>
-				</TD>
-				
-				</TR>
+                              <TD><?php echo $rs["uName"]?>--<?php echo $rs["id"]?></TD>
+                              <TD><?php echo $rs["uPwd"]?></TD>
+                              <TD><?php echo $uSex?></TD>
+                              <TD><?php echo $rs["uTel"]?></TD>
+                              <TD><?php echo $rs["uEmail"]?></TD>
+
+                              <TD>
+                              <a href="userAction.php?act=delete&id=<?php echo $rs["id"]?>">删除</a> 
+                              | 
+                              <a href="userUpdateView.php?id=<?php echo $rs["id"]?>">修改 </a>
+                              </TD>
+
+                              </TR>
 			
 
-			<?php
-			}
-			?>
+                        <?php
+                        }
+                        ?>
 
 
 
@@ -163,16 +164,15 @@ mysql_query("set names utf8");
 			// 如果当前页 小于 5 
 			if($page<=5){
 
-				for($i=1;$i<=10;$i++){  // 超过10页 就显示 10个页码， 不到10页就显示到 totalPage 结束退出
+                            for($i=1;$i<=10;$i++){  // 超过10页 就显示 10个页码， 不到10页就显示到 totalPage 结束退出
 
-						if($i==$totalPage){  // 如果 总页数 就4页 ，但是 $i 1循环10  就需要 $i==$totalPage 不在输出页码
-							?><a href="userList.php?page=<?php echo $i;?>">[<?php echo $i;?>]</a><?php
-							break;  // 退出循环 后面的代码不再执行 不大于 totalPage
-						}	
+                                if($i==$totalPage){  // 如果 总页数 就4页 ，但是 $i 1循环10  就需要 $i==$totalPage 不在输出页码
+                                        ?><a href="userList.php?page=<?php echo $i;?>">[<?php echo $i;?>]</a><?php
+                                        break;  // 退出循环 后面的代码不再执行 不大于 totalPage
+                                }	
 			                ?><a href="userList.php?page=<?php echo $i;?>">[<?php echo $i;?>]</a><?php
 		 	                
-
-				}
+                            }
 
 			}else{ // $page 大于5的情况
 
@@ -194,7 +194,8 @@ mysql_query("set names utf8");
 			</DIV>
 			</SPAN>
 
-			
+
+          
 
 			</TD></TR></TBODY></TABLE></TD>
     <TD width=15 background=imgs/new_023.jpg><IMG 

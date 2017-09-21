@@ -7,19 +7,26 @@
 
 <body>
 	<{$arr}>
-	<br />---------foreach遍历数组----------<br />
+	<br />---------foreach遍历数组 arr----------<br />
 	<{foreach $arr as $val}>
 		<{$val}><br />
 	<{/foreach}>
         
         
-	<br />---------foreach遍历二维数组 ----------<br />
+	<br />---------foreach遍历二维数组 brr----------<br />
+        
 	<{$brr}><br />
 	<{foreach $brr as $val1}>
 		<{$val1["uName"]}>---<{$val1["uAge"]}>---<{$val1["uTel"]}><br />
 	<{/foreach}>
         
-	<br />---------section----------<br />
+	<br />---------foreach遍历二维数组 brr $key=>$val----------<br />
+	<{$brr}><br />
+	<{foreach $brr as $key=>$val1}>
+		<{$key}> ： <{$val1["uName"]}>---<{$val1["uAge"]}>---<{$val1["uTel"]}><br />
+	<{/foreach}>
+        
+	<br />---------section-crr---------<br />
 	<{$crr}><br />
         <!-- loop=数组名称 -->
 	<{section name=key loop=$crr}>
@@ -28,7 +35,7 @@
         
         
         
-	<br />---------section遍历二维数组 ----------<br />
+	<br />---------section遍历二维数组 -drr---------<br />
 	<{$drr}><br />
 	<{section name=key1 loop=$drr}>
 			<{$drr[key1].uName}><br />

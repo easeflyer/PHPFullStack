@@ -8,7 +8,7 @@
     <style type="text/css">
         #panel{
             border:1px solid #ff0000;
-            border-radius:100px;
+            border-radius:100px;    /* 圆角 */
             width:200px;
             height:200px;
             position:relative;
@@ -18,15 +18,23 @@
     <script type="text/javascript">
         $(function () {
             $("#panel").click(function () {
-                // 注意后面的 .css 立即执行了
-                //$(this).animate({left:"400px",height:"200px"},3000).animate({top:"400px"},3000).css("background","#cecece");//left:"400px" 距离左边的距离加400px
+                // 注意后面的 .css 立即执行了  .animate().animate().animate() 可以连续动作
+                //$(this).animate({left:"400px",height:"100px"},3000);
+                //$(this).animate({left:"400px",height:"200px"},3000).animate({top:"400px"},3000).animate({top:"0px"},3000);;
+                //$(this).animate({left:"400px",height:"200px"},3000).animate({top:"400px"},3000).css("background","#eeeeee");//left:"400px" 距离左边的距离加400px
+                //$(this).text("　　　　　　　圆形").animate({left:"400px",height:"200px"},3000).animate({top:"400px"},3000);//left:"400px" 距离左边的距离加400px
+               //animate(样式列表,时间,callback);
+               
                 $(this).animate({left: "500px",width: "100px",height: "100px",borderRadius:"0px"}, 3000, function () { $("#panel").html("移动完毕") })
                         .animate({width: "200px"}, 3000, function () {
-                            //alert("长度变化完毕");
-                        })
+                            alert("长度变化完毕");
+                        });
+               
+                        
             });
             // 点击的时候停止
             $("#stp").click(function(){
+                alert(  $("#panel").is(":animated") );
                 $("#panel").stop();
             });
             
@@ -37,5 +45,6 @@
         <div id="panel"></div>
 
         <input type="button" value="停止" id="stp" />
+        
     </body>
 </html>

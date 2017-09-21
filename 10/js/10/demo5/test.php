@@ -13,7 +13,9 @@
 	}
 </script>
 <body>
+    
 我是test页面
-<input type="button" value="后退" id="bt">
+<input type="button" value="后退" id="bt" />
+    
 </body>
 </html>

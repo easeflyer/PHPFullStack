@@ -16,7 +16,7 @@
 			
 		})
 		$("#bt1").click(function(){
-			$("#tb1").attr("height","100"); // 设置属性值
+			$("#tb1").attr("height","200"); // 设置属性值
 		})
 		$("#bt2").click(function(){
 			$("#tb1").removeAttr("border");  // 移除某个属性
@@ -28,7 +28,7 @@
 <input type="button" value="点击设置属性" id="bt1">
 <input type="button" value="点击删除属性" id="bt2">
 
-<table id="tb1" align="center" border="1" width="401" cellpadding="0" cellspacing="0">
+<table id="tb1" align="center" border="5" width="401" cellpadding="0" cellspacing="0">
 	<tr>
 		<td>aaaaaaa</td>
 		<td>aaaaaaa</td>

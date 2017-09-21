@@ -42,10 +42,13 @@ include("inc.php");
         })
     </script>
     <body>
+        
+        
         <?php
         $sql = "select * from class where pId=0";
         $result = mysql_query($sql);
         ?>
+        
         <select id="one">
             <!-- value = -1 用于 php 后台处理的时候进行判断排除 -->
             <option value="-1">请选择第一级</option>
@@ -57,11 +60,17 @@ include("inc.php");
             }
             ?>
         </select>
+        
+        
+        
         <select id="two">
             <option value="-1">请选择第二级</option>           
         </select>
+        
         <select id="three">
             <option value="-1">请选择第三级</option>
         </select>
+        
+        
     </body>
 </html>

@@ -30,7 +30,7 @@ class verify {
     }
     // 绘制噪点
     function createPix($imgS, $color) {
-        for ($i = 0; $i < 200; $i++) {  //i 槽点个数
+        for ($i = 0; $i < 500; $i++) {  //i 槽点个数
             imagesetpixel($imgS, rand(0, 150), rand(0, 80), $color);
         }
     }

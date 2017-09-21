@@ -10,6 +10,7 @@
 <form action="up.php" method="post" enctype="multipart/form-data">
 	用户名:<input type="text" name="uName" /><br />
 	头像:<input type="file" name="uImg" /><br/>
+        头像1:<input type="file" name="uImg1" /><br/>
 	<input type="submit" value="提交" />
 </form>
     

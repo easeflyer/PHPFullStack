@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <frameset rows="150,*" frameborder="1">
+        
+        <frame name="topFrame" src="top.html"  scrolling="no" noresize="noresize" />
+        
+        <!-- 第一列 left.html 占据 150 ； right.html 占据剩余部分宽度 -->
+        <frameset cols="150,*" >
+            <frame src="left.html"  scrolling="no" />
+            <frame src="" name="rightFrame" scrolling="no" />
+        </frameset>
+        
+    </frameset>
+</html>

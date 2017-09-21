@@ -13,5 +13,8 @@ require_once './MySQL.class.php';
 
 $sql = "select * from users";
 //$db = new MySQL();
+
 $re = MySQL::getAll($sql);
+
+
 print_r($re);

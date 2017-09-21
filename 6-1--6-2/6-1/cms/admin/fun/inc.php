@@ -2,4 +2,4 @@
 $db["dbHost"] = "localhost";
 $db["user"] = "root";
 $db["pwd"] = "";
-$db["dbName"] = "cms";
+$db["dbName"] = "cm1";

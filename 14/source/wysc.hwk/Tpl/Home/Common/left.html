@@ -1,0 +1,73 @@
+<div class="left">
+    <!--当前分类开始-->
+    <div class="currencat">
+        <h3><span>{$CAT[catename]|default='全部分类'}</span></h3>
+        <ul class="cat">
+            <volist name="childs" id="child">
+                <li class="item current"><h4><div class="icon"></div>{$child[catename]}</h4>
+                    <ul class="subcat">
+                        <volist name="child[children]" id="subchild">
+                            <li><a href="">{$subchild[catename]}</a></li>
+                        </volist>
+                    </ul>
+                    <div class="clear"></div>
+                </li>
+            </volist>
+        </ul>
+        <div class="curcatbt">
+        </div>
+    </div>
+    <!--当前分类结束-->
+    <!--热销商品开始-->
+    <div class="hotgoods">
+        <h3><span>热卖商品</span></h3>
+        <ul>
+            <volist name="rmsp" id="item" key="k">
+                <if condition="$k eq 1"> 
+                    <li class="top">
+                        <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="__APPURL__Public/Uploads/{$item[thumb]}" width="58" height="58" alt="" /></a>
+                        <a href="{:U('Index/show',array('goodid'=>$item[id]))}" class="goodinfo"><span>{$item[goodsname]}</span>
+                            <div class="price">
+                                ￥{$item[price]}
+                            </div>
+                        </a>
+                        <div class="clear"></div>
+                    </li>
+                    <else/>
+                        <li class="item"><div class="icons" style="background-position:0 {$key*-50+50}px" ></div><a href="{:U('Index/show',array('goodid'=>$item[id]))}">{$item[goodsname]}</a></li>
+                </if>
+            </volist>
+            <div class="clear"></div>
+        </ul>
+        <div class="curcatbt">
+        </div>
+    </div>
+    <!--热销商品结束-->
+    <!--浏览记录开始-->
+    <div class="hotgoods">
+        <h3><span>浏览记录</span></h3>
+        <ul style="padding-top:1px;">
+            <volist name="viewhistory" id="item">
+                <li class="topm10">
+                    <a href="{:U('Index/show',array('goodid'=>$item[id]))}"><img src="
+                        <if condition="$item[thumb]">
+                        __APPURL__Public/Uploads/{$item[thumb]}
+                        <else/>
+                        __SKIN__images/nopic.png
+                        </if>
+                        " width="58" height="58" alt="" /></a>
+                    <a href="{:U('Index/show',array('goodid'=>$item[id]))}" class="goodinfo"><span>{$item[goodsname]|mb_substr=0,30,'utf-8'}</span>
+                        <div class="price">
+                            ￥{$item[price]}
+                        </div>
+                    </a>
+                    <div class="clear"></div>
+                </li>
+            </volist>
+            <div class="clear"></div>
+        </ul>
+        <div class="curcatbt">
+        </div>
+    </div>
+    <!--浏览记录结束-->
+</div>

@@ -1,0 +1,1262 @@
+[ 2017-09-19T15:33:19+08:00 ] 0.0.0.0 /12/pro/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:33:20+08:00 ] 0.0.0.0 /12/pro/admin.php/Common/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:34:18+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:34:18+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/top
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:34:18+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/right.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:34:18+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/left
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: menuId F:\ease\php_lesson\12\pro\admin\Lib\Action\IndexAction.class.php 第 73 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.064003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-19T15:34:21+08:00 ] 0.0.0.0 /12/pro/admin.php/Users/usersList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_users` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_users` LIMIT 0,2   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:34:23+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/left/menuId/4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:34:24+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/left/menuId/4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:34:26+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/booksList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.005001s ]
+SQL: select tb.bId, tb.bName,tb.bAuth,tb.bImg,tb.bMprice,tb.bJDprice,tb.bState,tp.pName,tc.cName as cn,tc1.cName as cn1 from think_books as tb left join think_pub as tp on tb.pId=tp.pId left join think_cat as tc on tb.bFid=tc.cId left join think_cat as tc1 on tb.bSid=tc1.cId [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:40:14+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/booksList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.006001s ]
+SQL: select tb.bId, tb.bName,tb.bAuth,tb.bImg,tb.bMprice,tb.bJDprice,tb.bState,tp.pName,tc.cName as cn,tc1.cName as cn1 from think_books as tb left join think_pub as tp on tb.pId=tp.pId left join think_cat as tc on tb.bFid=tc.cId left join think_cat as tc1 on tb.bSid=tc1.cId [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:41:12+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/booksList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008001s ]
+SQL: select tb.bId, tb.bName,tb.bAuth,tb.bImg,tb.bMprice,tb.bJDprice,tb.bState,tp.pName,tc.cName as cn,tc1.cName as cn1 from think_books as tb left join think_pub as tp on tb.pId=tp.pId left join think_cat as tc on tb.bFid=tc.cId left join think_cat as tc1 on tb.bSid=tc1.cId [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:41:16+08:00 ] ERR: (ThinkException) 非法操作:updateView
+[ 2017-09-19T15:41:44+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 11 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 23 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 25 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 29 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Undefined variable: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 45 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 49 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 51 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 55 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 57 行.
+NOTIC: [8] Undefined variable: rs_1 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 93 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 101 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 103 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 107 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 111 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:41:53+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/booksList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008001s ]
+SQL: select tb.bId, tb.bName,tb.bAuth,tb.bImg,tb.bMprice,tb.bJDprice,tb.bState,tp.pName,tc.cName as cn,tc1.cName as cn1 from think_books as tb left join think_pub as tp on tb.pId=tp.pId left join think_cat as tc on tb.bFid=tc.cId left join think_cat as tc1 on tb.bSid=tc1.cId [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:41:56+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 11 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 23 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 25 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 29 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Undefined variable: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 45 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 49 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 51 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 55 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 57 行.
+NOTIC: [8] Undefined variable: rs_1 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 93 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 101 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 103 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 107 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 111 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-19T15:42:06+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 11 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 23 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 25 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 29 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Undefined variable: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 45 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 49 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 51 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 55 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 57 行.
+NOTIC: [8] Undefined variable: rs_1 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 93 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 101 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 103 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 107 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 111 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:42:08+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 11 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 23 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 25 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 29 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Undefined variable: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 45 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 49 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 51 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 55 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 57 行.
+NOTIC: [8] Undefined variable: rs_1 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 93 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 101 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 103 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 107 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 111 行.
+NOTIC: [8] Undefined variable: rs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:43:38+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.007001s ]
+SQL: select * from think_books where bId=1 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.007000s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.005001s ]
+SQL: select * from think_pub [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:43:53+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/booksList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008000s ]
+SQL: select tb.bId, tb.bName,tb.bAuth,tb.bImg,tb.bMprice,tb.bJDprice,tb.bState,tp.pName,tc.cName as cn,tc1.cName as cn1 from think_books as tb left join think_pub as tp on tb.pId=tp.pId left join think_cat as tc on tb.bFid=tc.cId left join think_cat as tc1 on tb.bSid=tc1.cId [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:43:58+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008000s ]
+SQL: select * from think_books where bId=1 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.007000s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.005000s ]
+SQL: select * from think_pub [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:44:19+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/booksList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008000s ]
+SQL: select tb.bId, tb.bName,tb.bAuth,tb.bImg,tb.bMprice,tb.bJDprice,tb.bState,tp.pName,tc.cName as cn,tc1.cName as cn1 from think_books as tb left join think_pub as tp on tb.pId=tp.pId left join think_cat as tc on tb.bFid=tc.cId left join think_cat as tc1 on tb.bSid=tc1.cId [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:45:19+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/booksList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008000s ]
+SQL: select tb.bId, tb.bName,tb.bAuth,tb.bImg,tb.bMprice,tb.bJDprice,tb.bState,tp.pName,tc.cName as cn,tc1.cName as cn1 from think_books as tb left join think_pub as tp on tb.pId=tp.pId left join think_cat as tc on tb.bFid=tc.cId left join think_cat as tc1 on tb.bSid=tc1.cId [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:45:22+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.009000s ]
+SQL: select * from think_books where bId=1 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.007001s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.007000s ]
+SQL: select * from think_pub [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: rs_2 F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:46:33+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008000s ]
+SQL: select * from think_books where bId=1 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.007001s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.006000s ]
+SQL: select * from think_pub [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:46:39+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008000s ]
+SQL: select * from think_books where bId=2 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.006001s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.006000s ]
+SQL: select * from think_pub [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:47:19+08:00 ] 0.0.0.0 /12/pro/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:47:19+08:00 ] 0.0.0.0 /12/pro/admin.php/Common/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:47:28+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:47:28+08:00 ] 0.0.0.0 /12/pro/admin.php/Common/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:47:36+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:47:36+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/top
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:47:36+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/left
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: menuId F:\ease\php_lesson\12\pro\admin\Lib\Action\IndexAction.class.php 第 73 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:47:36+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/right.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:47:39+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/left/menuId/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:47:41+08:00 ] 0.0.0.0 /12/pro/admin.php/Index/left/menuId/4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:47:43+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/booksList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.006001s ]
+SQL: select tb.bId, tb.bName,tb.bAuth,tb.bImg,tb.bMprice,tb.bJDprice,tb.bState,tp.pName,tc.cName as cn,tc1.cName as cn1 from think_books as tb left join think_pub as tp on tb.pId=tp.pId left join think_cat as tc on tb.bFid=tc.cId left join think_cat as tc1 on tb.bSid=tc1.cId [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:47:47+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008000s ]
+SQL: select * from think_books where bId=2 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.007001s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.007000s ]
+SQL: select * from think_pub [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:49:06+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008001s ]
+SQL: select * from think_books where bId=2 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.006000s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.005001s ]
+SQL: select * from think_pub [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Undefined index: cId F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-19T15:50:04+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.007000s ]
+SQL: select * from think_books where bId=2 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.005001s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.006000s ]
+SQL: select * from think_pub [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:53:11+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.008001s ]
+SQL: select * from think_books where bId=2 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.007000s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Lib\Action\BooksAction.class.php 第 121 行.
+SQL: select * from think_cat where cPid=1 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.007001s ]
+SQL: select * from think_pub [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 79 行.
+NOTIC: [8] Use of undefined constant bSid - assumed 'bSid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 87 行.
+NOTIC: [8] Use of undefined constant bSid - assumed 'bSid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 87 行.
+NOTIC: [8] Use of undefined constant bSid - assumed 'bSid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T15:54:09+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/selSon/random/0.3920193453414871/bFid/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `think_cat` WHERE ( cPid=2 )  [ RunTime:0.001000s ]
+
+[ 2017-09-19T16:10:14+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/updateView/bId/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_books` [ RunTime:0.009001s ]
+SQL: select * from think_books where bId=2 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.006000s ]
+SQL: select * from think_cat where cPid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Lib\Action\BooksAction.class.php 第 121 行.
+SQL: select * from think_cat where cPid=1 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_pub` [ RunTime:0.006000s ]
+SQL: select * from think_pub [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: bTrabs F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 31 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant pId - assumed 'pId' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 38 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bFid - assumed 'bFid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 83 行.
+NOTIC: [8] Use of undefined constant bSid - assumed 'bSid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 96 行.
+NOTIC: [8] Use of undefined constant bSid - assumed 'bSid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 96 行.
+NOTIC: [8] Use of undefined constant bSid - assumed 'bSid' F:\ease\php_lesson\12\pro\admin\Runtime\Cache\38e99ac8f73bb30e196e3f856d4a5851.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-19T16:10:21+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/selSon/random/0.6279879787319238/bFid/3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `think_cat` WHERE ( cPid=3 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\ease\php_lesson\12\pro\admin\Lib\Action\BooksAction.class.php 第 24 行.
+
+[ 2017-09-19T16:10:25+08:00 ] 0.0.0.0 /12/pro/admin.php/Books/selSon/random/0.6670573981623675/bFid/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_cat` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `think_cat` WHERE ( cPid=2 )  [ RunTime:0.000000s ]
+

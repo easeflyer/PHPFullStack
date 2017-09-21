@@ -16,8 +16,9 @@ echo UNAME;
 echo "<br />---------魔术常量------------------<br />";
 echo __FILE__ ."<br />";
 
+
 echo __LINE__ ."<br />";
-echo __DIR__ ."<br />";
+echo __DIR__."DIR<br />";
 
 echo dirname(__FILE__);
 ?>

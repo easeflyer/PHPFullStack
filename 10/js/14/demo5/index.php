@@ -8,8 +8,8 @@
 window.onload = function(){
 	document.body.onkeydown = function(e){
 		var ev = e || window.event;
-		//alert(ev.keyCode); //键盘码
-		alert(ev.keyCode+" : "+ev.altKey);  // 按 ctrl 键 返回 true
+		//alert(ev.keyCode); //键盘码   ev.altKey 判断是否按下的是 alt键
+		alert(ev.keyCode+" : "+ev.ctrlKey);  // 按 ctrl 键 返回 true
 
 		//  通过 keyCode 判断按下的是那个键
 		switch(ev.keyCode){
@@ -25,8 +25,12 @@ window.onload = function(){
 		}
 	}
 }
+
 </script>
+    
 <body>
+    
 <div id="div1" style="width:200px;height:200px;border:1px solid #ff0000"></div>
+
 </body>
 </html>

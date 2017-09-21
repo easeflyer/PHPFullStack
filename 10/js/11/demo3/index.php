@@ -8,7 +8,7 @@
 window.onload = function(){
 		var alls = document.all;
 		//alert(alls.length);
-		for(var i=0;i<=alls.length;i++){
+		for(var i=0;i<alls.length;i++){
 			alert(alls[i].tagName+"\n\n"+alls[i].innerHTML);
 		}
 }

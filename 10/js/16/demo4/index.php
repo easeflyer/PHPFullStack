@@ -28,11 +28,13 @@
         }
     </script>
     <body>
+        
         <form action="reg.php" method="post" enctype="multipart/form-data">
             输入用户名后，输入框右边进行 ajax 判断。<br />
             用户名<input type="text" id="uName" name="uName" /><span id="info">请输入6--18位的字符</span><br />
             密码<input type="password" id="uPwd" name="uPwd" /><br />
             <input type="submit" value="注册">
         </form>
+        
     </body>
 </html>
