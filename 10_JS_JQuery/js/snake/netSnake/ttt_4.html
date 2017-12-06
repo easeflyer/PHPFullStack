@@ -1,0 +1,324 @@
+<html>
+    <head>
+        <meta http-equiv='content-type' content='text/html;charset=utf-8'>
+        <title>贪吃蛇</title>
+        <style>
+            #s0{
+                background-image: url(./snake.png);
+                background-position: -45px 0px;
+            }
+            #sn{
+                background-image: url(./snake.png);
+                background-position: -65px 0px;                
+            }
+            #map{
+                background-image: url(./bg.jpg)
+            }
+            #food{
+                background-image: url(./snake.png);
+                background-position: -0px 0px;                                
+            }
+        </style>
+        <script type="text/javascript" src="ajax.js"></script>
+        <script type="text/javascript">
+            /**
+             * ttt_4 版本 计划利用 h5 的 Server sent event  sse 增加一些服务器交互功能。
+             * 
+             * 程序概要：
+             * 
+             * var map,snake,food 等定义全局对象变量。
+             * function server()    计划安排和服务器交互发送数据，未完成
+             * function food()      定义 食物类
+             * function info()      信息类
+             * function map()       地图类
+             * function snake()     蛇类
+             * 
+             * document.onkeydown   监视键盘输入。
+             * window.onload        文档载入后执行。
+             * 
+             * 计划在 server 中增加 EventSource 对服务器推送进行监视。
+             * 参考：http://javascript.ruanyifeng.com/htmlapi/eventsource.html
+             */
+            
+            
+            
+            // 比版本1 增加了 info 部分 用于显示 积分和速度信息。
+            
+            
+            var map;  //地图  只有一个地图
+            var snake; //蛇   只有一条蛇
+            var food;  //食物 只有1个食物
+            var timer; //定时器
+            var initSpeed = 200; //初始定时器时间间隔（毫秒）,间接代表蛇移动速度
+            var nowSpeed = initSpeed; //游戏进行时蛇移动速度
+            var grade = 0;  //积分
+            var flag = 1;   //（可间接看做）关卡
+
+            var info;
+            
+            var server; // 用于向服务器发送数据
+            
+            function server(){
+                if ('EventSource' in window) {
+                    var url = "server.php";
+                    var source = new EventSource(url);
+                }
+                // 连接成功时触发
+                source.onopen = function (event) {
+                  // 输出链接成功
+                };
+                // 有 data: 数据时 触发
+                source.onmessage = function (event) {
+                  var data = event.data;
+                  var origin = event.origin;
+                  var lastEventId = event.lastEventId;
+                  // handle message
+                };
+            }
+            
+            
+            function Info() {
+                this.width = 300;
+                this.height = 500;
+                this.position = 'absolute';
+                this.color = '#EEEEEE';
+                this._info = null; // 用于保存地图 div 对象      
+
+                this.show = function () {
+                    this._info = document.createElement('div');
+                    this._info.style.width = this.width + 'px';
+                    this._info.style.height = this.height + 'px';
+                    this._info.style.position = this.position;
+                    this._info.style.backgroundColor = this.color;
+                    this._info.style.left = map.width+10;  // x,y 是格数 位置。  乘以食物的宽度得到坐标位置
+                    this._info.style.top = map.top;
+                    this.refresh();
+                    document.getElementsByTagName('body')[0].appendChild(this._info);  // 显示出地图
+                }
+                this.refresh = function (){
+                    this._info.innerHTML = "等级："+flag+"<br />分数:"+grade+"<br />速度:"+nowSpeed;
+                }
+            }
+
+            //
+            // class
+            //地图类 地图对象就是一个 div 背景
+            function Map() {
+                this.width = 800;
+                this.height = 600;
+                this.position = 'absolute';
+                this.color = '#EEEEEE';
+                this._map = null; // 用于保存地图 div 对象
+                //生成地图
+                this.show = function () {
+                    this._map = document.createElement('div');
+                    this._map.id = "map";
+                    this._map.style.width = this.width + 'px';
+                    this._map.style.height = this.height + 'px';
+                    this._map.style.position = this.position;
+                    this._map.style.backgroundColor = this.color;
+                    
+                    document.getElementsByTagName('body')[0].appendChild(this._map);  // 显示出地图
+                }
+            }
+            /**
+             * 食物类
+             * @returns {Snake}
+             * 食物出现的位置 算法：
+             *    this.x=Math.floor(Math.random()*map.width/this.width);
+             *    Math.random()  0-1 的随机数
+             *    map.width/this.width   地图宽度/食物宽度 = 容纳食物的数量（几格食物，地图一共有几格）
+             *    地图的格数 * Math.random()  得到 0-格数  随机数也就是 0-50
+             *    floor 取整
+             */
+            function Food() {
+                this.width = 20;
+                this.height = 20;
+                this.position = 'absolute';
+                //this.color = '#00FF00';
+                this.x = 0;
+                this.y = 0;
+                this._food; // 用于保存 食物对象 也是一个 div 对象
+                //生成食物 只管生成，不管清除
+                this.show = function () {
+                    this._food = document.createElement('div');
+                    this._food.id = "food";
+                    this._food.style.width = this.width + 'px';  //食物div的宽度
+                    this._food.style.height = this.height + 'px';//食物div的高度
+                    this._food.style.position = this.position; //食物div的定位方式
+                    this._food.style.backgroundColor = this.color; // 食物div 的颜色
+                    this.x = Math.floor(Math.random() * map.width / this.width);  // 食物出现的位置 x
+                    this.y = Math.floor(Math.random() * map.height / this.width); // 食物出现的位置 y 宽高一致
+
+                    this._food.style.left = this.x * this.width;  // x,y 是格数 位置。  乘以食物的宽度得到坐标位置
+                    this._food.style.top = this.y * this.height;
+
+                    map._map.appendChild(this._food);
+                }
+            }
+            //蛇类
+            // 注意对象的属性 仅仅是
+            function Snake() {
+                this.width = 20;  // 一节蛇身的宽度
+                this.height = 20; // 一节蛇身的高度
+                this.position = 'absolute';
+                this.direct = null;           //移动方向
+                //初始蛇身
+                this.body = new Array(
+                        [3, 2, '', null], //蛇头 [横坐标，纵坐标，颜色，蛇身div对象]
+                        [2, 2, '', null], //身体1 [横坐标，纵坐标，颜色，蛇身div对象]
+                        [1, 2, '', null]       //身体2 [横坐标，纵坐标，颜色，蛇身div对象]
+                        );
+                //生成蛇身
+                this.show = function () {
+                    for (var i = 0; i < this.body.length; i++) {  // body  是蛇身 body.length 就是共有几节蛇身
+                        if (this.body[i][3] == null) { // 如果 蛇身对象为 null 则定义蛇身对象div 然后显示出来
+                            this.body[i][3] = document.createElement('div');
+                            this.body[i][3].style.width = this.width;
+                            this.body[i][3].style.height = this.height;
+                            this.body[i][3].style.position = this.position;
+                            this.body[i][3].style.backgroundColor = this.body[i][2];
+                            
+                            // 判断蛇头 在 style 里面增加 蛇身体的背景图片。
+                            if(i==0){
+                                this.body[i][3].id = "s0";
+                            }else{
+                                this.body[i][3].id = "sn";
+                            }
+                            
+                            map._map.appendChild(this.body[i][3]);
+                        }
+                        // 下面两句用于 定位一节蛇身
+                        this.body[i][3].style.left = this.body[i][0] * this.width + 'px';
+                        this.body[i][3].style.top = this.body[i][1] * this.height + 'px';
+                    }
+                }
+                //控制蛇移动
+                // 什么时候调用？
+                this.move = function () {
+
+                    var length = this.body.length - 1;  // 蛇身的节数-1
+                    // 向前移动一格
+                    for (var i = length; i > 0; i--) { //  i 的值从大到小 也就是 从尾部到头部 实现了整体 向前移动一格
+                        this.body[i][0] = this.body[i - 1][0];  // 把 靠头的值 赋给 靠围的值 直到把 1-1 也就是头部的 横坐标赋值给 脖子
+                        this.body[i][1] = this.body[i - 1][1];                                             // 头部的纵坐标 赋值给 脖子
+                    }
+
+                    // 根据 this.direct 方向，每次调用move时 把蛇头进行方向调整。
+                    switch (this.direct) {
+                        case 'right':
+                            this.body[0][0] = this.body[0][0] + 1;    // 第一个0是蛇头 第二个0是横坐标 横坐标 + 1
+                            break;
+                        case 'left':
+                            this.body[0][0] = this.body[0][0] - 1;    // 横坐标 -1
+                            break;
+                        case 'up':
+                            this.body[0][1] = this.body[0][1] - 1;    // 纵坐标 -1
+                            break;
+                        case 'down':
+                            this.body[0][1] = this.body[0][1] + 1;    // 纵坐标 +1
+                            break;
+                    }
+
+                    this.condition();
+                    this.show();  // 按照蛇身数组 像是蛇身
+                    info.refresh();
+                }
+                //定时器，开始游戏时，调用：每隔好毫秒数 执行 蛇的移动snake.move()
+                this.speed = function () {
+                    timer = setInterval('snake.move()', initSpeed); // 每隔0.2秒 调用 move
+                }
+                //条件处理
+                this.condition = function () {
+                    //吃食物
+                    // 如果蛇头的横纵坐标 和 食物的横纵坐标相等
+                    if (this.body[0][0] == food.x && this.body[0][1] == food.y) {
+                        grade++; // 等级+1  （吃了食物要升级）
+                        this.body[[this.body.length]] = [0, 0, '', null]; // 蛇身增加一格 因为 this.body.length 是最大下标+1
+                        // 注意这里 最后一节蛇身 首先的位置并不对 0,0 但是随着蛇的移动，他的值将会被
+                        // 赋予正确的值。 可以增加 initSpeed 看出来
+                        map._map.removeChild(food._food); // 删除食物
+                        food.show(); // 生成 新的食物
+                    }
+                    //判断是否撞墙
+                    if (this.body[0][0] < 0  // 撞左墙
+                            || this.body[0][0] >= map.width / this.width // 撞右墙
+                            || this.body[0][1] < 0 // 撞上墙
+                            || this.body[0][1] >= map.height / this.height) {  // 撞下墙
+                        alert('GAME OVER 游戏结束'); // 弹出游戏结束
+                        clearInterval(timer); // 清除定时器
+                        return;
+                    }
+                    //判断是否撞到自身
+                    // 遍历自身所有部分 判断坐标是否和 头坐标一样。
+                    for (var i = 1; i < this.body.length; i++) {
+                        if (this.body[0][0] == this.body[i][0] && this.body[0][1] == this.body[i][1]) {
+                            alert('game over');
+                            clearInterval(timer);
+                            return;
+                        }
+                    }
+                    //速度提升处理，积分每曾2分，速度提升一倍
+                    if (grade / 2 == flag) {
+                        clearInterval(timer);// 清除定时器
+                        flag++;              // 关卡 + 1;  第二关
+                        nowSpeed = initSpeed / flag; // 速度提高 除以关卡 因此速度间隔小了很多
+                        timer = setInterval('snake.move()', nowSpeed); // 重新设定定时器
+                    }
+                    document.title = '贪吃蛇 积分' + grade + ' 速度等级' + initSpeed / nowSpeed;
+
+                }
+                // 条件处理 完毕
+            }
+
+
+            document.onkeydown = function (event) {
+                //按下任意键，开始游戏
+                if (snake.direct === null) {
+                    snake.direct = 'right'; // 蛇开始向右移动
+                    snake.speed();
+                }
+                //控制方向，W S D A分别代表 上下右左
+                // 假设操作方向 和 蛇正在移动的方向一致则无需改变方向
+                // 方向改变后 定时调用 move 时 蛇头将会被 改变方向。
+                switch (window.event ? window.event.keyCode : event.keyCode) {//浏览器兼容处理
+                    case 87 : // w
+                        // 如果 蛇头横坐标==蛇脖横坐标 说明 蛇的移动方向 就是纵向 上或者下，因此 按键操作无效
+                        snake.direct = snake.body[0][0] == snake.body[1][0] ? snake.direct : 'up';//避免反向移动，触发死亡bug
+                        break;
+                    case 83 : // s
+                        // 如果蛇头和蛇脖子横坐标一致 则无需 改变方向
+                        snake.direct = snake.body[0][0] == snake.body[1][0] ? snake.direct : 'down';
+                        break;
+                    case 68 : // d
+                        // 纵坐标一致 无需 左右移动
+                        snake.direct = snake.body[0][1] == snake.body[1][1] ? snake.direct : 'right';
+                        break;
+                    case 65 : // a
+                        snake.direct = snake.body[0][1] == snake.body[1][1] ? snake.direct : 'left';
+                        break;
+                }
+            }
+
+
+
+
+            //自动加载游戏 
+            window.onload = function () {
+                map = new Map();
+                map.show();
+
+                food = new Food();
+                food.show();
+
+                snake = new Snake();
+                snake.show();
+
+                info = new Info();
+                info.show();
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

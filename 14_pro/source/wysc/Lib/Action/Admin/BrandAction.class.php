@@ -36,7 +36,7 @@ class BrandAction extends CommonAction {
                         return;
                     }
                     $model->image = $file['info'][0]['savename'];
-                }
+                }else{die("33333");}
                 $model->add();
                 $this->success('添加成功', U('Brand/managebrand'));
             }

@@ -128,13 +128,15 @@ class CommonAction extends Action {
         }
         $firstprice = $pricerange;
         $i = 1;
+        
+        // 保证 firstprice  大于 minprice 因为 firstprice 用于  “xxx价格以下”
         while ($firstprice < $minprice) {
             $i++;
             $firstprice*=$i;
         }
         $lastprice = $pricerange * $range;  // 最高价格区间并不一定是 本分类商品的 最高价格。比如商品最高价可以是10万,但是最高价格区间就是:高于8000
         $i = 0;
-
+        // 保证lastprice 刚好小于 $maxprice 因为 lastprice 用于 “xxx价格以上”
         while ($lastprice >= $maxprice) {
             $lastprice-=$pricerange;
         }

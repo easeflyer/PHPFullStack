@@ -40,7 +40,7 @@
             <div id="toolbar">
                 <a href="{:U('Category/addcat')}" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-application_add'">添加分类</a>
             </div>
-
+            <!-- 注意下面的 idField 选错了，可能造成文档对象模型的问题，造成节点无法被选中等问题 -->
             <table class="easyui-treegrid" data-options="
                    border:false,
                    fitColumns:true,

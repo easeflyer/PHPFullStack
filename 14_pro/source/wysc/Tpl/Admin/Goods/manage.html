@@ -124,6 +124,13 @@
             function saveorder(obj) {
                 oldorder = obj.value;
             }
+/* 测试用途            
+            $(function(){
+                $('#lb002').click(function(){
+                    alert('lb002');
+                });
+            });
+*/
         </script>
     </head>
 
@@ -256,10 +263,10 @@
                      onSelectPage:gotopage
                      "></div>
                 <div id="toolbar">
-                    <a href="{:U('Goods/add')}" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-application_form_add'">添加商品</a>
+                    <a id="lb001" href="{:U('Goods/add')}" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-application_form_add'">添加商品</a>
                     <select id="cc" name="category_id" class="easyui-combotree" data-options="
                             url:'{:U('Category/combotreejson')}'"></select>
-                    <a href="javascript:void(0)" onclick="changeclass()" class="easyui-linkbutton" data-options="plian:false,iconCls:'icon-arrow_right'">批量移动</a>
+                    <a id="lb002" href="javascript:void(0)" onclick="changeclass()" class="easyui-linkbutton" data-options="plian:false,iconCls:'icon-arrow_right'">批量移动</a>
                     <a href="javascript:void(0)" onclick="dels()" class="easyui-linkbutton" data-options="plian:false,iconCls:'icon-cross'">批量删除</a>
                     <a href="javascript:void(0)" onclick="orders()" class="easyui-linkbutton" data-options="plian:false,iconCls:'icon-key_go'">排序</a>
                     <input type="submit" name="s1" value="提交">

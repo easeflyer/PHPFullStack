@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8" /> 
+<head>
+	<style type="text/css">
+	#div1 {width:198px; height:66px;padding:10px;border:1px solid #aaaaaa;}
+	</style>
+<script type="text/javascript">
+	function allowDrop(ev)
+	{
+		ev.preventDefault();
+	}
+
+	function drag(ev)
+	{
+		ev.dataTransfer.setData("Text",ev.target.id);
+	}
+
+	function drop(ev)
+	{
+		// ev.preventDefault();
+		var data=ev.dataTransfer.getData("Text");
+		ev.target.appendChild(document.getElementById(data));
+	}
+</script>
+</head>
+<body>
+
+	<p>请把 W3School 的图片拖放到矩形中：</p>
+
+	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<br />
+	<!--
+		draggable="true"    		可以拖拽
+		ondragstart="drag(event)	开始拖拽时触发 drag(event) 方法
+
+		drag() 方法它规定了被拖动的数据, dataTransfer.setData() 方法设置被拖数据的数据类型和值。 简单说就是设置数据。
+
+		默认地，无法将数据/元素放置到其他元素中。如果需要设置允许放置，我们必须阻止对元素的默认处理方式。
+		这要通过调用 ondragover 事件的 event.preventDefault() 方法：
+
+		因此 div1 设置 ondragover 方法，使得 drag1 可以被拖拽入 div1 里面。
+
+		参考：http://www.w3school.com.cn/html5/html_5_draganddrop.asp
+
+
+
+	-->
+	<img id="drag1" src="eg_dragdrop_w3school.gif" draggable="true" ondragstart="drag(event)" />
+
+</body>
+</html>

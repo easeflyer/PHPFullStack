@@ -8,9 +8,11 @@
     <script type="text/javascript">
         $(function () {
             $(".one ul li").hover(function () {
+                // 先对“其他”都隐藏
                 $(".one ul li").removeClass("menu");
                 $(".one ul li").find(".mask").hide();
                 $(".one ul li").find(".menu_1").hide();
+                // 再对 this 应用
                 $(this).addClass("menu");
                 $(this).find(".mask").show();
                 $(this).find(".menu_1").show();
@@ -29,6 +31,7 @@
         .one ul{width:200px; height:600px;}
 
         .one ul li.yuan{ width:200px; height:50px; border:2px  solid #CDCDCD; border-right:none;line-height:50px; text-align: center; }
+        /* 选中状态 solid red */
         .one ul li.menu{ width:200px; height:50px; border:2px  solid red; border-right:none;line-height:50px; text-align: center; }
         .one ul li .menu_1{ width:400px; height:664px; border:1px solid green; position:absolute; top:0px; left:202px; background:#CDCDCD; z-index:10; border:2px solid red; display:none;}
         .one ul li .mask{ display:none;width:5px; height:50px; background:#CDCDCD; float:right; margin-right:-5px; position:relative; z-index:15; }

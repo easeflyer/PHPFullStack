@@ -21,6 +21,27 @@
         </style>
         <script type="text/javascript" src="ajax.js"></script>
         <script type="text/javascript">
+            /**
+             * ttt_4 版本 计划利用 h5 的 Server sent event  sse 增加一些服务器交互功能。
+             * 
+             * 程序概要：
+             * 
+             * var map,snake,food 等定义全局对象变量。
+             * function server()    计划安排和服务器交互发送数据，未完成
+             * function food()      定义 食物类
+             * function info()      信息类
+             * function map()       地图类
+             * function snake()     蛇类
+             * 
+             * document.onkeydown   监视键盘输入。
+             * window.onload        文档载入后执行。
+             * 
+             * 计划在 server 中增加 EventSource 对服务器推送进行监视。
+             * 参考：http://javascript.ruanyifeng.com/htmlapi/eventsource.html
+             */
+            
+            
+            
             // 比版本1 增加了 info 部分 用于显示 积分和速度信息。
             
             
